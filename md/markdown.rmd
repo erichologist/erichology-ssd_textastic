@@ -1,0 +1,245 @@
+---
+title: '<font size="5">Sublime Text 4</font><br>Using Markdown in Sublime Text'
+output:
+    html_document:
+        theme: paper
+        highlight: textmate
+        # number_sections: true
+        toc: true
+        includes:
+            before_body: ../google_analytics.html
+xhtml header:
+		<link rel="stylesheet" type="text/css" media="all" href="../assets/mdmdmdmd.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="../assets/prism84.css"/>
+		<script type="text/javascript" src="../assets/prism.js"></script>
+favicon: ../assets/icons/favicon.svg
+---
+
+<font size="3">
+
+[⇦ Back](../sublime_text.html)
+
+Packages to Install
+==================
+Install the following packages one-by-one via Command Palette (Shift+Ctrl+P, or Shift+Cmd+P on macOS) > search for "Package Control: Install Package" > search for each package in turn. Close and re-open Sublime Text after each one finishes installing.
+
+### MarkdownEditing
+A general Markdown plugin. This will give you most of what you will need for working with Markdown files, including doing things like collapsing URLs so that they are hidden. The main thing it doesn't include is a build system but the MarkdownPreview package has this, so install that as well!
+
+> *Note:* on macOS this package can introduce a key binding conflict as it overwrites Ctrl+1/2/3. This isn't an issue if you don't use those bindings, but if you do then create a [user key binding](key_bindings.html) (see below) to fix it.
+
+To change the colour scheme of Markdown text windows:
+
+- Have a file with the undesirable colour scheme open and its window active (click to place the cursor inside it)
+- Navigate in the menu to "Preferences" > "Settings - Syntax Specific" and add the following into the 'User' settings (left-hand side):
+
+```lang-json
+{
+    "extensions":
+    [
+        "md"
+    ],
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "save_on_focus_lost": true,
+    "line_numbers": true,
+    "translate_tabs_to_spaces": false
+}
+```
+
+If Sublime Text starts to think that text files `.txt` are Markdown files `.md`:
+
+- Open a text file and have that window active (click to place the cursor inside it)
+- Either navigate in the menu to "View" > "Syntax" or click the syntax name in the bottom right-hand corner of the window
+- Navigate to "Open all with current extension as..." and choose the correct syntax
+
+### MarkdownPreview
+Allows you to view rendered Markdown in your browser. In other words, it allows you to create an HTML file from a Markdown file.
+
+The correct build system should be selected by default, meaning that you can just press Ctrl+B on Linux/Windows or Cmd+B on macOS and have it work immediately. Optionally, you can create a [user key binding](key_bindings.html) (see below) to immediately open the current Markdown file as a rendered HTML page in your web browser.
+
+### Markdown Table Formatter
+Easily align columns in Markdown tables. The default key binding for this is Shift+Ctrl+Alt+T.
+
+Key Bindings
+============
+To create custom key bindings, go to "Preferences" > "Key Bindings" and edit the right-hand side, eg by entering the following:
+
+
+```lang-json
+[
+    /* Markdown */
+    // Render Markdown in browser
+    { "keys": ["shift+alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser": "markdown"} },
+    // Overwrite MardownEditing's key bindings
+    { "keys": ["ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+3"], "command": "focus_group", "args": { "group": 2 } },
+    { "keys": ["ctrl+4"], "command": "focus_group", "args": { "group": 3 } },
+    { "keys": ["ctrl+5"], "command": "focus_group", "args": { "group": 4 } },
+]
+```
+
+- The first key binding created above -- Shift-Alt-M -- will render the current file (build it into an HTML file) and display it in your browser. Make sure you have a Markdown file open and active (with your cursor inside it) in order to have this work!
+- The other five key bindings created above merely override the conflict created by the MarkdownEditing package
+- Markdown Table Formatter uses Shift+Ctrl+Alt+T
+
+Troubleshooting: No Build System
+================================
+If you try to build a Markdown file (if you have an `.md` file open and either press Ctrl+B/Cmd+B or go "Tools" > "Build") and it doesn't work, take a look at the bottom left corner. If it has the message "No build system" then take a look in the "Tools" > "Build System" menu. If that contains "Markdown" then it means that Sublime Text has a problem with the *syntax highlighting* (color scheme), not the build system itself. You can double check this by looking in the "View" > "Syntax" menu (or at the bottom right corner where the detected syntax is shown - clicking on this will being up the same menu) and seeing that "Markdown" does not exist.
+
+Fix this problem by uninstalling and re-installing the **MarkdownEditing** package:
+
+- "Tools" > "Command Palette..." (Ctrl+Shift+P on Linux/Windows, Cmd+Shift+P on macOS) > search for "Package Control: Remove Package" > search for "MarkdownEditing"
+- Once uninstalled, install it again (search the Command Palette for "Package Control: Install Package" > "MarkdownEditing")
+
+Rendering Maths
+===============
+How to have LaTeX equations in your Markdown be rendered by Markdown Preview in Sublime Text:
+
+- Open the Markdown Preview Package Settings:
+    - On Linux/Windows, navigate in the menu to "Preferences" > "Package Settings" > "Markdown Preview" > "Settings"
+    - On macOS, in the menu bar navigate to "Sublime Text" > "Preferences" > "Package Settings" > "Markdown Preview" > "Settings"
+- In the User settings (on the right-hand side), you need to add two things:
+	- JavaScript settings to point Sublime Text to information about MathJax:
+
+```lang-json
+    {
+        "js": [
+            "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js",
+            "res://MarkdownPreview/js/math_config.js",
+        ]
+    }
+  ```
+
+- Markdown extension settings to enable Arithmatex:
+
+```lang-json
+    {
+        "markdown_extensions": [
+            {
+                "pymdownx.arithmatex": {
+                    "generic": true
+                }
+            }
+        ]
+    }
+```
+
+
+- If you do this and stop at this point you will be able to render equations but tables will no longer work! This is because you will have overwritten ALL the `markdown_extensions` settings when enabling Arithmatex. To avoid this you need to manually enable them all again: find `markdown_extensions` in the Default settings (on the left-hand side) and copy-paste that section into the User settings (on the right-hand side).
+- Your complete User settings will now look like this:
+
+
+
+```lang-json
+{
+    "js": [
+        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js",
+        "res://MarkdownPreview/js/math_config.js",
+    ],
+    "markdown_extensions": [
+        {
+            "pymdownx.arithmatex": {
+                "generic": true
+            }
+        },
+        // Python Markdown Extra with SuperFences.
+        // You can't include "extra" and "superfences"
+        // as "fenced_code" can not be included with "superfences",
+        // so we include the pieces separately.
+        "markdown.extensions.footnotes",
+        "markdown.extensions.attr_list",
+        "markdown.extensions.def_list",
+        "markdown.extensions.tables",
+        "markdown.extensions.abbr",
+        "pymdownx.betterem",
+        {
+            "markdown.extensions.codehilite": {
+                "guess_lang": false
+            }
+        },
+        // Extra's Markdown parsing in raw HTML cannot be
+        // included by itself, but "pymdownx" exposes it so we can.
+        "pymdownx.extrarawhtml",
+
+        // More default Python Markdown extensions
+        {
+            "markdown.extensions.toc":
+            {
+                "permalink": "\ue157"
+            }
+        },
+        "markdown.extensions.meta",
+        "markdown.extensions.sane_lists",
+        "markdown.extensions.smarty",
+        "markdown.extensions.wikilinks",
+        "markdown.extensions.admonition",
+
+        // PyMdown extensions that help give a GitHub-ish feel
+        {
+            "pymdownx.superfences": { // Nested fences and UML support
+                "custom_fences": [
+                    {
+                        "name": "flow",
+                        "class": "uml-flowchart",
+                        "format": {"!!python/name": "pymdownx.superfences.fence_code_format"}
+                    },
+                    {
+                        "name": "sequence",
+                        "class": "uml-sequence-diagram",
+                        "format": {"!!python/name": "pymdownx.superfences.fence_code_format"}
+                    }
+                ]
+            }
+        },
+        {
+            "pymdownx.magiclink": {   // Auto linkify URLs and email addresses
+                "repo_url_shortener": true,
+                "repo_url_shorthand": true
+            }
+        },
+        "pymdownx.tasklist",     // Task lists
+        {
+            "pymdownx.tilde": {  // Provide ~~delete~~
+                "subscript": false
+            }
+        },
+        {
+            "pymdownx.emoji": {  // Provide GitHub's emojis
+                "emoji_index": {"!!python/name": "pymdownx.emoji.gemoji"},
+                "emoji_generator": {"!!python/name": "pymdownx.emoji.to_png"},
+                "alt": "short",
+                "options": {
+                    "attributes": {
+                        "align": "absmiddle",
+                        "height": "20px",
+                        "width": "20px"
+                    },
+                    "image_path": "https://github.githubassets.com/images/icons/emoji/unicode/",
+                    "non_standard_image_path": "https://github.githubassets.com/images/icons/emoji/"
+                }
+            }
+        }
+    ]
+}
+```
+
+### More Details
+Markdown Preview uses MathJax to turn LaTeX equations into HTML. The settings for how this works are contained in two files:
+
+- The **MathJax JavaScript configuration file** that gets installed by default when you install the Markdown Preview package. This is hidden on your system so it can't be opened normally (even if you un-hide hidden files or search for it in the terminal) so use the PackageResourceViewer package:
+    - Install it via "Command Palette" > search for "Package Control: Install Package" > search for "PackageResourceViewer"
+    - Use it via "Command Palette" > search for "PackageResourceViewer: Open Resource" > "MarkdownPreview" > "js/"" > "math_config.js"
+- The **Markdown Preview Package User Settings**
+    - This is the file mentioned above in the "Rendering Maths" section
+    - This file does not exist when Markdown Preview is first installed (and if you are happy with how Markdown Preview works then that is fine)
+    - If you *do* want to change how Markdown Preview works, this file can be created (and subsequently edited) from inside Sublime Text:
+        - Navigate to "Preferences" > "Package Settings" > "Markdown Preview" > "Settings"
+        - The right-hand side file contains the user settings (this file is editable) while the left-hand side one has the default settings (this file is not editable but these settings get overridden by the user settings)
+    - For reference, once this user settings file has been created it will be located here:
+        - `/home/<username>/.config/sublime-text/Packages/User/MarkdownPreview.sublime-settings` on Linux
+        - `/Users/<username>/Library/Application Support/Sublime Text/Packages/User/MarkdownPreview.sublime-settings` on macOS
+
+[⇦ Back](../sublime_text.html)
+
+</font>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Glass HUD</title>
+<style>
+/* 1. THEME ENGINE - Semantic Variables */
+:root {
+            /* Default: Night */
+            --c-bg: #19191F;
+            --c-accent: #25252d;
+            --c-text: #E1E1E1;
+            --c-action: #03D5FF;
+            --glass: rgba(255, 255, 255, 0.05);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        body.morning {
+            --c-bg: #432818;
+            --c-accent: #5e3a24;
+            --c-text: #fdf0d5;
+            --c-action: #bb9457;
+            --glass: rgba(255, 255, 255, 0.1);
+        }
+
+        body.day {
+            --c-bg: #DAD7D7;
+            --c-accent: #c5c2c2;
+            --c-text: #222211;
+            --c-action: #196AFF;
+            --glass: rgba(255, 255, 255, 0.4);
+            --border: rgba(255, 255, 255, 0.4);
+        }
+
+        /* 2. CORE LAYOUT & ANIMATION */
+        body {
+            margin: 0; padding: 0;
+            min-height: 100vh;
+            display: flex; flex-direction: column; align-items: center;
+            color: var(--c-text);
+            font-family: "DM Sans", -apple-system, sans-serif;
+            transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+            background-image: linear-gradient(90deg, var(--c-bg), var(--c-accent), var(--c-bg));
+            background-size: 400% 100%;
+            background-attachment: fixed;
+            animation: liquidFlow 20s ease-in-out infinite;
+        }
+
+        @keyframes liquidFlow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* 3. THE GLASS HUD (SWITCHER) */
+        .switcher {
+            position: sticky; top: 20px;
+            display: flex; align-items: center;
+            background: var(--glass);
+            backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+            padding: 6px 12px;
+            border-radius: 50px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2), inset 0 1px 1px rgba(255,255,255,0.1);
+            z-index: 1000;
+            transition: background 0.5s;
+        }
+
+        .switch-btn {
+            padding: 8px 14px; border: none; background: transparent;
+            cursor: pointer; border-radius: 40px;
+            color: var(--c-text); font-size: 0.8rem; font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .switch-btn.active { background: var(--c-action); color: white; }
+
+        #reading-time {
+            font-size: 0.7rem; opacity: 0.7; margin: 0 12px;
+            min-width: 65px; text-align: center; font-weight: 600;
+            transition: 0.5s;
+        }
+
+        .sync-btn {
+            cursor: pointer; display: flex; align-items: center;
+            background: rgba(255,255,255,0.1); border-radius: 50%; padding: 6px;
+        }
+
+        /* 4. PROGRESS & UTILITY */
+        .progress-container {
+            position: absolute; bottom: 0; left: 20px; right: 20px;
+            height: 2px; background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px; overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%; width: 0%;
+            background: var(--c-action);
+            box-shadow: 0 0 10px var(--c-action);
+            transition: width 0.1s linear;
+        }
+
+        .progress-container.finished { cursor: pointer; }
+        .progress-container.finished .progress-bar { animation: pulse 2s infinite; }
+
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+        /* 5. CONTENT AREA */
+        .content {
+            width: 90%; max-width: 75ch;
+            margin-top: 5rem; padding-bottom: 8rem;
+            line-height: 1.7;
+        }
+
+        blockquote {
+            background: var(--glass); padding: 2rem; border-radius: 1.5rem;
+            border: 1px solid var(--border); font-size: 1.4rem; margin: 2.5rem 0;
+        }
+
+        .content img {
+            width: 100%; border-radius: 24px; border: 1px solid var(--border);
+            backdrop-filter: blur(5px); margin-top: 2rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 600px) {
+            .content { margin-top: 3rem; }
+            .switch-btn { padding: 6px 8px; font-size: 0.7rem; }
+            #reading-time { display: none; } /* Hide countdown on very small screens for space */
+        }
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    backdrop-filter: blur(10px); /* The "Glass" effect */
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+    /* Animation: It follows the same fade-in as the text */
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 0.8s; /* Appears last */
+}
+
+.cta-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px); /* Lifts up slightly */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Soft outer glow */
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.cta-button:active {
+   transform: scale(0.95);/*Shrinks slightly when tapped */
+   background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+</style>
+</head>
+<body>
+
+<nav class="switcher">
+	<button class="switch-btn" id="btn-morning" onclick="setManualTheme('morning', this)">Morning</button>
+	<button class="switch-btn" id="btn-day" onclick="setManualTheme('day', this)">Day</button>
+	<button class="switch-btn" id="btn-dark" onclick="setManualTheme('dark', this)">Night</button>
+	
+	<span id="reading-time">Calculating...</span>
+	
+	<div class="sync-btn" onclick="syncWithTime(this)" title="Sync with current time">
+		<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"></path><polyline points="21 3 21 8 16 8"></polyline></svg>
+	</div>
+	
+	<div class="progress-container" id="pCont">
+		<div class="progress-bar" id="myBar"></div>
+	</div>
+</nav>
+<section class="hero-card">
+    <h1 class="fade-in-text delay-1">Experience the Flow</h1>
+    <p class="fade-in-text delay-2">
+        A premium UI component with layered gradients, 
+        interactive shimmer, and glassmorphic elements.</p>
+    
+    <a href="#" class="cta-button">Get Started</a>
+</section>
+
+<article class="content">
+	<h1>Liquid Glass UX</h1>
+	<p>Welcome to the final master template. This setup is designed for deep focus. The glass HUD at the top stays out of the way until you need it, providing real-time data on your progress.</p>
+	
+	<blockquote>
+		"Good design is obvious. Great design is transparent."
+	</blockquote>
+	
+	<p>Scroll down to see the "Time Remaining" counter update. When you reach the bottom, the progress bar will pulse—click it to glide back to the top of the article.</p>
+	
+	<img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200" alt="Abstract Glass">
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	
+	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+<script>
+let totalMinutes = 0;
+
+// Theme Controls
+function setManualTheme(theme, el) {
+	document.body.classList.remove('morning', 'day');
+	if (theme !== 'dark') document.body.classList.add(theme);
+	document.querySelectorAll('.switch-btn').forEach(btn => btn.classList.remove('active'));
+	if(el) el.classList.add('active');
+}
+
+function syncWithTime(el) {
+	const icon = el.querySelector('svg');
+	icon.style.transform = 'rotate(360deg)';
+	setTimeout(() => icon.style.transform = 'rotate(0deg)', 600);
+
+	const hour = new Date().getHours();
+	if (hour >= 5 && hour < 11) setManualTheme('morning', document.getElementById('btn-morning'));
+	else if (hour >= 11 && hour < 18) setManualTheme('day', document.getElementById('btn-day'));
+	else setManualTheme('dark', document.getElementById('btn-dark'));
+}
+
+// Reading Time & Progress
+function initReading() {
+	const text = document.querySelector('.content').innerText;
+	totalMinutes = Math.ceil(text.trim().split(/\s+/).length / 200);
+	updateProgress();
+}
+
+function updateProgress() {
+	const winScroll = document.documentElement.scrollTop;
+	const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	const scrolled = (winScroll / height) * 100;
+
+	// Update Bar
+	document.getElementById("myBar").style.width = scrolled + "%";
+
+	// Update Time Remaining
+	let remaining = Math.ceil(totalMinutes - (totalMinutes * (scrolled / 100)));
+	const timeDisplay = document.getElementById('reading-time');
+
+	if (scrolled > 95) {
+		timeDisplay.innerText = "Done! ↑";
+	document.getElementById('pCont').classList.add('finished');
+		document.getElementById('pCont').onclick = () => window.scrollTo({top: 0, behavior: 'smooth'});
+	} else {
+		timeDisplay.innerText = `${remaining} min left`;
+		document.getElementById('pCont').classList.remove('finished');
+		document.getElementById('pCont').onclick = null;
+	}
+}
+
+window.onscroll = updateProgress;
+window.onload = () => {
+	initReading();
+	syncWithTime(document.querySelector('.sync-btn'));
+};
+</script>
+
+
+</body>
+</html>

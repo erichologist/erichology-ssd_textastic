@@ -1,0 +1,1 @@
+<style>.tchig{font-family:'Tchig Mono'; font-weight:normal; font-style:normal; font-display:swap; font-variant-alternates:'salt' 2,'salt' 3,'salt' 6; -moz-font-feature-settings:'liga','ss02','ss03','ss06'; -webkit-font-feature-setting:'liga','ss02','ss03','ss06'; font-feature-settings:'liga','ss02','ss03','ss06'; font-variant-ligatures:common-ligatures; }</style>

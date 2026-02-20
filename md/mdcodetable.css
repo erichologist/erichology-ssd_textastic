@@ -1,0 +1,295 @@
+@font-face {
+	font-family: concourse_index, 'ConcourseIndexRegular' 'Concourse Index';
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	font-display: auto;
+	src: local('ConcourseIndexRegular'),local('Concourse Index'),url('fonts/concourse-index/concourse_index_regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family:'CartographCF Nerd Font';
+	src: local('Cartograph CF Light Italic Nerd Font Complete'),local('CartographCFNerdFontComplete-LightItalic'),url('CartographCFNerdFontComplete-LightItalic.woff2') format('woff2'),url('CartographCFNerdFontComplete-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-variant-alternates:'salt' 2,'salt' 5;
+	-moz-font-feature-settings:'ss05','ss02';
+	-webkit-font-feature-settings:'ss05','ss02';
+	font-feature-settings:'liga','ss05','ss02';
+	font-variant-ligatures: common-ligatures;
+	font-display: swap;
+}
+
+@font-face {
+	font-family:'CartographCFNerdFontComplete-RegularItalic';
+	src:local('CartographCFNerdFontComplete-RegularItalic'),local('Cartograph CF Light Italic Nerd Font Complete'),url('fonts/cartographcf-nerdfont/CartographCFNerdFontComplete-RegularItalic.woff2') format('woff2'),url('fonts/cartographcf-nerdfont/CartographCFNerdFontComplete-RegularItalic.woff') format('woff');
+	font-variant-alternates:'salt' 2,'salt' 5;
+	-moz-font-feature-settings:'ss05','ss02';
+	-webkit-font-feature-settings:'ss05','ss02';
+	font-feature-settings:'liga','ss05','ss02';
+	font-variant-ligatures: common-ligatures;
+}
+
+:root {
+	--codef: 'CartographCFNerdFontComplete-LightItalic', 'CartographCFNerdFontComplete-RegularItalic', 'CartographCFNerdFontComplete-ThinItalic', 'CartographCF-RegularItalic', 'CartographCF-LightItalic', 'SymbolsNFM', 'DankMono-Italic', 'DankMonoNerdFontNerdFontCompleteM-Italic', 'DicoMono-Script';
+	--fcode: 'CartographCFNerdFontComplete-LightItalic', 'CartographCFNerdFontComplete-RegularItalic', 'CartographCFNerdFontComplete-ThinItalic', 'CartographCF-RegularItalic', 'CartographCF-LightItalic', 'SymbolsNFM', 'DankMono-Italic', 'DankMonoNerdFontNerdFontCompleteM-Italic', 'DicoMono-Script';
+	--cart: 'CartographCFNerdFontComplete-LightItalic', 'CartographCFNerdFontComplete-RegularItalic', 'CartographCFNerdFontComplete-ThinItalic', 'CartographCF-RegularItalic', 'CartographCF-LightItalic', 'SymbolsNFM', 'DankMono-Italic', 'DankMonoNerdFontNerdFontCompleteM-Italic', 'DicoMono-Script';
+	--dank: 'DankMono-Italic', 'SymbolsNFM', 'DankMonoNerdFontNerdFontCompleteM-Italic', 'CartographCFNerdFontComplete-LightItalic', 'CartographCFNerdFontComplete-RegularItalic', 'CartographCFNerdFontComplete-ThinItalic', 'CartographCF-RegularItalic', 'DicoMono-Script';
+	--heading-font:'ConcourseT2Tab', 'ConcourseT3', 'ConcourseT3', 'ConcourseT4', 'ConcourseT2Tab';
+	--heading: 'ConcourseT2Tab', 'ConcourseT3', 'ConcourseT3', 'ConcourseT4', 'ConcourseT2Tab';
+	--linkf: 'ConcourseC4', 'EquityCapsA';
+	--ol-alt1: 'CombiNumerals Ltd', 'CombiNumeralsLtd';
+	--ol-alt2: 'Concourse Index', 'ConcourseIndexRegular';
+	--olf: 'concourse_index', 'ConcourseIndexRegular', 'Concourse Index', 'CombiNumerals Ltd', 'CombiNumeralsLtd';
+	--text-font: 'ConcourseT2Tab', 'ConcourseT3', 'ConcourseT3', 'ConcourseT4';
+	--text-zoom: 100;
+	--code-text-zoom: 85;
+	--text: #D6D6D6;
+	--headers: #D6D6D6;
+	--code: #00efff;
+	--background: #1E1E1E;
+	--quote-background: #2a2a2a;
+	--link: #25FDFF;
+	--link-hover: #6867AA;
+	--purple:#37375d;
+	--line-height: 1.55;
+	--text-width: 80;
+	--line-length: 62;
+	--margin: auto;
+	--code-indent: 2;
+	--blockquote-indent: 1;
+	--headersp: 0;
+	--footersp: 1.5;
+}
+
+ * , body {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+* + * {
+	margin-top: calc(var(--line-height) * 1rem);
+}
+
+li + li,li ul,li ol {
+	margin-top: 0;
+}
+
+li p:last-of-type {
+	margin-bottom: calc(var(--line-height) * 1rem);
+}
+
+h3 + p,h4 + p,h5 + p,h6 + p {
+	margin-top: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: calc(var(--line-height) * 2rem);
+	color: var(--headers);
+}
+
+h1 + h2, h2 + h3, h1 + h3 {
+	font-family: var(--heading);
+	margin-top: calc(var(--line-height) * 1rem);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:var(--heading);
+	line-height: 120%;
+}
+
+body {
+	-webkit-font-smoothing: subpixel-antialiased;
+	background-color: var(--background);
+	color: var(--text);
+	font-family: var(--text-font);
+	font-size: calc(var(--text-zoom) * 1%);
+	line-height: var(--line-height);
+	margin: 1em;
+	margin-bottom: calc( (var(--line-height) * 3rem) + (var(--footersp) * 1rem) );
+	margin-top: calc( (var(--line-height) * 2.5rem) + (var(--headersp) * 1rem) );
+	max-width: calc(var(--line-length) * 0.5em);
+	overflow-wrap: break-word;
+	padding: 1em;
+	text-rendering: optimizeLegibility;
+	width: calc(var(--text-width) * 1%);
+}
+
+blockquote {
+	font-size: 95%;
+	line-height: calc(var(--line-height) * 0.95);
+	background-color: var(--quote-background);
+	padding: 0.5rem 0.75rem;
+	margin-left: calc(var(--blockquote-indent) * 1rem);
+	margin-right: calc(var(--blockquote-indent) * 1rem);
+}
+
+a {
+	font-family: var(--linkf);
+	color: var(--link);
+}
+
+a:hover {
+	text-decoration: none;
+	color: var(--link-hover);
+}
+
+pre,code {
+	color: var(--code);
+	font-family: var(--codef);
+	font-variant-alternates:'salt' 2,'salt' 5;
+	font-feature-settings:'ss05','ss02' !important;
+	-moz-font-feature-settings:'ss05','ss02' !important;
+	-webkit-font-feature-settings:'ss05','ss02' !important;
+}
+
+pre {
+	padding: .5rem;
+	margin: .75rem;
+	margin-left: calc(var(--code-indent) * 1rem);
+	margin-right: calc(var(--code-indent) * 1rem);
+	background-color: #101010;
+	background: #101010;
+	border-radius: 10px;
+	white-space: normal;
+}
+
+code {
+	background-color: #0000 !important;
+	padding: 0 .25em;
+	border: 1px solid #0000;
+}
+
+table {
+	/*border: 1px solid #0000 !important;
+	*/border-collapse: collapse !important;
+	border-radius: 12px !important;
+	color: #cdcdcd;
+	overflow: hidden;
+	margin: 1em;
+	font-family: var(--codef);
+	font-variant-alternates:'salt' 2,'salt' 5;
+	font-feature-settings:'ss05','ss02' !important;
+	-moz-font-feature-settings:'ss05','ss02' !important;
+	-webkit-font-feature-settings:'ss05','ss02' !important;
+}
+
+table thead tr th, table thead tr {
+	color: #cdcdcd;
+	font-weight: 800;
+	background-image: var(--purple);
+}
+
+table thead tr th {
+	text-align: left;
+}
+
+table tr td, table tr th {
+	padding: .25em .5em;
+	text-align: left;
+}
+
+th {
+	letter-spacing: 0.3px;
+	text-shadow: 0 1px 1px #2b2a466b;
+}
+
+td {
+	color: #cdcdcd;
+}
+
+td strong {
+	color: #efefef;
+}
+
+thead:active,thead tr:active,thead:hover, thead tr:hover {
+	background-color: rgba(244,14,83,0.45);
+}
+
+tbody tr:active td, tbody tr:active td a, tbody tr:hover td, tbody tr:hover td a {
+	color: white;
+	font-weight: 700;
+}
+
+table tbody tr:hover, tbody:hover, tr:hover {
+	letter-spacing: 0.3px;
+	background-color: rgba(179,0,74,0.65);
+	color: white;
+}
+
+table thead tr th:first-child {
+	border-top-left-radius: 12px !important;
+}
+
+table thead tr th:last-child{
+	border-top-right-radius: 12px !important;
+}
+
+tbody tr:last-child td:first-child {
+	border-bottom-left-radius: 12px !important;
+}
+
+tbody tr:last-child td:last-child{
+	border-bottom-right-radius: 12px !important;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #363636 !important;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #303030 !important;
+}
+
+img {
+	max-width: 80%;
+}
+
+span.cart, #cart, div.cart, p.cart {
+	font-family:'CartographCF-LightItalic', 'CartographCF-RegularItalic';
+	font-variant-alternates:'salt' 2,'salt' 5;
+	font-feature-settings:'ss05','ss02' !important;
+	-moz-font-feature-settings:'ss05','ss02' !important;
+	-webkit-font-feature-settings:'ss05','ss02' !important;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+ol {
+	padding-inline-start: 36px;
+	counter-reset: foobar;
+}
+
+ol > li {
+	list-style: none;
+	margin-left: 0;
+}
+
+ol > li:before {
+	counter-increment:foobar;
+	content: counter(foobar);
+	font-size: 1.01rem;
+	position: absolute;
+	margin-left: -2.3rem;
+	font-family: var(--olf);
+	font-variant-ligatures:common-ligatures;
+}
+
+ol li:before {
+	font-size: 1.02em !important;
+}
+
+span.blur5 {filter:blur(5px); }
+span.brightness2 {filter:brightness(200%); }
+span.contrast2 {filter:contrast(200%); }
+span.drop {filter:drop-shadow(8px 8px 10px gray);}
+span.grayscale {filter:grayscale(100%); }
+span.hue90 {filter:hue-rotate(90deg); }
+span.hue180 {filter:hue-rotate(180deg); }
+span.invert {filter:invert(100%); }
+span.opacity {filter:opacity(30%); }
+span.saturate {filter:saturate(8); }
+span.sepia {filter:sepia(100%); }
+span.contbright {filter:contrast(200%) brightness(150%); }

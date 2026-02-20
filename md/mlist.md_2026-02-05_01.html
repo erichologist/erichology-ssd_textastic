@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamlined Liquid Glass</title>
+    <style>
+        :root {
+            /* The Core "Apple" Palette */
+            --c-action: #196AFF;
+            --c-bg: #DAD7D7;
+            --c-text: #222211;
+            --glass: rgba(255, 255, 255, 0.4);
+            --border: rgba(255, 255, 255, 0.4);
+            --sh: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        /* Dark Mode Override */
+        body.dark {
+            --c-bg: #19191F;
+            --c-text: #E1E1E1;
+            --c-action: #03D5FF;
+            --glass: rgba(255, 255, 255, 0.05);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background: var(--c-bg);
+            color: var(--c-text);
+            font-family: "DM Sans", sans-serif;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        /* CLEANED SWITCHER */
+        .switcher {
+            position: sticky;
+            top: 20px;
+            display: flex;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 5px;
+            border-radius: 50px;
+            border: 1px solid var(--border);
+            box-shadow: var(--sh);
+            z-index: 100;
+        }
+
+        .switch-btn {
+            padding: 10px 20px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            border-radius: 40px;
+            color: var(--c-text);
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .switch-btn.active {
+            background: var(--c-action);
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* CONTENT STYLING */
+        .content {
+            max-width: 75ch; /* Your readability sweet spot! */
+            margin-top: 4rem;
+            line-height: 1.6;
+        }
+
+        blockquote {
+            background: var(--glass);
+            border-left: 4px solid var(--c-action);
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-style: italic;
+            box-shadow: var(--sh);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: var(--sh);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="switcher">
+        <button class="switch-btn active" onclick="setTheme('light', this)">Light</button>
+        <button class="switch-btn" onclick="setTheme('dark', this)">Dark</button>
+    </nav>
+
+    <article class="content">
+        <h1>Streamlined Liquid Glass</h1>
+        <p>This version maintains the premium aesthetic of your original code but removes the 100+ lines of redundant color variables.</p>
+        
+        <blockquote>
+            "Simplicity is the ultimate sophistication." — Leonardo da Vinci
+        </blockquote>
+
+        <img src="https://images.unsplash.com/photo-1706720094773-d91e070e4b90?q=80&w=1200" alt="Sample">
+    </article>
+
+    <script>
+        function setTheme(theme, el) {
+            // Toggle Body Class
+            document.body.classList.toggle('dark', theme === 'dark');
+            
+            // Toggle Active Button State
+            document.querySelectorAll('.switch-btn').forEach(btn => btn.classList.remove('active'));
+            el.classList.add('active');
+        }
+    </script>
+</body>
+</html>
