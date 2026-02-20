@@ -1,0 +1,1288 @@
+{
+  "workflows" : [
+    {
+      "RunToLinesType" : 0,
+      "Actions" : [
+        {
+          "Type" : 0,
+          "Id" : "30D12347-E3F4-419D-AE39-E87CFAA750C4",
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*((?:(?:ia[\\. ])?(?:m4v|mov|mp4|mkv|avi))<\\\/a)",
+          "WithString" : ".$1",
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*((?:(?:ia[\\. ])?(?:m4v|mov|mp4|mkv|avi))<\\\/a)",
+          "Id" : "6CD64996-19BC-445E-A0E6-4D6ABDD50850",
+          "WithString" : ".$1",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "WithString" : ".$1",
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*((?:(?:ia[\\. ])?(?:m4v|mov|mp4|mkv|avi))<\\\/a)",
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "Id" : "CFDC6AD7-AEBE-4495-A537-1AE72C9B9658",
+          "isRegEx" : true
+        },
+        {
+          "WithString" : ".$1",
+          "isRegEx" : true,
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*((?:(?:ia[\\. ])?(?:m4v|mov|mp4|mkv|avi))<\\\/a)",
+          "Id" : "3AA121DB-4F7A-4521-BC90-1708E9681B6D",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Type" : 0
+        },
+        {
+          "WithString" : "$1",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "F5A4D756-8BDD-4A08-B7CA-DC4D5348B1BD",
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*(<\\\/a)",
+          "isRegEx" : true
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "5097F555-0E24-4BD8-8289-FB7E73DD3603",
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*(<\\\/a)",
+          "CaseSensitive" : false,
+          "WithString" : "$1",
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "Type" : 0,
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*(<\\\/a)",
+          "Id" : "DC0873C8-F64F-438C-8002-31708B0FBE48",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "WithString" : "$1"
+        },
+        {
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Id" : "B5F0DDD2-B2F7-4191-831D-0F77C7D11CA8",
+          "WithString" : "$1",
+          "Name" : "Replace Text",
+          "ReplaceString" : "[\\. ]*(?:\\d{3,4}[ip]|(?:(521|720|404|540|1080)[ip]?)|Divx|Xvid|WEB-DL|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?(?:[\\. ]uk)?|(?:www[\\. ])?MVGroup[\\. ]?(?:[\\. ]?org)?|(?:www[\\. ])?ArabHD[\\. ]?(?:[\\. ]?net)?|MVG[\\. ]?Forum|ArabHD[\\. ]?(?:[\\. ]?net)?|(?:www[\\. ])?MVGroup(?:[\\. ]Forum)?|Divx\\d+-AC3|AC3|AAC|x26\\d|DVDRip|HDTV|PDTV|MVGroup[\\. ]?Forum[\\. ]?(?:[\\. ]?org)?|MP3|REMAX|CD\\d|UKNova|DVB|DVD|SomeTV|Xvid-SomeTV|H26\\d|Divx5-AC3|Divx\\d*|Divx\\d-AAC|Divx521|LYmdG|WEB(?:Rip)?|WEBRip|BluRay|WEB(?:Rip)?|WEBRip|WEB|(?:AAC|AC3)|MVGroup|ArabHD(?:[\\. ]net)?|[\\. ]*x26\\d|MVGroup(?:[\\. ]Forum)?(?:[\\. ]?org)?|(?:H26\\d|x26\\d)|MVGroup(?:[\\. ]?Forum)?|1080i|docuindex(?:[\\. ]?org)?|(?:720p|1080p)|MVGroup[\\. ]?Forum|ArabHD(?:[\\. ]?net)?|MVGroup(?:[\\. ]?Forum)?|720[ip]|1080[ip]|10\\d0[ip]|www)[\\. ]*(<\\\/a)"
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(\">)DC ",
+          "Id" : "D72BD761-9836-4BEA-8A1C-8A98A733EA7D",
+          "isRegEx" : true,
+          "Type" : 0,
+          "WithString" : "$1"
+        },
+        {
+          "isRegEx" : true,
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "2A88829A-BA35-4192-ABE6-06DB20BC40EE",
+          "WithString" : "$1$2 ",
+          "Name" : "Replace Text",
+          "ReplaceString" : "(\">)(NHK)\\."
+        },
+        {
+          "WithString" : "$1",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "ReplaceString" : "[\\. ]?(?:1080p|1080[ip]|HDTV|h26\\d|(?:ac3|AAC)|MVGroup(?:\\.Forum)?|docuindex(?:\\.org)?|Blueray|MVGroup|10\\d0p|Bluray|VHSRip|ArabHD|WEB-DL|repack|x26\\d|Webdl|HDTV|720p|540p|XviD|PDTV|DivX|x264|x265|HDTV|HDDVD|sdtv|xvid|AC3|AAC|DVD|DVB|(?:(?:\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.+x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)\\.?|\\.?(?:720p|1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AC3|\\.AAC)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p|[\\. ](?:10\\d0|720p)[\\. ]*)?(?:[\\. ]h26\\d)?(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)?(?:\\.h26\\d|\\.x26\\d)?(?:\\.AAC|AC3)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|.1080p.x264.AAC.MVGroup.Forum))[\\w\\d\\. ]+((?:\\.(?:ia\\.)?(?:mp4|mkv|avi|m4v|mov))<)",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "76EF30A1-F9F5-4A2A-A5CB-6A7485AEBDAB"
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "1603216C-C83F-4252-A6DF-CECFF9D8ECCE",
+          "ReplaceString" : "[\\. ]?(?:1080p|1080[ip]|HDTV|h26\\d|(?:ac3|AAC)|MVGroup(?:\\.Forum)?|docuindex(?:\\.org)?|Blueray|MVGroup|10\\d0p|Bluray|VHSRip|ArabHD|WEB-DL|repack|x26\\d|Webdl|HDTV|720p|540p|XviD|PDTV|DivX|x264|x265|HDTV|HDDVD|sdtv|xvid|AC3|AAC|DVD|DVB|(?:(?:\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.+x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)\\.?|\\.?(?:720p|1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AC3|\\.AAC)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p|[\\. ](?:10\\d0|720p)[\\. ]*)?(?:[\\. ]h26\\d)?(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)?(?:\\.h26\\d|\\.x26\\d)?(?:\\.AAC|AC3)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|.1080p.x264.AAC.MVGroup.Forum))[\\w\\d\\. ]+((?:\\.(?:ia\\.)?(?:mp4|mkv|avi|m4v|mov))<)",
+          "isRegEx" : true,
+          "Type" : 0,
+          "WithString" : "$1",
+          "CaseSensitive" : false
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "4BA4517C-1251-4916-8B46-9238C888ABED",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "WithString" : ".$1",
+          "ReplaceString" : "(?:\\.?(?:1080[ip]|HDTV|h26\\d|(?:ac3|AAC)|MVGroup(?:\\.Forum)?|1080[ip]|HDTV|docuindex(?:\\.org)?|MVGroup|\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.+x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)\\.?|\\.?(?:720p|1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AC3|\\.AAC)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p|[\\. ](?:10\\d0|720p)[\\. ]*)?(?:[\\. ]h26\\d)?(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)?(?:\\.h26\\d|\\.x26\\d)?(?:\\.AAC|AC3)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|.1080p.x264.AAC.MVGroup.Forum|Divx521.MP3.www)[\\. ]*((?:\\.(?:ia\\.)?(?:m4v|mov|mp4|mkv|avi))<)",
+          "Type" : 0
+        },
+        {
+          "WithString" : "$1",
+          "Type" : 0,
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "ReplaceString" : "(?:[\\. ]?(?:1080[ip]|HDTV|h26\\d|(?:ac3|AAC)|MVGroup(?:\\.Forum)?|1080i|HDTV|docuindex(?:\\.org)?|MVGroup|\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.+x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)\\.?|\\.?(?:720p|1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.x26\\d(?:\\.AC3|\\.AAC)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|\\.?(?:\\.?720p|\\.?1080p|[\\. ](?:10\\d0|720p)[\\. ]*)?(?:[\\. ]h26\\d)?(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)?(?:\\.h26\\d|\\.x26\\d)?(?:\\.AAC|AC3)?(?:\\.MVGroup\\.Forum|\\.ArabHD(?:\\.net)?)|.1080p.x264.AAC.MVGroup.Forum|Divx521.MP3.www)[\\. ]*(<\\\/a)",
+          "Id" : "05D75128-CC2E-4E6E-BB90-5CCB3AFCE304"
+        },
+        {
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "<td>[\\t ]+<\\\/td>|<td><\\\/td>",
+          "isRegEx" : true,
+          "Id" : "741EE081-DE87-4CAB-829F-9B694B63669E",
+          "WithString" : "",
+          "CaseSensitive" : false
+        },
+        {
+          "isRegEx" : true,
+          "CaseSensitive" : true,
+          "Name" : "Replace Text",
+          "Id" : "7C11C620-DDB2-4580-9632-41DCDB802CA2",
+          "WithString" : "$1$3$5<td>$2 <\/td><td>$4<\/td>$6",
+          "Type" : 0,
+          "ReplaceString" : "(\">)(?:((?:SHO|S4C|Smithsonian[\\. ]Ch(?:annel)?|DC|CBC|C5|NG|Ch\\.?[45]|Chann?el[45]|BBC\\d?|A&E|HBO|ITV|IMAX|Arte|HC|(?:History(?:[\\. ]Ch)?)|History[\\. ]Channel|National[\\. ]Geographic|(?:Discovery(?:\\.Ch(?:annel)?)?)|Nova|Nat[\\. ]Geo|NatGeo|CNN|PBS|SB4|PBS[\\. ]Nova))[\\. ])?([^<]+)\\.((?:(?:ia\\.)?(?:m4v|mov|mp4|mkv|avi)))(<\\\/a><\\\/td>)(<td>[^<]+<\\\/td>|<td>[ ]+<\\\/td>)"
+        },
+        {
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<td>)((?:S4C|SHO|Smithsonian[\\. ]Ch(?:annel)?|CBC|DC|C5|NG|Ch\\.?[45]|Chann?el[45]|BBC\\d?|A&E|HBO|ITV|IMAX|Arte|HC|(?:History(?:[\\. ]Ch)?)|History[\\. ]Channel|National[\\. ]Geographic|(?:Discovery(?:\\.Ch(?:annel)?)?)|Nova|Nat[\\. ]Geo|NatGeo|CNN|PBS|SB4|PBS[\\. ]Nova)) (<)",
+          "isRegEx" : true,
+          "CaseSensitive" : true,
+          "Id" : "AAB33539-A73E-496A-8968-BD37AE86E3BC",
+          "WithString" : "$1$2$3"
+        },
+        {
+          "Id" : "C18E7FF7-2D49-43A8-AE88-574FFDB2616B",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "isRegEx" : true,
+          "WithString" : "$1",
+          "Name" : "Replace Text",
+          "ReplaceString" : "[\\. ]+ia(<\\\/a>)"
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "8FCBD6D0-0CA0-44DC-87EC-A6F4E63DB9F8",
+          "CaseSensitive" : true,
+          "ReplaceString" : ">((?:SHO|S4C|Smithsonian[\\. ]Ch(?:annel)?|CBC|DC|C5|NG|Ch\\.?[45]|Chann?el[45]|BBC\\d?|A&E|HBO|ITV|IMAX|Arte|HC|(?:History(?:[\\. ]Ch)?)|History[\\. ]Channel|National[\\. ]Geographic|(?:Discovery(?:\\.Ch(?:annel)?)?)|Nova|Nat[\\. ]Geo|NatGeo|CNN|PBS|SB4|PBS[\\. ]Nova))?[\\. ]+([^<]+<\/a><\/td>(?:<td>[^<]+<\\\/td>|<td>[ ]+<\\\/td>)",
+          "WithString" : ">$2<td>$1<\/td>",
+          "Type" : 0,
+          "isRegEx" : false
+        },
+        {
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "ReplaceString" : "(\">)([12][09]\\d\\d) ([^<]+)(<\\\/a)",
+          "Type" : 0,
+          "WithString" : "$1$3 ($2)$4",
+          "CaseSensitive" : false,
+          "Id" : "D468646E-FA90-4926-A7D5-EE9F306CAF25"
+        },
+        {
+          "isRegEx" : false,
+          "WithString" : "$1",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "4AB7CD69-8394-45BE-A235-C02DBD24C78A",
+          "ReplaceString" : "\\.?(?:divx|xvid|d{3,4}|WEB-DL|(?:www\\.)?mvgroup.org(?:\\.uk)?|(?:www\\.)?mvgroup.org|(?:www\\.)?ArabHD.net|MVG.Forum|ArabHD.net|(?:(?:www\\.)?MVGroup.Forum)|DivX\\d+-AC3|Xvid|AC3.(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.x26\\d|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|DVDRip|x26\\d|AAC|hdtv|PDTV|x26\\d|AAC|ArabHD.net|PDTV|Xvid|AC3|MVGroup.Forum.org|XviD|MP3|REMAX|XviD|CD\\d|Mp3|UKNova|dvb|SomeTV|PDTV|XViD-SomeTV|DivX|AC3|aac|h26\\d|x26\\d|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|DivX5-AC3|DivX5|DivX5-AC3|DivX\\d-AAC|Divx521|MP3|Divx|521|XviD|mp3|LYmdG|HDTV|x26\\d|AAC|(?:\\.?(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)\\.x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)|(?:\\.?(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)\\.+x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)\\.?|(?:d{3,4}|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?))(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)\\.x26\\d(?:\\.AC3|AAC)?(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)|(?:\\.?(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV|[\\. ](?:d{3,4}|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?))[\\. ]*)?(?:[\\. ]h26\\d)?(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)?(?:\\.h26\\d|x26\\d)?(?:\\.AAC|AC3)?(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)|.(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|x26\\d|AAC|DivX.mp3.forums.mvgroup.org|DivX.AC3.Doc|DVDRip.XviD.MP3.EAGLE|DivX.AC3.www.mvgroup.org.avi)((?:\\.(?:ia\\.)?(?:m4v|mov|mp4|mkv|avi))<)",
+          "Name" : "Replace Text"
+        },
+        {
+          "ReplaceString" : "\\.?(?:divx|xvid|d{3,4}|WEB-DL|(?:www\\.)?mvgroup.org(?:\\.uk)?|(?:www\\.)?mvgroup.org|(?:www\\.)?ArabHD.net|MVG.Forum|ArabHD.net|(?:(?:www\\.)?MVGroup.Forum)|DivX\\d+-AC3|Xvid|AC3.(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.x26\\d|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|DVDRip|x26\\d|AAC|hdtv|PDTV|x26\\d|AAC|ArabHD.net|PDTV|Xvid|AC3|MVGroup.Forum.org|XviD|MP3|REMAX|XviD|CD\\d|Mp3|UKNova|dvb|SomeTV|PDTV|XViD-SomeTV|DivX|AC3|aac|h26\\d|x26\\d|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|DivX5-AC3|DivX5|DivX5-AC3|DivX\\d-AAC|Divx521|MP3|Divx|521|XviD|mp3|LYmdG|HDTV|x26\\d|AAC|(?:\\.?(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)\\.x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)|(?:\\.?(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)\\.+x26\\d(?:\\.AAC|AC3)(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)\\.?|(?:d{3,4}|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?))(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)\\.x26\\d(?:\\.AC3|AAC)?(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)|(?:\\.?(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV|[\\. ](?:d{3,4}|(?:\\d{3,4}p|(?:521|720|404|540|1080)p?))[\\. ]*)?(?:[\\. ]h26\\d)?(?:\\.WEB(?:Rip)?|WEBRip|BluRay|WEB|HDTV|PDTV)?(?:\\.h26\\d|x26\\d)?(?:\\.AAC|AC3)?(?:\\.MVGroup\\.Forum|ArabHD(?:\\.net)?)|.(?:\\d{3,4}p|(?:521|720|404|540|1080)p?)|x26\\d|AAC)((?:\\.(?:ia\\.)?(?:m4v|mov|mp4|mkv|avi))<)",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "Id" : "464C3A62-BF06-4EA1-BF76-E5CAA7B54A01",
+          "Type" : 0,
+          "WithString" : "$1"
+        },
+        {
+          "Id" : "1BB08D42-A331-442F-8C6A-FF9E49171979",
+          "ReplaceString" : "(<tr>)[\\r\\n\\t ]+",
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "WithString" : "$1",
+          "CaseSensitive" : false,
+          "isRegEx" : true
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "1555F4DE-094E-4722-A2BC-A6E67726E2E1",
+          "ReplaceString" : "[\\r\\n\\t ]*(<\\\/tr>)",
+          "isRegEx" : true,
+          "WithString" : "$1",
+          "Type" : 0,
+          "CaseSensitive" : false
+        },
+        {
+          "WithString" : "$1",
+          "Id" : "E457C347-4367-40DE-A4C7-AD65D476232B",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "\\.?(?:1080i|HDTV|docuindex(?:\\.org)?|MVGroup|(?:\\.?1080p.BluRay.x26\\d.AAC.ArabHD.net|\\.?(?:720p|1080p)(?:\\.WEB(?:Rip)?|\\.WEBRip|\\.BluRay|\\.WEB|\\.HDTV)\\.+x26\\d(?:\\.AAC|AC3).ArabHD\\.?|\\.?(?:720p|1080p).HDTV.x26\\d(?:\\.AC3|\\.AAC)?.ArabHD.net|\\.?1080p\\.WEB(?:Rip)?.x26\\d.AAC.ArabHD.net))(<)",
+          "Type" : 0
+        },
+        {
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "isRegEx" : true,
+          "Id" : "ADC646A5-10E4-4C2F-BCCF-2267419F0174",
+          "WithString" : "$1<",
+          "Name" : "Replace Text",
+          "ReplaceString" : "([\\w\\d\\(\\)])[_,\\.\\- ]+<"
+        },
+        {
+          "Id" : "CE76B571-4B46-418B-84D7-521AF7AED9AE",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "ReplaceString" : "<td><\\\/td>",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "WithString" : ""
+        },
+        {
+          "isRegEx" : false,
+          "Id" : "2A4C40E5-F90C-4A25-AFC8-EAF364405F16",
+          "Name" : "Replace Text",
+          "ReplaceString" : "(?:<main[^>]+>[\\r\\n\\t ]*)(?:<div[^>]+>[\\r\\n\\t ]*)?(?:<div[^>]+>[\\r\\n\\t ]*)?(<h\\d>[^<]+<\\\/h\\d>[\\r\\n\\t ]*)?(<hr>[\\r\\n\\t ]*)?(<pre>[\\r\\n\\t ]*)?(<table)",
+          "WithString" : "<main>\\n<div><div>\\n$1$2$4",
+          "CaseSensitive" : false,
+          "Type" : 0
+        },
+        {
+          "WithString" : "$1$2$3$2<th>.ext<\/th>$4",
+          "Name" : "Replace Text",
+          "Id" : "C2E8A7EF-6516-4BEE-BB60-6B054EC9052C",
+          "ReplaceString" : "([\\t ]*<tr>[\\r\\n\\t ]*<th>Name<\/th>)([\\r\\n\\t ]*)(?:<th>(?:(?:[^<]+<\\\/th>)|(?:<\\\/th>)))?[\\r\\n]*([\\t ]*<th>Size<\\\/th>)([\\r\\n\\t ]*(?:<\\\/tr>[\\r\\n\\t ]*)?<\\\/thead>)",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "Type" : 0
+        },
+        {
+          "WithString" : "",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "ReplaceString" : " (?:style|id|class|title|aria-hidden|locallinks|waybackpagesarchived)=\"[^\"]+\"",
+          "Id" : "B669A8BE-5E61-4B0F-972C-BF28ACFD559A",
+          "Name" : "Replace Text",
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "ReplaceString" : "( href=)(http[^>]+)(>)",
+          "WithString" : "$1\"$2\"$3",
+          "CaseSensitive" : false,
+          "Id" : "7D9D89FE-F222-4DC9-89E6-E4D41B5AB89A",
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "ReplaceString" : "< +(\\\/a>)",
+          "Id" : "64F2BBFB-C89E-4070-AFF7-C3762F8E8907",
+          "WithString" : "<$1",
+          "isRegEx" : true,
+          "Name" : "Replace Text"
+        },
+        {
+          "Type" : 0,
+          "isRegEx" : true,
+          "Id" : "B068185D-C042-49F8-A04D-64C6B1990064",
+          "CaseSensitive" : true,
+          "Name" : "Replace Text",
+          "WithString" : "$2$3<td>$1<\/td>$4",
+          "ReplaceString" : " *\\((S4C|SHO|Smithsonian[\\. ]Ch(?:annel)?|DC|CBC|C5|NG|Ch\\.?[45]|Chann?el[45]|BBC\\d?|A&E|HBO|ITV|IMAX|Arte|HC|(?:History(?:[\\. ]Ch)?)|History[\\. ]Channel|National[\\. ]Geographic|(?:Discovery(?:\\.Ch(?:annel)?)?)|Nova|Nat[\\. ]Geo|NatGeo|CNN|PBS|SB4|PBS[\\. ]Nova)\\) ?(<\\\/a><\\\/td>)(<td>\\d[A-z\\d,\\.]+<\\\/td>)(<td>(?:(?:ia\\.)?(?:avi|m4v|mp4|mkv|mov))<\\\/td>)"
+        },
+        {
+          "Id" : "0478145D-4503-4E31-941C-19B4B557ED0A",
+          "ReplaceString" : "",
+          "WithString" : "",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "isRegEx" : false
+        },
+        {
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "Id" : "D16E19CA-4D55-481A-8576-92CE1069ED3D",
+          "Type" : 0,
+          "WithString" : "",
+          "CaseSensitive" : false,
+          "ReplaceString" : ""
+        },
+        {
+          "Id" : "B3AF6007-377B-4B6E-AA1A-75F731D688EC",
+          "isRegEx" : false,
+          "Type" : 0,
+          "WithString" : " $2",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "[\\. ]((?:Blueray|MVGroup|10\\d0p|Bluray|VHSRip|ArabHD|WEB-DL|repack|x26\\d|Webdl|HDTV|720p|540p|XviD|PDTV|DivX|x264|x265|HDTV|HDDVD|sdtv|xvid|AC3|AAC|DVD|DVB)[\\w\\d\\.]+)(\\([\\w&]{2,}\\))"
+        },
+        {
+          "isRegEx" : true,
+          "WithString" : " ",
+          "Id" : "0554C824-3B0A-4CF0-8B38-4F8762E0B003",
+          "Name" : "Replace Text",
+          "ReplaceString" : "",
+          "CaseSensitive" : false,
+          "Type" : 0
+        },
+        {
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ]One",
+          "WithString" : "$1.1",
+          "Id" : "A75A715A-30D4-4073-8F25-B9A2EDEFDF75"
+        },
+        {
+          "Type" : 0,
+          "Id" : "68F69553-D3A3-42E1-9513-F5120B633542",
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ]Two",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "WithString" : "$1.2",
+          "Name" : "Replace Text"
+        },
+        {
+          "isRegEx" : true,
+          "Type" : 0,
+          "Id" : "379342B4-9D79-4A12-AE98-B2E361BEE90E",
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ]Three",
+          "WithString" : "$1.3",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text"
+        },
+        {
+          "Id" : "B5AC20EA-3659-4F56-BD84-F6BE778B4C35",
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ]Four",
+          "Type" : 0,
+          "isRegEx" : true,
+          "WithString" : "$1.4"
+        },
+        {
+          "Id" : "40980AF7-C163-4723-84D4-9D5DA8E40470",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1.5",
+          "isRegEx" : true,
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ]Five"
+        },
+        {
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "Id" : "6ED175B4-DB2B-4E93-89C0-5512CCF8ED10",
+          "Name" : "Replace Text",
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ](\\d+)[\\. ](\\d+)\\.?of\\.?\\d+[\\. ]([\\w\\d]+)[\\. ]?",
+          "Type" : 0,
+          "WithString" : "$1 - S0$2E0$3 - $4 "
+        },
+        {
+          "Id" : "8F14756A-9937-494C-9BE0-3D5C408EFDDC",
+          "WithString" : "$1 - S0$2E0$3 - $4 ",
+          "CaseSensitive" : false,
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)[\\. ](\\d+)[\\. ](\\d+)\\.?of\\.?\\d+[\\. ]([\\w\\d]+)[\\. ]?",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "Type" : 0,
+          "isRegEx" : true,
+          "Id" : "B24D146D-346D-4E50-BFD8-45E055E35EBB",
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](?:Collection|Series?)\\.?(\\d+)[\\. ](\\d+)\\.?of\\.?\\d+[\\. ]([\\w\\d]+)[\\. ]*",
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "WithString" : "$1 - S0$2E0$3 - $4 "
+        },
+        {
+          "Id" : "353E278F-FE2D-4E14-998F-2ED1750CE439",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "WithString" : "$1 - S0$2E0$3 - $4 ",
+          "ReplaceString" : "(\">[\\w\\d&,’']+)[\\. ](\\d+)[\\. ](\\d+)\\.?of\\.?\\d+\\.([\\w\\d]+)[\\. ]*"
+        },
+        {
+          "Id" : "DB6806FA-BBBD-4406-9D6A-9754595FCB39",
+          "Name" : "Replace Text",
+          "WithString" : "$1 - S01E0$2 - $3 ",
+          "isRegEx" : true,
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "ReplaceString" : "(\">[\\w\\d&,’'\\. ]+)[\\. ](\\d+)\\.?of\\.?\\d+[\\. ]([\\w\\d]+)[\\. ]*"
+        },
+        {
+          "Id" : "7A40C613-6D16-4CD2-8C3A-A29ADF685194",
+          "Name" : "Replace Text",
+          "ReplaceString" : "( S)0(\\d\\d)",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "WithString" : "$1$2",
+          "isRegEx" : true
+        },
+        {
+          "Id" : "0822CEDB-B335-40FA-9D32-2D41B0A11912",
+          "ReplaceString" : "( S\\d\\dE)0(\\d\\d)",
+          "Name" : "Replace Text",
+          "WithString" : "$1$2",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "ReplaceString" : "([ ])[ ]+",
+          "Type" : 0,
+          "Id" : "0C2B19DC-0763-4583-855D-B3751FC80529",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1",
+          "isRegEx" : false
+        },
+        {
+          "ReplaceString" : " ?\\((?:srt|mkv|m4v|mp4|avi)\\)(<)",
+          "isRegEx" : true,
+          "Id" : "3DC72A5A-9BB0-440F-BF25-122FD8BA688A",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "WithString" : "$1"
+        },
+        {
+          "Id" : "FFFABA49-9B7B-44A2-9D9D-12A5AAD826ED",
+          "ReplaceString" : " *(\\((?:SHO|S4C|Smithsonian[\\. ]Ch(?:annel)?|CBC|DC|C5|NG|Ch\\.?[45]|Chann?el[45]|BBC\\d?|A&E|HBO|ITV|IMAX|Arte|HC|(?:History(?:[\\. ]Ch)?)|History[\\. ]Channel|National[\\. ]Geographic|(?:Discovery(?:\\.Ch(?:annel)?)?)|Nova|Nat[\\. ]Geo|NatGeo|CNN|PBS|SB4|PBS[\\. ]Nova)\\)) *(\\(20\\d\\d\\)) *([\\w\\d&\\.\\- ]+)(<\\\/a><)",
+          "CaseSensitive" : true,
+          "isRegEx" : true,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "WithString" : " $2 $3 $1$4"
+        },
+        {
+          "Name" : "Remove Multiple Spaces",
+          "Type" : 8,
+          "Id" : "F714359D-6C43-47BF-81A7-3CD98DD5D343"
+        },
+        {
+          "Id" : "87BE4AA4-C1B1-43C8-9E95-3ED2C43FE6EE",
+          "Type" : 0,
+          "isRegEx" : false,
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14$15",
+          "ReplaceString" : "(?:(^\\t<tr><td><a href=\"[^\"]+\">[^_]+)_(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?([A-z0-9‘’',:;\\(\\)&\\.\\- ]+)(<\\\/a><\\\/td><\\\/tr>))",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text"
+        },
+        {
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14$15",
+          "CaseSensitive" : false,
+          "Id" : "EB05D6F0-7B1F-40FD-AD47-31F92DCDBAED",
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(?:(^\\t<tr><td><a href=\"[^\"]+\">[^_]+)_(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?(?:([^_]+)_)?([A-z0-9‘’',:;\\(\\)&\\.\\- ]+)(<\\\/a><\\\/td><\\\/tr>))",
+          "isRegEx" : true
+        },
+        {
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "WithString" : "$1$2$3$4",
+          "Id" : "9764CB23-2EF3-49D9-BE3F-37BCE4DDBAFB",
+          "CaseSensitive" : false,
+          "ReplaceString" : "([A-z0-9‘’',:;&\\(\\)\\.\\-]+)([ ])[ ]+([A-z0-9‘’',:;&\\(\\)\\.\\-]+)([ ]?)[ ]*",
+          "isRegEx" : true
+        },
+        {
+          "Name" : "Replace Text",
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 - $12 ",
+          "Id" : "AE079BE7-3F46-4A23-937B-C604F160ED50",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "ReplaceString" : "(\">[\\w\\d&,’']+)[_\\. ]+(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?[_\\- ]*(S\\d+E\\d+)[_\\- ]*",
+          "Type" : 0
+        },
+        {
+          "Type" : 0,
+          "isRegEx" : true,
+          "Id" : "B13417F7-8C19-4FA9-B6B4-3F207361248C",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 - $12 - $13",
+          "ReplaceString" : "(\">[\\w\\d&,’']+)[\\. ]+(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?[\\- ]*(S\\d+E\\d+)[\\- ]*([A-z]+)"
+        },
+        {
+          "CaseSensitive" : false,
+          "ReplaceString" : "(\">[\\w\\d&’',]+)[\\. ]+(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12",
+          "Id" : "0026B1C7-7C38-46C8-B717-33CAC0540697",
+          "Type" : 0
+        },
+        {
+          "ReplaceString" : "(\">[\\w\\d&’',]+)[_\\. ]+(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\-]+)[_\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "CaseSensitive" : false,
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "isRegEx" : false,
+          "Id" : "DA0FA1C2-49BE-4068-B2B2-E999B8589156"
+        },
+        {
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "Id" : "D976BCF6-04A8-4205-BD67-5D9662F03946",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "ReplaceString" : "\\.*([_\\- ]*S\\d+E\\d+[_\\- ]+)(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12"
+        },
+        {
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "ReplaceString" : "[_\\.]*[_\\- ]*(S\\d+E\\d+[_\\- ]+)(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+))?(<\\\/a)",
+          "Id" : "86744669-1ABC-4325-B57E-64B8382580AE",
+          "WithString" : " - $1 - $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12",
+          "isRegEx" : true
+        },
+        {
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Id" : "A4D21DBD-CA09-498C-9ECA-E92405288458",
+          "ReplaceString" : "[_\\.\\- ]+(S\\d+E\\d+)[_\\- ]*(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,]+)[_\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "Name" : "Replace Text",
+          "isRegEx" : false,
+          "WithString" : " - $1 - $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12"
+        },
+        {
+          "ReplaceString" : "(?:([\\w\\d&'’,]+)[\\. ]+)(?:([\\w\\d&'’,]+)[\\. ]+)?(?:([\\w\\d&'’,]+)[\\. ]+)?(?:([\\w\\d&'’,]+)[\\. ]+)?(?:([\\w\\d&'’,]+)[\\. ]+)?(?:([\\w\\d&'’,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14 $15$16",
+          "CaseSensitive" : false,
+          "Id" : "50F3C716-8696-4973-8170-F2EDFF265FB4"
+        },
+        {
+          "Name" : "Remove Multiple Spaces",
+          "Id" : "EDC8A550-92EB-4820-A9C6-05CD6E227816",
+          "Type" : 8
+        },
+        {
+          "Name" : "Remove Multiple Spaces",
+          "Id" : "EF564379-9903-479E-94B4-6FCDAAE9019D",
+          "Type" : 8
+        },
+        {
+          "Name" : "Remove Multiple Spaces",
+          "Id" : "B7866F37-84B1-4AE8-94EC-1D0B5F724E58",
+          "Type" : 8
+        },
+        {
+          "Name" : "Replace Text",
+          "WithString" : "$1$3<td>$2<\/td>",
+          "Id" : "4BEC3B95-8B2A-43D0-93BA-DB21354E6373",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "ReplaceString" : "((?:srt|avi|m4v|mp4|mkv|mov)\">)(Ch4|BBC4|A&E|HBO|BBC|ITV|IMAX|Arte|HC|History Ch|History Channel|National Geographic|Nova|CNN|PBS)[\\. ]+([^<]+<\/a><\/td><td>[^<]+<\/td>)",
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(\">)[\\. ]+",
+          "Id" : "CFB54182-60BF-47FF-8EA2-5AA3CA278698",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "WithString" : "$1"
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "isRegEx" : true,
+          "ReplaceString" : " (?:Collection|Series?) (\\d+) Part (\\d+)",
+          "Id" : "EF57C49D-E209-4B80-B5B8-78A23B163FE9",
+          "WithString" : " S0$1E0$2"
+        },
+        {
+          "ReplaceString" : " *\\((S4C|SHO|Smithsonian[\\. ]Ch(?:annel)?|DC|CBC|C5|NG|Ch4|BBC4|A&E|HBO|BBC|ITV|IMAX|Arte|HC|History Ch|History Channel|National Geographic|Nova|CNN|PBS)\\) ?(<\\\/a><\\\/td>)(<td>\\d[A-z\\d,\\.]+<\\\/td>)(<td>(?:avi|m4v|mp4|mkv|mov)<\\\/td>)",
+          "WithString" : "$2$3<td>$1<\/td>$4",
+          "CaseSensitive" : true,
+          "Id" : "B5CA26E0-D210-471F-BA9D-564EF5551645",
+          "isRegEx" : true,
+          "Type" : 0,
+          "Name" : "Replace Text"
+        },
+        {
+          "Id" : "C48A8A18-BF91-45F2-9EE6-9BB39A13A050",
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : " (?:Collection|Series?) (\\d) (\\d+)of\\d+",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "WithString" : " S0$1E0$2"
+        },
+        {
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "([A-z\\)]+ )(\\d+)of\\d+",
+          "WithString" : "$1 - S01E0$2",
+          "isRegEx" : true,
+          "Id" : "8719F27E-AE49-4FB4-970C-CF6A5E378065",
+          "CaseSensitive" : false
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "WithString" : "$1$2",
+          "Id" : "0D17285A-42E0-4273-8BAA-6656E561B7F2",
+          "Type" : 0,
+          "ReplaceString" : "( S)0(\\d\\d)"
+        },
+        {
+          "Id" : "3B97A040-8017-4E66-AF60-53AF814E8E8E",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "( S\\d\\dE)0(\\d\\d)",
+          "Type" : 0,
+          "WithString" : "$1$2"
+        },
+        {
+          "Id" : "65D11BCE-A179-4C4F-9D3A-768AA469A70A",
+          "Name" : "Remove Multiple Spaces",
+          "Type" : 8
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "72A6E78C-AD4A-4E60-BF4C-A0DCFC9A9D16",
+          "WithString" : "",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "ReplaceString" : "<td><\\\/td>",
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "28B8347D-9D09-4DAB-B13C-A0A64E26C609",
+          "WithString" : "\\n",
+          "CaseSensitive" : false,
+          "ReplaceString" : "\\n+[\\t ]+n+",
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "WithString" : " ",
+          "Type" : 0,
+          "ReplaceString" : "",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "Id" : "C930CE57-8081-4928-B436-C1F683292EDD",
+          "Name" : "Replace Text"
+        },
+        {
+          "Type" : 0,
+          "WithString" : "$1",
+          "ReplaceString" : "\\.?(?:720p|1080p).HDTV.x26\\d(?:\\.AC3|\\.AAC)?.ArabHD.net(<)",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "Id" : "CDAB5652-52D3-4A5B-AFF5-323C340CBA6C"
+        },
+        {
+          "CaseSensitive" : false,
+          "Id" : "F1D3A029-83AF-4F13-86AD-45218B2434C3",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "WithString" : "\\n\\t$1",
+          "ReplaceString" : "[\\r\\n\\t ]*(<tr>)"
+        },
+        {
+          "isRegEx" : false,
+          "ReplaceString" : "[\\r\\n]*[ ]{0,3}(<tr>)",
+          "Id" : "B2154EB4-58E4-419D-A94E-96DDF6A6772B",
+          "WithString" : "\\n     $1",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text"
+        },
+        {
+          "isRegEx" : false,
+          "WithString" : "\\n     $1",
+          "CaseSensitive" : false,
+          "ReplaceString" : "[\\r\\n]*([ ]{4,}<tr>)",
+          "Type" : 0,
+          "Id" : "7B1DF35D-10D3-49B6-A6E0-D985068AD80E",
+          "Name" : "Replace Text"
+        },
+        {
+          "Id" : "94379A19-2DD0-4E64-9D2A-BDF818EE6015",
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "WithString" : "\\n     $1",
+          "ReplaceString" : "[\\r\\n]*([\\t ]+<tr>)"
+        },
+        {
+          "isRegEx" : true,
+          "WithString" : "$1<",
+          "Id" : "A3298BAB-9AE2-48C5-A792-0F2FBCC4ECA7",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "([\\w\\d\\(\\)])[_,\\.\\- ]+<"
+        },
+        {
+          "Id" : "9CD0E9EA-D45A-47A9-A3CB-91AFC26C7F13",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "WithString" : "$1",
+          "ReplaceString" : "[\\r\\n\\t ]*(<\\\/tr>)",
+          "CaseSensitive" : false,
+          "Type" : 0
+        },
+        {
+          "Id" : "41745275-0D93-49CD-A6D9-2546A4519536",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "WithString" : "$1 ($2)$3",
+          "ReplaceString" : "([^\\d]+)[ ]+[\\.\\- ]*((?:1[1-9]|20)\\d\\d)(<| )",
+          "Type" : 0
+        },
+        {
+          "isRegEx" : true,
+          "ReplaceString" : "[\\r\\n\\t ]*(<tr>)[\\r\\n\\t ]*",
+          "CaseSensitive" : false,
+          "WithString" : "\\n\\t$1",
+          "Name" : "Replace Text",
+          "Id" : "93F9E3F8-0D6E-46D2-B6B1-2300DC5024E0",
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "WithString" : "$1 - S01E0$2",
+          "Id" : "79BC4A4A-6532-40B8-8B86-ABF75CCA7AB9",
+          "isRegEx" : true,
+          "ReplaceString" : "([A-z]+) (\\d+)of\\d"
+        },
+        {
+          "ReplaceString" : "Season (\\d) - S0\\d(E\\d\\d)",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Id" : "006C1941-9C85-44C0-8CC4-CB3261C3F927",
+          "isRegEx" : true,
+          "Type" : 0,
+          "WithString" : " - S0$1$2"
+        },
+        {
+          "Type" : 0,
+          "Id" : "EFB90FD5-5EBA-4674-AE14-F17421766B48",
+          "ReplaceString" : "(s\\d\\de\\d\\d) [\\.\\-]([\\w\\d,]+)[\\.\\- ]+&amp;[\\.\\- ]+",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1 - $2 & "
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "",
+          "isRegEx" : false,
+          "Type" : 0,
+          "Id" : "E5FE74F2-8B52-4251-9BF0-10AD746BD519",
+          "WithString" : ""
+        },
+        {
+          "CaseSensitive" : true,
+          "Id" : "371F8B6D-6FEF-4F20-8877-EB2D6D415BC5",
+          "ReplaceString" : "(\">)(?:SHO|S4C|Smithsonian[\\. ]Ch(?:annel)?|DC|CBC|C5|NG|Ch\\.?[45]|Chann?el[45]|BBC\\d?|A&E|HBO|ITV|IMAX|Arte|HC|(?:History(?:[\\. ]Ch)?)|History[\\. ]Channel|National[\\. ]Geographic|Discovery(?:\\.Ch(?:annel)?)?|Nova|Nat[\\. ]Geo|NatGeo|CNN|PBS|SB4|PBS[\\. ]Nova)[\\. ]+",
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "WithString" : "$1 ",
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "ReplaceString" : " *1080p(<\\\/a)",
+          "Name" : "Replace Text",
+          "isRegEx" : false,
+          "Id" : "4AE19973-B2F1-418F-A0D5-84A64523836A",
+          "WithString" : "$1"
+        },
+        {
+          "Id" : "D5DFFE98-5CCE-446D-A6E9-669531297102",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "WithString" : "",
+          "ReplaceString" : "",
+          "isRegEx" : false,
+          "Name" : "Replace Text"
+        },
+        {
+          "ReplaceString" : "(\">[\\w\\d&,’']+)[\\. ]+(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?[\\- ]*(S\\d+E\\d+)[\\- ]*",
+          "isRegEx" : true,
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 - $12 ",
+          "Id" : "2566BF74-DA3A-40DC-89FB-14887BC1F6D1",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Name" : "Replace Text"
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "C1CCEED8-15E4-47A6-A57C-ECC5FB36F271",
+          "Type" : 0,
+          "ReplaceString" : "\\.*([\\- ]*S\\d+E\\d+[\\- ]+)(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12",
+          "CaseSensitive" : false,
+          "isRegEx" : true
+        },
+        {
+          "ReplaceString" : "\\.*[\\- ]*(S\\d+E\\d+[\\- ]+)(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+))?(<\\\/a)",
+          "WithString" : " - $1 - $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12",
+          "Name" : "Replace Text",
+          "isRegEx" : false,
+          "Id" : "8AD2F7D1-8A0C-46F6-A725-E749B586B838",
+          "Type" : 0,
+          "CaseSensitive" : false
+        },
+        {
+          "Name" : "Replace Text",
+          "ReplaceString" : "[\\.\\- ]+(S\\d+E\\d+)[\\- ]*(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "EE6BA21A-98FB-4F2F-AAD2-532E9A386573",
+          "isRegEx" : true,
+          "WithString" : " - $1 - $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12"
+        },
+        {
+          "Id" : "9A48C2D6-1C02-4D27-BDDD-90CC55B55870",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12",
+          "ReplaceString" : "(\">[\\w\\d&’',]+)[\\. ]+(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-]+)[\\. ]+)?(?:([\\w\\d&,\\-\\(\\)]+))?(<\\\/a)"
+        },
+        {
+          "WithString" : "$1$2$3$4",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "ReplaceString" : "([A-z0-9‘’',:;&\\(\\)\\.\\-]+)([ ])[ ]+([A-z0-9‘’',:;&\\(\\)\\.\\-]+)([ ]?)[ ]*",
+          "Id" : "22B35EE6-477D-4E1B-9E81-227A2D8A4212"
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1",
+          "Type" : 0,
+          "isRegEx" : true,
+          "ReplaceString" : "[ ]*(<\\\/a>)",
+          "Id" : "C67DE413-470A-4139-9FCF-911D6745880F"
+        },
+        {
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "ReplaceString" : "[_\\.\\- ]*((?:19|20)\\d\\d)(<\\\/a>)",
+          "Id" : "82F9B9F4-5A10-46F6-A68F-EEE6A0BBEF17",
+          "WithString" : " ($1)$2",
+          "isRegEx" : true,
+          "Name" : "Replace Text"
+        },
+        {
+          "WithString" : "$1",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Id" : "573D830C-299C-42D7-B702-38DA5B2D15AC",
+          "ReplaceString" : "[ ]*(<\\\/a>)",
+          "isRegEx" : true,
+          "Name" : "Replace Text"
+        },
+        {
+          "Type" : 0,
+          "WithString" : "$1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14 $15$16",
+          "Name" : "Replace Text",
+          "Id" : "BF380F2B-A119-4D19-B591-B568F459CAF2",
+          "isRegEx" : false,
+          "CaseSensitive" : false,
+          "ReplaceString" : "(?:([\\w\\d&'’,\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’'\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’’\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’’\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’’\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’’\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’’\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,’’\\(\\)\\-]+)[\\. ]+)?(?:([\\w\\d&,\\(\\)]+))?(<\\\/a)"
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "Type" : 0,
+          "Id" : "DCC35620-87ED-4912-A408-913EEF7F44E2",
+          "WithString" : ".$1$2",
+          "ReplaceString" : "[_\\- ](ogv|mp4|m4v|mkv|avi)(<\\\/a>)"
+        },
+        {
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "WithString" : "\\n$1",
+          "Id" : "D6A8ED3F-0237-4DA3-A890-7E7612490917",
+          "CaseSensitive" : false,
+          "ReplaceString" : "[\\r\\n\\t ]*(<\\\/tbody><\\\/table>)[\\r\\n\\t ]*"
+        },
+        {
+          "ReplaceString" : "",
+          "WithString" : "",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "isRegEx" : false,
+          "CaseSensitive" : false,
+          "Id" : "34C3512C-F282-4C17-A1EE-2B3D02F1DC34"
+        },
+        {
+          "LineNumber" : 1,
+          "DeleteLinesType" : 0,
+          "Type" : 11,
+          "Id" : "76FDB2EC-1A9C-4375-B6BF-52E507241FA0",
+          "Name" : "Delete Lines",
+          "CheckText" : "meta\">"
+        },
+        {
+          "DeleteLinesType" : 0,
+          "Type" : 11,
+          "CheckText" : "sqlite\">",
+          "Name" : "Delete Lines",
+          "LineNumber" : 1,
+          "Id" : "4DCB356F-377D-4D8E-9E5D-19A8D3701D53"
+        },
+        {
+          "Id" : "0128921D-1F40-4978-8975-A5B030685AA4",
+          "CheckText" : ".jpg\">",
+          "LineNumber" : 1,
+          "Type" : 11,
+          "Name" : "Delete Lines",
+          "DeleteLinesType" : 0
+        },
+        {
+          "CheckText" : ".jpeg\">",
+          "Name" : "Delete Lines",
+          "Id" : "4222FA15-5844-4C36-B19E-832A07F15038",
+          "DeleteLinesType" : 0,
+          "Type" : 11,
+          "LineNumber" : 1
+        },
+        {
+          "CheckText" : ".xml\">",
+          "Id" : "B703D0E8-6466-4A2B-A229-F55E7859D587",
+          "DeleteLinesType" : 0,
+          "LineNumber" : 1,
+          "Type" : 11,
+          "Name" : "Delete Lines"
+        },
+        {
+          "DeleteLinesType" : 0,
+          "Type" : 11,
+          "CheckText" : ".png\">",
+          "Name" : "Delete Lines",
+          "LineNumber" : 1,
+          "Id" : "D2C751FC-ECEE-458C-810B-40C3B3C01874"
+        },
+        {
+          "Id" : "A1E6D058-2DC9-41A1-9394-FD668683C1FD",
+          "CheckText" : ".thumbs\">",
+          "DeleteLinesType" : 0,
+          "Name" : "Delete Lines",
+          "LineNumber" : 1,
+          "Type" : 11
+        },
+        {
+          "Type" : 11,
+          "LineNumber" : 1,
+          "CheckText" : ".thumbs\/\">",
+          "Id" : "BC3D5038-973E-4800-B08E-BAEAA7FB321D",
+          "DeleteLinesType" : 0,
+          "Name" : "Delete Lines"
+        },
+        {
+          "CheckText" : ".torrent\">",
+          "DeleteLinesType" : 0,
+          "Id" : "C27631C6-7ADE-4773-B53F-6C703631914F",
+          "LineNumber" : 1,
+          "Type" : 11,
+          "Name" : "Delete Lines"
+        },
+        {
+          "Type" : 0,
+          "Id" : "1A9928D0-225B-4AD4-BB94-A49D3D6855C9",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "ReplaceString" : "\\.?(?:\\d+p\\.)?(?: ?(?:\\d+p)? ?Hindi 720p WEBHDRip x264 AAC M-Subs - LOKI - M2Tv| ?(?:\\d+p)? ?BDRip xRG|Hindi 720p HDrip x264...Hon3y|BrRip.x264.YIFY|Hindi 720p HDrip x264...Hon3y|BluRay.H264.AAC-RARBG\\.?|WEBRip.x264.Hindi.AAC-ETRG|BluRay.H264.AAC-RARBG|BrRip.x264.YIFY|BrRip.x264.BOKUTOX.YIFY|BluRay.x264.YIFY|BrRip.x264.BOKUTOX.YIFY|BluRay.x264.YIFY|BluRay x264 Hindi AAC - Ozlem|BluRay.x264-\\[YTS.[A-z]+\\]|BRrip.x264.GAZ|.WEBRip.x264.AAC-\\[YTS.MX\\]|BluRay.x26\\d.AAC-\\[YTS.MX\\]|BrRip.x26\\d.\\d+p.YIFY|(?:WEBRip|BluRay).x26\\d-(?:aac|ac3)?[\\.\\-]*\\[YTS.[A-z]+\\]|\\d+p|BrRip|\\d+p)\\.?(?:\\.?(?:ia\\.?)?(?:m4v|mp4|mkv|avi))?(<\\\/a)",
+          "WithString" : "$1",
+          "Name" : "Replace Text"
+        },
+        {
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1",
+          "isRegEx" : true,
+          "Id" : "D1AE9902-7389-4B40-832E-A3973CA223E8",
+          "Type" : 0,
+          "ReplaceString" : "\\.?(?:\\d+p\\.)?(?:BrRip.x264.YIFY|BluRay.H264.AAC-RARBG\\.?|WEBRip.x264.Hindi.AAC-ETRG|BluRay.H264.AAC-RARBG|BrRip.x264.YIFY|BrRip.x264.BOKUTOX.YIFY|BluRay.x264.YIFY|BrRip.x264.BOKUTOX.YIFY|BluRay.x264.YIFY|BluRay x264 Hindi AAC - Ozlem|BluRay.x264-\\[YTS.[A-z]+\\]|BRrip.x264.GAZ|.WEBRip.x264.AAC-\\[YTS.MX\\]|BluRay.x26\\d.AAC-\\[YTS.MX\\]|BrRip.x26\\d.\\d+p.YIFY|(?:WEBRip|BluRay).x26\\d-(?:aac|ac3)?[\\.\\-]*\\[YTS.[A-z]+\\]|\\d+p)\\.?(?:\\.?(?:ia\\.?)?(?:m4v|mp4|mkv|avi))?(<\\\/a)"
+        },
+        {
+          "ReplaceString" : "(<\\\/a><\\\/td>)<td>\\d\\d-\\w+-20\\d\\d [\\d:]+<\\\/td><td>[\\d,\\.]+[BKMG]+<\\\/td>",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "Id" : "F08A0566-8E0A-443F-880B-461E2FA4F4F5",
+          "Type" : 0,
+          "WithString" : "$1",
+          "CaseSensitive" : false
+        },
+        {
+          "WithString" : "$1$3>$2$4$5$6\\n   <\/thead>\\n   <tbody>\\n",
+          "isRegEx" : true,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<tr><td><a href=\"([^”]+)\">)(<span)(?:[^>]+>|>)(<\\\/span>)[^<]+(<\\\/a>(?:<\\\/td>)?)(?:<td><\\\/td>)*(<\\\/tr>)",
+          "Id" : "A969976A-C24B-494F-9818-695A28C4F646",
+          "CaseSensitive" : false
+        },
+        {
+          "Id" : "8C82A387-7D93-46DB-8B07-8CE93C93DE52",
+          "CaseSensitive" : false,
+          "WithString" : "$1>$2$3$4$5\\n   <\/thead>\\n   <tbody>\\n",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "ReplaceString" : "(<tr><td><a href=\"([^”]+)\"><span)(?:[^>]+>|>)(<\\\/span>)[^<]+(<\\\/a>(?:<\\\/td>)?)(?:<td><\\\/td>)*(<\\\/tr>)",
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "WithString" : "$1$2",
+          "Type" : 0,
+          "Id" : "6981F22E-86AE-4684-A775-00B82799C271",
+          "CaseSensitive" : false,
+          "ReplaceString" : "(<\\\/a>(?:<\\\/td>)?)(?: *<td>[^<]+<\\\/td>|<td><\\\/td> *)*(<\\\/tr>)"
+        },
+        {
+          "Type" : 0,
+          "Id" : "D5F7D119-B565-4B98-8E73-6CC326B79105",
+          "ReplaceString" : "[\\. ]*(?:(?:\\.ia(?:\\.mp4|\\.m4v))|(?:\\.m4v|\\.mp4)|(?:\\.ia))[\\. ]*(<\\\/a)",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "$1",
+          "isRegEx" : true
+        },
+        {
+          "CaseSensitive" : false,
+          "Id" : "16619DDB-F38E-4DD8-9328-974EF216E338",
+          "WithString" : "$1$2$3",
+          "ReplaceString" : "(?:((\\.ia(?:\\.m4v|\\.mp4))\">[^<]+)[\\. ]*(<\\\/a))",
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "isRegEx" : true
+        },
+        {
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "WithString" : "$1$3 [$2]",
+          "Id" : "A24E7A49-CDF6-45E7-93A2-6C00171CA68E",
+          "ReplaceString" : "(?:(\\((?:19|20)\\d\\d) *(Sp\\. subs?)(\\)))",
+          "Type" : 0,
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "( )((?:19|20)\\d\\d)( |\\S)",
+          "Id" : "A569EDD2-4445-4B61-8DDB-B1B039A15AF2",
+          "WithString" : "$1($2)$3"
+        },
+        {
+          "Id" : "3A4041C6-5346-41F4-A1C1-C0D356B7F731",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "WithString" : "$1$2$3",
+          "ReplaceString" : "(\">[\\w\\d&,:;‘’'\\?\\!\\.\\- ]+)( \\((?:19|20)\\d\\d\\))[^<]+(<\\\/a)"
+        },
+        {
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "Id" : "D097A828-7861-44F5-957A-4D8A6D380CCE",
+          "Type" : 0,
+          "ReplaceString" : " English( captions)",
+          "isRegEx" : true,
+          "WithString" : " [ENG Captions]"
+        },
+        {
+          "ReplaceString" : "[\\r\\n\\t ]*(<table>[\\r\\n\\t ]*<thead>)[\\r\\n\\t ]*|[\\r\\n\\t ]*(<\\\/tbody><\\\/table>)[\\r\\n\\t ]*",
+          "isRegEx" : true,
+          "Id" : "F8238F9C-ADED-48D4-BA0A-0C7336EE67CE",
+          "Name" : "Replace Text",
+          "WithString" : "",
+          "CaseSensitive" : false,
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "Id" : "10A83962-7970-45BB-8C20-35F82FD16AE5",
+          "WithString" : "",
+          "ReplaceString" : "[\\r\\n\\t ]*(<\\\/?table)(?:(>)|[^>]+(>))[\\r\\n\\t ]*",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "isRegEx" : true
+        },
+        {
+          "WithString" : "",
+          "ReplaceString" : "",
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "isRegEx" : false,
+          "CaseSensitive" : false,
+          "Id" : "21807621-03FA-45F4-9224-353FF49D3941"
+        },
+        {
+          "CaseSensitive" : false,
+          "WithString" : "",
+          "ReplaceString" : "[\\r\\n\\t ]*(<(?:thead|\\\/tbody)>)",
+          "Id" : "5BD81F26-449C-4797-8673-E5B908E7C646",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "ReplaceString" : "[\\r\\n\\t ]*(<table)(?:(>)|[^>]+(>))",
+          "Id" : "D1296182-5E3F-4C07-B614-BADEDBBE2B26",
+          "Name" : "Replace Text",
+          "WithString" : ""
+        },
+        {
+          "Name" : "Trim Lines",
+          "Id" : "E70EBCEC-14E5-446A-B277-71CDF165F87E",
+          "LeftSide" : false,
+          "RightSide" : true,
+          "Type" : 9
+        },
+        {
+          "Name" : "Remove Empty Lines",
+          "Id" : "76B32E5B-C1B5-4362-922A-86AE454AFCA4",
+          "TrimLinesBeforeApply" : false,
+          "OnlyDoubleEmptyLines" : false,
+          "Type" : 6
+        },
+        {
+          "InsetText" : "\n   <\/tbody>\n<\/table>",
+          "Position" : 10,
+          "Name" : "Insert Text",
+          "Type" : 16,
+          "InsetBeforeAfterText" : "",
+          "Id" : "6D118975-E0B5-4B3E-9D98-60AEDBA91896",
+          "InsertType" : 1
+        },
+        {
+          "Position" : 10,
+          "InsetBeforeAfterText" : "",
+          "InsertType" : 0,
+          "Type" : 16,
+          "Name" : "Insert Text",
+          "Id" : "796C7D2B-7514-4C1E-A56A-F41AE7734F53",
+          "InsetText" : "<table>\n   <thead>"
+        },
+        {
+          "OnlyDoubleEmptyLines" : false,
+          "Id" : "A803F0A5-012B-49A6-A118-823251CEE283",
+          "Name" : "Remove Empty Lines",
+          "Type" : 6,
+          "TrimLinesBeforeApply" : false
+        },
+        {
+          "Type" : 0,
+          "WithString" : "",
+          "Name" : "Replace Text",
+          "Id" : "2CAA27A5-13BC-4059-9305-8B3C0C12E8B1",
+          "isRegEx" : false,
+          "ReplaceString" : "",
+          "CaseSensitive" : false
+        },
+        {
+          "Id" : "93E6EE2D-8765-417E-9307-4F8526F69090",
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "WithString" : "",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "ReplaceString" : ""
+        },
+        {
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Id" : "FEF6E05C-B836-48CD-B052-EB06A87426B5",
+          "isRegEx" : false,
+          "ReplaceString" : "",
+          "WithString" : ""
+        },
+        {
+          "Id" : "9449F877-EB46-4487-9E22-9BDC5D60CAF5",
+          "ReplaceString" : "",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "isRegEx" : false,
+          "Name" : "Replace Text",
+          "WithString" : ""
+        },
+        {
+          "ReplaceString" : "&amp;",
+          "CaseSensitive" : false,
+          "Id" : "371FC417-996A-4CEB-BAF2-4E6C6E000511",
+          "Name" : "Replace Text",
+          "WithString" : "&",
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "Type" : 0,
+          "WithString" : " ",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "ReplaceString" : "&nbsp;",
+          "Id" : "480729E7-6B38-41AF-B693-CD274E578546",
+          "CaseSensitive" : false
+        }
+      ],
+      "Description" : "",
+      "isDescriptionAlwaysVisible" : false,
+      "FilterText" : "",
+      "Name" : "archive.org end",
+      "Id" : "3CC332A6-7E15-4415-BC22-1376108B9A8E",
+      "isFavorite" : true,
+      "APPVersion" : "2.2.3(227)",
+      "Color" : "blueViolet",
+      "Icon" : "tv.inset.filled"
+    }
+  ]
+}
