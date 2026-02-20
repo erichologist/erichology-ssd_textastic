@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>CartograpgCF | Demo</title>
+<link rel="stylesheet" type="text/css" media="all" href="./prism-synthwave84.css"/>
+<script type="text/javascript" src="./prism.js"></script>
+<style>
+body{
+	font-size: 16px;
+	background: #252A33;
+	color: #F2E7D5;
+}
+.page {
+	margin: .6em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .6em;
+	padding-left: auto;
+	padding-right: auto;
+
+}
+.demo {
+	margin: .6em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .6em;
+
+}
+
+h1 {
+	font-size: 1.762em;
+}
+p {
+	font-size: 1.4em;
+}
+.ss01 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss01" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss02 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss02" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss03 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss03" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss04 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss04" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss05 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss05" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss06 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss06" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss07 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss07" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss08 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss08" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss09 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss09" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss10 {
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss10" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss11 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss11" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss12 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss12" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss13 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss13" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss14 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss14" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss15 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss15" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss16 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss16" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss17 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss17" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss18 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss18" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss19 {
+	background:#011b2a00;
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss19" on;
+	font-variant-ligatures:common-ligatures;
+}
+.ss20 {
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:"ss20" on;
+	font-variant-ligatures:common-ligatures;
+}
+.cv0199 {
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+   font-feature-settings: "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+   -moz-font-feature-settings: "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+   -webkit-font-feature-settings: "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+}
+.cv0169 {
+	font-family:'PragmataPro';
+	font-weight:normal;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:
+   "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on,
+   "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on,
+   "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, 
+   "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, 
+   "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, 
+   "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv30" on, 
+   "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, 
+   "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, 
+   "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, 
+   "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on,
+   "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on,
+   "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on,
+   "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on,
+   "cv66" on, "cv67" on, "cv68" on, "cv69" on;
+}
+</style>
+</head>
+<body>
+<div class="page">
+</div>
+
+
+<div class="demo">
+<h1 class="ss01">Stylistic Set 01: ss01</h1><p class="ss01">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss02">Stylistic Set 02: ss02</h1><p class="ss02">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss03">Stylistic Set 03: ss03</h1><p class="ss03">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss04">Stylistic Set 04: ss04</h1><p class="ss04">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss05">Stylistic Set 05: ss05</h1><p class="ss05">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss06">Stylistic Set 06: ss06</h1><p class="ss06">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss07">Stylistic Set 07: ss07</h1><p class="ss07">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss08">Stylistic Set 08: ss08</h1><p class="ss08">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss09">Stylistic Set 09: ss09</h1><p class="ss09">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p><br>
+</div>
+
+
+<div class="demo">
+<h1 class="ss10">Stylistic Set 10: ss10</h1><p class="ss10">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p><br>
+</div>
+
+
+<div class="demo">
+<h1 class="ss11">Stylistic Set 11: ss11</h1><p class="ss11">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss12">Stylistic Set 12: ss12</h1><p class="ss12">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss13">Stylistic Set 13: ss13</h1><p class="ss13">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss14">Stylistic Set 14: ss14</h1><p class="ss14">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss15">Stylistic Set 15: ss15</h1><p class="ss15">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss16">Stylistic Set 16: ss16</h1><p class="ss16">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss17">Stylistic Set 17: ss17</h1><p class="ss17">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss18">Stylistic Set 18: ss18</h1><p class="ss18">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p>
+</div>
+
+
+<div class="demo">
+<h1 class="ss19">Stylistic Set 19: ss19</h1><p class="ss19">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p><br>
+</div>
+
+
+<div class="demo">
+<h1 class="ss20">Stylistic Set 20: ss20</h1><p class="ss20">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p><br>
+</div>
+
+<div class="demo">
+<h1 class="cv0169">Character Variants 01-69 cv01-cv69</h1><p class="cv0169">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p><br>			
+</div>
+
+
+<div class="demo">
+<h1 class="cv0199">Character Variants 01-99 cv01-cv99</h1><p class="cv0199">abcdefghijklmnopqrstuvwxyz<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789<br>.:,;
+	()*!?'@#&lt;&gt;&amp;^+-=~
+</p><br>			
+</div>
+
+
+</div>
+</body>
+</html>
