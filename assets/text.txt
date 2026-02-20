@@ -1,0 +1,1 @@
+{background:none;background-color:none;background-image:none;border:none;box-shadow:none;font-family:var(--font-text);letter-spacing:.04em;padding-top:.608em !important;padding-bottom:.8413rem !important;padding-left:.7rem !important;padding-right:.29rem !important;margin-top:0 !important;margin-bottom:.06rem;}

@@ -1,0 +1,39 @@
+[pragmatapro-regular.ttf](https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-regular.ttf)
+[pragmatapro-mono-w20-regular.ttf](https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-mono-w20-regular.ttf)
+[pragmatapro-mono-w20-regular.woff2](https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-mono-w20-regular.woff2)
+[pragmatapro-fraktur.ttf](https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-fraktur.ttf)
+[pragmatapro-fraktur-bold.ttf](https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-fraktur-bold.ttf)
+
+
+
+
+@font-face {
+    font-family:"PragmataProMonoW20-Regular","PragmataProMonoW20";
+    src: local('PragmataProMonoW20-Regular'), local('PragmataProMonoW20'),
+      url('https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-mono-w20-regular.woff2') format('woff2'),
+      url('https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-mono-w20-regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:"PragmataPro-Regular","PragmataPro";
+    src: local('PragmataPro'), local('ParitySansMedium'),
+      url('./ParitySansMedium.woff2') format('woff2'),
+      url('https://github.com/erichologist/assets/raw/refs/heads/main/fonts/pragmata/pragmatapro-regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Parity Sans';
+    src: local('Parity Sans Regular'), local('ParitySansRegular'),
+         url('./ParitySansRegular.woff2') format('woff2'),
+         url('./ParitySansRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.parity{ font-family: 'Parity Sans'; font-weight: normal; font-style: normal; }
+.parityb{ font-family: 'Parity Sans'; font-weight: 500; font-style: normal; }
+.paritym{ font-family: 'Parity Sans'; font-weight: bold; font-style: normal; }

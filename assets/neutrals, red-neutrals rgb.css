@@ -1,0 +1,23 @@
+/*
+ * neutrals, red-neutrals
+ * Created with ColorSlurp
+ */
+:root, .neutrals-red-neutrals {
+    --alto: rgba(209, 209, 209, 1.0);
+    --silver: rgba(191, 191, 191, 1.0);
+    --silverchalice: rgba(160, 160, 160, 1.0);
+    --gray: rgba(128, 127, 127, 1.0);
+    --dovegray: rgba(102, 102, 102, 1.0);
+    --scorpion: rgba(89, 89, 89, 1.0);
+    --tundora_l: rgba(75, 75, 75, 1.0);
+    --tundora: rgba(64, 64, 64, 1.0);
+    --mineshaft_l: rgba(50, 50, 50, 1.0);
+    --mineshaft: rgba(38, 38, 38, 1.0);
+    --brn_dorado_l: rgba(104, 95, 93, 1.0);
+    --brn_dorado: rgba(96, 89, 87, 1.0);
+    --brn_emperor: rgba(81, 74, 72, 1.0);
+    --brn_dune_l: rgba(53, 49, 48, 1.0);
+    --brn_dune: rgba(48, 45, 44, 1.0);
+    --brn_mineshaft: rgba(44, 41, 40, 1.0);
+    --brn_codgray: rgba(24, 24, 24, 1.0);
+}
