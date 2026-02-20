@@ -1,0 +1,193 @@
+---
+title: Invert Dark-Mode | Using CSS Inversion
+subtitle: Invert, Hue-Rotation, Contrast, Saturation
+Base Header Level:	2  
+categories: CSS
+tags:
+  - invert
+  - hue-rotation
+  - contrast
+  - saturation
+	- dark-mode
+keywords:	invert, hue-rotation, contrast, saturation, dark-mode
+CSS:				../assets/mdmd.css
+xhtml header:	<link rel="stylesheet" type="text/css" media="all" href="../assets/prism.css"/>
+		<link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+		<link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+		<script type="text/javascript" src="../assets/prism.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="../assets/mdmd.css"/>	
+image: ../assets/icons/favicon.svg
+---
+# invert / dark-mode
+## dark mode using CSS inversion
+
+Implementing a "poor man's" dark mode using CSS inversion involves applying the `filter: invert(1)` or `filter: invert(100%)` property to the entire page, typically on the `<html>` or `<body>` element when a dark mode class is active. This inverts all colors on the page, turning white to black, black to white, and inverting other colors accordingly.
+
+Here is a basic example:
+
+```language-css
+
+/* Light mode styles (default) */
+body {
+	background-color: white;
+	color: black;
+}
+/* Dark mode styles */
+html.dark-mode {
+	filter: invert(100%);
+}
+
+```
+
+Considerations and Refinements: 
+
+• Images and Media
+: Inverting the entire page will also invert images and videos, which can make them look like negatives. To counteract this, you can apply the `filter: invert(1)` again to these specific elements within the dark mode context. 
+
+```language-css
+
+html.dark-mode img,
+html.dark-mode video {
+	/* Invert back to normal */
+	filter: invert(100%);
+}
+
+```
+
+• Specific Elements
+: Certain elements, like icons or code blocks, might require specific adjustments to maintain readability or visual appeal after the initial inversion. You can apply additional filters or override properties for these elements. 
+
+```language-css
+
+html.dark-mode .icon {
+	/* Example adjustment */
+	filter: invert(15%) hue-rotate(180deg);
+}
+
+```
+
+• User Preference
+: You can use the `@media (prefers-color-scheme: dark)` media query to automatically apply dark mode based on the user's system settings. 
+
+
+```language-css
+
+@media (prefers-color-scheme: dark) {
+	body {
+		/* Dark mode styles for automatic preference */
+	}
+}
+
+```
+
+• Hue-Preserving Inversion
+: For a more sophisticated dark mode that preserves hues while inverting lightness, you might use a combination of `invert()` and `hue-rotate()` filters, though this can be more complex to fine-tune.
+
+
+```language-css
+
+html.dark-mode {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+```
+
+
+This CSS inversion method provides a quick way to implement a dark mode, particularly for simpler websites, but it requires careful handling of inverted media and specific element adjustments to achieve a polished result. 
+
+
+```language-css
+
+body {
+	background-color: #eee;
+	color: #202020;
+}
+
+html {
+	filter: invert(97%) hue-rotate(180deg)  contrast(110%);
+}
+
+```
+
+```language-css
+
+/* Light mode styles (default) */
+body {
+	background-color: white;
+	color: black;
+}
+
+/* Dark mode styles */
+html.dark-mode {
+	filter: invert(100%);
+}
+
+```
+
+##### Considerations and Refinements: 
+
+• Images and Media
+: Inverting the entire page will also invert images and videos, which can make them look like negatives. To counteract this, you can apply the `filter: invert(1)` again to these specific elements within the dark mode context. 
+
+```language-css
+
+html.dark-mode img,
+html.dark-mode video {
+	/* Invert back to normal */
+	filter: invert(100%);
+}
+
+```
+
+• Specific Elements
+: Certain elements, like icons or code blocks, might require specific adjustments to maintain readability or visual appeal after the initial inversion. You can apply additional filters or override properties for these elements. 
+
+```language-css
+
+html.dark-mode .icon {
+	/* Example adjustment */
+	filter: invert(15%) hue-rotate(180deg);
+}
+
+```
+
+• User Preference
+: You can use the `@media (prefers-color-scheme: dark)` media query to automatically apply dark mode based on the user's system settings. 
+
+
+```language-css
+
+@media (prefers-color-scheme: dark) {
+	body {
+		/* Dark mode styles for automatic preference */
+	}
+}
+
+```
+
+• Hue-Preserving Inversion
+: For a more sophisticated dark mode that preserves hues while inverting lightness, you might use a combination of `invert()` and `hue-rotate()` filters, though this can be more complex to fine-tune.
+
+```language-css
+
+html.dark-mode {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+```
+
+This CSS inversion method provides a quick way to implement a dark mode, particularly for simpler websites, but it requires careful handling of inverted media and specific element adjustments to achieve a polished result. 
+
+```language-css
+
+body {
+	background-color: #eee;
+	color: #202020;
+}
+
+html {
+	filter: invert(97%) hue-rotate(180deg)  contrast(110%);
+}
+
+```
+

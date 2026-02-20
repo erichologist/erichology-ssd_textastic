@@ -1,0 +1,261 @@
+{
+  "workflows" : [
+    {
+      "Name" : "dockX",
+      "Id" : "D0CDB342-7516-4522-ABE4-CAB9D84BE3FE",
+      "Description" : "",
+      "Icon" : "dock.rectangle",
+      "RunToLinesType" : 0,
+      "Color" : "green",
+      "isDescriptionAlwaysVisible" : false,
+      "FilterText" : "",
+      "isFavorite" : true,
+      "APPVersion" : "2.2.3(227)",
+      "Actions" : [
+        {
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Cursor Right<\/string>)",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/arrowtriangleright.png$2$3",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "Type" : 0,
+          "Id" : "77BFCC86-E903-44A9-92FB-B40F8A8EC9C5"
+        },
+        {
+          "isRegEx" : true,
+          "Type" : 0,
+          "Id" : "B1134616-01A5-42AF-AF98-F9F464052F49",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/arrowtriangleleft.png$2$3",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Cursor Left<\/string>)"
+        },
+        {
+          "CaseSensitive" : false,
+          "Id" : "BDE4CEFA-1AAC-44FD-906A-1D1B825678E4",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Cursor Up<\/string>)",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/arrowtriangleup.png$2$3",
+          "Type" : 0
+        },
+        {
+          "CaseSensitive" : false,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Cursor Down<\/string>)",
+          "Id" : "0188B0F6-A857-4388-BC68-94857E9CA99B",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/arrowtriangledown.png$2$3",
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/clipboard.png$2",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Id" : "22D13996-1346-44D3-B355-14F80A0A6949",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>LONG_KAYOKO<\/string>)",
+          "Type" : 0
+        },
+        {
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/deleteright.png$2$3",
+          "Name" : "Replace Text",
+          "Id" : "881E45EC-1FC6-4BCE-8DA6-BC273C078F87",
+          "CaseSensitive" : false,
+          "isRegEx" : true,
+          "Type" : 0,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Delete Forward<\/string>)"
+        },
+        {
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Define Word<\/string>)",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/dictionary.png$2",
+          "Id" : "77653067-63EB-48D1-AC38-A0825769ACFD",
+          "isRegEx" : true
+        },
+        {
+          "WithString" : "$1paragraph$2",
+          "Id" : "7A35C428-A0C9-43EA-9614-4532CA7F1A85",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Select Paragraph<\/string>)",
+          "isRegEx" : true
+        },
+        {
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Select Line<\/string>)",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "Id" : "4E9A1BE4-EEAA-44DE-8295-6341B819173F",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/selectline.png$2",
+          "isRegEx" : true
+        },
+        {
+          "isRegEx" : true,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/select.png$2",
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Select<\/string>)",
+          "Id" : "2EBDE297-48A7-4530-9B12-4AA067EDDDAD",
+          "CaseSensitive" : false,
+          "Type" : 0
+        },
+        {
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Keyboard Input<\/string>)",
+          "Id" : "FF2C5AC2-E4F1-488B-899F-49977F38DD36",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "WithString" : "$1number$2"
+        },
+        {
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/selectall.png$2",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Name" : "Replace Text",
+          "isRegEx" : true,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Select All<\/string>)",
+          "Id" : "6169A688-4E38-4409-91FD-2AA63528BE47"
+        },
+        {
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/copy.png$2",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Copy<\/string>)",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "Id" : "558F8DAA-BA36-4A3D-A298-92939A24824E",
+          "isRegEx" : true
+        },
+        {
+          "CaseSensitive" : false,
+          "Id" : "44A2E157-6D1D-4E5F-9A8A-532D2EACA43F",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Paste<\/string>)",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/paste.png$2",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "Type" : 0
+        },
+        {
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Undo<\/string>)",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "Id" : "6CF140AF-3FA1-4E0C-A1BD-2C24B9C5C5F2",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/undo.png$2",
+          "Type" : 0
+        },
+        {
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/redo.png$2",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Redo<\/string>)",
+          "Name" : "Replace Text",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "A4ABE1B8-5947-4530-B464-7E93A33A7BF6",
+          "isRegEx" : true
+        },
+        {
+          "Name" : "Replace Text",
+          "CaseSensitive" : false,
+          "Id" : "9F3A7A13-B6E0-491C-8ED4-7CCBA7B1D751",
+          "isRegEx" : true,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/prevword.png$2",
+          "Type" : 0,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Previous Word m<\/string>)"
+        },
+        {
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Next Word<\/string>)",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/nextword.png$2",
+          "Name" : "Replace Text",
+          "Id" : "437D18CB-5743-40F2-863E-66AB86D6F15C",
+          "isRegEx" : true,
+          "CaseSensitive" : false,
+          "Type" : 0
+        },
+        {
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>sPonGeBob teXt<\/string>)",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/spongebob_style.png$2",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Id" : "02D212EA-D135-4A2C-AAFF-BD2A56072515",
+          "isRegEx" : true
+        },
+        {
+          "Type" : 0,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Start of Sentence<\/string>)",
+          "isRegEx" : true,
+          "Id" : "DE9A2336-F0D9-4B14-91C1-00D83CF53FDD",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/sentstart.png$2",
+          "Name" : "Replace Text",
+          "CaseSensitive" : false
+        },
+        {
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/sentend.png$2",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>End of Sentence<\/string>)",
+          "Id" : "C6092830-D49C-47F9-A0FC-6A872AB99E7A"
+        },
+        {
+          "Type" : 0,
+          "Id" : "0E0423E5-5103-44A1-BAE8-30267BAA77B4",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>(?:CopyLog|Copyvault)<\/string>)",
+          "isRegEx" : true,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/CopyLogLogo.png$2"
+        },
+        {
+          "isRegEx" : true,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/docend.png$2",
+          "CaseSensitive" : false,
+          "Type" : 0,
+          "Id" : "9F7C271B-3160-46C7-AE27-BA5CD8089CDA",
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Ending of Document<\/string>)"
+        },
+        {
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Beginning of Document<\/string>)",
+          "Id" : "D47B36D7-CB2F-46B3-BEBC-1534A8AF14EB",
+          "Name" : "Replace Text",
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/docstart.png$2",
+          "isRegEx" : true
+        },
+        {
+          "Id" : "3DEADB7B-9E63-4B18-A561-0907116F4A7F",
+          "Type" : 0,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/selectsentence.png$2",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Select Sentence<\/string>)",
+          "isRegEx" : true,
+          "Name" : "Replace Text",
+          "CaseSensitive" : false
+        },
+        {
+          "Id" : "9D51AF2C-751D-433C-AEC2-0B21D77C042F",
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "ReplaceString" : "(<string>)[^<]+(<\/string>[\\r\\n\\t ]*<key>label<\/key>[\\r\\n\\t ]*<string>Delete<\/string>)",
+          "Type" : 0,
+          "isRegEx" : true,
+          "WithString" : "$1CUSTOM_\/var\/jb\/Library\/PreferenceBundles\/DockXPrefs.bundle\/delete.png$2"
+        },
+        {
+          "ReplaceString" : "",
+          "Type" : 0,
+          "CaseSensitive" : false,
+          "Name" : "Replace Text",
+          "WithString" : "",
+          "Id" : "67B8ACEB-6D0D-4A59-B113-FB3A75763E3F",
+          "isRegEx" : true
+        }
+      ]
+    }
+  ]
+}
