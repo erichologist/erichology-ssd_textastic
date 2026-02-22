@@ -1,0 +1,5 @@
+[\r\n\t ]*\#\#\#\# Embed Project[\r\n\t ]*To use these fonts on a web page, copy this code into the `<head>` tag of your HTML\.[\r\n\t ]*[\r\n\t ]*```html[\r\n\t ]*(<link rel=[^>]+>)[\r\n\t ]*```[\r\n\t ]*[\r\n\t ]*To use fonts in HTML email, use the @import link\.[\r\n\t ]*```html[\r\n\t ]*(<style>)[\t ]*(@import url\([^\)]+\);)[\r\n\t ]*(<\/style>)[\r\n\t ]*```[\r\n\t ]*
+
+   <style>@import url("https://use.typekit.net/aor8qev.css");</
+   
+tchig mono
