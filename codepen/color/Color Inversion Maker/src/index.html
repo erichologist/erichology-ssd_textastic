@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grayscale to Color Theme Maker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        canvas {
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+            border: 1px solid #ccc;
+        }
+        #colorPalette {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .color-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Grayscale to Color Theme Maker</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <div id="colorPalette"></div>
+    <script>
+        document.getElementById("imageInput").addEventListener("change", handleImage);
+        function handleImage(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const img = new Image();
+            img.src = URL.createObjectURL(file);
+            img.onload = function () {
+                processImage(img);
+            };
+        }
+        function processImage(img) {
+            const canvas = document.getElementById("canvas");
+            const ctx = canvas.getContext("2d");
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0, img.width, img.height);
+            let imageData = ctx.getImageData(0, 0, img.width, img.height);
+            let pixels = imageData.data;
+            for (let i = 0; i < pixels.length; i += 4) {
+                let grayscale = pixels[i];  // Assuming R=G=B in grayscale images
+                let color = grayscaleToHue(grayscale);
+                pixels[i] = color.r;
+                pixels[i + 1] = color.g;
+                pixels[i + 2] = color.b;
+            }
+            ctx.putImageData(imageData, 0, 0);
+            extractColors(ctx, img.width, img.height);
+        }
+        function grayscaleToHue(value) {
+            const hue = (value / 255) * 360; 
+            return hslToRgb(hue, 100, 50);
+        }
+        function hslToRgb(h, s, l) {
+            s /= 100;
+            l /= 100;
+            let c = (1 - Math.abs(2 * l - 1)) * s;
+            let x = c * (1 - Math.abs((h / 60) % 2 - 1));
+            let m = l - c / 2;
+            let r = 0, g = 0, b = 0;
+            if (0 <= h && h < 60) { r = c; g = x; b = 0; }
+            else if (60 <= h && h < 120) { r = x; g = c; b = 0; }
+            else if (120 <= h && h < 180) { r = 0; g = c; b = x; }
+            else if (180 <= h && h < 240) { r = 0; g = x; b = c; }
+            else if (240 <= h && h < 300) { r = x; g = 0; b = c; }
+            else { r = c; g = 0; b = x; }
+            return {
+                r: Math.round((r + m) * 255),
+                g: Math.round((g + m) * 255),
+                b: Math.round((b + m) * 255)
+            };
+        }
+        function extractColors(ctx, width, height) {
+            const imageData = ctx.getImageData(0, 0, width, height).data;
+            const colorCounts = {};
+            for (let i = 0; i < imageData.length; i += 4) {
+                let color = `rgb(${imageData[i]}, ${imageData[i + 1]}, ${imageData[i + 2]})`;
+                colorCounts[color] = (colorCounts[color] || 0) + 1;
+            }
+            const sortedColors = Object.entries(colorCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5)
+                .map(color => color[0]);
+            displayColorPalette(sortedColors);
+        }
+        function displayColorPalette(colors) {
+            const paletteDiv = document.getElementById("colorPalette");
+            paletteDiv.innerHTML = ""; 
+            colors.forEach(color => {
+                const div = document.createElement("div");
+                div.className = "color-box";
+                div.style.backgroundColor = color;
+                paletteDiv.appendChild(div);
+            });
+        }
+    </script>
+</body>
+</html>
