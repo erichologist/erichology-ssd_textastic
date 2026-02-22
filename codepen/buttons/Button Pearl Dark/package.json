@@ -1,0 +1,1 @@
+{  "name": "your-project",  "version": "1.0.0",  "scripts": {    "build": "babel src -d dist"  },  "devDependencies": {    "@babel/core": "^7.x.x",    "@babel/cli": "^7.x.x",    "@babel/preset-env": "^7.x.x"  }}

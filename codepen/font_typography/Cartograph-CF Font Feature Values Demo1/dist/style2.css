@@ -1,0 +1,119 @@
+/*@font-face {
+   font-family:'cartograph-cf';
+   src: url("https://use.typekit.net/af/23e210/0000000000000000774b9f3f/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2");
+   font-display:swap;
+   font-style:italic;
+   font-weight:400;
+   font-stretch:normal;
+}
+@font-face {
+   font-family:'chelsea-market-watercolor';
+   src: url("https://use.typekit.net/af/d0493a/00000000000000007735fcf1/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2");
+   font-display:swap;
+   font-style:italic;
+   font-weight:400;
+   font-stretch:normal;
+}
+.cartograph-cf { font-family: 'cartograph-cf', monospace; }
+.chelsea-market-watercolor { font-family: 'chelsea-market-watercolor', sans-serif; }
+
+@font-feature-values chelsea-market-watercolor {
+   @stylistic {
+      curly: 1;
+   }
+}*/
+/*@font-feature-values cartograph-cf{@stylistic{curly:1;}}*/
+
+/*h1 span {font-family: chelsea-market-watercolor;}*/
+
+/*.curly span {font-variant-alternates: stylistic(curly);}
+@layer demo {@font-face {font-family: chelsea-market-watercolor;
+url("https://use.typekit.net/af/d0493a/00000000000000007735fcf1/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2");}*/
+cart alt-style
+ * {
+   padding: 0px;margin: 0px;box-sizing:border-box;
+}
+html {
+   font-size:clamp(10px, 1.5vw, 18px);font-family:sans-serif;
+}
+body {
+   background-color:#1a1a1a;
+   color:#ddd;
+   display:flex;
+   flex-flow:column;
+   align-items: center;
+   justify-content:center;
+   gap:40px;
+
+   margin:1em;
+   margin-bottom:2em;
+   padding:2em;
+   padding-bottom:2em;
+}
+
+h1 {font-size:2em;}
+h2 {font-size:1.9em;}
+h3 {font-size:1.8em;}
+h4 {font-size:1.7em;}
+h5 {font-size:1.6em;}
+h6 {font-size:1.5em;}
+pre, code, pre code, p, span {font-size:1em;}
+h1.curly, h2.curly,p.curly, span.curly {font-variant-alternates: stylistic(curly);}
+
+h1.cart-alt-style, h2.cart-alt-style,
+p.cart-alt-style, span.cart-alt-style {
+   font-variant-alternates:styleset(alt-style-1);
+   font-family: cartograph-cf;
+}
+
+
+@font-feature-values cartograph-cf {
+  @styleset {
+    /* This maps "alt-style-1" to ss02 and ss05 */
+    alt-style-1: 2 5;
+  }
+}
+h1.cart, h2.cart,
+h1 span.cart, h2 span.cart, h1 p.cart p, h2 p.cart,
+h1.cart span, h2.cart span, h1.cart p, h2.cart p, p.cart, span.cart { font-family:cartograph-cf;font-style:italic;font-weight:400;font-stretch:normal; }
+
+div.alt-style, div#alt-style, div.alt-style, 
+h1#alt-style, h2#alt-style, p.alt-style, 
+span.alt-style, h1.alt-style, h2.alt-style,
+/*.alt-style h1, .alt-style h2,*/p.alt-style, span.alt-style {font-family: 'cartograph-cf';font-variant-alternates: styleset(alt-style-1);}
+
+.curly span, .curly p {font-variant-alternates: stylistic(curly);}
+
+@layer demo {
+   @font-face {
+      font-family: cartograph-cf;
+      src:url("https://use.typekit.net/af/23e210/0000000000000000774b9f3f/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2");
+      font-display:swap;
+      font-style:italic;
+      font-weight:400;
+   }
+   div, #demoa, .demoe, div.demoi {
+      height:100vh;
+				font-size: .5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      display:flex;
+			
+			#demob, .demof,#democ,
+			.demog,h1,h2,h3,h4,h5,h6 {
+				font-weight: 400;
+				justify-content:flex-end;
+			}
+			
+				#demod,.demoh,p,span,p.s, span.s {
+					letter-spacing:0.5rem;
+					gap:20px;
+					display:flex;
+					float: right;
+					justify-content:flex-start;
+					align-items: flex-start;
+					padding:5rem;
+				}
+      }
+   }
+}
