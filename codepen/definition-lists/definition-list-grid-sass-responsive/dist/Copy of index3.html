@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Just Another Definition List, Grid, Sass, Responsive</title>
+<style>
+
+
+html {
+  box-sizing:border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family:'MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+	font-size: 0.875em;
+	color: #F2E7D5;
+	line-height: 1.5;
+	background-color:#151515;
+	background-image:linear-gradient(90deg,#4D4747CC,#4D4747 6%,#4D474766 18%,rgba(52, 50, 50, .54) 21%,rgba(52, 50, 50, 0));
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+    0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+details {
+	list-style: none;
+	animation-timing-function: ease-in-out;
+  transition:sweep .5s ease-in-out,height 1s ease-in-out;
+}
+summary {
+	list-style:none;
+	animation-timing-function: ease-in-out;
+}
+summary::-webkit-details-marker {
+	display:none;
+	animation-timing-function: ease-in-out;
+}
+dl {
+	/*counter-reset: count;*/
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-right: 12vw;
+	padding-left: 12vw;
+	padding-bottom: 3vw;
+	padding-bottom:0;
+  padding-top:0;
+	margin: 0;
+	margin-bottom: 3vw;
+}
+dl:first-of-type {
+	/*counter-reset: count;*/
+	padding-right: 12vw;
+	padding-left: 12vw;
+  padding-top: 3vw;
+	padding-bottom:0;
+	margin: 0;
+}
+dl {
+  /*counter-reset: counter;*/
+}
+dt {
+  /*counter-increment: count;*/
+	font-family:'FilosofiaUnicaseOT','MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+	color: #3695B0;
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	margin-left: -5.5vw;
+}
+.dir {
+  /*counter-increment: count;*/
+	font-family:'FilosofiaUnicaseOT','MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+	color: #3695B0;
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	margin-left: -5.5vw;
+}
+/*dt::before {
+	content:counter(count, decimal-leading-zero) ".\2005\2004";
+	font-family:'BodoniSvtyTwoITCTT-Book', 'Didot', cursive;
+	color:#3695B0;
+
+	padding-left:0;
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+dt::after {
+	margin-left: -1vw;
+}*/
+dd {
+  font-family:'MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+  margin:auto;
+	padding:auto;
+	color:#FAF7F7;
+}
+</style>
+</head>
+<body>
+<!--<section class="dl-blurbs">-->
+
+<dl>
+	
+
+
+<details> <summary><dt>CHORUS</dt></summary>
+		<dd>Eros, no one can fight you</dd>
+		<dd>Eros, you clamp down on every living thing on a girl's cheek on oceans on wild fields not even an immortal can evade you certainly not a creature of the day</dd>
+		<dd>why they go mad</dd>
+		<dd>you change the levels of a person's mind this Haimon-crisis is all your doing</dd>
+		<dd>you shook his blood you glow on girls' eyelids</dd>
+		<dd>what do you care about the laws of the land Aphrodite, you play with us you</dd>
+		<dd>play deeply</dd>
+		<dd class="dir">[enter Antigone]</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE</dt></summary>
+		<dd>well, I'm having my own doubts about the laws of the land and I no longer can restrain a stream of tears</dd>
+		<dd>when I see Antigone here passing to the room where we all</dd>
+		<dd>go in the end</dd>
+		<dd>look at me people</dd>
+		<dd>I go my last road I see my last light look</dd>
+		<dd>Death who gathers all of us into his old bent arms in the end is gathering me</dd>
+		<dd>but I am still alive no wedding</dd>
+		<dd>no wedding song</dd>
+		<dd>no wedding chamber</dd>
+		<dd>yet I shall lie as a bride in the bed of the river of Death while I am still alive</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>oh yes but won't you win glory won't you be praised</dd>
+		<dd>it's not as if you're dying of disease or war you chose to live autonomous</dd>
+		<dd>and so you die</dd>
+		<dd>the only one of mortals to go down to Death alive</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>what about Niobe I've heard that she has a living death like me</dd>
+		<dd>inside a piece of rock</dd>
+		<dd>for a mountain grows over her like ivy and the rain and snow run down her face</dd>
+		<dd>she is laid to bed (like me) by some divinity</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>but Niobe was a god born of gods</dd>
+		<dd>we are mortal born of mortals and yet</dd>
+		<dd>what a great thing</dd>
+		<dd>to share your story with divinity while you live and while you die</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>are you mockers of me you grabbing old men are you laughers at me though I'm not yet gone</dd>
+		<dd>O  springs of the rivers of Thebes</dd>
+		<dd>O reaches of the plains of The bes bear me witness</dd>
+		<dd>no one sheds a tear for me</dd>
+		<dd>as I go to my strange new grave</dd>
+		<dd>no one knows what kind of laws they are that sentence me nor what kind of tomb it is I go to</dd>
+		<dd>I'm a strange new kind of inbetween thing aren't I</dd>
+		<dd>not at home with the dead nor with the living</dd><br>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>you're too extreme you reckless girl</dd>
+		<dd>you can't simply kick justice out of the way and given your father's history I'd say you're paying off his debts</dd>
+		<dd>ah there you touch</dd>
+		<dd>the deepest bitterest place in me pity for my father</dd>
+		<dd>all that plowing in the dark</dd>
+		<dd>and the brilliant house of Labdakos gone down in it father mother mother son it all went wrong</dd>
+		<dd>from what kind of badness was I born accursed</dd>
+		<dd>unwed</dd>
+		<dd>alien foreign and strange</dd>
+		<dd>I am nowhere at home on this earth</dd>
+		<dd>I go to them now</dd>
+		<dd>a final family reunion</dd>
+		<dd>O my brother how you despoil me by your death</dd>
+		<dd>well</dd>
+		<dd>piety is nice but authority is authority</dd>
+		<dd>you have in you a kind of absolute exclusive self-regarding rage it has destroyed you</dd>
+		<dd>unwept unwed unloved I go</dd>
+		<dd>the road is there before me</dd>
+		<dd>this light of day is not for my eyes anymore who will lament me</dd>
+		<dd>no one will lament me</dd>
+		<dd class="dir">[enter Kreon]</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>if people could lament their own deaths right up until they died no one would ever stop</dd>
+</details>
+
+<details> <summary><dt>KREON:</dt></summary>
+<dd>[to Guard] take her away take her quickly I have told you how to prison her in rock</dd>
+		<dd>and leave her there to die or live as she sees fit we are clean of this girl</dd>
+		<dd>her privileges on earth are here revoked</dd>
+		<dd>O tomb</dd>
+		<dd>O bridal chamber</dd>
+		<dd>O house in the ground forever I go to you</dd>
+		<dd>I go to meet my people</dd>
+		<dd>now numbered among the dead father</dd>
+		<dd>mother brother</dd>
+		<dd>I am the last and worst of you open your arms to me, dear ones I buried you all</dd>
+		<dd>even you, Polyneikes</dd>
+		<dd>I lifted and washed you and made you lovely and this is my reward</dd>
+		<dd>people ask</dd>
+		<dd>would I have done it for a husband or a child</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>O tomb</dd>
+		<dd>O bridal chamber</dd>
+		<dd>O house in the ground forever</dd>
+		<dd>I go to you</dd>
+		<dd>I go to meet my people</dd>
+		<dd>now numbered among the dead father mother brother</dd>
+		<dd>I am the last and worst of you open your arms to me, dear ones I buried you all even you, Polyneikes</dd>
+		<dd>I lifted and washed you and made you lovely and this is my reward people ask</dd>
+		<dd>would I have done it for a husband or a child</dd>
+		<dd>my answer is no I would not people ask</dd>
+		<dd>what law requires this</dd>
+		<dd>I say</dd>
+		<dd>a husband or a child can be replaced but who can grow me a new brother</dd>
+		<dd>this is the law I honoured before everything and Kreon calls it criminal</dd>
+		<dd>he says I like to fondle strange and reckless things oh beloved brother</dd>
+		<dd>he is taking me away</dd>
+		<dd>I never had a bridal bed I never had a bridal song</dd>
+		<dd>I never had the love of children I'm alone on my insides</dd>
+		<dd>and I go down to death though I am still alive what kind of justice is this</dd>
+		<dd>why look to gods why hope for allies</dd>
+		<dd>they call my piety impiety</dd>
+		<dd>I say fine, if the gods do really approve of this I'll recognize my error soon enough</dd>
+		<dd>but if these men here are the criminals</dd>
+		<dd>may they suffer exactly what they are doing to me</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>your soul is blowing apart</dd>
+</details>
+
+<details> <summary><dt>KREON:</dt></summary>
+		<dd>get a move on</dd><br>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>next word </dd>
+		<dd>is death</dd>
+		<dd class="dir">[exit Antigone]</dd>
+</details>
+
+<details> <summary><dt>KREON:</dt></summary>
+		<dd>DEATH</dd>
+		<dd>you have no way out</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>Eros, no one can fight you</dd>
+		<dd>Eros, you clamp down on every living thing on a girl's cheek on oceans on wild fields not even an immortal can evade you certainly not a creature of the day</dd>
+		<dd>why they go mad</dd>
+		<dd>you change the levels of a person's mind this Haimon-crisis is all your doing</dd>
+		<dd>you shook his blood you glow on girls' eyelids</dd>
+		<dd>what do you care about the laws of the land Aphrodite, you play with us you</dd>
+		<dd>play deeply</dd>
+		<dd class="dir">[enter Antigone]</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>well, I'm having my own doubts about the laws of the land and I no longer can restrain a stream of tears</dd>
+		<dd>when I see Antigone here passing to the room where we all</dd>
+		<dd>go in the end</dd>
+		<dd>look at me people</dd>
+		<dd>I go my last road I see my last light look</dd>
+		<dd>Death who gathers all of us into his old bent arms in the end is gathering me</dd>
+		<dd>but I am still alive no wedding</dd>
+		<dd>no wedding song</dd>
+		<dd>no wedding chamber</dd>
+		<dd>yet I shall lie as a bride in the bed of the river of Death while I am still alive</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>oh yes but won't you win glory won't you be praised</dd>
+		<dd>it's not as if you're dying of disease or war you chose to live autonomous</dd>
+		<dd>and so you die</dd>
+		<dd>the only one of mortals to go down to Death alive</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>what about Niobe I've heard that she has a living death like me</dd>
+		<dd>inside a piece of rock</dd>
+		<dd>for a mountain grows over her like ivy and the rain and snow run down her face</dd>
+		<dd>she is laid to bed (like me) by some divinity</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>but Niobe was a god born of gods</dd>
+		<dd>we are mortal born of mortals and yet</dd>
+		<dd>what a great thing</dd>
+		<dd>to share your story with divinity while you live and while you die</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>are you mockers of me you grabbing old men are you laughers at me though I'm not yet gone</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>O  springs of the rivers of Thebes</dd>
+		<dd>O reaches of the plains of The bes bear me witness</dd>
+		<dd>no one sheds a tear for me</dd>
+		<dd>as I go to my strange new grave</dd>
+		<dd>no one knows what kind of laws they are that sentence me nor what kind of tomb it is I go to</dd>
+		<dd>I'm a strange new kind of inbetween thing aren't I</dd>
+		<dd>not at home with the dead nor with the living</dd><br>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>you're too extreme you reckless girl</dd>
+		<dd>you can't simply kick justice out of the way and given your father's history I'd say you're paying off his debts</dd>
+		<dd>ah there you touch</dd>
+		<dd>the deepest bitterest place in me pity for my father</dd>
+		<dd>all that plowing in the dark</dd>
+		<dd>and the brilliant house of Labdakos gone down in it father mother mother son it all went wrong</dd>
+		<dd>from what kind of badness was I born accursed</dd>
+		<dd>unwed</dd>
+		<dd>alien foreign and strange</dd>
+		<dd>I am nowhere at home on this earth</dd>
+		<dd>I go to them now</dd>
+		<dd>a final family reunion</dd>
+		<dd>O my brother how you despoil me by your death</dd>
+		<dd>well</dd>
+		<dd>piety is nice but authority is authority</dd>
+		<dd>you have in you a kind of absolute exclusive self-regarding rage it has destroyed you</dd>
+		<dd>unwept unwed unloved I go</dd>
+		<dd>the road is there before me</dd>
+		<dd>this light of day is not for my eyes anymore who will lament me</dd>
+		<dd>no one will lament me</dd>
+		<dd class="dir">[enter Kreon]</dd>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>if people could lament their own deaths right up until they died no one would ever stop</dd>
+</details>
+
+<details> <summary><dt>KREON:</dt></summary>
+<dd><span class="dir">[to Guard]</span> take her away take her quickly I have told you how to prison her in rock</dd>
+		<dd>and leave her there to die or live as she sees fit we are clean of this girl</dd>
+		<dd>her privileges on earth are here revoked</dd>
+		<dd>O tomb</dd>
+		<dd>O bridal chamber</dd>
+		<dd>O house in the ground forever I go to you</dd>
+		<dd>I go to meet my people</dd>
+		<dd>now numbered among the dead father</dd>
+		<dd>mother brother</dd>
+		<dd>I am the last and worst of you open your arms to me, dear ones I buried you all</dd>
+		<dd>even you, Polyneikes</dd>
+		<dd>I lifted and washed you and made you lovely and this is my reward</dd>
+		<dd>people ask</dd>
+		<dd>would I have done it for a husband or a child</dd><br>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>O tomb</dd>
+		<dd>O bridal chamber</dd>
+		<dd>O house in the ground forever</dd>
+		<dd>I go to you</dd>
+		<dd>I go to meet my people</dd>
+		<dd>now numbered among the dead father mother brother</dd>
+		<dd>I am the last and worst of you open your arms to me, dear ones I buried you all even you, Polyneikes</dd>
+		<dd>I lifted and washed you and made you lovely and this is my reward people ask</dd>
+		<dd>would I have done it for a husband or a child</dd>
+		<dd>my answer is no I would not people ask</dd>
+		<dd>what law requires this</dd>
+		<dd>I say</dd>
+		<dd>a husband or a child can be replaced but who can grow me a new brother</dd>
+		<dd>this is the law I honoured before everything and Kreon calls it criminal</dd>
+		<dd>he says I like to fondle strange and reckless things oh beloved brother</dd>
+		<dd>he is taking me away</dd>
+		<dd>I never had a bridal bed I never had a bridal song</dd>
+		<dd>I never had the love of children I'm alone on my insides</dd>
+		<dd>and I go down to death though I am still alive what kind of justice is this</dd>
+		<dd>why look to gods why hope for allies</dd>
+		<dd>they call my piety impiety</dd>
+		<dd>I say fine, if the gods do really approve of this I'll recognize my error soon enough</dd>
+		<dd>but if these men here are the criminals</dd>
+		<dd>may they suffer exactly what they are doing to me</dd>
+</details>
+
+<details> <summary><dt>CHORUS:</dt></summary>
+		<dd>your soul is blowing apart</dd>
+</details>
+
+<details> <summary><dt>KREON:</dt></summary>
+		<dd>get a move on</dd><br>
+</details>
+
+<details> <summary><dt>ANTIGONE:</dt></summary>
+		<dd>next word </dd>
+		<dd>is death</dd>
+		<dd class="dir">[exit Antigone]</dd>
+</details>
+
+<details> <summary><dt>KREON:</dt></summary>
+		<dd>DEATH</dd>
+		<dd>you have no way out</dd>
+</details>
+</dl>
+<dl>
+
+<details> <summary><dt>Design</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Develop</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Test</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Deliver</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Rinse</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Repeat</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Design</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Develop</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+
+<details> <summary><dt>Test</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</details>
+</dl>
+
+</body> 
+</html>

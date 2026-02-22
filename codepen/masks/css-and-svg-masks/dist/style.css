@@ -1,0 +1,341 @@
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+.item--clip .demo {
+  width: 200px;
+  height: 250px;
+}
+.item--clip-blob img {
+  position: absolute;
+  -webkit-clip-path: inset(36% 0 36% 0 round 100% 100% 100% 100%);
+  clip-path: inset(36% 0 36% 0 round 100% 100% 100% 100%);
+}
+.item--clipblob .has-mask {
+  position: absolute;
+  clip: rect(190px, 10px, 190px, 10px);
+}
+.item--clip-blob-has-mask  .has-mask {
+  position: absolute;
+  -webkit-clip: inset(36% 0 36% 0 round 100% 100% 100% 100%);
+  clip: inset(36% 0 36% 0 round 100% 100% 100% 100%);
+}
+.item--svg-mask-html img,
+.item--svg-mask-svg image {
+  mask: url(#masking);
+}
+.item--svg-mask-html2 img,
+.item--svg-mask-svg2 image {
+  mask: url(#masking2);
+}
+.item--css-mask-blob img {
+  -webkit-clip: inset(36% 0 36% 0 round 100% 100% 100% 100%);
+  clip: inset(36% 0 36% 0 round 100% 100% 100% 100%);
+  mask-image: url(#masking);
+  mask-repeat: space;
+}
+
+.item--clip .has-mask {
+  position: absolute;
+  clip: rect(10px, 190px, 190px, 10px);
+}
+
+.item--css-clip-path img {
+  -webkit-clip-path: circle(100px at center);
+  clip-path: circle(100px at center);
+}
+
+.item--svg-clip-path-html img {
+  -webkit-clip-path: url(#clipping);
+  clip-path: url(#clipping);
+}
+
+.item--svg-clip-path-svg image,
+.item--svg-clip-path-with-text-html img {
+  -webkit-clip-path: url(#clipping-with-text);
+  clip-path: url(#clipping-with-text);
+}
+
+.item--css-mask img {
+  mask-image: url(http://yoksel.github.io/Sandbox/img/tiles/tile-transparent-black.png), linear-gradient(-45deg, black 20%, transparent 50%);
+  mask-repeat: space;
+}
+
+
+
+.item--svg-maskingor-html img,
+.item--svg-maskingor-svg image {
+  mask: url(#maskingor);
+}
+.item--css-background-clip .demo {
+  width: 200px;
+  height: 200px;
+  background: url(https://img-fotki.yandex.ru/get/5607/5091629.6b/0_612e6_b9039c0d_M.jpg) no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.item--svg-fill text {
+  fill: url(#pattern);
+}
+
+.demo,
+#clipping-with-text,
+#masking text {
+  font: bold italic 7em/1.5 Georgia;
+}
+
+/* Common 
+------------------------------------------- */
+:root {
+	--txt:'ConcourseT3Tab', 'ConcourseT3', 'ConcourseT4', 'MrEavesSanOT-Book', 'MrEavesSanOT-Reg', 'GillSans-Light', 'GillSans', sans-serif;
+	--c-txt:#e8e0e0;
+	--bg:rgb(31, 41, 55);
+	--c-ln:#FFF6E3;
+}
+body {
+
+	background: var(--bg);
+	background-color: var(--bg);
+	color:var(--c-txt);
+	font: 14px/1.4 var(--txt), sans-serif;
+}
+
+a {
+  color: tomato;
+}
+
+h1,h2,h3,h4 {
+  margin-bottom: 1rem;
+  font-family: Georgia, serif;
+  line-height: 1.4;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--c-ln);
+  text-align: center;
+  text-shadow: 1px 1px 0 white, 2px 2px 0 #555;
+  font-size: 4em;
+  font-style: italic;
+}
+h1:after {
+  content: "Live demo";
+  position: absolute;
+  margin-left: 5px;
+  padding: 1px 5px;
+  vertical-align: top;
+  border-radius: 5px;
+  background: paleturquoise;
+  white-space: nowrap;
+  text-shadow: none;
+  font-size: 1rem;
+  color: #FFF;
+}
+
+h2 {
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #333;
+  font-size: 2.8em;
+  color: #333;
+}
+
+h3 {
+  text-shadow: 1px 1px 0 white, 2px 2px 0 #CCC;
+  font-size: 2.5em;
+  font-style: italic;
+  color: #777;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-style: italic;
+  color: #999;
+}
+
+code {
+  display: block;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow: auto;
+  max-width: 90%;
+  padding: 35px 10px 7px;
+  border-radius: 5px;
+}
+.comment code {
+  display: inline-block;
+  margin: 0;
+  padding: 2px 5px;
+  vertical-align: middle;
+  background: #EEE;
+  color: #777;
+}
+code:before {
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 25px;
+  line-height: 25.2px;
+  padding-left: 10px;
+  position: absolute;
+  font-weight: bold;
+  font-style: italic;
+}
+.comment code:before {
+  content: none;
+}
+
+.code--css {
+  background: #f7edba;
+}
+.code--css:before {
+  content: "CSS";
+  background: #f2e18c;
+  color: #8a750f;
+}
+
+.code--svg {
+  background: #e6f4be;
+}
+.code--svg:before {
+  content: "SVG";
+  background: #d6ec93;
+  color: #678217;
+}
+
+.svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.wrapper {
+  width: 90%;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  conter-reset: mylist;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  padding-right: 3em;
+  border-bottom: 1px solid #DDD;
+  counter-increment: mylist;
+}
+.item:before {
+  content: counter(mylist);
+  position: absolute;
+  right: 0;
+  top: 0;
+  font: 2rem/1 Georgia, serif;
+  color: #EEE;
+}
+.item:after {
+  content: "";
+  display: table;
+  width: 100%;
+}
+
+.demo {
+  position: relative;
+  float: left;
+  margin-right: 30px;
+}
+.demo:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(https://img-fotki.yandex.ru/get/5607/5091629.6b/0_612e6_b9039c0d_M.jpg) no-repeat;
+  opacity: 0;
+  transition: 0.7s;
+}
+.item:hover .demo:before {
+  opacity: 0.4;
+}
+
+.text {
+  padding-left: 230px;
+}
+
+/* Browsers
+------------------------------- */
+.browsers {
+  margin-top: 1.5rem;
+}
+
+.browser {
+  display: inline-block;
+  opacity: 0.2;
+}
+
+.has-support {
+  opacity: 1;
+}
+
+.browser:before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+  background: url(https://yoksel.github.io/assets/img/sprite-browsers.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+
+.firefox:before {
+  background-position: 0 0;
+}
+
+.chrome:before {
+  background-position: -30px 0;
+}
+
+.safari:before {
+  background-position: -60px 0;
+}
+
+.ie8:before {
+  background-position: -90px 0;
+}
+
+.ie9:before {
+  background-position: -90px 0;
+}
+
+.opera-13:before {
+  background-position: -120px 0;
+}
+
+.opera-12:before {
+  background-position: -150px 0;
+}
+
+.opera-mob:before {
+  background-position: -150px 0;
+}
+
+.opera-mini:before {
+  background-position: -150px 0;
+}

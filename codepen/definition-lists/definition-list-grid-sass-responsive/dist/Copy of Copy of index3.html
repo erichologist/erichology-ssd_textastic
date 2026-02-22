@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Just Another Definition List, Grid, Sass, Responsive</title>
+<style>
+
+
+html {
+  box-sizing:border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family:'MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+	font-size: 0.875em;
+	color: #F2E7D5;
+	line-height: 1.5;
+	background-color:#151515;
+	background-image:linear-gradient(90deg,#4D4747CC,#4D4747 6%,#4D474766 18%,rgba(52, 50, 50, .54) 21%,rgba(52, 50, 50, 0));
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+    0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+details {
+	list-style: none;
+	animation-timing-function: ease-in-out;
+  transition:sweep .5s ease-in-out,height 1s ease-in-out;
+}
+summary {
+	list-style:none;
+	animation-timing-function: ease-in-out;
+}
+summary::-webkit-details-marker {
+	display:none;
+	animation-timing-function: ease-in-out;
+}
+dl {
+	counter-reset: count;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-right: 12vw;
+	padding-left: 12vw;
+	padding-bottom: 3vw;
+	padding-bottom:0;
+  padding-top:0;
+	margin: 0;
+	margin-bottom: 3vw;
+}
+dl:first-of-type {
+	counter-reset: count;
+	padding-right: 12vw;
+	padding-left: 12vw;
+  padding-top: 3vw;
+	padding-bottom:0;
+	margin: 0;
+}
+dl {
+  counter-reset: counter;
+}
+dt {
+  counter-increment: count;
+	font-family:'FilosofiaUnicaseOT','MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+	color: #3695B0;
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+dt::before {
+	content:counter(count, decimal-leading-zero) ".\2005\2004";
+	font-family:'BodoniSvtyTwoITCTT-Book', 'Didot', cursive;
+	color:#3695B0;
+	margin-left: -9.5vw;
+	padding-left:0;
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+dt::after {
+	margin-left: -1vw;
+}
+dd {
+  font-family:'MrEavesSanOT-Light', 'MrEavesSanOT-Reg', sans-serif;
+  margin:auto;
+	padding:auto;
+	color:#FAF7F7;
+}
+</style>
+</head>
+<body>
+<!--<section class="dl-blurbs">-->
+<dl>
+<dt>Design</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Develop</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Test</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Deliver</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Rinse</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Repeat</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Design</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Develop</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+<dt>Test</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+</dl>
+<dl>
+	<details> <summary><dt>Design</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+<details> <summary><dt>Develop</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+	<details> <summary><dt>Test</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+	<details> <summary><dt>Deliver</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd></details>
+	<details> <summary><dt>Rinse</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+	<details> <summary><dt>Repeat</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+	<details> <summary><dt>Design</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+<details> <summary><dt>Develop</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+	<details> <summary><dt>Test</dt></summary>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+	</details>
+</dl>
+</body> 
+</html>
