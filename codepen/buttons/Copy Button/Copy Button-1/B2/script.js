@@ -1,0 +1,1 @@
+document.getElementById('copyButton').addEventListener('click', async () => {    const text = document.getElementById('textToCopy').innerText;    try {        await navigator.clipboard.writeText(text);        alert('Text copied to clipboard!');    } catch (err) {        console.error('Failed to copy text: ', err);        alert('Failed to copy text.');    }});
