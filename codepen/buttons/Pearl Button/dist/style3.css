@@ -1,0 +1,281 @@
+:root{
+	--font-text:'ConcourseT3Tab', 'ConcourseT3', 'ConcourseT4', 'MrEavesSanOT-Book', 'MrEavesSanOT-Reg', 'GillSans-Light', 'GillSans', sans-serif;
+
+}
+html {
+	width: 100%;
+	margin: 0;
+}
+body {
+	background: rgb(31, 41, 55);
+	background-color: rgb(31, 41, 55);
+	color: #e8e0e0;
+	font-family:var(--font-text);
+	font-size:14px;
+}
+.buff {
+  display: flex;
+  flex-direction: column; /* Stacks the buttons vertically */
+  /* Optional styles to make the container visible and center content */
+  max-width: 56ch;
+	width:46ch;
+	height:56ch;
+  border: 2px solid #aaa;
+  padding: 5px;
+	margin:5rem auto;
+  justify-content: center; /* Centers the buttons along the main axis (vertical) */
+  align-items: center; /* Centers the buttons along the cross axis (horizontal) */
+  gap: 5ch; /* Adds space between the buttons */
+}
+
+.flex-button {
+  /* Optional styles for the buttons */
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Makes buttons fill the container width if desired */
+}
+
+h1,h2{
+	color: #e8e0e080;
+	margin:1rem 1rem;
+	text-shadow:0 1px 8px rgba(0, 0, 0, 0.1),
+   	0 0 16px rgba(0, 0, 0, 0.1);
+}
+h1+h2 {
+	margin-top:0;
+}
+h1:has(+h2) {
+	margin-bottom:0;
+}
+
+/* From Uiverse.io by marcelodolza */
+.btn {
+	--white: #223722;
+	--bg: #101010;
+	--radius: 100px;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	position: relative;
+	border-radius: var(--radius);
+	background-color: var(--bg);
+	transition: all 0.2s ease;
+	box-shadow: inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+		inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+		inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+		0 3rem 3rem rgba(0, 0, 0, 0.3), 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+.btnwrap,
+.btn .wrp {
+	font-size: 25px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.7);
+	padding: 32px 45px;
+	border-radius: inherit;
+	position: relative;
+	overflow: hidden;
+}
+.btn .wrp p span:nth-child(2) {
+	display: none;
+}
+.btn:hover .wrp p span:nth-child(1) {
+	display: none;
+}
+.btn:hover .wrp p span:nth-child(2) {
+	display: inline-block;
+}
+.btn .wrp p {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0;
+	transition: all 0.2s ease;
+	transform: translateY(4%);
+	-webkit-mask-image: linear-gradient(to bottom, #FFF 40%, transparent);
+	        mask-image: linear-gradient(to bottom, #FFF 40%, transparent);
+
+}
+
+.btn .wrp::before,
+.btn .wrp::after {
+	content: "";
+	position: absolute;
+	transition: all 0.3s ease;
+}
+.btn .wrp::before {
+	--mask1:rgba(255, 255, 255, 1);
+	--mask2:rgba(0, 0, 0, 1);
+	--bgc1:rgba(255, 255, 255, 0.12);
+	--bgc2:rgba(0, 0, 0, .12);
+	--bgc3:rgba(255, 255, 255, 1);
+	--bgc4:rgba(0, 0, 0, 1);
+
+	mix-blend-mode: difference;
+
+
+
+
+  
+	left: -15%;
+	right: -15%;
+	bottom: 25%;
+	top: -100%;
+	border-radius: 50%;
+	border-radius: 80%;
+	
+
+	background-color:var(--bgc1);
+	transition: all 0.3s ease;
+
+}
+.btn .wrp::after {
+	left: 6%;
+	right: 6%;
+	top: 12%;
+	bottom: 40%;
+	border-radius: 22px 22px 0 0;
+	box-shadow: inset 0 10px 8px -10px rgba(255, 255, 255, 0.8);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.3) 0%,
+		rgba(0, 0, 0, 0) 50%,
+		rgba(0, 0, 0, 0) 100%
+	);
+}
+
+.btn:hover {
+	box-shadow: inset 0 0.3rem 0.5rem rgba(255, 255, 255, 0.24),
+		inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+		inset 0 -0.4rem 1.39rem rgba(255, 255, 255, 0.57),
+		0 3rem 3rem rgba(0, 0, 0, 0.3),
+		0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover .wrp::before {
+	transform: translateY(-5%);
+	mix-blend-mode: screen;
+}
+
+.btn:hover .wrp::after {
+	opacity: 0.4;
+	transform: translateY(5%);
+}
+.btn:hover .wrp p {
+	transform: translateY(-18%);
+}
+.btn:active {
+	transform: translateY(4px);
+	box-shadow: inset 0 0.3rem 0.5rem rgba(255, 255, 255, 0.5),
+		inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.8),
+		inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.4),
+		0 3rem 3rem rgba(0, 0, 0, 0.3), 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+
+.button {
+	--white: #223722;
+	--bg: #aaa8;
+	--radius: 100px;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	position: relative;
+	border-radius: var(--radius);
+	background-color: var(--bg);
+	transition: all 0.2s ease;
+	box-shadow: inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+		inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+		inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+		0 3rem 3rem rgba(0, 0, 0, 0.3), 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+.btnwrap,
+.button .wrap {
+	font-size: 25px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.7);
+	padding: 32px 45px;
+	border-radius: inherit;
+	position: relative;
+	overflow: hidden;
+}
+.button .wrap p span:nth-child(2) {
+	display: none;
+}
+.button:hover .wrap p span:nth-child(1) {
+	display: none;
+}
+.button:hover .wrap p span:nth-child(2) {
+	display: inline-block;
+}
+.button .wrap p {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0;
+	transition: all 0.2s ease;
+	transform: translateY(4%);
+	-webkit-mask-image: linear-gradient(to bottom, #FFF 40%, transparent);
+	        mask-image: linear-gradient(to bottom, #FFF 40%, transparent);
+}
+
+.button .wrap::before,
+.button .wrap::after {
+	content: "";
+	position: absolute;
+	transition: all 0.3s ease;
+}
+.button .wrap::before {
+	left: -15%;
+	right: -15%;
+	bottom: 25%;
+	top: -100%;
+	border-radius: 80%;
+	background-color: rgba(255, 255, 255, 0.12);
+	mix-blend-mode: overlay;
+	background-blend-mode: overlay;
+}
+
+.button .wrap::after {
+	left: 6%;
+	right: 6%;
+	top: 12%;
+	bottom: 40%;
+	border-radius: 22px 22px 0 0;
+	box-shadow: inset 0 10px 8px -10px rgba(255, 255, 255, 0.8);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.3) 0%,
+		rgba(0, 0, 0, 0) 50%,
+		rgba(0, 0, 0, 0) 100%
+	);
+}
+
+.button:hover {
+	box-shadow: inset 0 0.3rem 0.5rem rgba(255, 255, 255, 0.24),
+		inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+		inset 0 -0.4rem 1.39rem rgba(255, 255, 255, 0.57),
+		0 3rem 3rem rgba(0, 0, 0, 0.3), 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+
+.button:hover .wrap::before {
+	transform: translateY(-5%);
+}
+
+.button:hover .wrap::after {
+	opacity: 0.4;
+	transform: translateY(5%);
+}
+.button:hover .wrap p {
+	transform: translateY(-18%);
+}
+.button:active {
+	transform: translateY(4px);
+	box-shadow: inset 0 0.3rem 0.5rem rgba(255, 255, 255, 0.5),
+		inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.8),
+		inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.4),
+		0 3rem 3rem rgba(0, 0, 0, 0.3), 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
