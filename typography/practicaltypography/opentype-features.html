@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <script type="text/javascript" src="functions.js"></script><meta content="OpenType features | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="OpenType features | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606246" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="OpenType features | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606246" property="twitter:image"/>
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>OpenType features | Butterick’s Practical Typography</title></head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><title-block><topic>OpenType features</topic><short-rule>Font support + application support</short-rule></title-block><p><first-use>Open­Type</first-use> is a font for­mat in­vented in the 1990s by Mi­crosoft and Adobe, and later adopted by Ap­ple. A ma­jor goal of Open­Type was to pro­vide bet­ter sup­port for in­ter­na­tional lan­guages and writ­ing sys­tems than pre­vi­ous for­mats  (Post­Script and True­Type).</p><p>To do this, Open­Type in­cludes lay­out fea­tures—com­monly known as <first-use>Open­Type fea­tures</first-use>—that al­low fonts to spec­ify al­ter­nate let­ter­forms, and rules for how they should be in­serted into the text. These fea­tures are manda­tory for han­dling lan­guages like Ara­bic and <span class="no-hyphens">Urdu.</span></p><p>They’re not manda­tory in Eng­lish. But as a side ef­fect, Open­Type lay­out fea­tures have al­lowed type de­sign­ers to add lux­u­ries to their fonts—like <a class="xref" href="alternate-figures.html">al­ter­nate fig­ures</a>, <a class="xref" href="small-caps.html">small caps</a>, <a class="xref" href="ligatures.html">lig­a­tures</a>, <a class="xref" href="ordinals.html">or­di­nals</a>, and frac­tions—that had pre­vi­ously been dif­fi­cult or im­pos­si­ble. That’s the good <span class="no-hyphens">news.</span></p><aside><p>Type de­sign­ers add these fea­tures at their dis­cre­tion. Thus, an Open­Type-for­mat font can have any num­ber of Open­Type fea­tures, in­clud­ing <span class="no-hyphens">none.</span></p></aside><p>The bad news is that merely se­lect­ing an Open­Type font doesn’t make its fea­tures avail­able. Rather, your type­set­ting pro­gram also has to sup­port the fea­tures you want to use. Even though many Open­Type-en­hanced fonts are avail­able to­day, soft­ware com­pa­nies have been slow to up­grade their <span class="no-hyphens">applications.</span></p><p>This bit of back­ground just sets the stage for the an­noy­ing truth—that Open­Type fea­tures can add a lot of ty­po­graphic so­phis­ti­ca­tion to your doc­u­ment, but you can only use a given fea­ture if it’s sup­ported by both the font <em>and</em> the <span class="no-hyphens">application.</span></p><p>If you still want to use Open­Type fea­tures, some <span class="no-hyphens">tips:</span></p><ol><li><p>De­sign­ers of pro­fes­sional fonts (see <a class="xref" href="font-recommendations.html">font rec­om­men­da­tions</a>) will have down­load­able spec­i­men sheets that show you which Open­Type fea­tures are sup­ported by their <span class="no-hyphens">fonts.</span></p></li><li><p>All ma­jor desk­top web browsers sup­port Open­Type fea­tures. Sup­port is spot­tier among mo­bile web <span class="no-hyphens">browsers.</span></p></li><li><p>The best Open­Type fea­ture sup­port is found in pro­fes­sional page-lay­out ap­pli­ca­tions like Adobe In­De­sign, Adobe Il­lus­tra­tor, and Quark Xpress.</p></li><li><p>Re­cent ver­sions of Mi­crosoft Word (≥ 2010 for Win­dows, ≥ 2011 for Mac) sup­port a lim­ited set of Open­Type fea­tures (lig­a­tures, al­ter­nate fig­ures, and styl­is­tic sets). But Ex­cel and Power­Point don’t sup­port any. If you think this is ironic and a lit­tle sad given that Mi­crosoft in­tro­duced the Open­Type for­mat in 1996, me <span class="no-hyphens">too.</span></p></li></ol><div class="howto"><div class="howto-name">How to activate OpenType features</div><p><program style="hyphens: none">Word</program><instruction>Right-click in the text and se­lect <ui>Font</ui> from the menu. Click the <ui>Advanced</ui> tab. The <ui>Advanced Typography</ui> panel is in the mid­dle, and sup­ports <a class="xref" href="ligatures.html">lig­a­tures</a>, <a class="xref" href="alternate-figures.html">al­ter­nate fig­ures</a> (via the <ui>Number spacing</ui> and <ui>Number forms</ui> menus), and styl­is­tic <span class="no-hyphens">sets.</span></instruction></p><p><program style="hyphens: none">Pages</program><instruction><ui>Font</ui> panel (⌘ + t) → gear icon → <ui>Typography</ui>. This will open a panel show­ing you the Open­Type fea­tures in the cur­rent <span class="no-hyphens">font.</span></instruction></p><p><program style="hyphens: none">CSS</program><instruction><code>font-fea­ture-set­tings</code> fol­lowed by a list of <span class="no-hyphens">features.</span></instruction></p></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+<a class="nav" href="mixing-fonts.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="metrics-vs-optical-spacing.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="mixing-fonts.html"><span class="arrow">←</span>&nbsp;mixing fonts</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="text-formatting.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="metrics-vs-optical-spacing.html">metrics vs. optical spacing&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:27pm -->
+
