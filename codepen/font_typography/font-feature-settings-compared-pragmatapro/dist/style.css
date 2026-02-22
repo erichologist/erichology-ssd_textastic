@@ -1,0 +1,253 @@
+html{
+	background:#20242C;
+  color:#FFF3E0;
+}
+
+center, p {
+  font-family: "bookmania", serif;
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "dlig";
+  margin: 0.75rem auto;
+
+}
+details[open] summary ~ * {
+  animation: sweep .3s ease-in-out;
+}
+@keyframes sweep {
+    0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+details {
+	list-style: none;
+	animation-timing-function: ease-in-out;
+  transition:sweep .3s ease-in-out,height 1s ease-in-out;
+}
+summary {
+	list-style:none;
+	animation-timing-function: ease-in-out;
+}
+summary::-webkit-details-marker {
+	display:none;
+	animation-timing-function: ease-in-out;
+}
+p span {
+  color: #4095BF;
+  color: #00B0FF;
+
+
+  color: #5BC0EB;
+  color: #0091EA;
+  color: #03A9F4;
+  color: #5BC0EB;
+  display: inline-block;
+  margin-right: 2rem;
+  text-align: right;
+  width: 130px;
+}
+p span p {
+
+	text-align: justify;
+	text-align: center;
+}
+p#hd {
+  background: #333333;
+  color: white;
+  color:#FFF3E0;
+  font-family: arial;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 1rem 0;
+}
+
+.letter-salt, .letter-salt+center, .letter-salt>center, .letter-salt center {
+  font-feature-settings: "salt";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss01, .letter-ss01+center, .letter-ss01>center, .letter-ss01 center {
+  font-feature-settings: "ss01";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss02, .letter-ss02+center, .letter-ss02>center, .letter-ss02 center {
+  font-feature-settings: "ss02";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss03, .letter-ss03+center, .letter-ss03>center, .letter-ss03 center {
+  font-feature-settings: "ss03";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss04, .letter-ss04+center, .letter-ss04>center, .letter-ss04 center {
+  font-feature-settings: "ss04";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss05, .letter-ss05+center, .letter-ss05>center, .letter-ss05 center {
+  font-feature-settings: "ss05";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss06, .letter-ss06+center, .letter-ss06>center, .letter-ss06 center {
+  font-feature-settings: "ss06";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss07, .letter-ss07+center, .letter-ss07>center, .letter-ss07 center {
+  font-feature-settings: "ss07";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss08, .letter-ss08+center, .letter-ss08>center, .letter-ss08 center {
+  font-feature-settings: "ss08";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss09, .letter-ss09+center, .letter-ss09>center, .letter-ss09 center {
+  font-feature-settings: "ss09";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss10, .letter-ss10+center, .letter-ss10>center, .letter-ss10 center {
+  font-feature-settings: "ss10";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss11, .letter-ss11+center, .letter-ss11>center, .letter-ss11 center {
+  font-feature-settings: "ss11";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss12, .letter-ss12+center, .letter-ss12>center, .letter-ss12 center {
+  font-feature-settings: "ss12";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss13, .letter-ss13+center, .letter-ss13>center, .letter-ss13 center {
+  font-feature-settings: "ss13";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss14, .letter-ss14+center, .letter-ss14>center, .letter-ss14 center {
+  font-feature-settings: "ss14";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss015, .letter-ss015+center, .letter-ss015>center, .letter-ss015 center {
+  font-feature-settings: "ss015";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss16, .letter-ss16+center, .letter-ss16>center, .letter-ss16 center {
+  font-feature-settings: "ss16";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss17, .letter-ss17+center, .letter-ss17>center, .letter-ss17 center {
+  font-feature-settings: "ss17";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss18, .letter-ss18+center, .letter-ss18>center, .letter-ss18 center {
+  font-feature-settings: "ss18";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss19, .letter-ss19+center, .letter-ss19>center, .letter-ss19 center {
+  font-feature-settings: "ss19";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss20, .letter-ss20+center, .letter-ss20>center, .letter-ss20 center {
+  font-feature-settings: "ss20";
+  letter-spacing: 0.1rem;
+}
+
+.letter-swsh, .letter-swsh center, p.letter-swsh center,
+.letter-swsh+center, p.letter-swsh>center{
+  font-feature-settings: "swsh";
+  letter-spacing: 0.1rem;
+}
+
+.letter-kern, .letter-kern+center, .letter-kern>center, .letter-kern center {
+  font-feature-settings: "kern";
+  letter-spacing: 0.1rem;
+}
+
+.letter-liga, .letter-liga+center, .letter-liga>center, .letter-liga center {
+  font-feature-settings: "liga";
+  letter-spacing: 0.1rem;
+}
+
+.letter-clig, .letter-clig+center, .letter-clig>center, .letter-clig center {
+  font-feature-settings: "clig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-dlig, .letter-dlig+center, .letter-dlig>center, .letter-dlig center {
+  font-feature-settings: "dlig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-hlig, .letter-hlig+center, .letter-hlig>center, .letter-hlig center {
+  font-feature-settings: "hlig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-calt, .letter-calt+center, .letter-calt>center, .letter-calt center {
+  font-feature-settings: "calt";
+  letter-spacing: 0.1rem;
+}
+
+.letter-hist, .letter-hist+center, .letter-hist>center, .letter-hist center {
+  font-feature-settings: "hist";
+  letter-spacing: 0.1rem;
+}
+
+.letter-onum, .letter-onum+center, .letter-onum>center, .letter-onum center {
+  font-feature-settings: "onum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-lnum, .letter-lnum+center, .letter-lnum>center, .letter-lnum center {
+  font-feature-settings: "lnum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-tnum, .letter-tnum+center, .letter-tnum>center, .letter-tnum center {
+  font-feature-settings: "tnum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-pnum, .letter-pnum+center, .letter-pnum>center, .letter-pnum center {
+  font-feature-settings: "pnum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-dlig, .letter-dlig+center, .letter-dlig>center, .letter-dlig center {
+  font-feature-settings: "dlig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-zero, .letter-zero+center, .letter-zero>center, .letter-zero center {
+  font-feature-settings: "zero";
+  letter-spacing: 0.1rem;
+}
+
+/* Setup */
+body {
+  color: #171c1a;
+  background-color: white;
+  background-color:#161A23;
+  color:#FFF3E0;
+  color:#FFF6E3;
+  color:#FFFCE9;
+  font-size: 2.7rem;
+  margin: 0;
+  padding: 0;
+}

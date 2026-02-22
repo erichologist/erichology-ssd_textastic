@@ -1,0 +1,629 @@
+html{
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+	background:#20242C;
+  color:#FFF3E0;
+}
+
+center, p {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+}
+.cdlig{
+	font-variant-ligatures:contextual discretionary-ligatures;
+	font-feature-settings:"dlig" 1,"calt" 1;}
+.dlig{
+	font-variant-ligatures:discretionary-ligatures;
+	font-feature-settings:"dlig" 1;}
+.calt{font-variant-ligatures:contextual;font-feature-settings: "calt" 1;}
+.dnom { font-feature-settings:"dnom"; font-variant-alternates:"dnom";}
+.frac { font-feature-settings:"frac"; font-variant-alternates:"frac";}
+.c2sc { font-feature-settings:"c2sc"; font-variant-alternates:"c2sc";}
+.fwid { font-feature-settings:"fwid"; font-variant-alternates:"fwid";}
+.dnom { font-feature-settings:"dnom" 1; font-variant-alternates:"dnom";}
+.frac { font-feature-settings:"frac" 1; font-variant-alternates:"frac";}
+.c2sc { font-feature-settings:"c2sc" 1; font-variant-alternates:"c2sc";}
+.fwid { font-feature-settings:"fwid" 1; font-variant-alternates:"fwid";}
+.cv01 { font-feature-settings:"cv01" 1;font-variant-alternates:"cv01";}
+.cv02 { font-feature-settings:"cv02" 1;font-variant-alternates:"cv02";}
+.cv03 { font-feature-settings:"cv03" 1;font-variant-alternates:"cv03";}
+.cv04 { font-feature-settings:"cv04" 1;font-variant-alternates:"cv04";}
+.cv05 { font-feature-settings:"cv05" 1;font-variant-alternates:"cv05";}
+.sinf { font-feature-settings:"sinf"; font-variant-alternates:"sinf";}
+.sups { font-feature-settings:"sups"; font-variant-alternates:"sups";}
+.ss01 {font-feature-settings:"ss01"; font-variant-alternates:"salt" 1;}
+.ss02 {font-feature-settings:"ss02"; font-variant-alternates:"salt" 2;}
+.ss03 {font-feature-settings:"ss03"; font-variant-alternates:"salt" 3;}
+.ss04 {font-feature-settings:"ss04"; font-variant-alternates:"salt" 4;}
+.ss05 {font-feature-settings:"ss05"; font-variant-alternates:"salt" 5;}
+.ss06 {font-feature-settings:"ss06"; font-variant-alternates:"salt" 6;}
+.ss07 {font-feature-settings:"ss07"; font-variant-alternates:"salt" 7;}
+.ss08 {font-feature-settings:"ss08"; font-variant-alternates:"salt" 8;}
+.ss09 {font-feature-settings:"ss09"; font-variant-alternates:"salt" 9;}
+.ss10 {font-feature-settings:"ss10"; font-variant-alternates:"salt" 10;}
+.ss11 {font-feature-settings:"ss11"; font-variant-alternates:"salt" 11;}
+.ss12 {font-feature-settings:"ss12"; font-variant-alternates:"salt" 12;}
+.ss13 {font-feature-settings:"ss13"; font-variant-alternates:"salt" 13;}
+.ss14 {font-feature-settings:"ss14"; font-variant-alternates:"salt" 14;}
+.ss15 {font-feature-settings:"ss15"; font-variant-alternates:"salt" 15;}
+.ss16 {font-feature-settings:"ss16"; font-variant-alternates:"salt" 16;}
+.ss17 {font-feature-settings:"ss17"; font-variant-alternates:"salt" 17;}
+.ss18 {font-feature-settings:"ss18"; font-variant-alternates:"salt" 18;}
+.ss19 {font-feature-settings:"ss19"; font-variant-alternates:"salt" 19;}
+.ss20 {font-feature-settings:"ss20"; font-variant-alternates:"salt" 20;}
+.sinf { font-feature-settings:"sinf" 1; font-variant-alternates:"sinf";}
+.sups { font-feature-settings:"sups" 1; font-variant-alternates:"sups";}
+.ss01 {font-feature-settings:"ss01" 1; font-variant-alternates:"salt" 1;}
+.ss02 {font-feature-settings:"ss02" 1; font-variant-alternates:"salt" 2;}
+.ss03 {font-feature-settings:"ss03" 1; font-variant-alternates:"salt" 3;}
+.ss04 {font-feature-settings:"ss04" 1; font-variant-alternates:"salt" 4;}
+.ss05 {font-feature-settings:"ss05" 1; font-variant-alternates:"salt" 5;}
+.ss06 {font-feature-settings:"ss06" 1; font-variant-alternates:"salt" 6;}
+.ss07 {font-feature-settings:"ss07" 1; font-variant-alternates:"salt" 7;}
+.ss08 {font-feature-settings:"ss08" 1; font-variant-alternates:"salt" 8;}
+.ss09 {font-feature-settings:"ss09" 1; font-variant-alternates:"salt" 9;}
+.ss10 {font-feature-settings:"ss10" 1; font-variant-alternates:"salt" 10;}
+.ss11 {font-feature-settings:"ss11" 1; font-variant-alternates:"salt" 11;}
+.ss12 {font-feature-settings:"ss12" 1; font-variant-alternates:"salt" 12;}
+.ss13 {font-feature-settings:"ss13" 1; font-variant-alternates:"salt" 13;}
+.ss14 {font-feature-settings:"ss14" 1; font-variant-alternates:"salt" 14;}
+.ss15 {font-feature-settings:"ss15" 1; font-variant-alternates:"salt" 15;}
+.ss16 {font-feature-settings:"ss16" 1; font-variant-alternates:"salt" 16;}
+.ss17 {font-feature-settings:"ss17" 1; font-variant-alternates:"salt" 17;}
+.ss18 {font-feature-settings:"ss18" 1; font-variant-alternates:"salt" 18;}
+.ss19 {font-feature-settings:"ss19" 1; font-variant-alternates:"salt" 19;}
+.ss20 {font-feature-settings:"ss20" 1; font-variant-alternates:"salt" 20;}
+
+	
+  /*-webkit-font-kerning: normal;
+          font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "dlig";*/
+  margin: 0.75rem auto;
+
+}
+details[open] summary ~ * {
+
+  animation: sweep .3s ease-in-out;
+}
+@keyframes sweep {
+
+    0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+details {
+
+	list-style: none;
+	animation-timing-function: ease-in-out;
+  transition:sweep .3s ease-in-out,height 1s ease-in-out;
+}
+summary {
+
+	list-style:none;
+	animation-timing-function: ease-in-out;
+}
+summary::-webkit-details-marker {
+
+	display:none;
+	animation-timing-function: ease-in-out;
+}
+p span {
+
+  color: #4095BF;
+  color: #00B0FF;
+
+
+  color: #5BC0EB;
+  color: #0091EA;
+  color: #03A9F4;
+  color: #5BC0EB;
+  display: inline-block;
+  margin-right: 2rem;
+  text-align: right;
+  width: 130px;
+}
+p span p {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+
+	text-align: justify;
+	text-align: center;
+}
+p#hd {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  background: #333333;
+  color: white;
+  color:#FFF3E0;
+  font-family: arial;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 1rem 0;
+}
+
+.letter-salt, .letter-salt+center, .letter-salt>center, .letter-salt center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "salt";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss01, .letter-ss01+center, .letter-ss01>center, .letter-ss01 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss01";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss02, .letter-ss02+center, .letter-ss02>center, .letter-ss02 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss02";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss03, .letter-ss03+center, .letter-ss03>center, .letter-ss03 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss03";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss04, .letter-ss04+center, .letter-ss04>center, .letter-ss04 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss04";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss05, .letter-ss05+center, .letter-ss05>center, .letter-ss05 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss05";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss06, .letter-ss06+center, .letter-ss06>center, .letter-ss06 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss06";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss07, .letter-ss07+center, .letter-ss07>center, .letter-ss07 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss07";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss08, .letter-ss08+center, .letter-ss08>center, .letter-ss08 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss08";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss09, .letter-ss09+center, .letter-ss09>center, .letter-ss09 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss09";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss10, .letter-ss10+center, .letter-ss10>center, .letter-ss10 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss10";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss11, .letter-ss11+center, .letter-ss11>center, .letter-ss11 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss11";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss12, .letter-ss12+center, .letter-ss12>center, .letter-ss12 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss12";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss13, .letter-ss13+center, .letter-ss13>center, .letter-ss13 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss13";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss14, .letter-ss14+center, .letter-ss14>center, .letter-ss14 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss14";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss015, .letter-ss015+center, .letter-ss015>center, .letter-ss015 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss015";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss16, .letter-ss16+center, .letter-ss16>center, .letter-ss16 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss16";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss17, .letter-ss17+center, .letter-ss17>center, .letter-ss17 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss17";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss18, .letter-ss18+center, .letter-ss18>center, .letter-ss18 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss18";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss19, .letter-ss19+center, .letter-ss19>center, .letter-ss19 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss19";
+  letter-spacing: 0.1rem;
+}
+
+.letter-ss20, .letter-ss20+center, .letter-ss20>center, .letter-ss20 center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "ss20";
+  letter-spacing: 0.1rem;
+}
+
+.letter-swsh, .letter-swsh center, p.letter-swsh center,
+.letter-swsh+center, p.letter-swsh>center{
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "swsh";
+  letter-spacing: 0.1rem;
+}
+
+.letter-kern, .letter-kern+center, .letter-kern>center, .letter-kern center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "kern";
+  letter-spacing: 0.1rem;
+}
+
+.letter-liga, .letter-liga+center, .letter-liga>center, .letter-liga center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "liga";
+  letter-spacing: 0.1rem;
+}
+
+.letter-clig, .letter-clig+center, .letter-clig>center, .letter-clig center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "clig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-dlig, .letter-dlig+center, .letter-dlig>center, .letter-dlig center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "dlig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-hlig, .letter-hlig+center, .letter-hlig>center, .letter-hlig center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "hlig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-calt, .letter-calt+center, .letter-calt>center, .letter-calt center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "calt";
+  letter-spacing: 0.1rem;
+}
+
+.letter-hist, .letter-hist+center, .letter-hist>center, .letter-hist center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "hist";
+  letter-spacing: 0.1rem;
+}
+
+.letter-onum, .letter-onum+center, .letter-onum>center, .letter-onum center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "onum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-lnum, .letter-lnum+center, .letter-lnum>center, .letter-lnum center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "lnum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-tnum, .letter-tnum+center, .letter-tnum>center, .letter-tnum center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "tnum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-pnum, .letter-pnum+center, .letter-pnum>center, .letter-pnum center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "pnum";
+  letter-spacing: 0.1rem;
+}
+
+.letter-dlig, .letter-dlig+center, .letter-dlig>center, .letter-dlig center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "dlig";
+  letter-spacing: 0.1rem;
+}
+
+.letter-zero, .letter-zero+center, .letter-zero>center, .letter-zero center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+  font-feature-settings: "zero";
+  letter-spacing: 0.1rem;
+}
+
+.letter-dligature, 
+.letter-dligature+center, .letter-dligature>center, .letter-dligature center {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+		font-variant-ligatures:discretionary-ligatures;
+}
+.letter-cv0199>center,
+.letter-cv0199+center,
+.letter-cv0199 center,
+.letter-cv0199 {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+	font-weight:normal;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+   font-feature-settings: "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+   -moz-font-feature-settings: "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+   -webkit-font-feature-settings: "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+}
+.letter-cv0169>center,
+.letter-cv0169+center,
+.letter-cv0169 center,
+.letter-cv0169{
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+	font-weight:normal;
+	font-style:normal;
+	font-feature-settings:
+   "cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on,
+   "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on,
+   "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, 
+   "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv20" on, 
+   "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, 
+   "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv30" on, 
+   "cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, 
+   "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, 
+   "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, 
+   "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on,
+   "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on,
+   "cv56" on, "cv57" on, "cv58" on, "cv59" on, "cv60" on,
+   "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on,
+   "cv66" on, "cv67" on, "cv68" on, "cv69" on;
+}
+.letter-cv030>center,
+.letter-cv030+center,
+.letter-cv030 center,
+.letter-cv030 {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+	font-weight:normal;
+	font-style:normal;
+   	font-feature-settings:
+			font-feature-settings:
+			"cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29", "cv30" on;
+ 	  -moz-font-feature-settings: 
+			"cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv30";
+  	 -webkit-font-feature-settings: 
+		 	"cv01" on, "cv02" on, "cv03" on, "cv04" on, "cv05" on, "cv06" on, "cv07" on, "cv08" on, "cv09" on, "cv20" on, "cv21" on, "cv22" on, "cv23" on, "cv24" on, "cv25" on, "cv26" on, "cv27" on, "cv28" on, "cv29" on, "cv30" on;
+}
+.letter-cv060>center,
+.letter-cv060 center,
+.letter-cv060+center,
+.letter-cv060 {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+	font-weight:normal;
+	font-style:normal;
+   	font-feature-settings:"cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on; 
+	   -moz-font-feature-settings:"cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on; 
+  	 -webkit-font-feature-settings:"cv31" on, "cv32" on, "cv33" on, "cv34" on, "cv35" on, "cv36" on, "cv37" on, "cv38" on, "cv39" on, "cv40" on, "cv41" on, "cv42" on, "cv43" on, "cv44" on, "cv45" on, "cv46" on, "cv47" on, "cv48" on, "cv49" on, "cv50" on, "cv51" on, "cv52" on, "cv53" on, "cv54" on, "cv55" on, "cv56" on, "cv57" on, "cv58" on, "cv59" on;
+}
+.letter-cv090>center,
+.letter-cv090 center,
+.letter-cv090+center,
+.letter-cv090 {
+	font-family:'PragmataProMonoW20-Regular', 'PragmataPro-Regular', 'PragmataPro'; 
+	font-weight:normal;
+	font-style:normal;
+   	font-feature-settings:"cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on;
+	   -moz-font-feature-settings:"cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on; 
+  	 -webkit-font-feature-settings:"cv60" on, "cv61" on, "cv62" on, "cv63" on, "cv64" on, "cv65" on, "cv66" on, "cv67" on, "cv68" on, "cv69" on, "cv70" on, "cv71" on, "cv72" on, "cv73" on, "cv74" on, "cv75" on, "cv76" on, "cv77" on, "cv78" on, "cv79" on, "cv80" on, "cv81" on, "cv82" on, "cv83" on, "cv84" on, "cv85" on, "cv86" on, "cv87" on, "cv88" on, "cv89" on, "cv90" on, "cv91" on, "cv92" on, "cv93" on, "cv94" on, "cv95" on, "cv96" on, "cv97" on, "cv98" on, "cv99" on; 
+			
+}
+/* Setup */
+body {
+
+  color: #171c1a;
+  background-color: white;
+  background-color:#252A33;
+  color:#FFF3E0;
+  color:#FFF6E3;
+  color:#FFFCE9;
+  font-size: 2.9rem;
+  margin: 0;
+  padding: 0;
+}
+.whp {
+	white-space:pre-line !important;
+}
+
+.letter {	letter-spacing: 0.1rem; }
+.salt { font-feature-settings: "salt"; }
+details:has(>summary>p.letter-salt)::before {
+	font-feature-settings:normal;
+	content:"salt";
+}
+details.salt::before { content:"salt"; }
+.ss01 { font-feature-settings: "ss01"; }
+details:has(>summary>p.letter-ss01)::before {
+	font-feature-settings:normal;
+	content:"ss01"; }
+details.ss01::before { content:"ss01"; }
+.ss02 { font-feature-settings: "ss02"; }
+details:has(>summary>p.letter-ss02)::before {
+	font-feature-settings:normal;
+	content:"ss02"; }
+details.ss02::before { content:"ss02"; }
+.ss03 { font-feature-settings: "ss03"; }
+details:has(>summary>p.letter-ss03)::before {
+	font-feature-settings:normal;
+	content:"ss03"; }
+details.ss03::before { content:"ss03"; }
+.ss04 { font-feature-settings: "ss04"; }
+details:has(>summary>p.letter-ss04)::before {
+	font-feature-settings:normal;
+	content:"ss04"; }
+/*.ppletter.ss04::before { content:"ss04"; }*/
+.ss05 { font-feature-settings: "ss05"; }
+details:has(>summary>p.letter-ss05)::before {
+	font-feature-settings:normal;
+	content:"ss05"; }
+details.ss05::before { content:"ss05"; }
+.ss06 { font-feature-settings: "ss06"; }
+details:has(>summary>p.letter-ss06)::before {
+	font-feature-settings:normal;
+	content:"ss06"; }
+details.ss06::before { content:"ss06"; }
+.ss07 { font-feature-settings: "ss07"; }
+details:has(>summary>p.letter-ss07)::before {
+	font-feature-settings:normal;
+	content:"ss07"; }
+details.ss07::before { content:"ss07"; }
+.ss08 { font-feature-settings: "ss08"; }
+details:has(>summary>p.letter-ss08)::before {
+	font-feature-settings:normal;
+	content:"ss08"; }
+details.ss08::before { content:"ss08"; }
+.ss09 { font-feature-settings: "ss09"; }
+details:has(>summary>p.letter-ss09)::before {
+	font-feature-settings:normal;
+	content:"ss09"; }
+details.ss09::before { content:"ss09"; }
+.ss10 { font-feature-settings: "ss10"; }
+details:has(>summary>p.letter-ss10)::before {
+	font-feature-settings:normal;
+	content:"ss10"; }
+details.ss10::before { content:"ss10"; }
+.ss11 { font-feature-settings: "ss11"; }
+details:has(>summary>p.letter-ss11)::before {
+	font-feature-settings:normal;
+	content:"ss11"; }
+details.ss11::before { content:"ss11"; }
+.ss12 { font-feature-settings: "ss12"; }
+details:has(>summary>p.letter-ss12)::before {
+	font-feature-settings:normal;
+	content:"ss12"; }
+details.ss12::before { content:"ss12"; }
+.ss13 { font-feature-settings: "ss13"; }
+details:has(>summary>p.letter-ss13)::before {
+	font-feature-settings:normal;
+	content:"ss13"; }
+details.ss13::before { content:"ss13"; }
+.ss14 { font-feature-settings: "ss14"; }
+details:has(>summary>p.letter-ss14)::before {
+	font-feature-settings:normal;
+	content:"ss14"; }
+details.ss14::before { content:"ss14"; }
+.ss15 { font-feature-settings: "ss15"; }
+details:has(>summary>p.letter-ss15)::before {
+	font-feature-settings:normal;
+	content:"ss15"; }
+details.ss15::before { content:"ss15"; }
+.ss16 { font-feature-settings: "ss16"; }
+details:has(>summary>p.letter-ss16)::before {
+	font-feature-settings:normal;
+	content:"ss16"; }
+details.ss16::before { content:"ss16"; }
+.ss17 { font-feature-settings: "ss17"; }
+details:has(>summary>p.letter-ss17)::before {
+	font-feature-settings:normal;
+	content:"ss17"; }
+details.ss17::before { content:"ss17"; }
+.ss18 { font-feature-settings: "ss18"; }
+details:has(>summary>p.letter-ss18)::before {
+	font-feature-settings:normal;
+	content:"ss18"; }
+details.ss18::before { content:"ss18"; }
+.ss19 { font-feature-settings: "ss19"; }
+details:has(>summary>p.letter-ss19)::before {
+	font-feature-settings:normal;
+	content:"ss19"; }
+details.ss19::before { content:"ss19"; }
+.ss20 { font-feature-settings: "ss20"; }
+details:has(>summary>p.letter-ss20)::before {
+	font-feature-settings:normal;
+	content:"ss20"; }
+details.ss20::before { content:"ss20"; }
+.swsh { font-feature-settings: "swsh"; }
+details:has(>summary>p.letter-swsh)::before {
+	font-feature-settings:normal;
+	content:"swsh"; }
+details.swsh::before { content:"swsh"; }
+.kern { font-feature-settings: "kern"; }
+details:has(>summary>p.letter-kern)::before {
+	font-feature-settings:normal;
+	content:"kern"; }
+details.kern::before { content:"kern"; }
+.liga { font-feature-settings: "liga"; }
+details:has(>summary>p.letter-liga)::before {
+	font-feature-settings:normal;
+	content:"liga"; }
+details.liga::before { content:"liga"; }
+.clig { font-feature-settings: "clig"; }
+details:has(>summary>p.letter-clig)::before {
+	font-feature-settings:normal;
+	content:"clig"; }
+details.clig::before { content:"clig"; }
+.dlig { font-feature-settings: "dlig"; }
+details:has(>summary>p.letter-dlig)::before {
+	font-feature-settings:normal;
+	content:"dlig"; }
+details.dlig::before { content:"dlig"; }
+.hlig { font-feature-settings: "hlig"; }
+details:has(>summary>p.letter-hlig)::before {
+	font-feature-settings:normal;
+	content:"hlig"; }
+details.hlig::before { content:"hlig"; }
+.calt { font-feature-settings: "calt"; }
+details:has(>summary>p.letter-calt)::before {
+	font-feature-settings:normal;
+	content:"calt"; }
+details.calt::before { content:"calt"; }
+.hist { font-feature-settings: "hist"; }
+details:has(>summary>p.letter-hist)::before {
+	font-feature-settings:normal;
+	content:"hist"; }
+details.hist::before { content:"hist"; }
+.onum { font-feature-settings: "onum"; }
+details:has(>summary>p.letter-onum)::before {
+	font-feature-settings:normal;
+	content:"onum"; }
+details.onum::before { content:"onum"; }
+.lnum { font-feature-settings: "lnum"; }
+details:has(>summary>p.letter-lnum)::before {
+	font-feature-settings:normal;
+	content:"lnum"; }
+details.lnum::before { content:"lnum"; }
+.tnum { font-feature-settings: "tnum"; }
+details:has(>summary>p.letter-tnum)::before {
+	font-feature-settings:normal;
+	content:"tnum"; }
+details.tnum::before { content:"tnum"; }
+.pnum { font-feature-settings: "pnum"; }
+details:has(>summary>p.letter-pnum)::before {
+	font-feature-settings:normal;
+	content:"pnum"; }
+details.pnum::before { content:"pnum"; }
+.dlig { font-feature-settings: "dlig"; }
+details:has(>summary>p.letter-dlig)::before {
+	font-feature-settings:normal;
+	content:"dlig"; }
+details.dlig::before { content:"dlig"; }
+.zero { font-feature-settings: "zero"; }
+details:has(>summary>p.letter-zero)::before {
+	font-feature-settings:normal;
+	content:"zero"; }
+details.zero::before { content:"zero"; }
+
+details.salt::before {
+	font-feature-settings:normal;
+	content:"salt";
+}
