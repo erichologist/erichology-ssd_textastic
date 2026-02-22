@@ -1,0 +1,109 @@
+p {
+  font-size: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-style: normal;
+}
+
+body {
+  background: #20242c;
+  background-color: #20242c;
+  color: #FAEEE9;
+  font-family: "chaparral-pro";
+  margin: 0;
+  padding: 1rem;
+}
+
+span {
+  transition: color 0.5s linear;
+}
+
+.smcp span {
+  font-feature-settings: "smcp" 1;
+}
+.smcp span {
+  color: rgba(130, 247, 255, 0.8);
+  text-shadow: 0 0 0 #FFF, 0 0 5.5px #0F07FF80, 0 -1px 13px #0F07FF80, 0 1px 6.5px #3457D580, 0 0 5px #0F07FF80, 0 -0.1px 5.5px #F0E952, 0 0 6px #5E60CE44, 0 -1px 6.6px #0F07FF66, 0 1px 7px #3457D544, 0 0 0.21em #0009FFCC, 0 0 0.231em #FFF;
+}
+
+.small {
+  font-size: 14px;
+}
+
+a {
+  color: #888;
+  text-decoration: none;
+}
+
+.bx {
+  /*min-height:35vh;*/
+  /*min-width:80vw;*/
+}
+
+.bxa {
+  /*min-height:27vh;*/
+  /*min-width:80vw;*/
+}
+
+.bxb {
+  /*min-height:3vh;*/
+  /*min-width:80vw;*/
+}
+
+.butters {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /*position:absolute;
+  position:relative;*/
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  margin-left: 10px;
+  background: #202027;
+  background: #272C36;
+  border: 1px solid #0000;
+  border-color: #0000;
+  border-radius: 0.5em;
+  box-shadow: 1.2px -0.6px 4px rgba(10, 12, 15, 0.23), -1.2px 0.6px 4px rgba(10, 12, 15, 0.23), -2px 1px 4px rgba(10, 12, 15, 0.2), inset 0 0 16px rgba(53, 61, 80, 0.1), 0 1px 10px rgba(2, 2, 3, 0.28);
+  color: #00D9F0CC;
+  color: #FFFC;
+  background: #091921;
+  background: #20242c;
+  background: #252A33;
+  box-shadow: -1px -1px 3px rgba(240, 240, 240, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.6);
+  padding: 0.65em 0.31em;
+  color: #bbb;
+  top: 2em;
+  bottom: -2em;
+}
+button:after {
+  content: " on";
+  color: #00CCFFCC;
+  color: #00ff89CC;
+  color: #00F260;
+  text-shadow: 0 0 5px #00F260, 0 0 20px #00FC7F;
+}
+button.on:after {
+  content: " off";
+  color: #FFFC;
+  color: #C7001722;
+  color: #ee0000;
+  text-shadow: 0 0 5px #ff0000, 0 0 20px #ff0000;
+}
+button:hover {
+  background: #151517;
+  background: #18181B;
+  background: #121214;
+  color: #FFFFFFFA1;
+  box-shadow: inset 2px 1.5px 12px rgba(80, 85, 98, 0.21), inset -2px -1.5px 12px rgba(2, 2, 3, 0.21), inset 3px 2px 12px rgba(2, 2, 3, 0.21), inset -3px -2px 12px rgba(2, 2, 3, 0.21), inset -2px 2px 14px rgba(0, 0, 0, 0.11), inset 2px 2px 14px rgba(0, 0, 0, 0.11);
+  text-shadow: 0 0 0 #fffc, 0 -1.2px 3.15px #3457D544, 0 1.2px 3.15px #3457D544, 0 -1px 3.2px #0F07ff66, 0 1px 3.2px #0F07ff66, 0 -1px 2.15px #00E95244, 0 1px 2.15px #00E95244, 0 0 7px #00D9E066;
+  background: #091921;
+  background: #272C36;
+  background: #20232B;
+  box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8), inset -2px -2px 10px rgba(255, 255, 255, 0.05), inset 2px 2px 10px rgba(0, 0, 0, 0.8);
+}

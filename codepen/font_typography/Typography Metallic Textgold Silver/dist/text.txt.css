@@ -1,0 +1,42 @@
+
+
+
+blockquote strong,
+blockquote b,
+blockquote + strong,
+blockquote + b,
+blockquote em,
+blockquote i,
+blockquote + em,
+blockquote + i,
+table tbody tr td strong,
+table tbody tr td b,
+table tbody tr td + strong,
+table tbody tr td + b,
+table tbody tr td em,
+table tbody tr td i,
+table tbody tr td + em,
+table tbody tr td + i,
+table thead tr th strong,
+table thead tr th b,
+table thead tr th + strong,
+table thead tr th + b,
+table thead tr th em,
+table thead tr th i,
+table thead tr th + em,
+table thead tr th + i {
+	background-color: #16161700;
+}
+
+/*a{ strong,
+ b,
+ em,
+ i,
+ + em,
+ + i,
+ + strong}
+*/
+:is(table thead tr th) + strong{
+	background-color:transparent;
+}
+
