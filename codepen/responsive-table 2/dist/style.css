@@ -1,0 +1,115 @@
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.5px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #ffffff;
+  background: #212121;
+}
+div.lft {
+  box-align: left;
+  display: flex;
+  align-items: left;
+  clear: right;
+  /*min-height: 100vh;*/
+}
+div.cntr {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*div.lft {
+  position: relative;
+  justify-content: left;
+  align-items: left;
+}*/
+h1 {
+  font-weight: normal;
+  letter-spacing: -2px;
+  color: #ff4466;
+}
+
+
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: 0.5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: 0.5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th,
+.rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th,
+  .rwd-table td {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+  }
+  .rwd-table th:first-child,
+  .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child,
+  .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+
+.rwd-table {
+  background-image: repeating-linear-gradient(#0b5577, #393473);
+  color: #ffffff;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #46637f;
+}
+.rwd-table th,
+.rwd-table td {
+  border: conic-gradient(#ff8a00, #e52e71, #ff8a00) solid 5px;
+  margin: 0.5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th,
+  .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th,
+.rwd-table td:before {
+  border: conic-gradient(#ff8a00, #e52e71, #ff8a00) solid 5px;
+  color: #ff4466;
+  border-width: 3px;
+  border-color: overlay(#ffffff, 100%);
+}
