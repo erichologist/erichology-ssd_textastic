@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <script type="text/javascript" src="functions.js"></script><meta content="Nonbreaking spaces | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="Nonbreaking spaces | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606246" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="Nonbreaking spaces | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606246" property="twitter:image"/>
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>Nonbreaking spaces | Butterick’s Practical Typography</title></head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><title-block><topic>nonbreaking spaces</topic><short-rule>Prevent awkward breaks</short-rule></title-block><p>Your word proces­sor as­sumes that a word space marks a safe place to flow text onto a new line or page. A <em>non­break­ing space</em> is the same width as a word space, but it pre­vents the text from flow­ing to a new line or page. It’s like in­vis­i­ble glue be­tween the words on ei­ther <span class="no-hyphens">side.</span></p><table class="shortcut"><thead><tr><th class="no-hyphens"></th><th class="no-hyphens">Word</th><th class="no-hyphens">Pages</th><th class="no-hyphens">HTML</th></tr></thead><tbody><tr><td>nonbreaking space</td><td class="instruction">control (option on Mac) + shift +
+space bar</td><td class="instruction">option + space bar</td><td class="instruction"><code>&amp;nbsp;</code></td></tr></tbody></table><p>Put a non­break­ing space be­fore any nu­meric or al­pha­betic ref­er­ence to pre­vent awk­ward breaks. Re­call this ex­am­ple from <a class="xref" href="paragraph-and-section-marks.html">para­graph and sec­tion marks</a>:</p><table class="example"><tr><td style="font-size:120%"><example-text><span>The seller can, under Business Law §<br/>1782, offer a full refund to buyers. But ¶<br/>49 of the contract offers another option.</span></example-text></td><td><example-caption>wrong</example-caption></td></tr><tr><td style="font-size:120%"><example-text><span>The seller can, under Business Law<br/>§ 1782, offer a full refund to buyers. But<br/>¶ 49 of the contract offers another option.</span></example-text></td><td><example-caption>right</example-caption></td></tr></table><p>In the top ex­am­ple, nor­mal word spaces come af­ter the § and ¶ sym­bols, and the nu­meric ref­er­ences in­cor­rectly ap­pear on the next <span class="no-hyphens">line.</span></p><p>In the bot­tom ex­am­ple, non­break­ing spaces come af­ter the § and ¶ sym­bols. This time, the sym­bols and the nu­meric ref­er­ences stay <span class="no-hyphens">together.</span></p><p>An ex­am­ple ripped from the <span class="no-hyphens">headlines:</span></p><p class="image"><img style="width:80%" src="images/pandemic-nbsp.png"/></p><p>Also use a non­break­ing space af­ter other ab­bre­vi­ated ref­er­ence marks <phrase>(Ex. A, Fig. 23)</phrase>, hon­orifics and ti­tles <phrase>(Sgt. Rock, Ms. Mar­vel)</phrase>, and <a class="xref" href="trademark-and-copyright-symbols.html">trade­mark and copy­right sym­bols</a>.</p><div class="subhead" id="nonbreaking-spaces-in-html"><a href="#nonbreaking-spaces-in-html">Nonbreaking spaces in HTML</a></div><p>Non­break­ing spaces can be in­serted into HTML doc­u­ments ei­ther with an es­cape code (<code>&amp;nbsp;</code>) or by typ­ing a non­break­ing space char­ac­ter (us­ing what­ever key short­cut is as­signed to it in your text <span class="no-hyphens">editor).</span></p><p>If you be­lieve in the prin­ci­ple that source code should be op­ti­mized for read­abil­ity—I do—then you should use the <code>&amp;nbsp;</code> es­cape code, as it makes the non­break­ing space vis­i­ble and <span class="no-hyphens">explicit.</span></p><div class="btw"><div class="btw-title">by the way</div><ul><li><p>Why isn’t there a stan­dard key short­cut for the non­break­ing space? Beats <span class="no-hyphens">me.</span></p></li><li><p>Un­like other white space in HTML, a se­quence of non­break­ing spaces is not col­lapsed into a sin­gle word space. So the­o­ret­i­cally, you can make larger spaces out of non­break­ing spaces. But as with any <a class="xref" href="white-space-characters.html">white-space char­ac­ters</a>, this is bad pol­icy—like fix­ing a flat tire with duct <span class="no-hyphens">tape.</span></p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+<a class="nav" href="word-spaces.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="tabs-and-tab-stops.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="word-spaces.html"><span class="arrow">←</span>&nbsp;word spaces</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="type-composition.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="tabs-and-tab-stops.html">tabs and tab stops&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:26pm -->
+

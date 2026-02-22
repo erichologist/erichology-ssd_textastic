@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no"><script type="text/javascript" src="functions.js"></script>
+
+<meta content="Hyphenation | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="Hyphenation | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606242" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="Hyphenation | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606242" property="twitter:image"/><link rel="stylesheet" type="text/css" media="all" href="styles.css" /><link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>Hyphenation | Butterick’s Practical Typography</title>
+
+</head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><title-block><topic>hyphenation</topic><short-rule>Mandatory for justified text; optional otherwise</short-rule></title-block><p><first-use>Hy­phen­ation</first-use> is the au­to­mated process of break­ing words be­tween lines to cre­ate more con­sis­tency across a text <span class="no-hyphens">block.</span></p><p>In <a class="xref" href="justified-text.html">jus­ti­fied text</a>, hy­phen­ation is <span class="no-hyphens">mandatory.</span></p><p>In left-aligned text, hy­phen­ation evens the ir­reg­u­lar right edge of the text, called the <first-use>rag</first-use>. Hy­phen­ation is op­tional for left-aligned text be­cause the rag will still be some­what ir­reg­u­lar, even with hy­phen­ation. Hy­phen­ation doesn’t im­prove text leg­i­bil­ity. In this case, con­sider turn­ing it <span class="no-hyphens">off.</span></p><p>As <a class="xref" href="line-length.html">line length</a> gets shorter, hy­phen­ation be­comes es­sen­tial. Why? With hy­phen­ation off, your word proces­sor or web browser can only break lines at word spaces. As the lines get shorter, there are fewer words and hence fewer pos­si­ble break points in each line, mak­ing awk­ward breaks more <span class="no-hyphens">likely.</span></p><div class="howto"><div class="howto-name">How to turn hyphenation on (or off)</div><p><program style="hyphens: none">Word</program><instruction><ui>Page Layout</ui> → <ui>Page Setup</ui> panel → <ui>Hyphenation</ui> → <ui>Automatic</ui> (or <ui>None</ui>)</instruction></p><p><program style="hyphens: none">Mac OS Word</program><instruction><ui>Tools</ui>  → <ui>Hyphenation</ui> → check (or uncheck) <ui>Automatically hyphenate <span class="no-hyphens">document</span></ui></instruction></p><p><program style="hyphens: none">Pages</program><instruction><ui>View</ui> → <ui>Show Toolbar</ui> (or op­tion + ⌘ + t) → <ui>Document</ui> but­ton → <ui>Document</ui> pane → check (or uncheck) <ui>Hyphenation</ui></instruction></p><p><program style="hyphens: none">CSS</program><instruction>Use <code>hy­phens: auto</code>, though sup­port is <a href="http://caniuse.com/#search=hyphens">still <span class="no-hyphens">spotty</span></a></instruction></p></div><p>Some­times you may want to sup­press au­to­matic hy­phen­ation. For in­stance, <a class="xref" href="headings.html">head­ings</a> are rel­a­tively short, so hy­phen­ation of­ten causes more prob­lems than it <span class="no-hyphens">solves.</span></p><table class="example"><tr><td style="font-size:120%"><example-text><span>B. Your proposal contains contradic-<br/>tions that render it utterly use-<br/>less for our current needs.</span></example-text></td><td><example-caption>wrong</example-caption></td></tr><tr><td style="font-size:120%"><example-text><span>B. Your proposal contains <br/>contradictions that render it utterly <br/>useless for our current needs.</span></example-text></td><td><example-caption>right</example-caption></td></tr></table><p>Hy­phen­ation can be sup­pressed in a sin­gle para­graph, or a set of para­graphs, if you sup­press hy­phen­ation within <a class="xref" href="paragraph-and-character-styles.html">para­graph and char­ac­ter styles</a>.</p><div class="howto"><div class="howto-name">How to suppress hyphenation in a paragraph</div><p><program style="hyphens: none">Word</program><instruction>Right-click in the text and se­lect <ui>Paragraph</ui> → <ui>Line and Page Breaks</ui> → <ui>Don’t <span class="no-hyphens">hyphenate</span></ui></instruction></p><p><program style="hyphens: none">Pages</program><instruction><ui>View</ui> → <ui>Show Toolbar</ui> (or op­tion + ⌘ + t) → <ui>Format</ui> but­ton → <ui>More</ui> pane → <ui>Remove paragraph <span class="no-hyphens">hyphenation</span></ui></instruction></p><p><program style="hyphens: none">CSS</program><instruction>Use <code>hy­phens: <span class="no-hyphens">none</span></code></instruction></p></div><div class="btw"><div class="btw-title">by the way</div><ul><li><p>In word proces­sors, you can ex­ert rudi­men­tary con­trol over au­to­matic hy­phen­ation. If you’re cu­ri­ous, search your help file for<dquo-open-push></dquo-open-push><dquo-open-pull> “hy­phen­ation</dquo-open-pull> op­tions.” Over the years, I’ve never touched these, so I doubt you’ll need to ei­ther. The non­break­ing hy­phen and the <a class="xref" href="optional-hyphens.html">op­tional hy­phen</a> solve most hy­phen­ation prob­lems, and even those are pretty <span class="no-hyphens">rare.</span></p></li><li><p>In pro page-lay­out pro­grams, you can ex­ert a lot of con­trol over au­to­matic hy­phen­ation (usu­ally in con­junc­tion with jus­ti­fi­ca­tion, so all the set­tings to­gether are known as <first-use>H&amp;Js</first-use>).</p></li><li><p>In web browsers, you can ex­ert al­most no con­trol over au­to­matic hy­phen­ation, so if you use CSS hy­phen­ation, be pre­pared for some <span class="no-hyphens">clunkers.</span></p></li><li><p>If you’re us­ing a web con­tent-man­age­ment sys­tem like Word­Press, an al­ter­na­tive hy­phen­ation method is to use a plu­gin that puts soft hy­phens (aka <a class="xref" href="optional-hyphens.html">op­tional hy­phens</a>) in the text. Soft hy­phens are well sup­ported in web browsers, even browsers that don’t sup­port CSS hy­phen­ation (e.g., desk­top Chrome). This also al­lows some­what more con­trol over hy­phen­ation. But it’s more work. If your project de­mands full jus­ti­fi­ca­tion, this might be worth it. Oth­er­wise, prob­a­bly <span class="no-hyphens">not.</span></p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+<a class="nav" href="body-text.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="block-quotations.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="body-text.html"><span class="arrow">←</span>&nbsp;body text</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="page-layout.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="block-quotations.html">block quotations&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:22pm -->
+

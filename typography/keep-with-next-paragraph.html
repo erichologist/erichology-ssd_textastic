@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript" src="./functions.js"></script>
+<meta content="Keep with next paragraph | Butterick’s Practical Typography" name="title"/>
+<meta content="Butterick’s Practical Typography" name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://practicaltypography.com" property="og:url"/>
+<meta content="Keep with next paragraph | Butterick’s Practical Typography" property="og:title"/>
+<meta content="Butterick’s Practical Typography" property="og:description"/>
+<meta content="https://practicaltypography.com/images/og-image.jpg?1763668550" property="og:image"/>
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://practicaltypography.com" property="twitter:url"/>
+<meta content="@mbutterick" property="twitter:sitel"/>
+<meta content="Keep with next paragraph | Butterick’s Practical Typography" property="twitter:title"/>
+<meta content="Butterick’s Practical Typography" property="twitter:description"/>
+<meta content="https://practicaltypography.com/images/og-image.jpg?1763668550" property="twitter:image"/>
+<link rel="stylesheet" type="text/css" media="all" href="./styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="./fonts/core-fonts.css" />
+<title>Keep with next paragraph | Butterick’s Practical Typography</title>
+</head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><title-block><topic>keep with next paragraph</topic><short-rule>Always use with headings</short-rule></title-block><p><first-use>Keep with next para­graph</first-use> binds the last line of a para­graph to the first line of the next. It en­sures no page break hap­pens be­tween the two para­graphs. It’s like <a class="xref" href="keep-lines-together.html">keep lines to­gether</a>, ex­cept it works be­tween para­graphs in­stead of within a <span class="no-hyphens">paragraph.</span></p><p>Al­ways use this op­tion with <a class="xref" href="headings.html">head­ings</a>. It looks bad if a head­ing ap­pears at the bot­tom of a page and the text it’s in­tro­duc­ing starts on the next page. Keep­ing with the next para­graph pre­vents <span class="no-hyphens">this.</span></p><p>The keep-with-next-para­graph op­tion is a lit­tle bor­ing on its own. It gets more in­ter­est­ing when used with its friend, the keep-lines-to­gether op­tion. For in­stance, I once had to pre­pare a jury-in­struc­tion form with many en­tries like <span class="no-hyphens">this:</span></p><div class="indented"><strong><span class="font-feature-settings:case">CACI 204.</span> Willful suppression of evidence</strong><br/>_____ Given as proposed<br/>_____ Given as modified<br/>_____ Refused<br/>_____ Withdrawn</div><p>Here, the name of the jury in­struc­tion is one para­graph, and the four choices be­low are a sec­ond para­graph. The four choices won’t get sep­a­rated from each other be­cause they’re glued to­gether with the keep-lines-to­gether op­tion. But we don’t want the in­struc­tion name get­ting sep­a­rated from the choices ei­ther. By set­ting the in­struc­tion name to keep with next para­graph, all five lines will move as a <span class="no-hyphens">unit.</span></p><div class="howto"><div class="howto-name">How to keep with next paragraph</div><p><program style="hyphens: none">Word</program><instruction>Right-click in the text and se­lect <ui>Paragraph</ui> → <ui>Line and Page Breaks</ui> → check <ui>Keep with <span class="no-hyphens">next</span></ui></instruction></p><p><program style="hyphens: none">Pages</program><instruction><ui>View</ui> → <ui>Show Toolbar</ui> (or op­tion + ⌘ + t) → <ui>Format</ui> but­ton → <ui>More</ui> pane → check <ui>Keep with next <span class="no-hyphens">paragraph</span></ui></instruction></p><p><program style="hyphens: none">CSS</program><instruction>Not <span class="no-hyphens">applicable</span></instruction></p></div><div class="btw"><div class="btw-title">by the way</div><ul><li><p>Why didn’t I make the whole block one para­graph? So I could ap­ply a sep­a­rate para­graph style to the names of the in­struc­tions, and re­for­mat all of them as a group. (See <a class="xref" href="paragraph-and-character-styles.html">para­graph and char­ac­ter styles</a>.)</p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul>
+</div>
+
+
+<a class="nav" href="keep-lines-together.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="page-break-before.html"><div id="next" class="side" ></div></a>
+
+<div is="tbrt" class="tbrt" >
+    <div id="switcher" onmousedown="drag_switcher(event, this)">
+        <span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+        <span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+    
+        <a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+        <a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+        <a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+        <a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+        <a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+        <a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+        <span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+        <span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+    </div>
+    
+    <div id="toolbar" class="">
+        <div id="navtable">
+            <div>
+                <a class="box-link" href="keep-lines-together.html"><span class="arrow">←</span>&nbsp;keep lines together</a>
+            </div>
+    
+            <div class="center">
+                <a class="box-link" href="./">top</a>
+            </div>
+            
+            <div class="center">
+                <a class="box-link" href="page-layout.html">chapter</a>
+            </div>
+    
+            <div>
+                <a class="box-link" href="page-break-before.html">page break before&nbsp;<span class="arrow">→</span></a>
+            </div>
+        </div>
+    </div>
+<div>
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, November 20th, 2025 11:55:51am -->
+
