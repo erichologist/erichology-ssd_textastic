@@ -1,0 +1,52 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * garamond-premier-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9ade23
+ *   - http://typekit.com/eulas/00000000000000003b9ade22
+ *   - http://typekit.com/eulas/00000000000000003b9ade29
+ *   - http://typekit.com/eulas/00000000000000003b9ade28
+ * kepler-std-semicondensed-dis:
+ *   - http://typekit.com/eulas/000000000000000000012f8b
+ *
+ * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2016-11-03 18:21:48 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=sxu1ita&ht=tk&f=7853.7855.7856.7858.18029&a=225654&app=typekit&e=css");
+
+@font-face {
+font-family:"garamond-premier-pro";
+src:url("https://use.typekit.net/af/e2b8db/00000000000000003b9ade23/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e2b8db/00000000000000003b9ade23/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e2b8db/00000000000000003b9ade23/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"garamond-premier-pro";
+src:url("https://use.typekit.net/af/ab5225/00000000000000003b9ade22/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/ab5225/00000000000000003b9ade22/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/ab5225/00000000000000003b9ade22/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"garamond-premier-pro";
+src:url("https://use.typekit.net/af/9ed68f/00000000000000003b9ade29/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/9ed68f/00000000000000003b9ade29/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/9ed68f/00000000000000003b9ade29/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"garamond-premier-pro";
+src:url("https://use.typekit.net/af/a79646/00000000000000003b9ade28/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/a79646/00000000000000003b9ade28/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/a79646/00000000000000003b9ade28/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"kepler-std-semicondensed-dis";
+src:url("https://use.typekit.net/af/ba46a5/000000000000000000012f8b/27/l?subset_id=2&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/ba46a5/000000000000000000012f8b/27/d?subset_id=2&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/ba46a5/000000000000000000012f8b/27/a?subset_id=2&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+.tk-garamond-premier-pro { font-family: "garamond-premier-pro",serif; }
+.tk-kepler-std-semicondensed-dis { font-family: "kepler-std-semicondensed-dis",serif; }

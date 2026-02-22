@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript" src="functions.js"></script>
+  <meta content="Body text | Butterick’s Practical Typography" name="title"/>
+  <meta content="Butterick’s Practical Typography" name="description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://practicaltypography.com" property="og:url"/>
+  <meta content="Body text | Butterick’s Practical Typography" property="og:title"/>
+  <meta content="Butterick’s Practical Typography" property="og:description"/>
+  <meta content="https://practicaltypography.com/images/og-image.jpg?1754606224" property="og:image"/>
+  <meta content="summary_large_image" property="twitter:card"/>
+  <meta content="https://practicaltypography.com" property="twitter:url"/>
+  <meta content="@mbutterick" property="twitter:sitel"/>
+  <meta content="Body text | Butterick’s Practical Typography" property="twitter:title"/>
+  <meta content="Butterick’s Practical Typography" property="twitter:description"/>
+  <meta content="https://practicaltypography.com/images/og-image.jpg?1754606224" property="twitter:image"/>
+  <link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>Body text | Butterick’s Practical Typography</title>
+</head>
+<body id="body" body-text="true">
+   <div id="content"><div id="doc"><title-block><topic>body text</topic><short-rule>Four important considerations</short-rule></title-block><div style="text-align:center">
+      <p>Please note:<br/><strong><span style="font-family:equity-caps">BODY TEXT*</span></strong><br/>is the most com­mon<br/>el­e­ment of a doc­u­ment.<br/>There­fore, how the body<br/>text looks will have the<br/>most no­tice­able ef­fect<br/>on the ap­pear­ance<br/>of the doc­u­ment.<br/>Con­se­quently,<br/>you should<br/>set up the<br/>body text<br/><strong><span style="font-family:equity-caps">FIRST.</span></strong></p><p>Start with<br/>font, <a class="xref" href="point-size.html">point size</a>,<br/><a class="xref" href="line-spacing.html">line spac­ing</a>,  and<br/><a class="xref" href="line-length.html">line length</a>, be­cause<br/>those four de­ci­sions will<br/>largely de­ter­mine how<br/>the body text will<br/>look. <span class="no-hyphens">OK?</span>
+      </p>
+   </div>
+   <aside><p><em>* </em>Mean­ing, the text that forms the main con­tent of your <span class="no-hyphens">document.</span></p>
+   </aside>
+   <div class="btw">
+      <div class="btw-title">by the way</div><ul><li><p>Though I’ll stop short of call­ing it a rule, I strongly rec­om­mend us­ing a serif font—not a sans serif font—for body text in print. Most books, news­pa­pers, and mag­a­zines use serif fonts for body text. It’s the tra­di­tional choice and still the best <span class="no-hyphens">choice.</span></p></li><li><p>On the web, body text can be in a sans serif or serif font. Sans ser­ifs were once pre­ferred for screen text be­cause they ren­dered bet­ter on the lower-res­o­lu­tion screens of the past. (That’s why most graph­i­cal user in­ter­faces are built around sans serif fonts). But on to­day’s screens, serif fonts look equally <span class="no-hyphens">good.</span></p></li></ul>
+      </div>
+   </div><a id="links"></a>
+   <div class="gap" style="height:1em"></div><ul class="children"></ul>
+</div>
+
+<a class="nav" href="page-margins.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="hyphenation.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="page-margins.html"><span class="arrow">←</span>&nbsp;page margins</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="page-layout.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="hyphenation.html">hyphenation&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:04pm -->
+
