@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <script type="text/javascript" src="functions.js"></script><meta content="Hard page breaks | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="Hard page breaks | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606240" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="Hard page breaks | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606240" property="twitter:image"/>
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>Hard page breaks | Butterick’s Practical Typography</title></head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><title-block><topic>hard page breaks</topic><short-rule>Move to the top of the next page</short-rule></title-block><p>The <first-use>hard page break</first-use> puts the next word at the top of a new <span class="no-hyphens">page.</span></p><table class="shortcut"><thead><tr><th class="no-hyphens"></th><th class="no-hyphens">Word</th><th class="no-hyphens">Pages</th><th class="no-hyphens">HTML</th></tr></thead><tbody><tr><td>hard page break</td><td class="instruction">control + enter</td><td class="instruction">control +
+num-pad enter</td><td class="instruction">not applicable</td></tr></tbody></table><p>To move text to the next page, use one hard page break, not mul­ti­ple <a class="xref" href="carriage-returns.html">car­riage re­turns</a>. If you use car­riage re­turns, your doc­u­ment will be­come im­pos­si­ble to edit—as soon as you change any­thing be­fore the page break, the text will go out of align­ment. The hard page break guar­an­tees con­sis­tent <span class="no-hyphens">behavior.</span></p><div class="howto"><div class="howto-name">How to insert a hard page break (alternate method)</div><p><program style="hyphens: none">Word</program><instruction><ui>Page Layout</ui> → <ui>Page Setup</ui> panel → <ui>Breaks</ui> → <ui>Page</ui> or <ui>Insert</ui> → <ui>Pages</ui> panel → <ui>Page <span class="no-hyphens">Break</span></ui></instruction></p><p><program style="hyphens: none">Mac OS Word</program><instruction><ui>Insert</ui> → <ui>Break</ui> → <ui>Page <span class="no-hyphens">Break</span></ui></instruction></p><p><program style="hyphens: none">Pages</program><instruction><ui>Insert</ui> → <ui>Page <span class="no-hyphens">Break</span></ui></instruction></p></div><div class="btw"><div class="btw-title">by the way</div><ul><li><p>Hard page breaks can be built into para­graph styles to en­sure that classes of para­graphs (e.g., ma­jor sec­tion head­ings) al­ways start at the top of a new page. See <a class="xref" href="page-break-before.html">page break be­fore</a>.</p></li><li><p>Strictly speak­ing, CSS does sup­port a set of page-break tags, but they’re only mean­ing­ful when the doc­u­ment is printed. In prac­tice, they are nei­ther com­mon nor use­ful. If you want your text to jump to the be­gin­ning of a new HTML page, you’ll need to find an­other <span class="no-hyphens">way.</span></p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+<a class="nav" href="carriage-returns.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="optional-hyphens.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="carriage-returns.html"><span class="arrow">←</span>&nbsp;carriage returns</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="type-composition.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="optional-hyphens.html">optional hyphens&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:20pm -->
+

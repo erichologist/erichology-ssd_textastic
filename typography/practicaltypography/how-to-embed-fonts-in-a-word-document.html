@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <script type="text/javascript" src="functions.js"></script><meta content="How to embed fonts in a Word document | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="How to embed fonts in a Word document | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606242" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="How to embed fonts in a Word document | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606242" property="twitter:image"/>
+<link rel="stylesheet" type="text/css" media="all" href="stylesi.css" />
+<link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>How to embed fonts in a Word document | Butterick’s Practical Typography</title></head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><topic class="small">How to embed fonts in a Word document</topic><p>Many have told me they’d switch to pro­fes­sional fonts (like those shown in <a class="xref" href="font-recommendations.html">font rec­om­men­da­tions</a>) if only they could em­bed the fonts in a Word doc­u­ment (mean­ing, the .docx for­mat) so that the ty­pog­ra­phy &amp; lay­out would be pre­served when they send the doc­u­ment to oth­ers for fur­ther <span class="no-hyphens">editing.</span></p><p>(If you just need your fonts to show up cor­rectly in a PDF, you can ig­nore the rest of this page and in­stead read <a class="xref" href="how-to-make-a-pdf.html">how to make a PDF</a>. The in­struc­tions be­low are only nec­es­sary for em­bed­ding fonts in a Word <span class="no-hyphens">document.)</span></p><p>There’s good news and bad news. The good: con­trary to ur­ban leg­end, it is pos­si­ble to em­bed fonts in a Word doc­u­ment. The bad: the tech­nique has some Mi­crosoft-im­posed lim­i­ta­tions that may make the fea­ture too dis­ap­point­ing to bother with. <span class="no-hyphens">Namely—</span></p><ol><li><p>Word can only em­bed fonts on your sys­tem that have been in­stalled in the TTF for­mat. If your font files are in the OTF for­mat, you can’t em­bed them in Word <span class="no-hyphens">documents.</span></p><p>How do you know which are TTF? It’s the most com­mon for­mat for Win­dows fonts, but you can ver­ify by dou­ble-click­ing the font file and look­ing for the la­bel<dquo-open-push></dquo-open-push><dquo-open-pull> “True­Type</dquo-open-pull> <span class="no-hyphens">outlines”.</span></p><p class="image"><img style="width:95%" src="images/windows-tt-outlines.png"/></p><p>On Mac OS, open Font Book, se­lect the font, and type ⌘I to re­veal its info sheet. The<dquo-open-push></dquo-open-push><dquo-open-pull> “Kind”</dquo-open-pull> must be<dquo-open-push></dquo-open-push><dquo-open-pull> “True­Type”,</dquo-open-pull> not<dquo-open-push></dquo-open-push><dquo-open-pull> “Open­Type</dquo-open-pull> Post­Script”. Un­for­tu­nately the most com­mon for­mat for Mac OS fonts is Open­Type Post­Script, so these can’t be <span class="no-hyphens">embedded.</span></p></li><li><aside><p>Con­fi­den­tial to font nerds: em­bed­ding per­mis­sion is con­trolled by the <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fstype">fsType flag</a> in the OS/2 <span class="no-hyphens">table.</span></p></aside><p>Word can only em­bed fonts that are marked (by the de­signer or man­u­fac­turer) as per­mit­ting em­bed­ding. <a href="/mb-fonts.html">My fonts</a> al­low em­bed­ding, but many pro­fes­sional fonts un­for­tu­nately do <span class="no-hyphens">not.</span></p><p>How do you know which fonts are so marked? In the Win­dows font ex­plorer, look for fonts where the<dquo-open-push></dquo-open-push><dquo-open-pull> “font</dquo-open-pull> em­bed­d­a­bil­ity” field is set to<dquo-open-push></dquo-open-push><dquo-open-pull> “ed­itable”</dquo-open-pull> or<dquo-open-push></dquo-open-push><dquo-open-pull> <span class="no-hyphens">“installable”.</span></dquo-open-pull></p><p class="image"><img style="width:95%" src="images/windows-font-explorer.png"/></p><p>On Mac OS, open Font Book, se­lect the font, and type ⌘I to re­veal its info sheet. The<dquo-open-push></dquo-open-push><dquo-open-pull> “Em­bed­ding”</dquo-open-pull> value must be<dquo-open-push></dquo-open-push><dquo-open-pull> “Ed­itable”</dquo-open-pull> or<dquo-open-push></dquo-open-push><dquo-open-pull> <span class="no-hyphens">“Installable”.</span></dquo-open-pull></p></li><li><p>Per­haps most in­fu­ri­at­ing, Word will em­bed any num­ber of styles per fam­ily, but it will only dis­play <strong>one</strong>. Mean­ing, if you’re us­ing reg­u­lar, italic, bold, and bold italic in your doc­u­ment, all four styles will be em­bed­ded. But when your re­cip­i­ent opens the file, only the reg­u­lar will dis­play cor­rectly; the italic, bold, and bold italic will be Word-syn­the­sized ap­prox­i­ma­tions, not the em­bed­ded <span class="no-hyphens">fonts.</span></p></li></ol><p>This last lim­i­ta­tion means that Mi­crosoft Word has reached the ex­alted state where it is not com­pat­i­ble with it­self: it is writ­ing data into its file for­mat that it can­not read. Worst of all, this is not a bug—it’s the <a href="https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oe376/22da0d03-7202-4731-9518-b96bfbe4de61">in­tended <span class="no-hyphens">behavior.</span></a></p><p><dquo-open-pull>“Word</dquo-open-pull> syn­the­sizes the bold and italic styles? Doesn’t that change the lay­out?” Yes. So if you were hop­ing that em­bed­ding the fonts would pre­serve your lay­out—be­cause isn’t that the whole point of hav­ing font em­bed­ding at all?—it won’t. Re­cip­i­ents of your Word doc­u­ment can still open &amp; edit the file. But ex­cept for the reg­u­lar style, the ty­pog­ra­phy will look janky, and the line breaks and page breaks won’t nec­es­sar­ily be <span class="no-hyphens">accurate.</span></p><p>If, hav­ing con­sid­ered these lim­i­ta­tions, you con­clude that you’d rather not tan­gle with em­bed­ding fonts in Word, I can’t blame you. As for the fog of con­fu­sion, rage, and de­spair—it’s a nor­mal side ef­fect, and will even­tu­ally <span class="no-hyphens">dissipate.</span></p><p>For the few <span class="no-hyphens">remaining—</span></p><div class="howto"><div class="howto-name">How to embed fonts in a Word document</div><p><program style="hyphens: none">Win­dows</program><instruction>Go to <ui>File</ui> and se­lect <ui>Options</ui> from the left-hand menu (if your win­dow is short, it will be stashed un­der <ui>More…</ui>). In the re­sult­ing<dquo-open-push></dquo-open-push><dquo-open-pull> “Word</dquo-open-pull> Op­tions” box, choose <ui>Save</ui> from the left side. Scroll to the sec­tion named<dquo-open-push></dquo-open-push><dquo-open-pull> “Pre­serve</dquo-open-pull> fi­delity when shar­ing this doc­u­ment”. Check the box named <ui>Embed fonts in this file</ui>. Con­firm that the other two boxes are not checked (<ui>Embed only the characters used …</ui> and <ui>Do not embed common system fonts</ui>).</instruction></p><p><program style="hyphens: none">Mac OS</program><instruction>Go to the <ui>Word</ui> menu, se­lect <ui>Preferences…</ui>, and then the <ui>Save</ui> icon (be­wil­der­ingly il­lus­trated with a 1980s floppy disk). Un­der the <ui>Font Embedding</ui> sec­tion, check the box named <ui>Embed fonts in this file</ui>.</instruction></p></div><div class="btw"><div class="btw-title">by the way</div><ul><li><p>Read Mi­crosoft’s sup­port ar­ti­cles at your own risk: <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2015/07/06/document-font-embedding-demystified/"><dquo-open-push></dquo-open-push><dquo-open-pull>“Doc­u­ment</dquo-open-pull> font em­bed­ding de­mys­ti­fied”</a> and <a href="https://support.microsoft.com/en-us/topic/how-to-embed-a-truetype-font-in-a-document-883f5212-0c1a-28df-8bb1-21273fa67e7e"><dquo-open-push></dquo-open-push><dquo-open-pull>“How</dquo-open-pull> to em­bed a True­Type font in a <span class="no-hyphens">document”.</span></a></p></li><li><p>Of­fi­cially speak­ing, Mi­crosoft Of­fice <a href="https://learn.microsoft.com/en-us/office/troubleshoot/third-party-add-ins/third-party-installed-font-fails-appearing">doesn’t sup­port <em>any</em></a> user-in­stalled fonts on Mac OS. I salute the out­laws who <span class="no-hyphens">persist.</span></p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+<a class="nav" href="how-to-make-a-pdf.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="typewriter-habits.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="how-to-make-a-pdf.html"><span class="arrow">←</span>&nbsp;How to make a PDF</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="appendix.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="typewriter-habits.html">Typewriter habits&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:22pm -->
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no"><script type="text/javascript" src="functions.js"></script><meta content="Carriage returns | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="Carriage returns | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606225" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="Carriage returns | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606225" property="twitter:image"/><link rel="stylesheet" type="text/css" media="all" href="styles.css" /><link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" /><title>Carriage returns | Butterick’s Practical Typography</title></head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><title-block><topic>carriage returns</topic><short-rule>Only when you want a new paragraph</short-rule></title-block><p>On man­ual type­writ­ers, the <first-use>car­riage</first-use> was the part on top that held the pa­per and scooted left­ward as you typed. At the end of each line, you’d push a lever to move the car­riage to the be­gin­ning of the next line. On elec­tric type­writ­ers, this lever be­came the <first-use>car­riage re­turn</first-use> key, which you’d press at the end of each <span class="no-hyphens">line.</span></p><p>The ter­mi­nol­ogy has stayed with us, but on a word proces­sor, you only use a car­riage re­turn to start a new para­graph. (In HTML, you use a for­mat­ting tag to de­note a para­graph—a car­riage re­turn has no vis­i­ble <span class="no-hyphens">effect.)</span></p><table class="shortcut"><thead><tr><th class="no-hyphens"></th><th class="no-hyphens">Word</th><th class="no-hyphens">Pages</th><th class="no-hyphens">HTML</th></tr></thead><tbody><tr><td>carriage return</td><td class="instruction">return</td><td class="instruction">return</td><td class="instruction"><code>&lt;p&gt; … &lt;/p&gt;</code></td></tr></tbody></table><aside><p>It’s fine to use mul­ti­ple car­riage re­turns to add ver­ti­cal space in <a class="xref" href="emails.html">emails</a> be­cause there’s no<br/>other way to do <span class="no-hyphens">it.</span></p></aside><p>As with the <a class="xref" href="word-spaces.html">word space</a>, use only one car­riage re­turn at a time. It’s com­mon to see mul­ti­ple car­riage re­turns used to add ver­ti­cal space be­tween para­graphs. Bad idea. If you want ver­ti­cal space af­ter a para­graph, use <a class="xref" href="space-between-paragraphs.html">space be­tween para­graphs</a>.</p><p><dquo-open-pull>“But</dquo-open-pull> it’s so much eas­ier to type two car­riage re­turns.” I know. But in long, struc­tured doc­u­ments, ex­tra car­riage re­turns cre­ate un­pre­dictable con­se­quences as the doc­u­ment is edited. What­ever time you save with the short­cut will cost you <span class="no-hyphens">later.</span></p><p>What if you get a doc­u­ment that’s al­ready lit­tered with dou­ble car­riage re­turns? Search-and-re­place works with <a class="xref" href="white-space-characters.html">white-space char­ac­ters</a> <span class="no-hyphens">too.</span></p><aside><p>If the doc­u­ment has triple car­riage re­turns or worse, you’ll have to run this re­place­ment rou­tine mul­ti­ple times to erad­i­cate them <span class="no-hyphens">all.</span></p></aside><div class="howto"><div class="howto-name">How to replace double carriage returns</div><p><program style="hyphens: none">Word</program><instruction><ui>Find and Replace</ui> → <ui>Replace</ui> → <ui>More</ui>. Use the <ui>Special</ui> menu to put two <ui>Paragraph Marks</ui> in the <ui>Find what</ui> box, and one <ui>Paragraph Mark</ui> in the <ui>Replace with</ui> box. (Care­ful: you don’t want the <ui>Paragraph Character</ui>, which de­notes the lit­eral ¶ sym­bol.) Click <ui>Replace All</ui>.</instruction></p><p><program style="hyphens: none">Mac OS Word</program><instruction><ui>Edit</ui> → <ui>Find</ui> → <ui>Advanced Find and Replace</ui> → <ui>Replace</ui> → click tri­an­gle-shaped box in lower left to re­veal the <ui>Special</ui> menu, and then con­tinue as de­scribed <span class="no-hyphens">above.</span></instruction></p><p><program style="hyphens: none">Pages</program><instruction>Open the <ui>Find</ui> panel (ei­ther <ui>Edit</ui> → <ui>Find</ui> → <ui>Find...</ui> or ⌘ + f). In the first box, type <code>\n\n</code>, and in the sec­ond, type <code>\n</code>. (<code>\n</code> is a spe­cial code rep­re­sent­ing one car­riage re­turn; <code>\n\n</code> rep­re­sents two.) Click the right-point­ing ar­row in the lower right of the <ui>Find</ui> panel. Click <ui>Replace All</ui>.</instruction></p></div><div class="btw"><div class="btw-title">by the way</div><ul><li><p>A com­mon non­sense ob­jec­tion to <a class="xref" href="one-space-between-sentences.html">one space be­tween sen­tences</a> is<dquo-open-push></dquo-open-push><dquo-open-pull> “mus­cle</dquo-open-pull> mem­ory”: roughly, <em>I learned to type on a type­writer us­ing two spaces, and my habit is too strong to change</em>. Of course, these same peo­ple suc­cess­fully changed their habit of typ­ing a car­riage re­turn af­ter each line, as type­writ­ers re­quired, to only typ­ing one af­ter a para­graph. <span class="no-hyphens">Whatever.</span></p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+
+<a class="nav" href="hard-line-breaks.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="hard-page-breaks.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="hard-line-breaks.html"><span class="arrow">←</span>&nbsp;hard line breaks</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="type-composition.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="hard-page-breaks.html">hard page breaks&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:05pm -->
+
