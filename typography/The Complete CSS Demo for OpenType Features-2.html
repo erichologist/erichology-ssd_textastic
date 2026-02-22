@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+ <html lang=en class="wf-bello-pro-1-n4-active wf-kozuka-mincho-pr6n-1-n7-active wf-kozuka-mincho-pro-1-n7-active wf-source-han-sans-japanese-1-n7-active wf-active" style>
+<meta charset=utf-8>
+<title class=sf-hidden>The Complete CSS Demo for OpenType Features</title>
+<meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name=description content="The Complete CSS Demo for OpenType Features">
+<meta name=theme-color content=#00af6c>
+<link rel=alternate href=https://sparanoid.com/lab/opentype-features/feed.xml type=application/atom+xml>
+<link rel=icon href="data:image/svg+xml;utf8,%3Csvg%20width%3D'180'%20height%3D'180'%20viewBox%3D'0%200%20180%20180'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Ctitle%3Elogo%3C%2Ftitle%3E%3Cg%20transform%3D'translate(-30%20-30)'%20fill%3D'none'%20fill-rule%3D'evenodd'%3E%3Ccircle%20fill%3D'%23FFF'%20cx%3D'120'%20cy%3D'120'%20r%3D'90'%2F%3E%3Cpath%20d%3D'M120%20195c-41.421%200-75-33.579-75-75s33.579-75%2075-75%2075%2033.579%2075%2075-33.579%2075-75%2075zm0-26c27.062%200%2049-21.938%2049-49s-21.938-49-49-49-49%2021.938-49%2049%2021.938%2049%2049%2049zm.5-16c-17.95%200-32.5-14.55-32.5-32.5S102.55%2088%20120.5%2088s32.5%2014.55%2032.5%2032.5-14.55%2032.5-32.5%2032.5z'%20fill%3D'%2308BD77'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" sizes=any type=image/svg+xml>
+<link rel=canonical href=https://sparanoid.com/lab/opentype-features/>
+<meta property=og:type content=website>
+<meta property=og:site_name content="OpenType Features in CSS">
+<meta property=og:title content="The Complete CSS Demo for OpenType Features">
+<meta property=og:url content=https://sparanoid.com/lab/opentype-features/>
+<meta property=og:description content="The Complete CSS Demo for OpenType Features">
+<meta property=og:image content=https://sparanoid.com/lab/opentype-features/logo.png>
+<meta name=twitter:card content=summary_large_image>
+<meta name=twitter:site content=@sparanoid>
+<meta name=twitter:creator content=@sparanoid>
+<link rel="stylesheet" type="text/css" media="all" href="./opentypesite.css" />
+<style class=sf-hidden>.tk-bello-pro{font-family:"bello-pro-1","bello-pro-2",sans-serif}.tk-kozuka-mincho-pr6n{font-family:"kozuka-mincho-pr6n-1","kozuka-mincho-pr6n-2",serif}.tk-source-han-sans-japanese{font-family:"source-han-sans-japanese-1","source-han-sans-japanese-2",sans-serif}</style>
+<style class=sf-hidden>@font-face{font-family:eruda-icon;src:url(data:application/x-font-woff;charset=utf-8;)format("woff")}[class*=" eruda-icon-"]{font-family:eruda-icon!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.eruda-icon-arrow-left:before{content:""}.eruda-icon-arrow-right:before{content:""}.eruda-icon-clear:before{content:""}.eruda-icon-eye:before{content:""}.eruda-icon-search:before{content:""}.eruda-icon-select:before{content:""}</style>
+<meta name=referrer content=no-referrer><style>.sf-hidden{display:none!important}</style><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><body><article lang=en>
+ <header>
+ <h1 title="The Complete CSS Demo for OpenType Features" data-title="The Complete CSS Demo for OpenType Features"> The Complete CSS Demo for OpenType Features<span class="dot dot--post">
+ </span>
+ </h1>
+ </header></article><nav class=navigation>
+ <ul>
+ <li class=current>
+ <a href=https://sparanoid.com/lab/opentype-features/>OpenType Features in CSS</a>
+ </li>
+ </ul>
+ </nav>
+ <main class=content role=main>
+ <article lang=en>
+ <header>
+ <h1 title="The Complete CSS Demo for OpenType Features" data-title="The Complete CSS Demo for OpenType Features"> The Complete CSS Demo for OpenType Features<span class="dot dot--post">
+ </span>
+ </h1>
+ </header>
+ <div class=page-content>
+ <p>This project is a comprehensive CSS <code>font-feature-settings</code> demo for OpenType features, a refined version of <a href=https://helpx.adobe.com/typekit/using/open-type-syntax.html>Syntax for OpenType features in CSS</a> by Adobe, licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/><abbr title="Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)">CC BY-NC-SA 3.0</abbr></a>.
+ </p>
+ <p>Featured fonts listed below are hand-picked with high quality. If you find some cool fonts with specific OpenType features support or want to add missing OpenType features, feel free to contribute it on <a href=https://github.com/sparanoid/opentype-features/blob/master/_app/_data/opentype-features.yml>GitHub</a>.
+ </p>
+ <p>Built with <a href=https://sparanoid.com/lab/amsf/>Almace Scaffolding</a>.
+ </p>
+ <h2 id=toc>Supported Font Features</h2>
+ <h3>Ligation &amp; Alternate</h3>
+ <ul class=feature-list>
+ <li><a href=#aalt class=tag data-tippy-content="Access All Alternates"><code>aalt</code></a></li>
+ <li><a href=#swsh class=tag data-tippy-content=Swashes><code>swsh</code></a></li>
+ <li><a href=#cswh class="tag tag-note" data-tippy-content="Contextual Swash"><code>cswh</code></a></li>
+ <li><a href=#calt class="tag tag-default tag-note" data-tippy-content="Contextual Alternates"><code>calt</code></a></li>
+ <li><a href=#hist class=tag data-tippy-content="Historical Forms"><code>hist</code></a></li>
+ <li><a href=#hlig class=tag data-tippy-content="Historical Ligatures"><code>hlig</code></a></li>
+ <li><a href=#locl class="tag tag-default tag-note" data-tippy-content="Localised Forms"><code>locl</code></a></li>
+ <li><a href=#rand class="tag tag-note" data-tippy-content=Randomize><code>rand</code></a></li>
+ <li><a href=#nalt class=tag data-tippy-content="Alternate Annotation Forms"><code>nalt</code></a></li>
+ <li><a href=#cv01-cv99 class=tag data-tippy-content="Character Variant 1 – 99"><code>cv01-cv99</code></a></li>
+ <li><a href=#salt class=tag data-tippy-content="Stylistic Alternates"><code>salt</code></a></li>
+ <li><a href=#subs class=tag data-tippy-content=Subscript><code>subs</code></a></li>
+ <li><a href=#sups class=tag data-tippy-content=Superscript><code>sups</code></a></li>
+ <li><a href=#titl class=tag data-tippy-content="Titling Alternates"><code>titl</code></a></li>
+ <li><a href=#rvrn class="tag tag-default demos-lg tag-na" data-tippy-content="Required Variation Alternates"><code>rvrn</code></a></li>
+ <li><a href=#liga class="tag tag-default" data-tippy-content="Standard Ligatures"><code>liga</code></a></li>
+ <li><a href=#dlig class=tag data-tippy-content="Discretionary Ligatures"><code>dlig</code></a></li>
+ <li><a href=#size class=tag data-tippy-content="Optical size"><code>size</code></a></li>
+ <li><a href=#ornm class=tag data-tippy-content=Ornaments><code>ornm</code></a></li>
+ </ul>
+ <h3>Positioning</h3>
+ <ul class=feature-list>
+ <li><a href=#ccmp class="tag tag-default tag-wip" data-tippy-content="Glyph Composition / Decomposition"><code>ccmp</code></a></li>
+ <li><a href=#kern class=tag data-tippy-content=Kerning><code>kern</code></a></li>
+ <li><a href=#mark class="tag tag-wip" data-tippy-content="Mark Positioning"><code>mark</code></a></li>
+ <li><a href=#mkmk class="tag tag-default demos-xl tag-wip" data-tippy-content="Mark-to-mark Positioning"><code>mkmk</code></a></li>
+ </ul>
+ <h3>Bicameral [cased] Alphabets (Latin, Greek, Cyrillic, etc.)</h3>
+ <ul class=feature-list>
+ <li><a href=#smcp class=tag data-tippy-content="Small Caps"><code>smcp</code></a></li>
+ <li><a href=#c2sc class=tag data-tippy-content="Capitals to Small Caps"><code>c2sc</code></a></li>
+ <li><a href=#pcap class=tag data-tippy-content="Petite Caps"><code>pcap</code></a></li>
+ <li><a href=#c2pc class=tag data-tippy-content="Capitals to Petite Caps"><code>c2pc</code></a></li>
+ <li><a href=#unic class=tag data-tippy-content=Unicase><code>unic</code></a></li>
+ <li><a href=#cpsp class=tag data-tippy-content="Capital Spacing"><code>cpsp</code></a></li>
+ <li><a href=#case class=tag data-tippy-content="Case Sensitive Forms"><code>case</code></a></li>
+ <li><a href=#ital class=tag data-tippy-content=Italics><code>ital</code></a></li>
+ <li><a href=#ordn class=tag data-tippy-content=Ordinals><code>ordn</code></a></li>
+ </ul>
+ <h3>Digits &amp; Math</h3>
+ <ul class=feature-list>
+ <li><a href=#lnum class=tag data-tippy-content="Lining Figures"><code>lnum</code></a></li>
+ <li><a href=#onum class=tag data-tippy-content="Oldstyle Figures"><code>onum</code></a></li>
+ <li><a href=#pnum class=tag data-tippy-content="Proportional Figures"><code>pnum</code></a></li>
+ <li><a href=#tnum class=tag data-tippy-content="Tabular Figures"><code>tnum</code></a></li>
+ <li><a href=#frac class=tag data-tippy-content=Fractions><code>frac</code></a></li>
+ <li><a href=#afrc class=tag data-tippy-content="Alternative Fractions"><code>afrc</code></a></li>
+ <li><a href=#dnom class=tag data-tippy-content=Denominator><code>dnom</code></a></li>
+ <li><a href=#numr class=tag data-tippy-content=Numerator><code>numr</code></a></li>
+ <li><a href=#sinf class="tag tag-wip" data-tippy-content="Scientific Inferiors"><code>sinf</code></a></li>
+ <li><a href=#zero class=tag data-tippy-content="Slashed Zero"><code>zero</code></a></li>
+ <li><a href=#mgrk class=tag data-tippy-content="Mathematical Greek"><code>mgrk</code></a></li>
+ <li><a href=#flac class="tag tag-na" data-tippy-content="Flattened accent forms"><code>flac</code></a></li>
+ <li><a href=#dtls class="tag tag-na" data-tippy-content="Dotless Forms"><code>dtls</code></a></li>
+ <li><a href=#ssty class="tag tag-na" data-tippy-content="Math script style alternates"><code>ssty</code></a></li>
+ </ul>
+ <h3>Stylistic Set 01-20</h3>
+ <ul class=feature-list>
+ <li><a href=#ss01-ss20 class=tag data-tippy-content="Stylistic Set 1 – 20"><code>ss01-ss20</code></a></li>
+ </ul>
+ <h3>East Asian Tetragrams (Chinese, Japanese, Korean)</h3>
+ <ul class=feature-list>
+ <li><a href=#smpl class="tag tag-wip" data-tippy-content="Simplified Forms"><code>smpl</code></a></li>
+ <li><a href=#trad class=tag data-tippy-content="Traditional Forms"><code>trad</code></a></li>
+ <li><a href=#tnam class="tag tag-wip" data-tippy-content="Traditional Name Forms"><code>tnam</code></a></li>
+ <li><a href=#expt class=tag data-tippy-content="Expert Forms"><code>expt</code></a></li>
+ <li><a href=#hojo class=tag data-tippy-content="Hojo Kanji Forms"><code>hojo</code></a></li>
+ <li><a href=#nlck class=tag data-tippy-content="NLC Kanji Forms"><code>nlck</code></a></li>
+ <li><a href=#jp78 class=tag data-tippy-content="JIS78 Forms"><code>jp78</code></a></li>
+ <li><a href=#jp83 class=tag data-tippy-content="JIS83 Forms"><code>jp83</code></a></li>
+ <li><a href=#jp90 class=tag data-tippy-content="JIS90 Forms"><code>jp90</code></a></li>
+ <li><a href=#jp04 class=tag data-tippy-content="JIS2004 Forms"><code>jp04</code></a></li>
+ <li><a href=#hngl class="tag tag-na" data-tippy-content=Hangul><code>hngl</code></a></li>
+ <li><a href=#ljmo class="tag tag-na" data-tippy-content="Leading Jamo Forms"><code>ljmo</code></a></li>
+ <li><a href=#tjmo class="tag tag-na" data-tippy-content="Trailing Jamo Forms"><code>tjmo</code></a></li>
+ <li><a href=#vjmo class="tag tag-na" data-tippy-content="Vowel Jamo Forms"><code>vjmo</code></a></li>
+ <li><a href=#fwid class=tag data-tippy-content="Full Widths"><code>fwid</code></a></li>
+ <li><a href=#hwid class=tag data-tippy-content="Half Widths"><code>hwid</code></a></li>
+ <li><a href=#halt class=tag data-tippy-content="Alternate Half Widths"><code>halt</code></a></li>
+ <li><a href=#twid class=tag data-tippy-content="Third Widths"><code>twid</code></a></li>
+ <li><a href=#qwid class=tag data-tippy-content="Quarter Widths"><code>qwid</code></a></li>
+ <li><a href=#pwid class=tag data-tippy-content="Proportional Widths"><code>pwid</code></a></li>
+ <li><a href=#palt class=tag data-tippy-content="Proportional Alternate Widths"><code>palt</code></a></li>
+ <li><a href=#pkna class=tag data-tippy-content="Proportional Kana"><code>pkna</code></a></li>
+ <li><a href=#ruby class=tag data-tippy-content="Ruby Notation Forms"><code>ruby</code></a></li>
+ <li><a href=#hkna class=tag data-tippy-content="Horizontal Kana Alternates"><code>hkna</code></a></li>
+ <li><a href=#vkna class="tag tag-na" data-tippy-content="Vertical Kana"><code>vkna</code></a></li>
+ </ul>
+ <h3>West Asian (Semitic, Arabic)</h3>
+ <ul class=feature-list>
+ <li><a href=#rlig class="tag tag-default" data-tippy-content="Required Ligatures"><code>rlig</code></a></li>
+ <li><a href=#init class="tag tag-wip" data-tippy-content="Initial Forms"><code>init</code></a></li>
+ <li><a href=#medi class="tag tag-wip" data-tippy-content="Medial Forms"><code>medi</code></a></li>
+ <li><a href=#fina class="tag tag-wip" data-tippy-content="Medial Form #3"><code>fina</code></a></li>
+ </ul>
+ <h3>South-Asian alphasyllabaries (Indic/Brahmic)</h3>
+ <p>Coming soon
+ </p>
+ <h3>Writing Direction</h3>
+ <p>Coming soon
+ </p>
+ <section id=aalt class=of-feature-aalt>
+ <h2> Access All Alternates: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#aalt class=of-spec-link data-tippy-content="View spec <code>aalt</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>aalt</code></a>
+ </h2>
+ <p>Special feature: used to present user with choice all alternate forms of the character
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Sorts+Mill+Goudy>Sorts Mill Goudy</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Yanone+Kaffeesatz>Yanone Kaffeesatz</a>
+ </li>
+ <li>…and all fonts that support ligation and alternate forms </li>
+ </ul>
+ </details>
+ <div class="demos of-sorts-mill-goudy demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>Sorts Mill Goudy's 1/3 wizard dog.</i>
+ </div>
+ <div class="demo demo-after of-aalt" data-tippy-content="<code>.of-aalt</code>"><i>Sorts Mill Goudy's 1/3 wizard dog.</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-aalt</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"aalt"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=swsh class=of-feature-swsh>
+ <h2> Swashes: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#swsh class=of-spec-link data-tippy-content="View spec <code>swsh</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>swsh</code></a>
+ </h2>
+ <p>This feature replaces default character glyphs with corresponding swash glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/bickham-script-pro-3>Bickham Script Pro 3</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-bickham-script-pro-3 demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>F</i>red <i>A</i><i>nd</i><i>G</i>inger
+ </div>
+ <div class="demo demo-after of-swsh" data-tippy-content="<code>.of-swsh</code>"><i>F</i>red <i>A</i><i>nd</i><i>G</i>inger
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-swsh</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"swsh"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=cswh class=of-feature-cswh>
+ <h2> Contextual Swash: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#cswh class="of-spec-link tag-note" data-tippy-content="View spec <code>cswh</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>cswh</code></a>
+ </h2>
+ <p>Converts letter to a swashed version based on characters around the letter
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-note" data-tippy-content="Doesn't work on Safari">Note</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/bello>Bello Pro</a> - found by <a href=https://github.com/ffoodd>ffoodd</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos tk-bello-pro demos-lg tag-note demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">I feel great today.
+ </div>
+ <div class="demo demo-after of-cswh" data-tippy-content="<code>.of-cswh</code>">I feel great today.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-cswh</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"cswh"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=calt class=of-feature-calt>
+ <h2> Contextual Alternates: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#calt class="of-spec-link tag-default tag-note" data-tippy-content="View spec <code>calt</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>calt</code></a>
+ </h2>
+ <p>This feature, in specified situations, replaces default glyphs with alternate forms which provide better joining behavior. Like ligatures (though not strictly a ligature feature), contextual alternates are commonly used to harmonize the shapes of glyphs with the surrounding context.
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default" data-tippy-content="Enabled by Default (except Chrome, cannot be disabled in Safari)">Default*</span>
+ </li>
+ <li>
+ <span class="tag tag-note" data-tippy-content="font-variant-ligatures need to be defined for cross-browser consistency">Note</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/caflisch-script-pro>Caflisch Script Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-caflisch-script-pro demos-lg tag-default tag-note demos-multiline">
+ <div class="demo demo-before of-calt--off" data-tippy-content="<code>.of-calt--off</code>">The <i>bloom</i> has g<i>one</i> off the <i>rose</i>
+ </div>
+ <div class="demo demo-after of-calt" data-tippy-content="<code>.of-calt</code>">The <i>bloom</i> has g<i>one</i> off the <i>rose</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight>
+ <pre>
+                        <code class=language-css data-lang=css><span class=nc>.of-calt--off</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"calt"</span><span class=m>0</span><span class=p>;</span><span class=nl>font-variant-ligatures</span><span class=p>:</span><span class=nb>none</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-calt</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"calt"</span><span class=p>;</span><span class=nl>font-variant-ligatures</span><span class=p>:</span><span class=n>common-ligatures</span><span class=p>;</span><span class=p>}</span>
+                        </code>
+                    </pre>
+ </figure>
+ </div>
+ </section>
+ <section id=hist class=of-feature-hist>
+ <h2> Historical Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#hist class=of-spec-link data-tippy-content="View spec <code>hist</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>hist</code></a>
+ </h2>
+ <p>Obsolete forms of characters to be applied at the user’s discretion, cf. <code class="language-plaintext highlighter-rouge">hlig</code>
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Sorts+Mill+Goudy>Sorts Mill Goudy</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Cardo>Cardo</a>
+ </li>
+ <li><a href=https://www.typotheque.com/fonts/fedra_serif_a>Fedra Serif A</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-sorts-mill-goudy demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Aparadi<i>s</i>e lo<i>s</i>t
+ </div>
+ <div class="demo demo-after of-hist" data-tippy-content="<code>.of-hist</code>">Aparadi<i>s</i>e lo<i>s</i>t
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-hist</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"hist"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=hlig class=of-feature-hlig>
+ <h2> Historical Ligatures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#hlig class=of-spec-link data-tippy-content="View spec <code>hlig</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>hlig</code></a>
+ </h2>
+ <p>Obsolete ligatures to be applied at the user’s discretion
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cardo>Cardo</a>
+ </li>
+ <li><a href=https://www.typotheque.com/fonts/fedra_serif_b>Fedra Serif B</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cardo demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>ſi</i>nful <i>ſi</i>ngular
+ </div>
+ <div class="demo demo-after of-hlig" data-tippy-content="<code>.of-hlig</code>"><i>ſi</i>nful <i>ſi</i>ngular
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-hlig</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"hlig"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=locl class=of-feature-locl>
+ <h2> Localised Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#locl class="of-spec-link tag-default tag-note" data-tippy-content="View spec <code>locl</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>locl</code></a>
+ </h2>
+ <p>Many scripts used to write multiple languages over wide geographical areas have developed localized variant forms of specific letters, which are used by individual literary communities. For example, a number of letters in the Bulgarian and Serbian alphabets have forms distinct from their Russian counterparts and from each other. In some cases the localized form differs only subtly from the script ‘norm’, in others the forms are radically distinct. This feature enables localized forms of glyphs to be substituted for default forms.
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default" data-tippy-content>Default</span>
+ </li>
+ <li>
+ <span class="tag tag-note" data-tippy-content="Doesn't work on Safari">Note</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://developer.apple.com/fonts/>San Francisco</a>
+ </li>
+ <li>Fedra Sans Pro </li>
+ </ul>
+ </details>
+ <div class="demos of-sf-pro-display demos-lg tag-default tag-note demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ru><i>гпклдвзитжц</i>
+ </div>
+ <div class="demo demo-after of-locl" data-tippy-content="<code>.of-locl</code>" lang=bg><i>гпклдвзитжц</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-locl</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"locl"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=rand class=of-feature-rand>
+ <h2> Randomize: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#rand class="of-spec-link tag-note" data-tippy-content="View spec <code>rand</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>rand</code></a>
+ </h2>
+ <p>Replaces character with random forms (meant to simulate handwriting).
+ </p>
+ <blockquote>
+ <p>It’s actually not random at all, but instead cyclical: it keeps track of each character’s last glyph variant and cycles to the next variant (or back to the first) the next time the character appears. Unfortunately this requires applications to implement a special kind of behavior for a more general class of lookup type, and as of this writing, no shipping applications support the feature as described. Typeface like FF Kosmik uses the <a href=#calt>Contextual Alternates</a> feature is therefore a compromise, but it nonetheless delivers the desired behavior, even inside the limitations of currently shipping OT-savvy apps (i.e. just InDesign 2.0.) — <a href=http://www.eccentrifuge.com/clients/KosmikOT.html>Eccentrifuge Recent Projects: Kosmik</a>
+ </p>
+ </blockquote>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-note" data-tippy-content="Browser support via Contextual Alternates (calt) for selected fonts">Note</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://www.fontshop.com/families/ff-kosmik>FF Kosmik</a>
+ </li>
+ <li><a href=https://github.com/khaledhosny/punk-otf>Punk Nova</a>
+ </li>
+ <li><a href=https://www.metaflop.com/metafonts/fetamont>MF FetaMont</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-ff-kosmik-pro demos-lg tag-note demos-multiline">
+ <div class="demo demo-before of-rand--off" data-tippy-content="<code>.of-rand--off</code>">Free stood speech 777!
+ </div>
+ <div class="demo demo-after of-rand" data-tippy-content="<code>.of-rand</code>">Free stood speech 777!
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-rand--off</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"rand"</span><span class=m>0</span><span class=p>,</span><span class=s1>"calt"</span><span class=m>0</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-rand</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"rand"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=nalt class=of-feature-nalt>
+ <h2> Alternate Annotation Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#nalt class=of-spec-link data-tippy-content="View spec <code>nalt</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>nalt</code></a>
+ </h2>
+ <p>This feature replaces default glyphs with various notational forms (e.g. glyphs placed in open or solid circles, squares, parentheses, diamonds or rounded boxes). In some cases an annotation form may already be present, but the user may want a different one.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/kozuka-mincho-pr6n>Kozuka Mincho Pr6n</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos tk-kozuka-mincho-pr6n demos-lg">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt" data-tippy-content="<code>.of-nalt</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-1" data-tippy-content="<code>.of-nalt-1</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-2" data-tippy-content="<code>.of-nalt-2</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-3" data-tippy-content="<code>.of-nalt-3</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-4" data-tippy-content="<code>.of-nalt-4</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-5" data-tippy-content="<code>.of-nalt-5</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-6" data-tippy-content="<code>.of-nalt-6</code>" lang=ja><i>あ</i>
+ </div>
+ <div class="demo demo-after of-nalt-7" data-tippy-content="<code>.of-nalt-7</code>" lang=ja><i>あ</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-nalt</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-1</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>1</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-2</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>2</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-3</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>3</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-4</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>4</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-5</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>5</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-6</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>6</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-nalt-7</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"nalt"</span><span class=m>7</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=cv01-cv99 class=of-feature-cv01-cv99>
+ <h2> Character Variant 1 – 99: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#cv01---cv99 class=of-spec-link data-tippy-content="View spec <code>cv01-cv99</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>cv01-cv99</code></a>
+ </h2>
+ <p>Multiple variants of a single character, which may not apply to many other characters, see references for voluminous documentation.
+ </p>
+ </section>
+ <section id=salt class=of-feature-salt>
+ <h2> Stylistic Alternates: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#salt class=of-spec-link data-tippy-content="View spec <code>salt</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>salt</code></a>
+ </h2>
+ <p>This feature replaces default character glyphs with stylistic alternates.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Exo title="Feature no longer available on Google Fonts">Exo</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/bree-web>Bree</a>
+ </li>
+ <li>…and many more </li>
+ </ul>
+ </details>
+ <div class="demos of-exo demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">E<i>a</i>sy S<i>un</i>day <i>m</i>o<i>rn</i>in<i>g</i><i>&amp;</i><i>m</i>y <i>f</i>o<i>x</i>.
+ </div>
+ <div class="demo demo-after of-salt" data-tippy-content="<code>.of-salt</code>">E<i>a</i>sy S<i>un</i>day <i>m</i>o<i>rn</i>in<i>g</i><i>&amp;</i><i>m</i>y <i>f</i>o<i>x</i>.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-salt</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"salt"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=subs class=of-feature-subs>
+ <h2> Subscript: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#subs class=of-spec-link data-tippy-content="View spec <code>subs</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>subs</code></a>
+ </h2>
+ <p>This feature may replace a default glyph with a subscript glyph, or it may combine a glyph substitution with positioning adjustments for proper placement.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">H<i>2</i>O, CO<i>2</i>
+ </div>
+ <div class="demo demo-after of-subs" data-tippy-content="<code>.of-subs</code>">H<i>2</i>O, CO<i>2</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-subs</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"subs"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=sups class=of-feature-sups>
+ <h2> Superscript: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#sups class=of-spec-link data-tippy-content="View spec <code>sups</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>sups</code></a>
+ </h2>
+ <p>This feature replaces lining or oldstyle figures with superior figures (primarily for footnote indication), and replaces lowercase letters with superior letters (primarily for abbreviated French titles).
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-hypatia-sans-pro demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">X<i>2</i>
+ </div>
+ <div class="demo demo-after of-sups" data-tippy-content="<code>.of-sups</code>">X<i>2</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-sups</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"sups"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=titl class=of-feature-titl>
+ <h2> Titling Alternates: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#titl class=of-spec-link data-tippy-content="View spec <code>titl</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>titl</code></a>
+ </h2>
+ <p>Replaces characters with forms suited for large type, as in titles
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Allan>Allan</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-allan demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Q<i>u</i>ick b<i>r</i>own laz<i>y</i> G<i>r</i><i>u</i>mp<i>y</i>
+ </div>
+ <div class="demo demo-after of-titl" data-tippy-content="<code>.of-titl</code>">Q<i>u</i>ick b<i>r</i>own laz<i>y</i> G<i>r</i><i>u</i>mp<i>y</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-titl</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"titl"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=rvrn class=of-feature-rvrn>
+ <h2> Required Variation Alternates: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#rvrn class="of-spec-link tag-default demos-lg tag-na" data-tippy-content="View spec <code>rvrn</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>rvrn</code></a>
+ </h2>
+ <p>Special variants of a single character, which need apply to specific font variation, required by variable fonts
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default demos-lg" data-tippy-content="Enabled by Default">Default</span>
+ </li>
+ <li>
+ <span class="tag tag-na" data-tippy-content="This demo is not available at the moment">N/A</span>
+ </li>
+ </ul>
+ <div class="demos tag-default demos-lg tag-na demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">$713,40.19
+ </div>
+ <div class="demo demo-after of-rvrn" data-tippy-content="<code>.of-rvrn</code>">$713,40.19
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-rvrn</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"rvrn"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=liga class=of-feature-liga>
+ <h2> Standard Ligatures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#liga class="of-spec-link tag-default" data-tippy-content="View spec <code>liga</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>liga</code></a>
+ </h2>
+ <p>This feature replaces a sequence of glyphs with a single glyph, called a ligature, which is preferred for typographic purposes. When enabled, this feature inserts the ligatures which the designer/manufacturer judges should be used in normal conditions.
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default" data-tippy-content="Enabled by Default">Default</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro tag-default demos-multiline">
+ <div class="demo demo-before of-liga--off" data-tippy-content="<code>.of-liga--off</code>">Di<i>ff</i>erent <i>fi</i>rst A<i>fl</i>iction a<i>ffi</i>davit <i>Th</i>ere
+ </div>
+ <div class="demo demo-after of-liga" data-tippy-content="<code>.of-liga</code>">Di<i>ff</i>erent <i>fi</i>rst A<i>fl</i>iction a<i>ffi</i>davit <i>Th</i>ere
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-liga--off</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"liga"</span><span class=m>0</span><span class=p>,</span><span class=s1>"clig"</span><span class=m>0</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-liga</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"liga"</span><span class=p>,</span><span class=s1>"clig"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=dlig class=of-feature-dlig>
+ <h2> Discretionary Ligatures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#dlig class=of-spec-link data-tippy-content="View spec <code>dlig</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>dlig</code></a>
+ </h2>
+ <p>This feature, in specified situations, replaces default glyphs with alternate forms which provide better joining behavior. Like ligatures (though not strictly a ligature feature), contextual alternates are commonly used to harmonize the shapes of glyphs with the surrounding context.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>ct sp st</i>
+ </div>
+ <div class="demo demo-after of-dlig" data-tippy-content="<code>.of-dlig</code>"><i>ct sp st</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-dlig</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"dlig"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=size class=of-feature-size>
+ <h2> Optical size: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#size class=of-spec-link data-tippy-content="View spec <code>size</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>size</code></a>
+ </h2>
+ <p>Not a lookup: feature’s table provides to applications information about the appearance and intent of the font, to aid in font selection. Demo is not available on the web.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Source+Sans+Pro>Source Sans Pro</a>
+ </li>
+ </ul>
+ </details>
+ </section>
+ <section id=ornm class=of-feature-ornm>
+ <h2> Ornaments: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#ornm class=of-spec-link data-tippy-content="View spec <code>ornm</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>ornm</code></a>
+ </h2>
+ <p>This is a dual-function feature, which uses two input methods to give the user access to ornament glyphs (e.g. fleurons, dingbats and border elements) in the font. One method replaces the bullet character with a selection from the full set of available ornaments; the other replaces specific “lower ASCII” characters with ornaments assigned to them. The first approach supports the general or browsing user; the second supports the power user.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li>Clara </li>
+ </ul>
+ </details>
+ <div class="demos of-clara demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">abcdefg
+ </div>
+ <div class="demo demo-after of-ornm" data-tippy-content="<code>.of-ornm</code>">abcdefg
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-ornm</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ornm"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=ccmp class=of-feature-ccmp>
+ <h2> Glyph Composition / Decomposition: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#ccmp class="of-spec-link tag-default tag-wip" data-tippy-content="View spec <code>ccmp</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>ccmp</code></a>
+ </h2>
+ <p>To minimize the number of glyph alternates, it is sometimes desired to decompose a character into two glyphs. Additionally, it may be preferable to compose two characters into a single glyph for better glyph processing. This feature permits such composition/decompostion. The feature should be processed as the first feature processed, and should be processed only when it is called.
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default" data-tippy-content="Enabled by Default (except Chrome and Safari)">Default*</span>
+ </li>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="This demo is working in progress">WIP</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/lists/source-han-sans>Source Han Sans (Japanese)</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos tk-source-han-sans-japanese demos-xl tag-default tag-wip">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ja><i>あﾞ</i>
+ </div>
+ <div class="demo demo-after of-ccmp" data-tippy-content="<code>.of-ccmp</code>" lang=ja><i>あﾞ</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-ccmp</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ccmp"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=kern class=of-feature-kern>
+ <h2> Kerning: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#kern class=of-spec-link data-tippy-content="View spec <code>kern</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>kern</code></a>
+ </h2>
+ <p>This feature adjusts the amount of space between glyphs, generally to provide optically consistent spacing between glyphs. Although a well-designed typeface has consistent inter-glyph spacing overall, some glyph combinations require adjustment for improved legibility. Note that this feature may apply to runs of more than two glyphs, and would not be used in monospaced fonts. Also note that this feature does not apply to text set vertically.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li>Most OpenType fonts support this feature </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg demos-multiline">
+ <div class="demo demo-before of-kern--off" data-tippy-content="<code>.of-kern--off</code>"><i>Try As You Will</i>
+ </div>
+ <div class="demo demo-after of-kern" data-tippy-content="<code>.of-kern</code>"><i>Try As You Will</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-kern--off</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=nb>normal</span><span class=p>;</span><span class=nl>font-kerning</span><span class=p>:</span><span class=nb>none</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-kern</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"kern"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=mark class=of-feature-mark>
+ <h2> Mark Positioning: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#mark class="of-spec-link tag-wip" data-tippy-content="View spec <code>mark</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>mark</code></a>
+ </h2>
+ <p>Fine positioning of a mark glyph to a base character
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="I need help/contribtion for this feature">help-wanted</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cairo>Cairo</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Fira+Sans>Fira Sans</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cairo demos-xl tag-wip">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ar>ۂ<i>ي</i>ئ
+ </div>
+ <div class="demo demo-after of-mark" data-tippy-content="<code>.of-mark</code>" lang=ar>ۂ<i>ي</i>ئ
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-mark</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"mark"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=mkmk class=of-feature-mkmk>
+ <h2> Mark-to-mark Positioning: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#mkmk class="of-spec-link tag-default demos-xl tag-wip" data-tippy-content="View spec <code>mkmk</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>mkmk</code></a>
+ </h2>
+ <p>Fine positioning of a mark glyph to another mark character
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default demos-xl" data-tippy-content="Enabled by Default">Default</span>
+ </li>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="I need help/contribtion for this feature">help-wanted</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cairo>Cairo</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Fira+Sans>Fira Sans</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cairo tag-default demos-xl tag-wip">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ar><i>ۂ</i>
+ </div>
+ <div class="demo demo-after of-mkmk" data-tippy-content="<code>.of-mkmk</code>" lang=ar><i>ۂ</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-mkmk</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"mkmk"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=smcp class=of-feature-smcp>
+ <h2> Small Caps: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#smcp class=of-spec-link data-tippy-content="View spec <code>smcp</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>smcp</code></a>
+ </h2>
+ <p>This feature turns lowercase characters into small capitals.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://developer.apple.com/fonts/>San Francisco</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-sf-pro-display demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">C<i>hanging</i><i>case to</i> S<i>mall</i> C<i>aps</i>.
+ </div>
+ <div class="demo demo-after of-smcp" data-tippy-content="<code>.of-smcp</code>">C<i>hanging</i><i>case to</i> S<i>mall</i> C<i>aps</i>.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-smcp</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"smcp"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=c2sc class=of-feature-c2sc>
+ <h2> Capitals to Small Caps: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#c2sc class=of-spec-link data-tippy-content="View spec <code>c2sc</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>c2sc</code></a>
+ </h2>
+ <p>This feature turns uppercase characters into small capitals.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://developer.apple.com/fonts/>San Francisco</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-sf-pro-display demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>Changing case to Small Caps</i>.
+ </div>
+ <div class="demo demo-after of-c2sc" data-tippy-content="<code>.of-c2sc</code>"><i>Changing case to Small Caps</i>.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-c2sc</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"c2sc"</span><span class=p>,</span><span class=s1>"smcp"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=pcap class=of-feature-pcap>
+ <h2> Petite Caps: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#pcap class=of-spec-link data-tippy-content="View spec <code>pcap</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>pcap</code></a>
+ </h2>
+ <p>Substitute lower-case letters with their petite caps analogs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/EB+Garamond>EB Garamond</a>
+ </li>
+ <li><a href=https://github.com/Fuzzypeg/Coelacanth>Coelacanth</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-eb-garamond demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Georg Duffner - Principal Design
+ </div>
+ <div class="demo demo-after of-pcap" data-tippy-content="<code>.of-pcap</code>">Georg Duffner - Principal Design
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-pcap</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"pcap"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=c2pc class=of-feature-c2pc>
+ <h2> Capitals to Petite Caps: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#c2pc class=of-spec-link data-tippy-content="View spec <code>c2pc</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>c2pc</code></a>
+ </h2>
+ <p>Substitutes capital letters with petite caps.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/EB+Garamond>EB Garamond</a>
+ </li>
+ <li><a href=https://github.com/Fuzzypeg/Coelacanth>Coelacanth</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-eb-garamond demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Georg Duffner - Principal Design
+ </div>
+ <div class="demo demo-after of-c2pc" data-tippy-content="<code>.of-c2pc</code>">Georg Duffner - Principal Design
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-c2pc</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"c2pc"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=unic class=of-feature-unic>
+ <h2> Unicase: <a href=https://docs.microsoft.com/typography/opentype/spec/features_uz#unic class=of-spec-link data-tippy-content="View spec <code>unic</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>unic</code></a>
+ </h2>
+ <p>Replaces lowercase and uppercase letters with a set of single case glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li>Arial (Windows version) </li>
+ <li>Hermes FB </li>
+ </ul>
+ </details>
+ <div class="demos of-arial demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>Server Offline</i>
+ </div>
+ <div class="demo demo-after of-unic" data-tippy-content="<code>.of-unic</code>"><i>Server Offline</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-unic</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"unic"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=cpsp class=of-feature-cpsp>
+ <h2> Capital Spacing: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#cpsp class=of-spec-link data-tippy-content="View spec <code>cpsp</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>cpsp</code></a>
+ </h2>
+ <p>Adjusts spacing between letters in all-capitals text
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Sorts+Mill+Goudy>Sorts Mill Goudy</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-sorts-mill-goudy demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>THE LAZY DOG</i>.
+ </div>
+ <div class="demo demo-after of-cpsp" data-tippy-content="<code>.of-cpsp</code>"><i>THE LAZY DOG</i>.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-cpsp</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"cpsp"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=case class=of-feature-case>
+ <h2> Case Sensitive Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#case class=of-spec-link data-tippy-content="View spec <code>case</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>case</code></a>
+ </h2>
+ <p>Replace characters, especially punctuation, with forms better suited for all-capital text, cf. <code class="language-plaintext highlighter-rouge">titl</code>
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://developer.apple.com/fonts/>San Francisco</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-sf-pro-display demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>{</i>¿¡HO<i>-</i>HO<i>—</i>HO!?<i>}</i><i>[</i>Target<i>]</i><i>(</i>New<i>)</i>
+ </div>
+ <div class="demo demo-after of-case" data-tippy-content="<code>.of-case</code>"><i>{</i>¿¡HO<i>-</i>HO<i>—</i>HO!?<i>}</i><i>[</i>Target<i>]</i><i>(</i>New<i>)</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-case</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"case"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=ital class=of-feature-ital>
+ <h2> Italics: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#ital class=of-spec-link data-tippy-content="View spec <code>ital</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>ital</code></a>
+ </h2>
+ <p>Some fonts (such as Adobe’s Pro Japanese fonts) will have both Roman and Italic forms of some characters in a single font. This feature replaces the Roman glyphs with the corresponding Italic glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/kozuka-mincho-pr6n>Kozuka Mincho Pr6n</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos tk-kozuka-mincho-pr6n demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>Infinite Jest</i>を読みたい。
+ </div>
+ <div class="demo demo-after of-ital" data-tippy-content="<code>.of-ital</code>"><i>Infinite Jest</i>を読みたい。
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-ital</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ital"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=ordn class=of-feature-ordn>
+ <h2> Ordinals: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#ordn class=of-spec-link data-tippy-content="View spec <code>ordn</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>ordn</code></a>
+ </h2>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">1<i>st</i>, 2<i>nd</i>, 3<i>rd</i>
+ </div>
+ <div class="demo demo-after of-ordn" data-tippy-content="<code>.of-ordn</code>">1<i>st</i>, 2<i>nd</i>, 3<i>rd</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-ordn</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ordn"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=lnum class=of-feature-lnum>
+ <h2> Lining Figures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#lnum class=of-spec-link data-tippy-content="View spec <code>lnum</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>lnum</code></a>
+ </h2>
+ <p>This feature changes numeral glyphs from default or oldstyle figures to lining figures. Note that some fonts may contain lining figures as their default figure style, in which case enabling this feature may not appear to affect the style of glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ <li>…and many more </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg demos-multiline">
+ <div class="demo demo-after of-lnum" data-tippy-content="<code>.of-lnum</code>"><i><a href=tel:0123456789>0123456789</a></i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-lnum</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"lnum"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=onum class=of-feature-onum>
+ <h2> Oldstyle Figures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#onum class=of-spec-link data-tippy-content="View spec <code>onum</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>onum</code></a>
+ </h2>
+ <p>This feature changes numeral glyphs from default or lining figures to oldstyle figures. Note that some fonts may contain oldstyle figures as their default figure style, in which case enabling this feature may not appear to affect the style of glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ <li>…and many more </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg demos-multiline">
+ <div class="demo demo-after of-onum" data-tippy-content="<code>.of-onum</code>"><i><a href=tel:0123456789>0123456789</a></i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-onum</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"onum"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=pnum class=of-feature-pnum>
+ <h2> Proportional Figures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#pnum class=of-spec-link data-tippy-content="View spec <code>pnum</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>pnum</code></a>
+ </h2>
+ <p>This feature replaces numeral glyphs set on uniform (tabular) widths with corresponding glyphs set on glyph-specific (proportional) widths. Note that some fonts may contain proportional figures by default, in which case enabling this feature may not appear to affect the width of glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-hypatia-sans-pro demos-lg demos-outline demos-multiline">
+ <div class="demo demo-after of-pnum" data-tippy-content="<code>.of-pnum</code>"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-pnum</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"pnum"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=tnum class=of-feature-tnum>
+ <h2> Tabular Figures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#tnum class=of-spec-link data-tippy-content="View spec <code>tnum</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>tnum</code></a>
+ </h2>
+ <p>This feature replaces numeral glyphs set on glyph-specific (proportional) widths with corresponding glyphs set on uniform (tabular) widths. Note that some fonts may contain tabular figures by default, in which case enabling this feature may not appear to affect the width of glyphs.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-hypatia-sans-pro demos-lg demos-outline demos-multiline">
+ <div class="demo demo-after of-tnum" data-tippy-content="<code>.of-tnum</code>"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-tnum</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"tnum"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=frac class=of-feature-frac>
+ <h2> Fractions: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#frac class=of-spec-link data-tippy-content="View spec <code>frac</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>frac</code></a>
+ </h2>
+ <p>This feature replaces figures separated by a slash with common (diagonal) fractions.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Ubuntu+Mono>Ubuntu Mono</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ <li><a href=https://developer.apple.com/fonts/>San Francisco</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-ubuntu-mono demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ <div class="demo demo-after of-frac" data-tippy-content="<code>.of-frac</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-frac</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"frac"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=afrc class=of-feature-afrc>
+ <h2> Alternative Fractions: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#afrc class=of-spec-link data-tippy-content="View spec <code>afrc</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>afrc</code></a>
+ </h2>
+ <p>Converts figures separated by slash with alternative stacked fraction form
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Ubuntu+Mono>Ubuntu Mono</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-ubuntu-mono demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ <div class="demo demo-after of-afrc" data-tippy-content="<code>.of-afrc</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-afrc</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"afrc"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=dnom class=of-feature-dnom>
+ <h2> Denominator: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#dnom class=of-spec-link data-tippy-content="View spec <code>dnom</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>dnom</code></a>
+ </h2>
+ <p>Converts to appropriate fraction denominator form, invoked by <code class="language-plaintext highlighter-rouge">frac</code>
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Ubuntu+Mono>Ubuntu Mono</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-ubuntu-mono demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ <div class="demo demo-after of-dnom" data-tippy-content="<code>.of-dnom</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-dnom</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"dnom"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=numr class=of-feature-numr>
+ <h2> Numerator: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#numr class=of-spec-link data-tippy-content="View spec <code>numr</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>numr</code></a>
+ </h2>
+ <p>Converts to appropriate fraction numerator form, invoked by <code class="language-plaintext highlighter-rouge">frac</code>
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Ubuntu+Mono>Ubuntu Mono</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-ubuntu-mono demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ <div class="demo demo-after of-numr" data-tippy-content="<code>.of-numr</code>">1 <i>3/4</i> C of flour, <i>1/2</i> cup.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-numr</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"numr"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=sinf class=of-feature-sinf>
+ <h2> Scientific Inferiors: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#sinf class="of-spec-link tag-wip" data-tippy-content="View spec <code>sinf</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>sinf</code></a>
+ </h2>
+ <p>As in “H<sub>2</sub>O”, “SO<sub>x</sub>”, “YC<sub>b</sub>C<sub>r</sub>”, or “NO<sub>2</sub>”
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="This demo is partially supported">Partial</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/bree-web>Bree</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Ubuntu+Mono>Ubuntu Mono</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-warnock-pro demos-lg tag-wip demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">H<i>2</i>O SO<i>x</i> YC<i>b</i>C<i>r</i> NO<i>2</i>
+ </div>
+ <div class="demo demo-after of-sinf" data-tippy-content="<code>.of-sinf</code>">H<i>2</i>O SO<i>x</i> YC<i>b</i>C<i>r</i> NO<i>2</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-sinf</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"sinf"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=zero class=of-feature-zero>
+ <h2> Slashed Zero: <a href=https://docs.microsoft.com/typography/opentype/spec/features_uz#zero class=of-spec-link data-tippy-content="View spec <code>zero</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>zero</code></a>
+ </h2>
+ <p>Replaces 0 figure with slashed 0
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/warnock-pro>Warnock Pro</a>
+ </li>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Exo>Exo</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-hypatia-sans-pro demos-xl">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>"><i>0</i>
+ </div>
+ <div class="demo demo-after of-zero" data-tippy-content="<code>.of-zero</code>"><i>0</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-zero</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"zero"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=mgrk class=of-feature-mgrk>
+ <h2> Mathematical Greek: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#mgrk class=of-spec-link data-tippy-content="View spec <code>mgrk</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>mgrk</code></a>
+ </h2>
+ <p>Replaces Greek characters with special forms for use in mathematics
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Fira+Sans>Fira Sans</a>
+ </li>
+ <li><a href=https://www.myfonts.com/fonts/fontfont/ff-din/>FF DIN</a>
+ </li>
+ <li><a href=https://www.myfonts.com/fonts/fontfont/ff-meta/>FF Meta</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-fira-sans demos-xl">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=gr><i>Σ∑</i>
+ </div>
+ <div class="demo demo-after of-mgrk" data-tippy-content="<code>.of-mgrk</code>" lang=gr><i>Σ∑</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-mgrk</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"mgrk"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=flac class=of-feature-flac>
+ <h2> Flattened accent forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#flac class="of-spec-link tag-na" data-tippy-content="View spec <code>flac</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>flac</code></a>
+ </h2>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-na" data-tippy-content="This demo is not available at the moment">N/A</span>
+ </li>
+ </ul>
+ <div class="demos tag-na demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Not available, feel free to contribute!
+ </div>
+ <div class="demo demo-after of-flac" data-tippy-content="<code>.of-flac</code>">Not available, feel free to contribute!
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-flac</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"flac"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=dtls class=of-feature-dtls>
+ <h2> Dotless Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ae#dtls class="of-spec-link tag-na" data-tippy-content="View spec <code>dtls</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>dtls</code></a>
+ </h2>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-na" data-tippy-content="This demo is not available at the moment">N/A</span>
+ </li>
+ </ul>
+ <div class="demos tag-na demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Not available, feel free to contribute!
+ </div>
+ <div class="demo demo-after of-dtls" data-tippy-content="<code>.of-dtls</code>">Not available, feel free to contribute!
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-dtls</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"dtls"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=ssty class=of-feature-ssty>
+ <h2> Math script style alternates: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#ssty class="of-spec-link tag-na" data-tippy-content="View spec <code>ssty</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>ssty</code></a>
+ </h2>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-na" data-tippy-content="This demo is not available at the moment">N/A</span>
+ </li>
+ </ul>
+ <div class="demos tag-na demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">Not available, feel free to contribute!
+ </div>
+ <div class="demo demo-after of-ssty" data-tippy-content="<code>.of-ssty</code>">Not available, feel free to contribute!
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-ssty</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ssty"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=ss01-ss20 class=of-feature-ss01-ss20>
+ <h2> Stylistic Set 1 – 20: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#ss01---ss20 class=of-spec-link data-tippy-content="View spec <code>ss01-ss20</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>ss01-ss20</code></a>
+ </h2>
+ <p>This feature replaces sets of default character glyphs with stylistic variants. Glyphs in stylistic sets may be designed to harmonise visually, interact in particular ways, or otherwise work together. See also: <a href=#salt>stylistic alternates (salt)</a>, which is designed to offer stylistic alternatives of individual glyphs.
+ </p>
+ <p>To enable it with <code class="language-plaintext highlighter-rouge">font-feature-settings</code>, use the <code class="language-plaintext highlighter-rouge">ss##</code> feature tag, where <code class="language-plaintext highlighter-rouge">##</code> is any two-digit combination from 01–20. Note that fonts employ stylistic sets in completely arbitrary and custom ways. For example, two different fonts may employ the same feature (like <code class="language-plaintext highlighter-rouge">ss01</code>) to replace totally different sets of glyphs; or, a particular font may use <code class="language-plaintext highlighter-rouge">ss01</code> and <code class="language-plaintext highlighter-rouge">ss03</code> to replace sets of glyphs, but ignore <code class="language-plaintext highlighter-rouge">ss02</code>. Some type foundries offer documentation about how features are organized.
+ </p>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://typekit.com/fonts/hypatia-sans-pro>Hypatia Sans Pro</a>
+ </li>
+ <li><a href=https://developer.apple.com/fonts/>San Francisco</a>
+ </li>
+ <li>…and many more </li>
+ </ul>
+ </details>
+ <div class="demos of-hypatia-sans-pro demos-sm demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss01-20" data-tippy-content="<code>.of-ss01-20</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss01" data-tippy-content="<code>.of-ss01</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss02" data-tippy-content="<code>.of-ss02</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss03" data-tippy-content="<code>.of-ss03</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss04" data-tippy-content="<code>.of-ss04</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss05" data-tippy-content="<code>.of-ss05</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss06" data-tippy-content="<code>.of-ss06</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss07" data-tippy-content="<code>.of-ss07</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss08" data-tippy-content="<code>.of-ss08</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss09" data-tippy-content="<code>.of-ss09</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss10" data-tippy-content="<code>.of-ss10</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss11" data-tippy-content="<code>.of-ss11</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss12" data-tippy-content="<code>.of-ss12</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss13" data-tippy-content="<code>.of-ss13</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss14" data-tippy-content="<code>.of-ss14</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss15" data-tippy-content="<code>.of-ss15</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss16" data-tippy-content="<code>.of-ss16</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss17" data-tippy-content="<code>.of-ss17</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss18" data-tippy-content="<code>.of-ss18</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss19" data-tippy-content="<code>.of-ss19</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ <div class="demo demo-after of-ss20" data-tippy-content="<code>.of-ss20</code>">The quick brown fox jumps over the lazy dog.
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-ss01-20</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss01"</span><span class=p>,</span><span class=s1>"ss02"</span><span class=p>,</span><span class=s1>"ss03"</span><span class=p>,</span><span class=s1>"ss04"</span><span class=p>,</span><span class=s1>"ss05"</span><span class=p>,</span><span class=s1>"ss06"</span><span class=p>,</span><span class=s1>"ss07"</span><span class=p>,</span><span class=s1>"ss08"</span><span class=p>,</span><span class=s1>"ss09"</span><span class=p>,</span><span class=s1>"ss10"</span><span class=p>,</span><span class=s1>"ss11"</span><span class=p>,</span><span class=s1>"ss12"</span><span class=p>,</span><span class=s1>"ss13"</span><span class=p>,</span><span class=s1>"ss14"</span><span class=p>,</span><span class=s1>"ss15"</span><span class=p>,</span><span class=s1>"ss16"</span><span class=p>,</span><span class=s1>"ss17"</span><span class=p>,</span><span class=s1>"ss18"</span><span class=p>,</span><span class=s1>"ss19"</span><span class=p>,</span><span class=s1>"ss20"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss01</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss01"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss02</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss02"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss03</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss03"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss04</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss04"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss05</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss05"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss06</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss06"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss07</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss07"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss08</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss08"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss09</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss09"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss10</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss10"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss11</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss11"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss12</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss12"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss13</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss13"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss14</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss14"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss15</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss15"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss16</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss16"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss17</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss17"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss18</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss18"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss19</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss19"</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-ss20</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"ss20"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=rlig class=of-feature-rlig>
+ <h2> Required Ligatures: <a href=https://docs.microsoft.com/typography/opentype/spec/features_pt#rlig class="of-spec-link tag-default" data-tippy-content="View spec <code>rlig</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>rlig</code></a>
+ </h2>
+ <p>Ligatures required for correct text display (any script, but in cursive)
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-default" data-tippy-content="Enabled by Default">Default</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cairo>Cairo</a>
+ </li>
+ <li><a href=https://fonts.google.com/specimen/Amiri>Amiri</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cairo demos-xl tag-default">
+ <div class="demo demo-before of-rlig--off" data-tippy-content="<code>.of-rlig--off</code>" lang=ar><i>لا</i>
+ </div>
+ <div class="demo demo-after of-rlig" data-tippy-content="<code>.of-rlig</code>" lang=ar><i>لا</i>
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-rlig--off</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"rlig"</span><span class=m>0</span><span class=p>;</span><span class=p>}</span><span class=nc>.of-rlig</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"rlig"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=init class=of-feature-init>
+ <h2> Initial Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#init class="of-spec-link tag-wip" data-tippy-content="View spec <code>init</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>init</code></a>
+ </h2>
+ <p>Substitutes a special form of a letter occurring at the beginning of a word (required by Arabic and Syriac)
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="I need help/contribtion for this feature">help-wanted</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cairo>Cairo</a>
+ </li>
+ <li><a href=https://www.typotheque.com/fonts/fedra_arabic>Fedra Arabic</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cairo demos-rtl tag-wip demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ar>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق
+ </div>
+ <div class="demo demo-after of-init" data-tippy-content="<code>.of-init</code>" lang=ar>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-init</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"init"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=medi class=of-feature-medi>
+ <h2> Medial Forms: <a href=https://docs.microsoft.com/typography/opentype/spec/features_ko#medi class="of-spec-link tag-wip" data-tippy-content="View spec <code>medi</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>medi</code></a>
+ </h2>
+ <p>Substitutes a special form of letters between other letters in words (required by Arabic and Syriac)
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="I need help/contribtion for this feature">help-wanted</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cairo>Cairo</a>
+ </li>
+ <li><a href=https://www.typotheque.com/fonts/fedra_arabic>Fedra Arabic</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cairo demos-rtl tag-wip demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ar>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق
+ </div>
+ <div class="demo demo-after of-medi" data-tippy-content="<code>.of-medi</code>" lang=ar>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-medi</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"medi"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <section id=fina class=of-feature-fina>
+ <h2> Medial Form #3: <a href=https://docs.microsoft.com/typography/opentype/spec/features_fj#fina class="of-spec-link tag-wip" data-tippy-content="View spec <code>fina</code> at Microsoft" target=_blank rel="noopener noreferrer"><code>fina</code></a>
+ </h2>
+ <p>Substitutes a special form of a letter at end of words (required by Arabic and Syriac)
+ </p>
+ <ul class=meta>
+ <li>
+ <span class="tag tag-wip" data-tippy-content="I need help/contribtion for this feature">help-wanted</span>
+ </li>
+ </ul>
+ <details>
+ <summary>Featured Fonts</summary>
+ <ul class=links>
+ <li><a href=https://fonts.google.com/specimen/Cairo>Cairo</a>
+ </li>
+ <li><a href=https://www.typotheque.com/fonts/fedra_arabic>Fedra Arabic</a>
+ </li>
+ </ul>
+ </details>
+ <div class="demos of-cairo demos-rtl tag-wip demos-multiline">
+ <div class="demo demo-before of-normal" data-tippy-content="<code>.of-normal</code>" lang=ar>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق
+ </div>
+ <div class="demo demo-after of-fina" data-tippy-content="<code>.of-fina</code>" lang=ar>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق
+ </div>
+ </div>
+ <div class=demo-code>
+ <figure class=highlight><pre><code class=language-css data-lang=css><span class=nc>.of-fina</span><span class=p>{</span><span class=nl>font-feature-settings</span><span class=p>:</span><span class=s1>"fina"</span><span class=p>;</span><span class=p>}</span></code></pre>
+ </figure>
+ </div>
+ </section>
+ <hr>
+ <ul>
+ <li><a href=https://www.typotheque.com/articles/opentype_features_in_css>Typotheque - OpenType features in CSS by Gustavo Ferreira</a></li>
+ <li><a href=https://blog.fontlab.com/font-tech/opentype-layout/opentype-layout-feature-classification/>FontLab Blog - OpenType Layout feature classification</a></li>
+ <li><a href=https://github.com/thisarmy/fontsinfo>Thisarmy - Google Font OpenType Feature Preview</a></li>
+ <li><a href=https://docs.microsoft.com/en-us/typography/opentype/spec/ttoreg>Microsoft Docs - OpenType Layout tag registry</a></li>
+ <li><a href=https://helpx.adobe.com/typekit/using/open-type-syntax.html>Adobe - Syntax for OpenType features in CSS</a></li>
+ <li><a href=https://en.wikipedia.org/wiki/List_of_typographic_features>Wikipedia - List of typographic features</a></li>
+ <li><a href=http://luc.devroye.org/randomizedfonts.html>Luc Devroye - Randomized fonts</a></li>
+ <li>Special thanks: <a href=https://gordianz.com/>Gordian Zhang</a></li>
+ </ul>
+ <p>You can <a href=https://sparanoid.com/donate/>donate</a> to help me renew <a href=https://typekit.com/ class=link>TypeKit</a> subscription 😉
+ </p>
+ <a class="back-to-top sf-hidden" href=#toc>
+ 
+ </a>
+ <div></div>
+ </div>
+ </article>
+ </main>
+ <footer class=footer>
+ <ul>
+ <li><a href=https://sparanoid.com/lab/opentype-features/>OpenType Features in CSS</a></li>
+ <li>
+ <a href=https://sparanoid.com/lab/amsf/ title="Almace Scaffolding with theme Curtana">AMSF</a>
+ </li>
+ </ul>
+ </footer>
+ <div class=__chii-hide__ style="display:none;position:absolute;pointer-events:none></div><div style=color-scheme:initial;writing-mode:initial;-webkit-ruby-position:initial;color:initial;font-family:initial;font-feature-settings:initial;font-kerning:initial;font-optical-sizing:initial;font-palette:initial;font-size:initial;font-stretch:initial;font-style:initial;font-synthesis:initial;font-variant-alternates:initial;font-variant-caps:initial;font-variant-east-asian:initial;font-variant-ligatures:initial;font-variant-numeric:initial;font-variant-position:initial;font-variation-settings:initial;font-weight:initial;text-orientation:initial;text-rendering:initial;-webkit-font-smoothing:initial;-webkit-locale:initial;-webkit-text-size-adjust:initial;-webkit-text-zoom:initial;letter-spacing:initial;accent-color:initial;border-collapse:initial;caption-side:initial;caret-color:initial;clip-rule:initial;color-interpolation:initial;color-interpolation-filters:initial;cursor:initial;empty-cells:initial;fill:initial;fill-opacity:initial;fill-rule:initial;glyph-orientation-horizontal:initial;glyph-orientation-vertical:initial;hanging-punctuation:initial;image-orientation:initial;image-rendering:initial;kerning:initial;line-break:initial;line-height:initial;list-style:initial;marker-end:initial;marker-mid:initial;marker-start:initial;orphans:initial;overflow-wrap:initial;pointer-events:initial;print-color-adjust:initial;quotes:initial;shape-rendering:initial;speak-as:initial;stroke:initial;stroke-color:initial;stroke-dasharray:initial;stroke-dashoffset:initial;stroke-linecap:initial;stroke-linejoin:initial;stroke-miterlimit:initial;stroke-opacity:initial;stroke-width:initial;tab-size:initial;text-align:initial;text-align-last:initial;text-anchor:initial;text-decoration-skip-ink:initial;text-emphasis-color:initial;text-emphasis-position:initial;text-emphasis-style:initial;text-indent:initial;text-shadow:initial;text-transform:initial;text-underline-offset:initial;text-underline-position:initial;visibility:initial;white-space:initial;widows:initial;word-break:initial;word-spacing:initial;-internal-text-autosizing-status:initial;border-spacing:initial;-webkit-box-direction:initial;-webkit-cursor-visibility:initial;-webkit-hyphenate-character:initial;-webkit-hyphenate-limit-after:initial;-webkit-hyphenate-limit-before:initial;-webkit-hyphenate-limit-lines:initial;-webkit-hyphens:initial;-webkit-line-align:initial;-webkit-line-box-contain:initial;-webkit-line-grid:initial;-webkit-line-snap:initial;-webkit-nbsp-mode:initial;-webkit-overflow-scrolling:initial;-webkit-rtl-ordering:initial;-webkit-tap-highlight-color:initial;-webkit-text-decorations-in-effect:initial;-webkit-text-fill-color:initial;-webkit-text-security:initial;-webkit-text-stroke-color:initial;-webkit-text-stroke-width:initial;-webkit-touch-callout:initial;-webkit-user-modify:initial;-webkit-user-select:initial;text-combine-upright:initial;-webkit-text-combine:initial"><template shadowrootmode=open><div id=eruda class=eruda-container contenteditable=false ontouchstart><div class=eruda-dev-tools style=display:block;height:70%;opacity:1><div class=eruda-nav-bar-container><div class=eruda-nav-bar style=filter:brightness(1)><div class="eruda-nav-bar-item eruda-active">dom</div><div class=eruda-nav-bar-item>elements</div><div class=eruda-nav-bar-item>console</div><div class=eruda-nav-bar-item>network</div><div class=eruda-nav-bar-item>resources</div></div><div class=eruda-bottom-bar style=width:46px;left:0px></div></div><div class=eruda-tools><div id=eruda-dom class="eruda-dom eruda-tool" style=display:block><ul class=eruda-dom-tree><li class="eruda-tree-item eruda-expandable eruda-expanded"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>html</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>lang</span>="<span class=eruda-attribute-value>en</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>class</span>="<span class=eruda-attribute-value> wf-bello-pro-1-n4-active wf-kozuka-mincho-pr6n-1-n7-active wf-kozuka-mincho-pro-1-n7-active wf-source-han-sans-japanese-1-n7-active wf-active</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>script</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>src</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://use.typekit.net/yfh1rhp.js</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>async</span></span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>charset</span>="<span class=eruda-attribute-value>utf-8</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>title</span>&gt;</span>The Complete CSS Demo for OpenType Features<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/title</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>name</span>="<span class=eruda-attribute-value>viewport</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>width=device-width,initial-scale=1,viewport-fit=cover</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>name</span>="<span class=eruda-attribute-value>description</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>The Complete CSS Demo for OpenType Features</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>name</span>="<span class=eruda-attribute-value>theme-color</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>#00af6c</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>alternate</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">/lab/opentype-features/feed.xml</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>type</span>="<span class=eruda-attribute-value>application/atom+xml</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>apple-touch-icon</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://sparanoid.com/lab/opentype-features/apple-touch-icon.png</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>icon</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://sparanoid.com/lab/opentype-features/favicon.png</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>type</span>="<span class=eruda-attribute-value>image/png</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>icon</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">data:image/svg+xml;utf8,%3Csvg%20width%3D'180'%20height%3D'180'%20viewBox%3D'0%200%20180%20180'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Ctitle%3Elogo%3C%2Ftitle%3E%3Cg%20transform%3D'translate(-30%20-30)'%20fill%3D'none'%20fill-rule%3D'evenodd'%3E%3Ccircle%20fill%3D'%23FFF'%20cx%3D'120'%20cy%3D'120'%20r%3D'90'%2F%3E%3Cpath%20d%3D'M120%20195c-41.421%200-75-33.579-75-75s33.579-75%2075-75%2075%2033.579%2075%2075-33.579%2075-75%2075zm0-26c27.062%200%2049-21.938%2049-49s-21.938-49-49-49-49%2021.938-49%2049%2021.938%2049%2049%2049zm.5-16c-17.95%200-32.5-14.55-32.5-32.5S102.55%2088%20120.5%2088s32.5%2014.55%2032.5%2032.5-14.55%2032.5-32.5%2032.5z'%20fill%3D'%2308BD77'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>sizes</span>="<span class=eruda-attribute-value>any</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>type</span>="<span class=eruda-attribute-value>image/svg+xml</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>mask-icon</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://sparanoid.com/lab/opentype-features/mask-icon.svg</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>color</span>="<span class=eruda-attribute-value>#00af6c</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>manifest</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://sparanoid.com/lab/opentype-features/manifest.json</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>style</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/style</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>canonical</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://sparanoid.com/lab/opentype-features/</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>link</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>rel</span>="<span class=eruda-attribute-value>dns-prefetch</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>href</span>="<span class="eruda-attribute-value eruda-attribute-underline">https://d349cztnlupsuf.cloudfront.net</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>property</span>="<span class=eruda-attribute-value>og:type</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>website</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>property</span>="<span class=eruda-attribute-value>og:site_name</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>OpenType Features in CSS</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>property</span>="<span class=eruda-attribute-value>og:title</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>The Complete CSS Demo for OpenType Features</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>property</span>="<span class=eruda-attribute-value>og:url</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>https://sparanoid.com/lab/opentype-features/</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>property</span>="<span class=eruda-attribute-value>og:description</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>The Complete CSS Demo for OpenType Features</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>property</span>="<span class=eruda-attribute-value>og:image</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>https://sparanoid.com/lab/opentype-features/logo.png</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>name</span>="<span class=eruda-attribute-value>twitter:card</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>summary_large_image</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>name</span>="<span class=eruda-attribute-value>twitter:site</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>@sparanoid</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>meta</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>name</span>="<span class=eruda-attribute-value>twitter:creator</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>content</span>="<span class=eruda-attribute-value>@sparanoid</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>style</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/style</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>style</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>type</span>="<span class=eruda-attribute-value>text/css</span>"</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/style</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>style</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>type</span>="<span class=eruda-attribute-value>text/css</span>"</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/style</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>article</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>lang</span>="<span class=eruda-attribute-value>en</span>"</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/article</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>body</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/body</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class="eruda-tree-item eruda-expandable"><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>div</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>class</span>="<span class=eruda-attribute-value>__chii-hide__</span>"</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>style</span>="<span class=eruda-attribute-value>display: none; position: absolute; pointer-events: none;</span>"</span>&gt;</span>…<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>/div</span>&gt;</span>
+<span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-toggle-btn></span>
+<span class=eruda-html-tag>&lt;<span class=eruda-tag-name>div</span>
+ <span class=eruda-attribute>
+ <span class=eruda-attribute-name>style</span>="<span class=eruda-attribute-value>color-scheme: initial; writing-mode: initial; -webkit-ruby-position: initial; color: initial; font-family: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-palette: initial; font-size: initial; font-stretch: initial; font-style: initial; font-synthesis: initial; font-variant-alternates: initial; font-variant-caps: initial; font-variant-east-asian: initial; font-variant-ligatures: initial; font-variant-numeric: initial; font-variant-position: initial; font-variation-settings: initial; font-weight: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-size-adjust: initial; -webkit-text-zoom: initial; letter-spacing: initial; accent-color: initial; border-collapse: initial; caption-side: initial; caret-color: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; cursor: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; glyph-orientation-horizontal: initial; glyph-orientation-vertical: initial; hanging-punctuation: initial; image-orientation: initial; image-rendering: initial; kerning: initial; line-break: initial; line-height: initial; list-style: initial; marker-end: initial; marker-mid: initial; marker-start: initial; orphans: initial; overflow-wrap: initial; pointer-events: initial; print-color-adjust: initial; quotes: initial; shape-rendering: initial; speak-as: initial; stroke: initial; stroke-color: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-decoration-skip-ink: initial; text-emphasis-color: initial; text-emphasis-position: initial; text-emphasis-style: initial; text-indent: initial; text-justify: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; visibility: initial; white-space: initial; widows: initial; word-break: initial; word-spacing: initial; -apple-color-filter: initial; -internal-text-autosizing-status: initial; border-spacing: initial; -webkit-box-direction: initial; -webkit-cursor-visibility: initial; -webkit-hyphenate-character: initial; -webkit-hyphenate-limit-after: initial; -webkit-hyphenate-limit-before: initial; -webkit-hyphenate-limit-lines: initial; -webkit-hyphens: initial; -webkit-line-align: initial; -webkit-line-box-contain: initial; -webkit-line-grid: initial; -webkit-line-snap: initial; -webkit-nbsp-mode: initial; -webkit-overflow-scrolling: initial; -webkit-rtl-ordering: initial; -webkit-tap-highlight-color: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke-color: initial; -webkit-text-stroke-width: initial; -webkit-touch-callout: initial; -webkit-user-modify: initial; -webkit-user-select: initial; text-combine-upright: initial; -webkit-text-combine: initial;</span>"</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul><li class=eruda-tree-item><span class=eruda-html-tag style=margin-left:-12px>&lt;<span class=eruda-tag-name>/html</span>&gt;</span><span class="eruda-selection sf-hidden"></span></li><ul class=eruda-children></ul></ul></ul>
+<div class=eruda-bottom-bar><div class="eruda-btn eruda-select" style=display:inline-block><span class="eruda-icon eruda-icon-select"></span></div><div class="eruda-btn eruda-highlight" style=display:inline-block><span class="eruda-icon eruda-icon-eye"></span></div><div class="eruda-btn eruda-edit" style=display:inline-block><span class="eruda-icon eruda-icon-edit">✎</span></div><span class="eruda-previous-result eruda-icon-arrow-left" style=display:none></span><span class="eruda-next-result eruda-icon-arrow-right" style=display:none></span><span class=eruda-search-count style=display:none></span><span class="eruda-cancel eruda-icon-clear" style=display:none></span><span class=eruda-search-keyword style=display:none></span><span class="eruda-search eruda-icon-search"></span></div><div class="eruda-html-input sf-hidden"></div></div><div id=eruda-sources class="eruda-sources eruda-tool sf-hidden"></div><div id=eruda-resources class="eruda-resources eruda-tool sf-hidden"></div><div id=eruda-network class="eruda-network eruda-tool sf-hidden"></div><div id=eruda-console class="eruda-console eruda-tool sf-hidden"></div><div id=eruda-elements class="eruda-elements eruda-tool" style=display:none></div></div><div class=luna-notification style=justify-content:flex-start;align-items:center></div></div><div class=eruda-elements-highlight style=display:none></div></div><style class=sf-hidden>:host{all:initial}</style><style class=sf-hidden>.luna-object-viewer{overflow-x:auto;-webkit-overflow-scrolling:touch;cursor:default;font-size:12px;line-height:1.2;min-height:100%;color:#333;list-style:none!important}.luna-object-viewer>li>.luna-object-viewer-key{display:none}.luna-object-viewer>li{padding:10px 0}.luna-object-viewer ul{list-style:none!important}.luna-object-viewer ul{padding:0!important;padding-left:15px!important;margin:0!important}.luna-object-viewer li{position:relative;white-space:nowrap;line-height:16px;min-height:16px}.luna-object-viewer span{position:static!important}.luna-object-viewer li .luna-object-viewer-collapsed~.luna-object-viewer-close:before{color:#999}.luna-object-viewer-array .luna-object-viewer-object .luna-object-viewer-key{display:inline}.luna-object-viewer-null{color:grey}.luna-object-viewer-regexp,.luna-object-viewer-string{color:#1a1aa6}.luna-object-viewer-number{color:#1c00cf}.luna-object-viewer-boolean{color:#881280}.luna-object-viewer-special{color:grey}.luna-object-viewer-key,.luna-object-viewer-key-lighter{color:#c80000}.luna-object-viewer-key-lighter{opacity:.6}.luna-object-viewer-expanded:before{content:"";width:0;height:0;border:4px solid transparent;position:absolute;border-top-color:#333;left:-12px;top:6px}.luna-object-viewer-collapsed:before{content:"";border-left-color:#333;border-top-color:transparent;left:-10px;top:4px}.luna-object-viewer-hidden~ul{display:none}.luna-notification{position:fixed;top:0;left:0;width:100%;height:100%;padding:20px;box-sizing:border-box;pointer-events:none;display:flex;flex-direction:column;font-size:14px}.luna-notification-item{display:flex;box-shadow:0 3px 7px 0 rgba(0,0,0,.25);padding:10px 16px;background:#fff}.luna-notification-lower{margin-top:16px}.luna-notification-upper{margin-bottom:16px}.luna-object-viewer{color:#ccc;font-size:12px!important}.luna-object-viewer>li{padding:10px 0!important}.luna-object-viewer-null{color:#7f7f7f}.luna-object-viewer-regexp,.luna-object-viewer-string{color:#f29766}.luna-object-viewer-number{color:#9980ff}.luna-object-viewer-boolean{color:#9980ff}.luna-object-viewer-special{color:#7f7f7f}.luna-object-viewer-key,.luna-object-viewer-key-lighter{color:#e36eec}.luna-object-viewer-expanded:before{border-color:transparent;border-top-color:#a5a5a5}.luna-object-viewer-collapsed:before{border-top-color:transparent;border-left-color:#a5a5a5}.luna-notification{pointer-events:none!important;padding:10px;z-index:1000}.luna-notification-item{z-index:500;color:#a5a5a5;background:#242424;box-shadow:none;padding:5px 10px;border:1px solid #3d3d3d}.luna-notification-upper{margin-bottom:10px}.luna-notification-lower{margin-top:10px}.eruda-container{pointer-events:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:100000;color:#a5a5a5;font-family:".SFNSDisplay-Regular","Helvetica Neue","Lucida Grande","Segoe UI",Tahoma,sans-seri;font-size:14px;direction:ltr}.eruda-container *{box-sizing:border-box;pointer-events:all;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:none}.eruda-container ul{list-style:none;padding:0;margin:0}.eruda-container h1,.eruda-container h2,.eruda-container h3,.eruda-container h4{margin:0}.eruda-hidden{display:none}.eruda-tag-name-color{color:#5db0d7}.eruda-function-color{color:#d5d5d5}.eruda-attribute-name-color{color:#9bbbdc}.eruda-operator-color{color:#7f7f7f}.eruda-string-color{color:#f29766}.eruda-container a,.eruda-container abbr,.eruda-container acronym,.eruda-container address,.eruda-container applet,.eruda-container article,.eruda-container aside,.eruda-container audio,.eruda-container b,.eruda-container big,.eruda-container blockquote,.eruda-container canvas,.eruda-container caption,.eruda-container center,.eruda-container cite,.eruda-container code,.eruda-container dd,.eruda-container del,.eruda-container details,.eruda-container dfn,.eruda-container dl,.eruda-container dt,.eruda-container em,.eruda-container embed,.eruda-container fieldset,.eruda-container figcaption,.eruda-container figure,.eruda-container footer,.eruda-container form,.eruda-container h1,.eruda-container h2,.eruda-container h3,.eruda-container h4,.eruda-container h5,.eruda-container h6,.eruda-container header,.eruda-container hgroup,.eruda-container i,.eruda-container iframe,.eruda-container img,.eruda-container ins,.eruda-container kbd,.eruda-container label,.eruda-container legend,.eruda-container li,.eruda-container mark,.eruda-container menu,.eruda-container nav,.eruda-container object,.eruda-container ol,.eruda-container output,.eruda-container p,.eruda-container pre,.eruda-container q,.eruda-container ruby,.eruda-container s,.eruda-container samp,.eruda-container section,.eruda-container small,.eruda-container span,.eruda-container strike,.eruda-container strong,.eruda-container sub,.eruda-container summary,.eruda-container sup,.eruda-container table,.eruda-container tbody,.eruda-container td,.eruda-container tfoot,.eruda-container th,.eruda-container thead,.eruda-container time,.eruda-container tr,.eruda-container tt,.eruda-container u,.eruda-container ul,.eruda-container var,.eruda-container video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}.eruda-container article,.eruda-container aside,.eruda-container details,.eruda-container figcaption,.eruda-container figure,.eruda-container footer,.eruda-container header,.eruda-container hgroup,.eruda-container menu,.eruda-container nav,.eruda-container section{display:block}.eruda-container body{line-height:1}.eruda-container ol,.eruda-container ul{list-style:none}.eruda-container blockquote,.eruda-container q{quotes:none}.eruda-container blockquote:after,.eruda-container blockquote:before,.eruda-container q:after,.eruda-container q:before{content:"";content:none}.eruda-container table{border-collapse:collapse;border-spacing:0}@font-face{font-family:eruda-icon;src:url(data:application/x-font-woff;charset=utf-8;);}.infobar .infobar-link-icon {right:4px;background-size:60%;background-image:url(
+);}.infobar .infobar-close-icon {appearance:none;background-size:80%;background-image:url(data:image/png;
+);}.infobar { top:16px; bottom:auto; }.infobar { right:16px; left:auto; }</style><form class="infobar"><span tabindex="-1" class="infobar-icon"></span><span tabindex="-1" class="infobar-content"><input type="checkbox" required="" class="infobar-close-icon" title="Close"><span>Fri Oct 17 2025 17:48:59 GMT-0700 (Pacific Daylight Time)</span><a class="infobar-link-icon" target="_blank" rel="noopener noreferrer" title="Open source URL: https://sparanoid.com/lab/opentype-features/" href="https://sparanoid.com/lab/opentype-features/"></a></span></form><script>function Wo(n,{saveUrl:e,infobarContent:t,saveDate:a}){if(e){const o=n.querySelector("single-file-infobar").shadowRoot;o.querySelector(".infobar-content span").textContent=t||a;const i=o.querySelector(".infobar-content .infobar-link-icon");i.href=e,i.title="Open source URL: "+e}};function Ho(n,e=No){const t=n.evaluate("//comment()",n,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null);let a=t&&t.singleNodeValue;if(a&&a.nodeType==Node.COMMENT_NODE&&a.textContent.includes(e)){const n=a.textContent.split("\n"),[,,e,...t]=n,o=e.match(/^ url: (.*) ?$/),i=o&&o[1];if(i){let n,e;if(t.length&&(e=t[0].split("saved date: ")[1],e&&t.shift(),t.length>1)){let e=t[0].split("info: ")[1].trim();for(let n=1;n<t.length-1;n++)e+="\n"+t[n].trim();n=e.trim()}return{saveUrl:i,infobarContent:n,saveDate:e}}}};(function Go(n,e){const t=Ho(n,e);t&&t.saveUrl&&Wo(n,t)})(document, "SingleFile");</script></div></template></single-file-infobar><script data-template-shadow-root>(()=>{document.currentScript.remove();processNode(document);function processNode(node){node.querySelectorAll("template[shadowrootmode]").forEach(element=>{let shadowRoot = element.parentElement.shadowRoot;if (!shadowRoot) {try {shadowRoot=element.parentElement.attachShadow({mode:element.getAttribute("shadowrootmode"),delegatesFocus:element.getAttribute("shadowrootdelegatesfocus")!=null,clonable:element.getAttribute("shadowrootclonable")!=null,serializable:element.getAttribute("shadowrootserializable")!=null});shadowRoot.innerHTML=element.innerHTML;element.remove()} catch (error) {} if (shadowRoot) {processNode(shadowRoot)}}})}})()</script>

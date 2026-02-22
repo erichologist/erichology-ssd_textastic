@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <script type="text/javascript" src="functions.js"></script><meta content="Responsive web design | Butterick’s Practical Typography" name="title"/><meta content="Butterick’s Practical Typography" name="description"/><meta content="website" property="og:type"/><meta content="https://practicaltypography.com" property="og:url"/><meta content="Responsive web design | Butterick’s Practical Typography" property="og:title"/><meta content="Butterick’s Practical Typography" property="og:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606250" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://practicaltypography.com" property="twitter:url"/><meta content="@mbutterick" property="twitter:sitel"/><meta content="Responsive web design | Butterick’s Practical Typography" property="twitter:title"/><meta content="Butterick’s Practical Typography" property="twitter:description"/><meta content="https://practicaltypography.com/images/og-image.jpg?1754606250" property="twitter:image"/>
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="fonts/core-fonts.css" />
+<title>Responsive web design | Butterick’s Practical Typography</title></head>
+
+<body id="body" body-text="true">
+<div id="content"><div id="doc"><topic class="small">Responsive web design</topic><p>Re­spon­sive web de­sign is a tech­nique that al­lows web lay­outs to re­flow to suit the scale and di­men­sions of the user’s screen (or <em>view­port</em>, in CSS <span class="no-hyphens">parlance).</span></p><p>In this way, rather than try­ing to con­fect a one-size-fits-all lay­out, a web de­signer can spec­ify changes for small screens (e.g. tall-for­mat mo­bile phones) and large screens (e.g., wide-for­mat desk­top screens), and sizes in be­tween. For in­stance, re­spon­sive de­sign is used on many sites (in­clud­ing this one) to col­lapse a multi-col­umn lay­out into a sin­gle col­umn for mo­bile <span class="no-hyphens">devices.</span></p><aside><p>So many view­ports, so lit­tle <span class="no-hyphens">time.</span></p></aside><p class="image"><img src="images/viewports.jpg"/></p><p>A rea­son­able idea, as far as it goes. But in prac­tice, de­sign­ers hop­ing to solve their screen-size prob­lem with re­spon­sive web de­sign have dis­cov­ered that they now have two <span class="no-hyphens">problems.</span></p><p>The main chal­lenge, of course, is get­ting the ty­pog­ra­phy right. Early in the re­spon­sive web era, it was com­mon to see lay­outs with nav­i­ga­tion and im­ages care­fully en­gi­neered to scale up and down with the screen size. Mean­while, the <a class="xref" href="body-text.html">body text</a> was largely ig­nored—set at a fixed <a class="xref" href="point-size.html">point size</a>, and al­lowed to re­flow from edge to edge, re­gard­less of the screen width. Not <span class="no-hyphens">good.</span></p><p>There­fore, for those em­bark­ing on a re­spon­sive-de­sign project, one key re­minder: <strong>the rules of good ty­pog­ra­phy don’t change with screen size</strong>.</p><p>In <a class="xref" href="page-margins.html">page mar­gins</a>, I said that one shouldn’t treat the edges of a piece of pa­per as the bound­aries of the text block. Like­wise in re­spon­sive web de­sign—the edges of the screen are not the end. Just the <span class="no-hyphens">beginning.</span></p><ol><li><p>Start by con­sid­er­ing <a class="xref" href="line-length.html">line length</a>, be­cause it’s the hard­est to man­age in a re­spon­sive lay­out. Re­gard­less of screen width, the op­ti­mal line length is still 45-90 char­ac­ters. As you test your lay­out, make sure that text el­e­ments stay within this <span class="no-hyphens">range.</span></p></li><li><p>The eas­i­est way to main­tain con­sis­tent line length is by scal­ing the <a class="xref" href="point-size.html">point size</a> and el­e­ment width at the same rate. These days, this is es­pe­cially easy thanks to the <code>vw</code> unit in CSS, which lets you spec­ify mea­sure­ments as a frac­tion of the cur­rent view­port <span class="no-hyphens">width.</span></p><p>What about the <code>ch</code> unit in CSS, which sup­pos­edly cor­re­sponds to char­ac­ter width? Skip it. Con­trary to the name, it sim­ply de­notes the <a href="https://drafts.csswg.org/css-values-3/#ch">width of the zero</a> in the font. No, the zero’s width is <a href="https://matthewbutterick.com/chron/the-comparative-copyfitting-factor.html">not a use­ful proxy</a> for av­er­age char­ac­ters per <span class="no-hyphens">line.</span></p></li><li><p>Or, if you want text to re­flow in­side a lay­out el­e­ment, in­clude a <code>max-width</code> CSS prop­erty on that el­e­ment to en­sure that the line length is bounded. As above, the <code>vw</code> unit is your <span class="no-hyphens">friend.</span></p></li><li><p>Be care­ful ty­ing mo­bile lay­outs to <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">CSS me­dia queries</a> based on pixel width. As mo­bile phones have got­ten big­ger, many sites are set­ting this thresh­old higher. (I’ve seen it as high as 1400 pix­els.) The prob­lem is that this causes the mo­bile lay­out to show up even in rea­son­ably sized desk­top browser <span class="no-hyphens">windows.</span></p><p>Un­for­tu­nately, CSS me­dia queries can’t dis­tin­guish desk­top from mo­bile de­vices. If you really want to serve a mo­bile lay­out to large mo­bile de­vices, con­sider us­ing JavaScript rather than me­dia queries to de­tect mo­bile vs. desk­top and load an ap­pro­pri­ate <span class="no-hyphens">stylesheet.</span></p></li></ol><p>This last sug­ges­tion will cause cer­tain re­spon­sive-de­sign purists to squeal in hor­ror. But due to dif­fer­ences in read­ing dis­tance, a pixel on a desk­top dis­play and a pixel on a mo­bile screen are not the same. See <a class="xref" href="screen-reading-considerations.html">screen-read­ing con­sid­er­a­tions</a>.</p><div class="btw"><div class="btw-title">by the way</div><ul><li><p>Start­ing in 2004, a num­ber of web de­sign­ers pro­posed the idea of re­spon­sive web de­sign, in­clud­ing <a href="http://www.themaninblue.com/experiment/ResolutionLayout/">Cameron Adams</a> and <a href="https://alistapart.com/article/switchymclayout">Marc van den Dobbel­steen</a> (who dubbed the tech­nique<dquo-open-push></dquo-open-push><dquo-open-pull> “Switchy</dquo-open-pull> McLay­out”). But the tech­nique didn’t take off un­til around 2010, when browser sup­port for <a href="https://caniuse.com/#feat=css-mediaqueries">CSS me­dia queries</a>—the key mech­a­nism for spec­i­fy­ing lay­out changes—be­came <span class="no-hyphens">widespread.</span></p></li><li><p>On this site, I use JavaScript to serve dif­fer­ent weights of the body-text font to de­vices based on their typ­i­cal ras­ter­i­za­tion char­ac­ter­is­tics. For in­stance, Win­dows users get a slightly heav­ier ver­sion than Mac users, to ac­count for lighter screen <span class="no-hyphens">rasterization.</span></p></li></ul></div></div><a id="links"></a><div class="gap" style="height:1em"></div><ul class="children"></ul></div>
+
+<a class="nav" href="screen-reading-considerations.html"><div id="prev" class="side"></div></a>
+
+<a class="nav" href="how-to-work-with-a-designer.html"><div id="next" class="side" ></div></a>
+
+<div id="switcher" onmousedown="drag_switcher(event, this)">
+<span class="switcher_icon" id="switcher_undock"><span class="tooltiptext">undock</span><span class="icon">&#xe128</span></span>
+
+<span class="switcher_icon" id="switcher_move"><span class="tooltiptext">move</span><span class="icon">&#xe118</span></span>
+
+<a class="font-change body-texter" id="heliotrope" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Heliotrope</a>
+
+<a class="font-change body-texter" id="equity" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Equity</a>
+
+<a class="font-change body-texter" id="valkyrie" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Valkyrie</a>
+
+<a class="font-change body-texter" id="century-supra" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Century Supra</a>
+
+<a class="font-change body-texter" id="concourse" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Concourse</a>
+
+<a class="font-change body-texter" id="triplicate" onmousedown="event.stopPropagation()" onClick="handle_body_text_click(this)">Triplicate</a>
+
+<span class="switcher_icon" id="switcher_info" onmousedown="event.stopPropagation()" onClick="handle_font_info_click(this)"><span class="tooltiptext">buy font</span><span class="icon">&#xe085</span></span>
+<span class="switcher_icon" id="switcher_hide" onmousedown="event.stopPropagation()" onclick="move_switcher_inside_toolbar()"><span class="tooltiptext">close</span><span class="icon">&#xe043</span></span>
+</div>
+
+<div id="toolbar" class="">
+
+<div id="navtable">
+
+<div>
+<a class="box-link" href="screen-reading-considerations.html"><span class="arrow">←</span>&nbsp;Screen-reading considerations</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="index.html">top</a>
+</div>
+
+<div class="center">
+<a class="box-link" href="appendix.html">chapter</a>
+</div>
+
+<div>
+<a class="box-link" href="how-to-work-with-a-designer.html">How to work with a designer&nbsp;<span class="arrow">→</span></a></div>
+
+</div></div> 
+</body>
+</html>
+
+<!-- © 2010–25 Matthew Butterick -->
+<!-- built on Thursday, August 7th, 2025 3:37:30pm -->
+
