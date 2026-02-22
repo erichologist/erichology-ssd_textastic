@@ -1,0 +1,159 @@
+/* * syntax colors
+ * Created with ColorSlurp */
+:root {
+    --545454: hsla(0, 0%, 33%, 1.0);
+    --545454b: hsla(189, 78%, 30%, 1.0);
+    --545454c: hsla(260, 5%, 11%, 1.0);
+    --545454d: hsla(260, 5%, 15%, 1.0);
+    --8794a6: hsla(215, 15%, 59%, 1.0);
+    --8794a6b: hsla(251, 75%, 73%, 1.0);
+    --8794a6c: hsla(264, 6%, 15%, 1.0);
+    --7587a6: hsla(218, 22%, 55%, 1.0);
+    --7587a6b: hsla(189, 78%, 30%, 1.0);
+    --7587a6c: hsla(192, 78%, 40%, 1.0);
+    --7587a6d: hsla(251, 75%, 73%, 1.0);
+    --f5f2f0: hsla(24, 20%, 95%, 1.0);
+    --f5f2f0b: hsla(24, 18%, 93%, 1.0);
+    --ac885b: hsla(33, 33%, 52%, 1.0);
+    --ac885bb: hsla(251, 75%, 73%, 1.0);
+    --8f9d6a: hsla(76, 21%, 52%, 1.0);
+    --8f9d6ab: hsla(183, 100%, 46%, 1.0);
+    --8f9d6ac: hsla(200, 100%, 50%, 1.0);
+    --8f9d6ad: hsla(216, 88%, 52%, 1.0);
+    --cf6a4c: hsla(14, 58%, 55%, 1.0);
+    --cf6a4cb: hsla(341, 96%, 58%, 1.0);
+    --cf6a4cc: hsla(162, 99%, 49%, 1.0);
+    --7587a6c: hsla(349, 100%, 63%, 1.0);
+    --7587a6d: hsla(347, 100%, 62%, 1.0);
+    --e9c062: hsla(42, 75%, 65%, 1.0);
+    --e9c062b: hsla(162, 99%, 49%, 1.0);
+    --e9c062c: hsla(61, 100%, 39%, 1.0);
+    --e9c062d: hsla(65, 100%, 50%, 1.0);
+    --f9ee98d: hsla(65, 100%, 50%, 1.0);
+    --f9ee98: hsla(53, 89%, 79%, 1.0);
+    --f9ee98b: hsla(57, 100%, 57%, 1.0);
+    --f9ee98c: hsla(65, 100%, 50%, 1.0);
+    --f9ee98d: hsla(61, 100%, 39%, 1.0);
+    --yellow1: hsla(65, 100%, 50%, 1.0);
+    --yellow2: hsla(60, 100%, 50%, 1.0);
+    --yellow3: hsla(57, 100%, 57%, 1.0);
+    --yellow4: hsla(61, 100%, 39%, 1.0);
+    --cyan1: hsla(162, 99%, 49%, 1.0);
+    --cyan2: hsla(192, 78%, 40%, 1.0);
+    --cyan3: hsla(189, 78%, 30%, 1.0);
+    --cyan4: hsla(183, 100%, 46%, 1.0);
+    --cyan5: hsla(185, 100%, 50%, 1.0);
+    --cyan6: hsla(178, 100%, 47%, 1.0);
+  --cyan7: hsla(170, 100%, 47%, 1.0);
+    --blue1: hsla(216, 88%, 52%, 1.0);
+    --blue2: hsla(200, 100%, 50%, 1.0);
+    --coral1: hsla(349, 100%, 63%, 1.0);
+    --coral2: hsla(341, 96%, 58%, 1.0);
+    --coral3: hsla(347, 100%, 62%, 1.0);
+    --purple1: hsla(251, 75%, 73%, 1.0);
+    --purple2: hsla(251, 100%, 67%, 1.0);
+}
+
+ * {
+  background-color:#444;
+  font-family: "DankMono-Italic", "dankmono-italic"  !important;
+}
+.dank * {
+  background-color:#444;
+  font-family: "DankMono-Italic", "dankmono-italic"  !important;
+}
+/*
+
+ * {i
+   padding: 0px;margin: 0px;box-sizing:border-box;
+}
+html {
+   font-size:clamp(10px, 1.5vw, 18px);font-family:sans-serif;
+}
+body {
+   background-color:#1a1a1a;
+   color:#ddd;
+   display:flex;
+   flex-flow:column;
+   align-items: center;
+   justify-content:center;
+   gap:40px;
+
+   margin:1em;
+   margin-bottom:2em;
+   padding:2em;
+   padding-bottom:2em;
+}
+
+h1 {font-size:2em;}
+h2 {font-size:1.9em;}
+h3 {font-size:1.8em;}
+h4 {font-size:1.7em;}
+h5 {font-size:1.6em;}
+h6 {font-size:1.5em;}
+pre, code, pre code, p, span {font-size:1em;}
+h1.curly, h2.curly,p.curly, span.curly {font-variant-alternates: stylistic(curly);}
+
+h1.cart-alt-style, h2.cart-alt-style,
+p.cart-alt-style, span.cart-alt-style {
+   font-variant-alternates:styleset(alt-style-1);
+   font-family: cartograph-cf;
+}
+
+
+@font-feature-values cartograph-cf {
+  @styleset {
+    /* This maps "alt-style-1" to ss02 and ss05 
+    alt-style-1: 2 5;
+  }
+}
+template.cart pre, template.cart pre *,
+pre.cart, template.cart,
+code-block.cart, body.cart,
+h1.cart, h2.cart, body.cart,
+h1 span.cart, h2 span.cart, h1 p.cart p, h2 p.cart,
+h1.cart span, h2.cart span, h1.cart p, h2.cart p, p.cart, span.cart { font-family:cartograph-cf;font-style:italic;font-weight:400;font-stretch:normal; }
+
+template.alt-style pre, template.alt-style pre *,
+pre.alt-style, template.alt-style,
+code-block.alt-style, body.alt-style,
+div.alt-style, div#alt-style, div.alt-style, 
+h1#alt-style, h2#alt-style, p.alt-style, 
+span.alt-style, h1.alt-style, h2.alt-style,
+/*.alt-style h1, .alt-style h2,*/p.alt-style, /*span.alt-style {font-family: 'cartograph-cf';font-variant-alternates: styleset(alt-style-1);}
+
+
+
+/*@layer demo {
+   @font-face {
+      font-family: cartograph-cf;
+      src:url("https://use.typekit.net/af/23e210/0000000000000000774b9f3f/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2");
+      font-display:swap;
+      font-style:italic;
+      font-weight:400;
+   }
+   div, #demoa, .demoe, div.demoi {
+      height:100vh;
+				font-size: .5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      display:flex;
+			
+			#demob, .demof,#democ,
+			.demog,h1,h2,h3,h4,h5,h6 {
+				font-weight: 400;
+				justify-content:flex-end;
+			}
+			
+				#demod,.demoh,p,span,p.s, span.s {
+					letter-spacing:0.5rem;
+					gap:20px;
+					display:flex;
+					float: right;
+					justify-content:flex-start;
+					align-items: flex-start;
+					padding:5rem;
+				}
+      }
+   }
+}
