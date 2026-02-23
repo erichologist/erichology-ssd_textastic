@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getAllPosts, getPostBySlug, formatDate } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -21,6 +22,55 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+/** Render inline markdown: **bold**, `code`, [text](url) */
+function renderInline(text: string): ReactNode[] {
+  const parts: ReactNode[] = [];
+  // Pattern matches **bold**, `code`, or [text](url) in order
+  const pattern = /(\*\*(.+?)\*\*|`([^`]+)`|\[([^\]]+)\]\(([^)]+)\))/g;
+  let last = 0;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > last) {
+      parts.push(text.slice(last, match.index));
+    }
+    if (match[0].startsWith("**")) {
+      parts.push(<strong key={match.index}>{match[2]}</strong>);
+    } else if (match[0].startsWith("`")) {
+      parts.push(
+        <code
+          key={match.index}
+          className="bg-gray-100 text-indigo-700 px-1 py-0.5 rounded text-sm font-mono"
+        >
+          {match[3]}
+        </code>
+      );
+    } else {
+      parts.push(
+        <a
+          key={match.index}
+          href={match[5]}
+          className="text-indigo-700 hover:underline"
+        >
+          {match[4]}
+        </a>
+      );
+    }
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) {
+    parts.push(text.slice(last));
+  }
+  return parts;
+}
+
+/** Detect whether a block of text is a markdown-style table. */
+function isMarkdownTable(block: string): boolean {
+  const lines = block.split("\n").filter((l) => l.trim());
+  const pipeLines = lines.filter((l) => l.includes("|"));
+  const hasSeparator = lines.some((l) => /^\s*\|?[-:\s|]+\|?\s*$/.test(l));
+  return pipeLines.length >= 2 && hasSeparator;
+}
+
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
@@ -29,7 +79,7 @@ export default async function PostPage({ params }: Props) {
     notFound();
   }
 
-  // Render content: split by double newlines into paragraphs / headings
+  // Split content by double (or more) newlines into blocks
   const blocks = post.content.split(/\n\n+/);
 
   return (
@@ -54,7 +104,7 @@ export default async function PostPage({ params }: Props) {
         ))}
       </div>
 
-      {/* Title */}
+      {/* Title — sole h1 on the page */}
       <h1 className="text-4xl font-extrabold text-gray-900 leading-tight mb-3">
         {post.title}
       </h1>
@@ -65,24 +115,26 @@ export default async function PostPage({ params }: Props) {
       </p>
 
       {/* Content */}
-      <div className="prose prose-indigo max-w-none space-y-4 text-gray-800 leading-relaxed">
+      <div className="max-w-none space-y-4 text-gray-800 leading-relaxed">
         {blocks.map((block, i) => {
+          // ## heading → h2
           if (block.startsWith("## ")) {
             return (
               <h2 key={i} className="text-2xl font-bold text-gray-900 mt-8 mb-2">
-                {block.slice(3)}
+                {renderInline(block.slice(3))}
               </h2>
             );
           }
+          // # heading → h2 (not h1, to keep a single h1 per page)
           if (block.startsWith("# ")) {
             return (
-              <h1 key={i} className="text-3xl font-extrabold text-gray-900 mt-8 mb-3">
-                {block.slice(2)}
-              </h1>
+              <h2 key={i} className="text-3xl font-bold text-gray-900 mt-8 mb-3">
+                {renderInline(block.slice(2))}
+              </h2>
             );
           }
-          // Render numbered or bulleted lists
-          if (/^[-*\d]/.test(block)) {
+          // Ordered or unordered list: require "- ", "* ", or "1. " at line start
+          if (/^(\d+\.|[-*])\s/.test(block)) {
             const lines = block.split("\n").filter(Boolean);
             const isOrdered = /^\d+\./.test(lines[0]);
             const ListTag = isOrdered ? "ol" : "ul";
@@ -93,26 +145,49 @@ export default async function PostPage({ params }: Props) {
               >
                 {lines.map((line, j) => (
                   <li key={j} className="text-gray-700">
-                    {line.replace(/^[-*]\s+/, "").replace(/^\d+\.\s+/, "")}
+                    {renderInline(
+                      line.replace(/^[-*]\s+/, "").replace(/^\d+\.\s+/, "")
+                    )}
                   </li>
                 ))}
               </ListTag>
             );
           }
-          // Table
-          if (block.includes("|")) {
-            const rows = block.split("\n").filter((r) => r.trim() && !r.match(/^\|[-:|\s]+\|$/));
+          // Markdown-style table: require multiple pipe lines and a separator row
+          if (isMarkdownTable(block)) {
+            const rows = block
+              .split("\n")
+              .filter((r) => r.trim() && !r.match(/^\|[-:|\s]+\|$/));
+            const [headerRow, ...dataRows] = rows;
+            const headerCells = headerRow
+              .split("|")
+              .filter((_, ci, arr) => ci > 0 && ci < arr.length - 1);
             return (
               <div key={i} className="overflow-x-auto">
                 <table className="w-full text-sm border-collapse">
+                  <thead className="bg-indigo-50">
+                    <tr>
+                      {headerCells.map((cell, ci) => (
+                        <th
+                          key={ci}
+                          className="px-3 py-2 text-left font-semibold text-gray-900"
+                        >
+                          {renderInline(cell.trim())}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
                   <tbody>
-                    {rows.map((row, ri) => (
-                      <tr key={ri} className={ri === 0 ? "bg-indigo-50 font-semibold" : "border-t border-gray-100"}>
-                        {row.split("|").filter((_, ci) => ci > 0 && ci < row.split("|").length - 1).map((cell, ci) => (
-                          <td key={ci} className="px-3 py-2 text-gray-700">
-                            {cell.trim()}
-                          </td>
-                        ))}
+                    {dataRows.map((row, ri) => (
+                      <tr key={ri} className="border-t border-gray-100">
+                        {row
+                          .split("|")
+                          .filter((_, ci, arr) => ci > 0 && ci < arr.length - 1)
+                          .map((cell, ci) => (
+                            <td key={ci} className="px-3 py-2 text-gray-700">
+                              {renderInline(cell.trim())}
+                            </td>
+                          ))}
                       </tr>
                     ))}
                   </tbody>
@@ -120,9 +195,10 @@ export default async function PostPage({ params }: Props) {
               </div>
             );
           }
+          // Default: paragraph
           return (
             <p key={i} className="text-gray-700">
-              {block}
+              {renderInline(block)}
             </p>
           );
         })}
