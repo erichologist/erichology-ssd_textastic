@@ -1,7 +1,8 @@
 /* * Synthwave '84 Theme originally by Robb Owen [@Robb0wen] for Visual
  * Studio Code * Demo:https://marc.dev/demo/prism-synthwave84 *
  * Ported for PrismJS by Marc Backes [@themarcba]|[="lang] atr value|fiunction (hsla)|token.variable (--variable)|token.pseudo-class (root)|token.pseudo-class|token.function (lineargradient)|puntuation.attr-equals link="|attr-equals|attr-name (media)="|code.language-md|.language-md|.token.list.punctuation|attr-name|token unit */
-:root {	/*#0000001A rgba(0,0,0,.1)*/ /*#00000003 rgba(0,0,0,.01)*/
+	/*#0000001A rgba(0,0,0,.1)*/ /*#00000003 rgba(0,0,0,.01)*/
+:root {
 	--hdwt:400;
 	--b80p:rgba(0,0,0,.80);--b75p:rgba(0,0,0,.75);--b60p:rgba(0,0,0,.60);
 	--b53p:rgba(0,0,0,.53);--b50p:rgba(0,0,0,.50);--b49p:rgba(0,0,0,.49);
@@ -35,6 +36,7 @@
 	--fnt2:var(--mnflw);
 	--fnt:var(--monoflow);
 	--monoflow:'Monoflow', 'Monotalic-NarrowLight', 'Monotalic-Narrow', monospace;
+	--nova:'NovaMono', 'Monoflow', 'VictorMono NF', 'ParitySansMedium', 'Recursive-Italic', 'VictorMonoNFP-BoldItalic', monospace;
 
 	--sh-cyn1:0 0 0 #00D9F0, 0 0 3.5px #3D4DFFCC, 0 -.1px 4px #00E95266, 0 0 4.5px #5E60CE66, 0 -1px 5px #0F07FF66, 0 1px 5.5px #3457D566, 0 0 6px #00D9E066;
 	--sh-b1:0 0 0 #FFF, 0 0 5px #0F07FF66, 0 -.1px 3.5px #00E95266, 0 0 8px #5E60CE66, 0 -1px 9px #0F07FF66, 0 1px 8px #3457D566, 0 0 4px #00D9E066;
@@ -107,10 +109,6 @@
 
 
 	--sh-y6:0 0 0 #FFFC, 0 0 .018em #E0CB5280, 0 0 .02em #FFBF0066, 0 1px 3px #EE06, 0 0 3.1px #FFBF0066, 0 -1px 3.5px #E0CB5266, 0 0 2.7px #EE06, 0 0 5px #E62E2E66;
-
-
-
-
 
 	--trns:transparent;
 	--cl:common-ligatures;
@@ -395,8 +393,7 @@ pre[class*="language-"] {
 	background-image:var(--prebg);
 
 	background-image:linear-gradient(170deg, #221937DD, #231933DD);
-	background-image:linear-gradient(170deg, #221937, #231933);
-	
+	background-image:linear-gradient(170deg, #221937, #231933);	
 	background:linear-gradient(0deg,#221937CC, #1E152CCC);
 	border-bottom:1px solid #1E152C;
 	box-shadow:
@@ -446,8 +443,8 @@ pre[class*="language-"] {
 	padding:1.24em 1.18em 1.24em 1.05em;
 	padding:2.4em 1em 2.4em 1.2em;
 	margin:.5em 0;
-	margin:1em;
-
+	margin:1em 0;
+  width:100%;
 	margin-bottom:.31rem;
 	line-height:1.5;
 	letter-spacing:.041em;
@@ -455,11 +452,11 @@ pre[class*="language-"] {
 	text-shadow:none;
 }
 
-code[class*="lang-css"],
+/*code[class*="lang-css"],
 code[class*="language-css"] {
 	color:var(--css-code);
 	text-shadow:var(--sh-css-code);
-}
+}*/
 /* Inline code */
 :not(pre) > code[class*="lang-"],
 :not(pre) > code[class*="language-"] {
@@ -1059,8 +1056,8 @@ span.inline-color-wrapper {
 	background-size:130%;
 	display:inline-block;
 	height:1.666ch;
-	width:1.666ch;
 	width:2.499ch;
+	width:1.666ch;
 	margin:0 .666ch;
 	margin:0 .666ch 0 .333ch;
 	box-sizing:border-box;
