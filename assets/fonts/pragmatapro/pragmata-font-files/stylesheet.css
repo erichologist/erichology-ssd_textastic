@@ -1,9 +1,21 @@
 @font-face {
+    font-family: "PragmataProMonoW20";
+    src: local("PragmataPro Mono W20 Regular"), local("PragmataProMonoW20-Regular"),
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/pragmatapro/pragmata-font-files/pragmatapro-mono-w20-regular.woff2") format("woff2"),
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/pragmatapro/pragmata-font-files/pragmatapro-mono-w20-regular.woff") format("woff"),
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/pragmatapro/pragmata-font-files/pragmatapro-mono-w20-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
     font-family: 'PragmataProMonoW01';
     src: local('PragmataPro Mono W01 Bold'), local('PragmataProMonoW01-Bold'),
-        url('fonts/pragmata/pragma/PragmataProMonoW01-Bold.woff2') format('woff2'),
-        url('fonts/pragmata/pragma/PragmataProMonoW01-Bold.woff') format('woff'),
-        url('fonts/pragmata/pragma/PragmataProMonoW01-Bold.svg#PragmataProMonoW01-Bold') format('svg');
+        url('https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/pragmata/pragma/PragmataProMonoW01-Bold.woff2') format('woff2'),
+        url('https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/pragmata/pragma/PragmataProMonoW01-Bold.woff') format('woff'),
+        url('https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/pragmata/pragma/PragmataProMonoW01-Bold.svg#PragmataProMonoW01-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
