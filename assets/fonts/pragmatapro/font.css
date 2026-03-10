@@ -1,0 +1,144 @@
+:root {
+	--sa1:'salt' 1;
+	--sa2:'salt' 2;
+	--sa3:'salt' 3;
+	--sa4:'salt' 4;
+	--sa5:'salt' 5;
+	--sa6:'salt' 6;
+	--sa7:'salt' 7;
+	--sa8:'salt' 8;
+	--sa9:'salt' 9;
+	--sa10:'salt' 10;
+	--sa11:'salt' 11;
+	--sa12:'salt' 12;
+	--sa13:'salt' 13;
+	--sa14:'salt' 14;
+	--sa15:'salt' 15;
+	--sa16:'salt' 16;
+	--sa17:'salt' 17;
+	--sa18:'salt' 18;
+	--sa19:'salt' 19;
+	--sa20:'salt' 20;
+	--sa21:'salt' 21;
+	--sa22:'salt' 22;
+	--sa23:'salt' 23;
+	--sa24:'salt' 24;
+	--sa25:'salt' 25;
+	--sa26:'salt' 26;
+	--sa27:'salt' 27;
+	--sa28:'salt' 28;
+	--sa29:'salt' 29;
+	--sa30:'salt' 30;
+	--ss1:'ss01';
+	--ss2:'ss02';
+	--ss3:'ss03';
+	--ss4:'ss04';
+	--ss5:'ss05';
+	--ss6:'ss06';
+	--ss7:'ss07';
+	--ss8:'ss08';
+	--ss9:'ss09';
+	--ss10:'ss10';
+	--ss11:'ss11';
+	--ss12:'ss12';
+	--ss13:'ss13';
+	--ss14:'ss14';
+	--ss15:'ss15';
+	--ss16:'ss16';
+	--ss17:'ss17';
+	--ss18:'ss18';
+	--ss19:'ss19';
+	--ss20:'ss20';
+	--ss21:'ss21';
+	--ss22:'ss22';
+	--ss23:'ss23';
+	--ss24:'ss24';
+	--ss25:'ss25';
+	--ss26:'ss26';
+	--ss27:'ss27';
+	--ss28:'ss28';
+	--ss29:'ss29';
+	--ss30:'ss30';
+	--cl: common-ligatures;
+	--fft236: 'liga', 'ss02', 'ss03', 'ss06';
+	--lg: 'liga';
+/*font-feature-settings:*/
+	--liga:"liga" on;
+	--ss01:"ss01" on;
+	--ss02:"ss02" on;
+	--ss03:"ss03" on;
+	--ss04:"ss04" on;
+	--ss05:"ss05" on;
+	--ss06:"ss06" on;
+	--ss07:"ss07" on;
+	--ss08:"ss08" on;
+	--ss09:"ss09" on;
+	--ss10:"ss10" on;
+	--ss11:"ss11" on;
+	--ss12:"ss12" on;
+	--ss13:"ss13" on;
+	--ss14:"ss14" on;
+	--ss15:"ss15" on;
+	--ss16:"ss16" on;
+	--ss17:"ss17" on;
+	--ss18:"ss18" on;
+	--ss19:"ss19" on;
+	--ss20:"ss20" on;
+	--ss21:"ss21" on;
+	--ss22:"ss22" on;
+	--ss23:"ss23" on;
+	--ss24:"ss24" on;
+}
+@font-face {
+	font-family:'PragmataProMonoW20-Regular';
+	src:url('PragmataProMonoW20-Regular.woff2') format('woff2'), url('PragmataProMonoW20-Regular.woff') format('woff'), url('PragmataProMonoW20-Regular.svg#PragmataProMonoW20-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+.ss1 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss01);
+}
+
+.ss2 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss02);
+}
+.ss3 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss03);
+}
+.ss4 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss04);
+}
+.ss5 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss05);
+}
+.ss6 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss06);
+}
+.ss7 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss07);
+}
+.ss8 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss08);
+}
+.ss9 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss09);
+}
+.ss10 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss10);
+}
+.ss11 {
+	font-family:'PragmataProMonoW20-Regular';
+	font-feature-settings:var(--ss11);
+}
+
