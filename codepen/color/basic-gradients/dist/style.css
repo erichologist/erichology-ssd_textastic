@@ -1,0 +1,109 @@
+:root {
+  --bg: #202020;
+  --w: #ddd;
+  --sh1: hsla(0deg, 0%, 0%, 0.5);
+  --sh2: hsla(0deg, 0%, 0%, 0.25);
+  --bl1: 0 0 15px;
+  --bl2: 0 2px 3px;
+  --c1: #ff8a00;
+  --c2: #e52e71;
+  --bs: 0 0 15px hsla(0deg, 0%, 0%, 0.5);
+  --ts: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+  --gr: #ff8a00, #e52e71;
+  --l: linear-gradient;
+  --c: conic-gradient;
+  --r: radial-gradient;
+  --lg: linear-gradient(#ff8a00, #e52e71);
+  --rg: radial-gradient(#ff8a00, #e52e71);
+  --cg: conic-gradient(#ff8a00, #e52e71);
+  --grn: #0f0;
+  --blu: #00f;
+  --dbl: #052432;
+  --db3: #062d43;
+  --db4: #0d1924;
+  --cyx: color-mix(in oklab, #00ff00 49%, #0000ff 51%);
+  --cyrgb: color-mix(in srgb, #00ff00 48%, #0000ff 50%);
+  --gbx1:color-mix(in oklab, var(--db3) 49%, var(--db4) 51%);
+  --gbx2:color-mix(in oklab, var(--dbl) 49%, var(--db4) 51%);
+  --mx: color-mix;
+  --ok: in oklab;
+  --sr: in srgb;
+}
+html {
+  background-color: #202020;
+}
+.gradient-examples {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  max-height: 250px;
+  max-width: 800px;
+  padding: 1rem;
+}
+@media (min-width: 600px) {
+  .gradient-examples {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.example {
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 0 15px hsla(0deg, 0%, 0%, 0.5);
+  color: #ddd;
+  font-size: 1.25rem;
+  font-weight: 900;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  text-shadow: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+}
+
+.pklinear {
+  background-image: linear-gradient(#ff8a00, #e52e71);
+}
+.pkradial {
+  background-image: radial-gradient(#ff8a00, #e52e71);
+}
+.pkconic {
+  background-image: conic-gradient(#ff8a00, #e52e71);
+}
+.grnlinear {
+  background-image: linear-gradient(var(--cyx), var(--dbl));
+}
+.grnradial {
+  background-image: radial-gradient(var(--cyx), var(--dbl));
+}
+.grnconic {
+  background-image: conic-gradient(var(--cyx), var(--dbl));
+}
+.gb2linear {
+  background-image: linear-gradient(var(--db3), var(--cyx));
+}
+.gb2radial {
+  background-image: radial-gradient(var(--db3), var(--cyx));
+}
+.gb2conic {
+  background-image: conic-gradient(
+    var(--db4),
+    var(--db3),
+    var(--cyx),
+    var(--cyx)
+  );
+}
+
+
+.grid {
+	display: grid;
+	gap: 1em 1px;
+	grid-auto-flow: column dense;
+	grid-template-areas:
+	". . ."
+	". . ."
+	". . .";
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 9px;
+
+}

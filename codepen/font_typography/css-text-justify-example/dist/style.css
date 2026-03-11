@@ -1,0 +1,26 @@
+p {
+  font-family: 'Noto Sans', sans-serif;
+  width: 85%;
+  border: solid 2px;
+  text-align: justify;
+}
+
+span {
+  font-weight: 700;
+}
+
+#para1 {
+  text-justify: auto;
+}
+
+#para2 {
+  text-justify: none;
+}
+
+#para3 {
+  text-justify: inter-word;
+}
+
+#para4 {
+  text-justify: inter-character;
+}

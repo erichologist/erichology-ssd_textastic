@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>fit-content()</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:400,700" rel="stylesheet"><link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header class="header">
+  <div class="header__title">
+    <h1>
+      <code>fit-content()</code>
+    </h1>
+  </div>
+  <div class="header__reference">
+    <ul class="reference-list">
+      <li><a class="reference-list__link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content">MDN reference</a></li>
+      <li><a class="reference-list__link" href="https://caniuse.com/#search=fit-content()">caniuse Support</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="example">
+    <p>
+      In this example, we are using an argument of <code>250px</code> for the <code>fit-content()</code> function. This tells the browser to restrict the first grid column to a width of 350px, causing the text content to break to a new line to fit:
+    </p>
+
+    <div class="example__demo example__demo--fit-content">
+      <div class="grid">
+        <div class="grid__col-a">
+          <blockquote>
+            <p>The simple act of paying attention can take you a long way.</p>
+            <footer>
+              <p><cite>Keanu Reeves</cite></p>
+            </footer>
+          </blockquote>    
+        </div>
+        <div class="grid__col-b">🏄</div>
+      </div>
+    </div>
+    
+    <p>
+      The other value for <code>grid-template-columns</code>, <code>1fr</code>, tells the browser to distribute the remaining space evenly by a factor of one. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#The_fr_Unit">The <code>fr</code> unit is relatively new</a>, designed to be used with CSS Grid.
+    </p>
+  </div>
+</main>
+    
+  </body>
+  
+</html>

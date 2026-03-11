@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive Text Mixin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="all" href="https://github.com/erichologist/assets/raw/refs/heads/main/fonts/cartographcf/cartographcf-special.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://github.com/erichologist/assets/raw/refs/heads/main/fonts/monotalic/monotalic.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://raw.githubusercontent.com/erichologist/assets/refs/heads/main/css-scripts/prism/prism.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://raw.githubusercontent.com/themarcba/prism-themes/refs/heads/master/themes/prism-synthwave84.css"/>
+<script type="text/javascript" src="https://raw.githubusercontent.com/erichologist/assets/refs/heads/main/css-scripts/prism/prism.js"></script><link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel='stylesheet' href='https://raw.githubusercontent.com/erichologist/assets/refs/heads/main/css-scripts/prism/prism.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div>
+	<h1>VW Responsive Text Mixin!</h1>
+	<h2>Scaling text manually with media query breakpoints is tiresome and boring.</h2>
+	<p>With this mixin you can easily create text that will smoothly scale down from an upper bounds breakpoint down to a specific minimum font size, all with only CSS(LESS).</p>
+	<!--<pre class="language-css">-->
+	<pre><code class="language-less">
+		h1 { .ResponsiveText(960,3.4,2); }
+</code></pre>
+	<p>Generates to:</p>
+	<pre class="language-css"><code class="language-css">
+		h1 {
+		font-size: 3.4rem;
+		}
+		<br/>
+		@media only screen and (max-width: 960px) {
+		h1 {
+		font-size: 5.66666667vw;
+		}
+		}
+		<br/>
+		@media only screen and (max-width: 564.70588235px) {
+		h1 {
+		font-size: 2rem;
+		}
+		}
+	</code></pre>
+	<p>which allows the H1 on this page to smoothly scale down from 3.4rem font size at 960px and above resolution all the way down to 2rem.</p>
+</div>
+    <script src='https://raw.githubusercontent.com/erichologist/assets/refs/heads/main/css-scripts/prism/prism.js'></script>
+  </body>
+  
+</html>

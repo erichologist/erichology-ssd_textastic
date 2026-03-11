@@ -1,0 +1,33 @@
+body {
+	background: #000;
+  display: flex;
+	justify-content: center;
+}
+
+div {
+	background: #fff;
+	width: 500px;
+	height: 300px;
+	padding: 50px;
+	box-shadow: inset 0px 0px 10px 10px #000;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+body {
+	background: #222222;
+  display: flex;
+  color:#efefef;
+	justify-content: center;
+}
+
+div {
+	background: #222222;
+	width: 500px;
+	height: 300px;
+	padding: 50px;
+	box-shadow: inset 0px 0px 10px 10px #eeeeee;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}

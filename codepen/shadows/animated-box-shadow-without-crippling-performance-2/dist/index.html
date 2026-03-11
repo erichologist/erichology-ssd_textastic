@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Animated box-shadow without crippling performance</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <h1 class="demo-header">How to animate <code>box-shadow</code> without crippling performance</h1>
+
+<div class="demo-area">
+    <div class="wrong-way a-way">
+        <h2 class="demo-section-header wrong-header"><span class="wrong-text">Don't:</span> Animate the <code>box-shadow</code> property</h2>
+        <div class="wrong-wrapper item-wrapper">
+            <div class="wrong-item item"></div>
+            <div class="wrong-item item"></div>
+            <div class="wrong-item item"></div>
+        </div>
+        <span class="demo-section-description">Hover the cards</span>
+
+        <div class="demo-description">
+            <p>Animating a changed <code>box-shadow</code> (in this case from <code>box-shadow: 0 1px 2px rgba(0,0,0,0.15)</code> to <code>box-shadow: 0 5px 15px rgba(0,0,0,0.3)</code> causes a re-paint on every frame.</p>
+
+            <p>Your desktop likely handles it without any issues, but your phone may not, and even your desktop may suffer when animating a more complex layout.</p>
+        </div>
+    </div>
+
+    <div class="correct-way a-way">
+        <h2 class="demo-section-header correct-header"><span class="correct-text">Do:</span> Animate a pseudo-element</h2>
+        <div class="correct-wrapper item-wrapper">
+            <div class="correct-item item"></div>
+            <div class="correct-item item"></div>
+            <div class="correct-item item"></div>
+        </div>
+        <span class="demo-section-description">Hover the cards</span>
+
+        <div class="demo-description">
+            <p>We can minimize the amount of repaints by inserting a pseudo-element with <code>:after</code>, adding a shadow to that element, and then animating the <code>opacity</code> of the pseudo-element
+                on <code>hover</code>.</p>
+
+            <p>Changes to both the <code>transform</code> and <code>opacity</code> properties are hardware accelerated, and we can achieve better performance when sticking to only changing these properties in animations.</p>
+        </div>
+    </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

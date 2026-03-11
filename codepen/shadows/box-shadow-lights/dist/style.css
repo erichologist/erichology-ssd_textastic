@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://use.typekit.net/ygj7fsw.css");
+.wipe {
+  font-family: "puffin-arcade-wipe", sans-serif;
+}
+
+.regular {
+  font-family: "puffin-arcade-regular", sans-serif;
+}
+
+.tate {
+  font-family: "puffin-arcade-tate", sans-serif;
+}
+
+.level {
+  font-family: "puffin-arcade-level", sans-serif;
+}
+
+.liquid {
+  font-family: "puffin-arcade-liquid", sans-serif;
+}
+
+.yoko {
+  font-family: "puffin-arcade-yoko", sans-serif;
+}
+
+.dither {
+  font-family: "puffin-arcade-dither", sans-serif;
+}
+
+.loadout {
+  font-family: "puffin-arcade-loadout", sans-serif;
+}
+
+.nerf {
+  font-family: "puffin-arcade-nerf", sans-serif;
+}
+
+.warp {
+  font-family: "puffin-arcade-warp", sans-serif;
+}
+
+.foozle {
+  font-family: "puffin-arcade-foozle", sans-serif;
+}
+
+.chrome {
+  font-family: "puffin-arcade-chrome", sans-serif;
+}
+
+.sud {
+  font-family: "sudz-regular", sans-serif;
+}
+
+.sudz {
+  font-family: "sudz-black", sans-serif;
+}
+
+body {
+  perspective: 500px;
+  background: #222;
+}
+
+div {
+  position: absolute;
+  left: 75%;
+  top: 20vh;
+  color: #fff;
+  width: 60vw;
+  font-family: "Lobster", sans-serif;
+  font-family: "puffin-arcade-nerf", sans-serif;
+  font-size: 10vmin;
+  line-height: 1;
+  transform: translate(-50vmin) rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
+  position: absolute;
+  -webkit-animation: changeColor 3s linear infinite alternate;
+          animation: changeColor 3s linear infinite alternate;
+}
+
+@-webkit-keyframes changeColor {
+  0% {
+    text-shadow: -6px 4px 0px #e91e63, -5px 3px 0px #e91e63CC;
+  }
+  10% {
+    text-shadow: 4px -6px 0px #00ff0a, 3px -5px 0px #00ff0aCC;
+  }
+  20% {
+    text-shadow: -9px 4px 0px #0b3cff, -8px 3px 0px #0b3cffCC;
+  }
+  30% {
+    text-shadow: 4px -6px 0px #ffe926;
+  }
+  40% {
+    text-shadow: -8px 4px 0px #f19000;
+  }
+  50% {
+    text-shadow: 4px 5px 0px #e9a48b;
+  }
+  60% {
+    text-shadow: -6px 4px 0px #e9eced;
+  }
+  70% {
+    text-shadow: 4px 7px 0px #e028ff, 3px 6px 0px #e028ffCC;
+  }
+  80% {
+    text-shadow: -9px -4px 0px #5af4e5;
+  }
+  90% {
+    text-shadow: 4px -6px 0px #3c59f8, 3px -5px 0px #3c59f8CC;
+  }
+  100% {
+    color: #777;
+    transform: translate(-50vmin) rotateX(15deg) rotateY(10deg) rotateZ(-5deg);
+    text-shadow: -9px 4px 0px #d7d7d7;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    text-shadow: -6px 4px 0px #e91e63, -5px 3px 0px #e91e63CC;
+  }
+  10% {
+    text-shadow: 4px -6px 0px #00ff0a, 3px -5px 0px #00ff0aCC;
+  }
+  20% {
+    text-shadow: -9px 4px 0px #0b3cff, -8px 3px 0px #0b3cffCC;
+  }
+  30% {
+    text-shadow: 4px -6px 0px #ffe926;
+  }
+  40% {
+    text-shadow: -8px 4px 0px #f19000;
+  }
+  50% {
+    text-shadow: 4px 5px 0px #e9a48b;
+  }
+  60% {
+    text-shadow: -6px 4px 0px #e9eced;
+  }
+  70% {
+    text-shadow: 4px 7px 0px #e028ff, 3px 6px 0px #e028ffCC;
+  }
+  80% {
+    text-shadow: -9px -4px 0px #5af4e5;
+  }
+  90% {
+    text-shadow: 4px -6px 0px #3c59f8, 3px -5px 0px #3c59f8CC;
+  }
+  100% {
+    color: #777;
+    transform: translate(-50vmin) rotateX(15deg) rotateY(10deg) rotateZ(-5deg);
+    text-shadow: -9px 4px 0px #d7d7d7;
+  }
+}

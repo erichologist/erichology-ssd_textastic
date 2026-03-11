@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Animated box-shadow without crippling performance</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <h1 class="demo-header">How to animate <span class="bg"><span class="code">box-shadow</span></span> without crippling performance</h1>
+
+<div class="demo-area">
+    <div class="wrong-way a-way">
+        <h2 class="demo-section-header wrong-header"><span class="wrong-text">Don't:</span> Animate the<br><span class="bg"><span class="code">box-shadow</span></span> property</h2>
+        <div class="wrong-wrapper item-wrapper">
+            <div class="wrong-item item"></div>
+            <div class="wrong-item item"></div>
+            <div class="wrong-item item"></div>
+        </div>
+        <span class="demo-section-description">Hover the cards</span>
+
+        <div class="demo-description">
+            <p class="p">Animating a changed <span class="bg"><span class="code">box-shadow</span></span> (in this case from<br><span class="bg"><span class="code">box-shadow:</span></span><br><span class="bg"><span class="code">0 1px 2px rgba(0,0,0,0.15)</span></span><br>to<br><span class="bg"><span class="code">box-shadow:</span></span><br><span class="bg"><span class="code">0 5px 15px rgba(0,0,0,0.3)</span></span> causes a re-paint on every frame.</p>
+
+            <p class="p">Your desktop likely handles it without any issues, but your phone may not, and even your desktop may suffer when animating a more complex layout.</p>
+        </div>
+    </div>
+
+    <div class="correct-way a-way">
+        <h2 class="demo-section-header correct-header"><span class="correct-text">Do:</span> Animate a<br><span class="bg"><span class="code">pseudo-element</span></span></h2>
+        <div class="correct-wrapper item-wrapper">
+            <div class="correct-item item"></div>
+            <div class="correct-item item"></div>
+            <div class="correct-item item"></div>
+        </div>
+        <span class="demo-section-description">Hover the cards</span>
+
+        <div class="demo-description">
+            <p class="p">We can minimize the amount of repaints by inserting a pseudo-element with <span class="bg"><span class="code">:after</span></span>, adding a shadow to that element, and then animating the <span class="bg"><span class="code">opacity</span></span> of the pseudo-element
+                on <span class="bg"><span class="code">hover</span></span>.</p>
+
+            <p class="p">Changes to both the <span class="bg"><span class="code">transform</span></span> and <span class="bg"><span class="code">opacity</span></span> properties are hardware accelerated, and we can achieve better performance when sticking to only changing these properties in animations.</p>
+        </div>
+    </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
