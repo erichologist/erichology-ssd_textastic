@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    svg {
+      background: url(https://usernamenotavailable12.github.io/Video-Layout/indexsd.svg);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 400px;
+    }
+    text { 
+      font-family: Verdana; 
+      font-size: 100pt; 
+      font-weight: bold; 
+      stroke: #000;
+    }
+    tspan {
+      font-size: 50pt; 
+    }
+    #small {
+      display: none;
+    }
+    #big {
+      display: block;
+    }
+    #smaller {
+      display: none;
+    }
+    @media (max-width: 788px) {
+      #small {
+        display: block;
+      }
+      #big {
+        display: none;
+      }
+      text {
+        font-size: 60pt;
+      }
+      tspan {
+        font-size: 40pt;
+      }
+      #smaller {
+        display: none;
+      }
+      svg {
+        height: 340px;
+      }
+    }
+    @media (max-width: 668px) {
+      text {
+        font-size: 45pt;
+      }
+      tspan {
+        font-size: 30pt;
+      }
+      #smaller {
+        display: none;
+      }
+      svg {
+        height: 340px;
+      }
+    }
+    @media (max-width: 430px) {
+      text {
+        font-size: 35pt;
+      }
+      tspan {
+        font-size: 20pt;
+      }
+      #smaller {
+        display: block;
+      }
+      #small {
+        display: none;
+      }
+      svg {
+        height: 210px;
+      }
+    }
+    @media (max-width: 420px) {
+      text {
+        font-size: 25pt;
+      }
+      tspan {
+        font-size: 15pt;
+      }
+      #smaller {
+        display: block;
+      }
+      #small {
+        display: none;
+      }
+    }
+  </style>
+  <defs>
+    <pattern id="p1" patternUnits="userSpaceOnUse" width="32" height="32">
+      <image xlink:href="http://phrogz.net/tmp/alphaball-small.png" width="32" height="32" />
+    </pattern>
+    <pattern id="p2" patternUnits="userSpaceOnUse" width="10" height="10">
+      <image xlink:href="http://phrogz.net/tmp/grid.gif" width="10" height="10" />
+    </pattern>
+  </defs>
+  <text id="big" x="20" y="170" fill="url(#p1)">
+    WELCOME
+    <tspan x="20" y="250" fill="url(#p2)">TO MY</tspan>
+    <tspan x="20" y="330" fill="url(#p1)">PORTFOLIO</tspan>
+  </text>
+  <text id="small" x="20" y="150" fill="url(#p1)">
+    WELCOME
+    <tspan x="20" y="220" fill="url(#p2)">TO MY</tspan>
+    <tspan x="20" y="280" fill="url(#p1)">PORTFOLIO</tspan>
+  </text>
+  <text id="smaller" x="20" y="100" fill="url(#p1)">
+    WELCOME
+    <tspan x="20" y="130" fill="url(#p2)">TO MY</tspan>
+    <tspan x="20" y="160" fill="url(#p1)">PORTFOLIO</tspan>
+  </text>
+</svg>

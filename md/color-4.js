@@ -1,0 +1,1 @@
+function updateFirst(event) {  const p = document.querySelector("p");  if (p) {    p.style.color = event.target.value;  }}

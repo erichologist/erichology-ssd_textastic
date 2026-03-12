@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(241, 242, 243); display: block; z-index: 1; position: relative; shape-rendering: auto;" width="1433" height="552" preserveAspectRatio="xMidYMid" viewBox="0 0 1433 552">
+<g transform="translate(716.5,276) scale(1,1) translate(-716.5,-276)"><defs>
+<linearGradient id="lg-0.5703783775628228" x1="0" x2="0" y1="0" y2="1">
+  <stop stop-color="#16003a" offset="0.28"></stop>
+  <stop stop-color="#300036" offset="0.64"></stop>
+  <stop stop-color="#300036" offset="1"></stop>
+</linearGradient>
+<linearGradient id="fg-lg-0.5703783775628228" x1="0" x2="0" y1="0" y2="1">
+  <stop stop-color="#16003a" stop-opacity="1" offset="0.28"></stop>
+  <stop stop-color="#300036" stop-opacity="0.66" offset="0.64"></stop>
+  <stop stop-color="#300036" stop-opacity="0" offset="1"></stop>
+</linearGradient>
+<style type="text/css">
+  path { fill: none; stroke: #fff96f; stroke-width: 2px }
+</style>
+</defs>
+<rect x="0" y="0" width="1433" height="552" fill="url(#lg-0.5703783775628228)"></rect><path d="M0 154.56 L-12108.850000000002 552"></path><path d="M16.28409090909091 154.56 L-11817.364772727275 552"></path><path d="M32.56818181818182 154.56 L-11525.879545454547 552"></path><path d="M48.85227272727273 154.56 L-11234.39431818182 552"></path><path d="M65.13636363636364 154.56 L-10942.909090909092 552"></path><path d="M81.42045454545455 154.56 L-10651.423863636366 552"></path><path d="M97.70454545454545 154.56 L-10359.938636363639 552"></path><path d="M113.98863636363636 154.56 L-10068.453409090911 552"></path><path d="M130.27272727272728 154.56 L-9776.968181818183 552"></path><path d="M146.5568181818182 154.56 L-9485.482954545456 552"></path><path d="M162.8409090909091 154.56 L-9193.997727272728 552"></path><path d="M179.125 154.56 L-8902.5125 552"></path><path d="M195.4090909090909 154.56 L-8611.027272727275 552"></path><path d="M211.6931818181818 154.56 L-8319.542045454547 552"></path><path d="M227.97727272727272 154.56 L-8028.05681818182 552"></path><path d="M244.26136363636363 154.56 L-7736.571590909092 552"></path><path d="M260.54545454545456 154.56 L-7445.086363636365 552"></path><path d="M276.82954545454544 154.56 L-7153.601136363638 552"></path><path d="M293.1136363636364 154.56 L-6862.1159090909105 552"></path><path d="M309.39772727272725 154.56 L-6570.630681818183 552"></path><path d="M325.6818181818182 154.56 L-6279.145454545455 552"></path><path d="M341.96590909090907 154.56 L-5987.660227272729 552"></path><path d="M358.25 154.56 L-5696.175 552"></path><path d="M374.53409090909093 154.56 L-5404.6897727272735 552"></path><path d="M390.8181818181818 154.56 L-5113.204545454547 552"></path><path d="M407.10227272727275 154.56 L-4821.719318181819 552"></path><path d="M423.3863636363636 154.56 L-4530.234090909093 552"></path><path d="M439.67045454545456 154.56 L-4238.748863636364 552"></path><path d="M455.95454545454544 154.56 L-3947.2636363636375 552"></path><path d="M472.2386363636364 154.56 L-3655.77840909091 552"></path><path d="M488.52272727272725 154.56 L-3364.2931818181823 552"></path><path d="M504.8068181818182 154.56 L-3072.807954545455 552"></path><path d="M521.0909090909091 154.56 L-2781.322727272727 552"></path><path d="M537.375 154.56 L-2489.8375000000015 552"></path><path d="M553.6590909090909 154.56 L-2198.352272727274 552"></path><path d="M569.9431818181819 154.56 L-1906.8670454545463 552"></path><path d="M586.2272727272727 154.56 L-1615.3818181818187 552"></path><path d="M602.5113636363636 154.56 L-1323.8965909090912 552"></path><path d="M618.7954545454545 154.56 L-1032.4113636363636 552"></path><path d="M635.0795454545455 154.56 L-740.926136363636 552"></path><path d="M651.3636363636364 154.56 L-449.44090909090846 552"></path><path d="M667.6477272727273 154.56 L-157.9556818181827 552"></path><path d="M683.9318181818181 154.56 L133.52954545454486 552"></path><path d="M700.2159090909091 154.56 L425.01477272727243 552"></path><path d="M716.5 154.56 L716.5000000000018 552"></path><path d="M732.7840909090909 154.56 L1007.9852272727276 552"></path><path d="M749.0681818181819 154.56 L1299.4704545454551 552"></path><path d="M765.3522727272727 154.56 L1590.955681818181 552"></path><path d="M781.6363636363636 154.56 L1882.4409090909085 552"></path><path d="M797.9204545454545 154.56 L2173.926136363638 552"></path><path d="M814.2045454545455 154.56 L2465.4113636363636 552"></path><path d="M830.4886363636364 154.56 L2756.896590909091 552"></path><path d="M846.7727272727273 154.56 L3048.381818181817 552"></path><path d="M863.0568181818181 154.56 L3339.8670454545463 552"></path><path d="M879.3409090909091 154.56 L3631.352272727274 552"></path><path d="M895.625 154.56 L3922.8374999999996 552"></path><path d="M911.9090909090909 154.56 L4214.322727272727 552"></path><path d="M928.1931818181819 154.56 L4505.807954545453 552"></path><path d="M944.4772727272727 154.56 L4797.293181818182 552"></path><path d="M960.7613636363636 154.56 L5088.778409090912 552"></path><path d="M977.0454545454545 154.56 L5380.2636363636375 552"></path><path d="M993.3295454545455 154.56 L5671.748863636363 552"></path><path d="M1009.6136363636364 154.56 L5963.234090909093 552"></path><path d="M1025.8977272727273 154.56 L6254.719318181818 552"></path><path d="M1042.1818181818182 154.56 L6546.204545454548 552"></path><path d="M1058.465909090909 154.56 L6837.6897727272735 552"></path><path d="M1074.75 154.56 L7129.174999999999 552"></path><path d="M1091.034090909091 154.56 L7420.660227272729 552"></path><path d="M1107.3181818181818 154.56 L7712.145454545454 552"></path><path d="M1123.6022727272727 154.56 L8003.630681818184 552"></path><path d="M1139.8863636363637 154.56 L8295.11590909091 552"></path><path d="M1156.1704545454545 154.56 L8586.601136363639 552"></path><path d="M1172.4545454545455 154.56 L8878.086363636365 552"></path><path d="M1188.7386363636363 154.56 L9169.571590909094 552"></path><path d="M1205.0227272727273 154.56 L9461.05681818182 552"></path><path d="M1221.3068181818182 154.56 L9752.542045454546 552"></path><path d="M1237.590909090909 154.56 L10044.027272727275 552"></path><path d="M1253.875 154.56 L10335.5125 552"></path><path d="M1270.159090909091 154.56 L10626.99772727273 552"></path><path d="M1286.4431818181818 154.56 L10918.482954545456 552"></path><path d="M1302.7272727272727 154.56 L11209.968181818185 552"></path><path d="M1319.0113636363637 154.56 L11501.453409090911 552"></path><path d="M1335.2954545454545 154.56 L11792.938636363637 552"></path><path d="M1351.5795454545455 154.56 L12084.423863636366 552"></path><path d="M1367.8636363636363 154.56 L12375.909090909092 552"></path><path d="M1384.1477272727273 154.56 L12667.394318181821 552"></path><path d="M1400.4318181818182 154.56 L12958.879545454547 552"></path><path d="M1416.715909090909 154.56 L13250.364772727276 552"></path><path d="M1433 154.56 L13541.850000000006 552"></path><g>
+<path d="M0 154.56 L1433 154.56"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 6.569256198347108" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 161.12925619834712 L1433 161.12925619834712"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 13.138512396694214" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 174.26776859504133 L1433 174.26776859504133"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 19.707768595041323" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 193.97553719008266 L1433 193.97553719008266"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 26.27702479338843" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 220.25256198347108 L1433 220.25256198347108"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 32.84628099173554" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 253.09884297520662 L1433 253.09884297520662"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 39.415537190082645" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 292.51438016528925 L1433 292.51438016528925"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 45.98479338842975" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 338.499173553719 L1433 338.499173553719"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 52.554049586776856" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 391.05322314049585 L1433 391.05322314049585"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 59.12330578512396" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 450.1765289256198 L1433 450.1765289256198"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 65.69256198347107" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><g>
+<path d="M0 515.8690909090908 L1433 515.8690909090908"></path>
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="linear" keyTimes="0;1" values="0 0;0 72.26181818181817" begin="0s" dur="2.1739130434782608s"></animateTransform>
+
+</g><rect x="0" y="0" width="1433" height="552" fill="url(#fg-lg-0.5703783775628228)"></rect></g>
+</svg>

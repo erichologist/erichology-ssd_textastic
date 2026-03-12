@@ -1,6 +1,29 @@
 ---
-modified: 2023-09-09T04:53:00-07:00
+title: title  category
+author: ELH
+categories:
+- category
+tags:
+  - title
+  - category
+  - tag
+keywords:    category, title, tag
+favicon: "../assets/icons/favicon.svg"
+tableOfContents: TRUE
+css:      ../assets/mdprag.css
+xhtml header:
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/mdprag.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/mdmtp.css"/>
+      <link rel="stylesheet" type="text/css" media="all" href="../assets/mdmtp.css"/>
+    <script type="text/javascript" src="../assets/prism.js"></script>
+    <style></style>
 ---
+
+# title
+## category
+
+
+
 <h1 align="center"></h1><p align="center">
 <a href="http://unlicense.org/"><img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense"></a>
 <a href="https://github.com/markdown-templates/markdown-snippets/issues"><img src="https://img.shields.io/github/issues/markdown-templates/markdown-snippets.svg" alt="Issues"></a>

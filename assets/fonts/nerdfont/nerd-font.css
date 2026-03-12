@@ -1,0 +1,42 @@
+/* *# [Nerd Fonts]  Website: https://www.nerdfonts.com
+   *# [Nerd Fonts]  Development Website: https://github.com/ryanoasis/nerd-fonts
+   *# [Nerd Fonts]  Version: 3.1.1  */
+@font-face {
+  font-family: "NerdFontsSymbols Nerd Font";
+	src:local('SymbolsNFM'), local('SymbolsNF'), url("./Symbols-2048-em Nerd Font Complete.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.nf, .nerd-font, .nerd-fonts {
+  font-family: "NerdFontsSymbols Nerd Font", 'SymbolsNFM', 'SymbolsNF';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.nf-fa-search:before {
+  content: "\f002";
+}
+
+.nf-md-close_outline:before {
+  content: "\f06c9";
+}
+
+.nf-md-map_marker_radius:before {
+  content: "\f0352";
+}
+
+.nf-md-close_network:before {
+  content: "\f015b";
+}
+
+.nf-fa-warning:before {
+  content: "\f071";
+}
+
+.nf-md-emoticon_sad_outline:before {
+  content: "\f01f8";
+}

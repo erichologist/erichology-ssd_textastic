@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Bold'),
+        url('../fonts-tchig/TchigMono-Bold.woff2') format('woff2'),
+        url('../fonts-tchig/TchigMono-Bold.woff') format('woff'),
+        url('../fonts-tchig/TchigMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Medium'),
+        url('../fonts-tchig/TchigMono-Medium.woff2') format('woff2'),
+        url('../fonts-tchig/TchigMono-Medium.woff') format('woff'),
+        url('../fonts-tchig/TchigMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Regular'),
+        url('../fonts-tchig/TchigMono-Regular.woff2') format('woff2'),
+        url('../fonts-tchig/TchigMono-Regular.woff') format('woff'),
+        url('../fonts-tchig/TchigMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+

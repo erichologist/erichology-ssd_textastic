@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Light'),
+        url('TchigMono-Light.woff2') format('woff2'),
+        url('TchigMono-Light.woff') format('woff'),
+        url('TchigMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Regular'),
+        url('TchigMono-Regular.woff2') format('woff2'),
+        url('TchigMono-Regular.woff') format('woff'),
+        url('TchigMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Medium'),
+        url('TchigMono-Medium.woff2') format('woff2'),
+        url('TchigMono-Medium.woff') format('woff'),
+        url('TchigMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Bold'),
+        url('TchigMono-Bold.woff2') format('woff2'),
+        url('TchigMono-Bold.woff') format('woff'),
+        url('TchigMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Black'),
+        url('TchigMono-Black.woff2') format('woff2'),
+        url('TchigMono-Black.woff') format('woff'),
+        url('TchigMono-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+.tchig, p.tchig, span.tchig, pre.tchig code.tchig {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Regular'),
+        url('TchigMono-Regular.woff2') format('woff2'),
+        url('TchigMono-Regular.woff') format('woff'),
+        url('TchigMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+
+@font-face {
+    font-family: 'Tchig Mono';
+    src: local('TchigMono-Black'),
+        url('TchigMono-Black.woff2') format('woff2'),
+        url('TchigMono-Black.woff') format('woff'),
+        url('TchigMono-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    font-variant-alternates: 'salt' 2, 'salt' 3, 'salt' 6;
+    -moz-font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    -webkit-font-feature-setting: 'liga', 'ss02', 'ss03', 'ss06';
+    font-feature-settings: 'liga', 'ss02', 'ss03', 'ss06';
+    font-variant-ligatures: common-ligatures;
+}
+
+
+

@@ -13,7 +13,7 @@ css:			./mdprag.css
 xhtml header:
 		<link rel="stylesheet" type="text/css" media="all" href="./mdprag.css"/>
 		<link rel="stylesheet" type="text/css" media="all" href="./mdmtp.css"/>
-		<link rel="stylesheet" type="text/css" media="all" href="./mdmtp.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="./prism84.css"/>
 		<script type="text/javascript" src="./prism.js"></script>
 		<style></style>
 ---
@@ -22,10 +22,6 @@ xhtml header:
 # Gemini
 ## Chats
 
-
-
-
-_______
 
 
 
@@ -44,11 +40,12 @@ body {
 ```
 
 
-_______
+
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 
-_______
 
 
 ```lang-css
@@ -102,11 +99,13 @@ _______
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Animated Hero</title>
-    <style>
-        /* 1. GLOBAL SETTINGS & VARIABLES */
+<meta charset="UTF-8">
+<meta name="viewport"
+ content="width=device-width, 
+ initial-scale=1.0">
+<title>Premium Animated Hero</title>
+<style>
+/* 1. GLOBAL SETTINGS & VARIABLES */
 :root {
     --bg-dark: #191919;
     --bg-accent: #353130;
@@ -155,7 +154,8 @@ body {
 }
 @keyframes colorFlow {
     0% { background-position: 0 0, 0% 50%; }
-    50% { background-position: 0 0, 101% 50%; } /* 101% hides seams */
+    50% { background-position: 0 0, 101% 50%; } 
+    /* 101% hides seams */
     100% { background-position: 0 0, 0% 50%; }
 }
 
@@ -211,17 +211,19 @@ p {
     h1 { font-size: 1.8rem; }
     .hero-card { padding: 3rem 1.5rem; }
 }
-    </style>
+</style>
 </head>
 <body>
-    <section class="hero-card">
-        <h1 class="fade-in-text">Experience the Flow</h1>
-        <p class="fade-in-text">
-            This card uses a 75ch max-width for perfect readability on desktop, 
-            while staying fully responsive on mobile devices.
-        </p>
-        <a href="#" class="cta-button">Get Started</a>
-    </section>
+
+<section class="hero-card">
+    <h1 class="fade-in-text">Experience the Flow</h1>
+    <p class="fade-in-text">
+This card uses a 75ch max-width for perfect readability on desktop, 
+while staying fully responsive on mobile devices.
+    </p>
+    <a href="#" class="cta-button">Get Started</a>
+</section>
+
 </body>
 </html>
 ```
@@ -266,6 +268,9 @@ _______
 	--c09:#FF66A2;
 }
 @-webkit-keyframes gradient { 0% {background-position:0% 50%;} 50% {background-position:100% 50%;} 100% {background-position:0%  50%;} }
+```
+
+```css
 body {
 	--c-action:#196AFF;
 	--c-bg:#DAD7D7;
@@ -295,11 +300,13 @@ body {
 	--cyn1:color-mix(in oklab, #00FF00 49%, #0000FF 51%);
 	--cyn2:color-mix(in srgb, #00DDEE 30%, var(--cyn1) 70%);
 	--cyn3:color-mix(in srgb, #00FF00 48%, #0000FF 50%);
+}
+```
 
 
 
-
-
+```css
+:root {
 	--blft:var(--wht40);
 
 	--border3:1px solid var(--wht40);
@@ -416,6 +423,9 @@ body {
 	color:var(--c-content);
 	transition:background 400ms cubic-bezier(1, 0, 0.4, 1),color 400ms cubic-bezier(1, 0, 0.4, 1);
 }
+```
+
+```css
 body:has(input[value="dark"]:checked) {
 	--m:#03D5FF;
 	--m4:color-mix(in srgb, var(--m) 99%, transparent 40%);
@@ -446,6 +456,9 @@ body:has(input[value="dark"]:checked) {
 	--saturation:150%;
 	background:var(--c-bg);
 }
+```
+
+```css
 body:has(input[value="dim"]:checked) {
 	--blft:var(--wht57);
 	--m:#E72B93;
@@ -476,6 +489,9 @@ body:has(input[value="dim"]:checked) {
 	--saturation:200%;
 	background:var(--c-bg);
 }
+```
+
+```css
 blockquote, blockquote:not(:has(>blockquote)) {
 	display:block;
 	font-size:1.82em;
@@ -539,6 +555,9 @@ blockquote, blockquote:not(:has(>blockquote)) {
 	box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--c-light) calc(var(--glass-reflex-light) * 10%),transparent), inset 1.8px 3px 0px -2px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 90%), transparent), inset -2px -2px 0px -2px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 80%), transparent), inset -3px -8px 1px -6px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 60%), transparent), inset -0.3px -1px 4px 0px color-mix(in srgb,var(--c-dark) calc(var(--glass-reflex-dark) * 12%),transparent), inset -1.5px 2.5px 0px -2px color-mix(in srgb,var(--c-dark) calc(var(--glass-reflex-dark) * 20%),transparent), inset 0px 3px 4px -2px color-mix(in srgb, var(--c-dark) calc(var(--glass-reflex-dark) * 20%), transparent), inset 2px -6.5px 1px -4px color-mix(in srgb,var(--c-dark) calc(var(--glass-reflex-dark) * 10%),transparent),0px 1px 5px 0px color-mix(in srgb,var(--c-dark) calc(var(--glass-reflex-dark) * 10%),transparent),0px 6px 16px 0px color-mix(in srgb,var(--c-dark) calc(var(--glass-reflex-dark) * 8%),transparent);
 	transition:background-color 400ms cubic-bezier(1, 0, 0.4, 1), box-shadow 400ms cubic-bezier(1, 0, 0.4, 1);
 }
+```
+
+```css
 .switcher__legend {
 	position:absolute;
 	width:1px;
@@ -632,8 +651,9 @@ blockquote, blockquote:not(:has(>blockquote)) {
 	animation:scaleToggle3 440ms ease;
 }
 @-webkit-keyframes scaleToggle { 0% { scale:1 1; } 50% { scale:1.1 1; } 100% { scale:1 1; } } @keyframes scaleToggle { 0% { scale:1 1; } 50% { scale:1.1 1; } 100% { scale:1 1; } } @-webkit-keyframes scaleToggle2 { 0% { scale:1 1; } 50% { scale:1.2 1; } 100% { scale:1 1; } } @keyframes scaleToggle2 { 0% { scale:1 1; } 50% { scale:1.2 1; } 100% { scale:1 1; } } @-webkit-keyframes scaleToggle3 { 0% { scale:1 1; } 50% { scale:1.1 1; } 100% { scale:1 1; } } @keyframes scaleToggle3 { 0% { scale:1 1; } 50% { scale:1.1 1; } 100% { scale:1 1; } }
+
 /* //////////////////////////////////////////
-/  Article Styles //////////////////////// */
+   Article Styles /////////////////////// */
 .article {
 	display:flex;
 	flex-direction:column;

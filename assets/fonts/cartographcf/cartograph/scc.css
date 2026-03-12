@@ -1,0 +1,403 @@
+
+@font-face{
+	font-family:"CartographCF Nerd Font";
+	src:local("Cartograph CF Light Italic Nerd Font Complete"), local("CartographCFNerdFontComplete-LightItalic");
+	font-style:italic;
+	font-weight:300;
+	font-display:swap;
+}
+@font-feature-values "CartographCFNerdFontComplete-LightItalic"{
+	@stylistic{
+		alternate1:1;/* Maps "alternate1" to salt 1 */
+		alternate2:2;/* Maps "alternate2" to salt 2 */
+		alternate5:5;/* Maps "alternate5" to salt 5 */
+	}
+}
+body{
+	background:#171717;
+	color:#f0f0f0;
+}
+.alncntr{justify-content:center;}
+.stretch, .strtch, .alnstretch{align-items:stretch !important;}
+.bottom{align-items:bottom !important;}
+.cart, .c{
+	font-family:CartographCF-RegularItalic, CartographCF-LightItalic;
+	font-weight:300;
+	font-style:italic;
+}
+.cart {font-family:"CartographCF Nerd Font";}
+.centr, .centr pre, .centr pre code, p.centr, .centr code, .centr span, .centr p, pre.centr, code.centr, span.centr{
+	justify-content:flex-start;
+	align-items:center;
+}
+.crt {
+	font-family:"CartographCFNerdFontComplete-LightItalic" !important;
+	font-feature-settings:"liga";
+	font-variant-alternates:"salt" 2, "salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-ligatures:common-ligatures
+}
+.cs1 {
+	font-family:"CartographCFNerdFontComplete-LightItalic";/*Applies salt1*/
+	font-variant-alternates:stylistic(alternate1);
+}
+.cs2 {
+	font-family:"CartographCFNerdFontComplete-LightItalic";/*Applies salt1*/
+	font-variant-alternates:stylistic(alternate2);
+}
+.cs5 {
+	font-family:"CartographCFNerdFontComplete-LightItalic";
+	font-weight:300;
+	font-style:italic;/* Applies salt 5 */
+	font-variant-alternates:stylistic(alternate5);
+}
+.csa {
+	font-family:"CartographCFNerdFontComplete-LightItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:"salt" 2, "salt" 5;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.csb {
+	font-family:"CartographCFNerdFontComplete-LightItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.csc {
+	font-family:"CartographCFNerdFontComplete-LightItalic";
+	font-weight:300;
+	font-style:italic;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-variant-alternates:"ss05", "ss02";
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga";
+}
+.csd {
+	font-family:"CartographCFNerdFontComplete-LightItalic";
+	font-weight:300;
+	font-style:italic;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.cse {
+	font-family:"CartographCFNerdFontComplete-LightItalic";
+	font-weight:300;
+	font-style:italic;
+	font-feature-settings:"liga";
+	font-variant-alternates:"salt" 2, "salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-ligatures:common-ligatures
+}
+.csre {
+	font-family:"CartographCF Nerd Font";
+	font-weight:600;
+	font-style:normal;
+	font-feature-settings:"liga";
+	font-variant-alternates:"salt" 2, "salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-ligatures:common-ligatures
+}
+.dk {
+	font-family:"DankMono-Italic";
+	font-weight:300;
+	letter-spacing:.1em;
+}
+.dk1 {
+	font-family:"DankMono-Italic";
+	font-variant-alternates:stylistic(alternate1);/* Applies salt 1 */
+}
+.dk2 {
+	font-family:"DankMono-Italic";
+	font-variant-alternates:stylistic(alternate2);/* Applies salt 1 */
+}
+.dk5 {
+	font-family:"DankMono-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:stylistic(alternate5);/* Applies salt 5 */
+}
+.dka {
+	font-family:"DankMono-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:"salt" 2, "salt" 5;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkb {
+	font-family:"DankMono-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkc {
+	font-family:"DankMono-Italic";
+	font-weight:300;
+	font-style:italic;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-variant-alternates:"ss05", "ss02";
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkd {
+	font-family:"DankMono-Italic";
+	font-weight:300;
+	font-style:italic;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dke {
+	font-family:"DankMono-Italic", "CartographCFNerdFontComplete-LightItalic" !important;
+	font-feature-settings:"liga";
+	font-variant-alternates:"salt" 2, "salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-ligatures:common-ligatures
+}
+.dkr {
+	font-family:"DankMono", "DankMono-Regular";
+	font-weight:300;
+	font-style:normal;
+	letter-spacing:.1em;
+}
+.dkr1 {
+	font-family:"DankMono-Regular", "DankMono";
+	font-variant-alternates:stylistic(alternate1);/* Applies salt 1 */
+}
+.dkr2 {
+	font-family:"DankMono-Regular", "DankMono";
+	font-variant-alternates:stylistic(alternate2);/* Applies salt 1 */
+}
+.dkr5 {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-alternates:stylistic(alternate5);/* Applies salt 5 */
+}
+.dkra {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-alternates:"salt" 2, "salt" 5;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkrb {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkrc {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-variant-alternates:"ss05", "ss02";
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkrd {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5);/* Applies salt 1 */
+	font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.dkre {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-feature-settings:"liga";
+	font-variant-alternates:"salt" 2, "salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+	font-feature-settings:"ss05", "ss02";
+	font-variant-ligatures:common-ligatures
+}
+.flex,.flx{display:flex;}/* responsive */
+.flxc{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.flxcol{
+	display:flex;
+	flex-direction:column;
+}
+.flxcolcenter{
+	display:flex;
+	flex-direction:column;
+	align-items:stretch;
+}
+.flxcpd{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1em;
+}
+.flxrow{
+	display:flex;
+	flex-direction:row;
+}
+.i1 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:italic;
+}
+.i3 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:300;
+	font-style:italic;
+}
+.i4 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:italic;
+}
+.i6 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:600;
+	font-style:italic;
+}
+.ital {
+	font-style:italic;
+	letter-spacing:.1em;
+}
+.jccntr{justify-content:center;}
+.pd1 {padding:1.0em !important;}
+.pdem1{padding:1.0em !important;}
+.pdem1b{padding:.9em !important;}
+.pflxc{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1em;
+}
+.pflxc{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1em;
+}
+.preln{white-space:pre-line;}
+.prelnpd{
+	white-space:pre-line;
+	padding:0.9rem !important;
+	padding-bottom:1rem !important;
+	padding-left:.5rem !important;
+	padding-right:.3rem !important;
+}
+.prelnpds6{
+	font-size:.6em;
+	white-space:pre-line;
+	padding:0.9rem !important;
+	padding-bottom:1rem !important;
+	padding-left:.5rem !important;
+	padding-right:.3rem !important;
+}
+.r1 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:normal;
+}
+.r3 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:300;
+	font-style:normal;
+}
+.r4 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:normal;
+}
+.r6 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:600;
+	font-style:normal;
+}
+.reg {font-style:normal;}
+.s1  {font-size:1.0em !important;}
+.s1  {font-size:1.0em !important;}
+.s1b {font-size:1.5em !important;}
+.s2  {font-size:2.0em !important;}
+.s2b {font-size:2.5em !important;}
+.s3  {font-size:3.0em;}
+.s3b {font-size:3.5em;}
+.s4  {font-size:4.0em;}
+.s4b {font-size:4.5em;}
+.s5  {font-size:5.0em;}
+.s5b {font-size:5.5em;}
+.s6  {font-size:6.0em;}
+.s6b {font-size:6.5em;}
+.s7  {font-size:7.0em;}
+.s7b {font-size:7.5em;}
+.sp8 {font-size:0.8em !important;}
+.sp9 {font-size:0.9em !important;}
+.srem1a{font-size:1rem;}
+.srem1b{font-size:1.5rem;}
+.stretch{align-items:stretch !important;}
+.top{vertical-align:top !important;}
+.w0  {font-weight:normal;}
+.w2  {font-weight:200;}
+.w3  {font-weight:300;}
+.w4  {font-weight:400;}
+.w5  {font-weight:500;}
+.w6  {font-weight:600;}
+.w7  {font-weight:700;}
+.w8  {font-weight:800;}
+.flxstrt-cntr, div pre.center, .flxcolcenter pre.center, .flxcol pre.center{
+	justify-content:flex-start;
+	align-items:center;
+}
+.flxstrt-flx-end, div pre.end, .flxcolcenter code.end, .flxcolcenter pre.end, .flxcol pre.end, .flxcol pre.end, .end, .end pre, .end pre code, p.end, .end code, .end span, .end p, pre.end, code.end, span.end{
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.flxstrt-flx-strt, div pre.start, div pre:first-child, .flxcolcenter pre.start, .flxcol pre.start{
+	align-items:flex-start;
+	justify-content:flex-start;
+}
+@media (max-width:959px){
+	.page{
+		width:auto;
+		margin:0;
+	}
+}

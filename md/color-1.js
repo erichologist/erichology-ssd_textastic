@@ -1,0 +1,1 @@
+colorPicker.addEventListener("input", updateFirst);colorPicker.addEventListener("change", watchColorPicker);function watchColorPicker(event) {  document.querySelectorAll("p").forEach((p) => {    p.style.color = event.target.value;  });}

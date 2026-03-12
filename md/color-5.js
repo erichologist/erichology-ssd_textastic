@@ -1,0 +1,1 @@
+function updateAll(event) {  document.querySelectorAll("p").forEach((p) => {    p.style.color = event.target.value;  });}

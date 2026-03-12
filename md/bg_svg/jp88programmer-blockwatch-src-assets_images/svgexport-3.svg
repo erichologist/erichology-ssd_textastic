@@ -1,0 +1,37 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 784" preserveAspectRatio="xMidYMid" width="1536" height="784" style="shape-rendering: auto; display: block; background: rgb(8, 46, 88);"><g data-idx="1"><defs data-idx="2"><filter height="3" width="3" y="-1" x="-1" id="blur-nq4q5u6dq7r-1" data-idx="3">
+  <feGaussianBlur stdDeviation="3" data-idx="4"></feGaussianBlur>
+</filter><filter height="3" width="3" y="-1" x="-1" id="blur-nq4q5u6dq7r-2" data-idx="5">
+  <feGaussianBlur stdDeviation="1.5" data-idx="6"></feGaussianBlur>
+</filter><filter height="3" width="3" y="-1" x="-1" id="blur-nq4q5u6dq7r-3" data-idx="7">
+  <feGaussianBlur stdDeviation="1" data-idx="8"></feGaussianBlur>
+</filter></defs><circle opacity="0.7200000000000001" fill="#81ADD8" r="47.20354118677008" transform="matrix(1,0,0,1,0,782.4054565429688)" cy="0" cx="1411.3860073272087" data-idx="9">
+  
+</circle><circle opacity="0.63" fill="#BBDDFF" r="27.662537312131903" transform="matrix(1,0,0,1,0,657.0511474609375)" cy="0" cx="1188.4766879067388" data-idx="11">
+  
+</circle><circle opacity="0.7200000000000001" fill="#AABBCC" r="40.20157715223041" transform="matrix(1,0,0,1,0,733.788330078125)" cy="0" cx="1224.130834296339" data-idx="13">
+  
+</circle><circle opacity="0.36000000000000004" fill="#81ADD8" r="23.76813558808892" transform="matrix(1,0,0,1,0,85.4755859375)" cy="0" cx="778.8157485669024" data-idx="15">
+  
+</circle><circle opacity="0.63" fill="#AABBCC" r="30.026182543910014" transform="matrix(1,0,0,1,0,140.42962646484375)" cy="0" cx="866.8445883741091" data-idx="17">
+  
+</circle><circle opacity="0.63" fill="#AABBCC" r="35.579496797460905" transform="matrix(1,0,0,1,0,40.406005859375)" cy="0" cx="200.15863732454852" data-idx="19">
+  
+</circle><circle opacity="0.36000000000000004" fill="#BBDDFF" r="16.978009911297235" transform="matrix(1,0,0,1,0,379.6517333984375)" cy="0" cx="1399.6092339028464" data-idx="21">
+  
+</circle><circle opacity="0.7200000000000001" fill="#BBDDFF" r="50.05814613325134" transform="matrix(1,0,0,1,0,248.32476806640625)" cy="0" cx="715.7199804981128" data-idx="23">
+  
+</circle><circle opacity="0.36000000000000004" fill="#81ADD8" r="19.120997343649577" transform="matrix(1,0,0,1,0,680.3233032226562)" cy="0" cx="242.59454157636065" data-idx="25">
+  
+</circle><circle opacity="0.7200000000000001" fill="#81ADD8" r="51.29062146960086" transform="matrix(1,0,0,1,0,309.2843017578125)" cy="0" cx="354.7660095978447" data-idx="27">
+  
+</circle><circle opacity="0.36000000000000004" fill="#81ADD8" r="17.257275164918884" transform="matrix(1,0,0,1,0,213.0650634765625)" cy="0" cx="111.35334512261693" data-idx="29">
+  
+</circle><circle opacity="0.7200000000000001" fill="#AABBCC" r="49.45119653196844" transform="matrix(1,0,0,1,0,221.953369140625)" cy="0" cx="787.9348157655278" data-idx="31">
+  
+</circle><circle opacity="0.63" fill="#81ADD8" r="30.242725002309477" transform="matrix(1,0,0,1,0,627.5042724609375)" cy="0" cx="372.8488975823125" data-idx="33">
+  
+</circle><circle opacity="0.36000000000000004" fill="#BBDDFF" r="16.86600407738565" transform="matrix(1,0,0,1,0,58.765869140625)" cy="0" cx="1024.0111369192693" data-idx="35">
+  
+</circle><circle opacity="0.63" fill="#BBDDFF" r="30.19478099567689" transform="matrix(1,0,0,1,0,731.52099609375)" cy="0" cx="1518.2091967070337" data-idx="37">
+  
+</circle><g data-idx="39"></g></g><text data-watermark="true" text-anchor="middle" dominant-baseline="middle" stroke-opacity="0.1" fill="black" fill-opacity="0.1" stroke="#FFFFFF" stroke-width="1" font-size="15.0" x="768.0" y="392.0" data-idx="40" style="opacity: 1; font-size: 15px;">LOADING.IO</text></svg>

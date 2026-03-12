@@ -1,0 +1,2520 @@
+{
+  "SVGs": {
+  "Audio.Sound.Bars.Slow.Pink.Animated.Loop": {
+  "Audio.Sound.Bars.Slow.Pink.Animated.Loop.svg",
+   "path":"Audio.Sound.Bars.Slow.Pink.Animated.Loop.svg"
+ },
+  "Audio.Sound.Bars.Slow.Yellow.Animated.loop-2": {
+   "name":"Audio.Sound.Bars.Slow.Yellow.Animated.loop-2.svg",
+   "path":"Audio.Sound.Bars.Slow.Yellow.Animated.loop-2.svg"
+ },
+  "Audio.Speaker.Animated.Loop": {
+   "name":"Audio.Speaker.Animated.Loop.svg",
+   "path":"Audio.Speaker.Animated.Loop.svg"
+ },
+  "Automator.Head": {
+   "name":"Automator.Head.svg",
+   "path":"Automator.Head.svg"
+ },
+  "Automator": {
+   "name":"Automator.svg",
+   "path":"Automator.svg"
+ },
+  "B.Bold": {
+   "name":"B.Bold.svg",
+   "path":"B.Bold.svg"
+ },
+  "BBC.Culture": {
+   "name":"BBC.Culture.svg",
+   "path":"BBC.Culture.svg"
+ },
+  "BBC": {
+   "name":"BBC.svg",
+   "path":"BBC.svg"
+ },
+  "BBEdit": {
+   "name":"BBEdit.svg",
+   "path":"BBEdit.svg"
+ },
+  "Backhand.Index.Pointing.Up.Color.Default": {
+   "name":"Backhand.Index.Pointing.Up.Color.Default.svg",
+   "path":"Backhand.Index.Pointing.Up.Color.Default.svg"
+ },
+  "Ball.Triangle.CurrentColor.Animated.loop": {
+   "name":"Ball.Triangle.CurrentColor.Animated.loop.svg",
+   "path":"Ball.Triangle.CurrentColor.Animated.loop.svg"
+ },
+  "Bars.Scale.Left.Right.Blue.Animated.Loop": {
+   "name":"Bars.Scale.Left.Right.Blue.Animated.Loop.svg",
+   "path":"Bars.Scale.Left.Right.Blue.Animated.Loop.svg"
+ },
+  "Bars.Scale.Middle.Out.Fast.Yellow.Animated.loop": {
+   "name":"Bars.Scale.Middle.Out.Fast.Yellow.Animated.loop.svg",
+   "path":"Bars.Scale.Middle.Out.Fast.Yellow.Animated.loop.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Green.Animated.Loop": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Green.Animated.Loop.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Green.Animated.Loop.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Green.Animated.loop-2": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Green.Animated.loop-2.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Green.Animated.loop-2.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-2": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-2.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-2.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-3": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-3.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-3.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-4": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-4.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-4.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-5": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-5.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-5.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-6": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-6.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-6.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-7": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-7.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Pink.Animated.Loop-7.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Yellow.Animated.Loop-2": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Yellow.Animated.Loop-2.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Yellow.Animated.Loop-2.svg"
+ },
+  "Bars.Scale.Middle.Wave.Fast.Yellow.Animated.loop": {
+   "name":"Bars.Scale.Middle.Wave.Fast.Yellow.Animated.loop.svg",
+   "path":"Bars.Scale.Middle.Wave.Fast.Yellow.Animated.loop.svg"
+ },
+  "Battery.Animated.Loop": {
+   "name":"Battery.Animated.Loop.svg",
+   "path":"Battery.Animated.Loop.svg"
+ },
+  "Bear-2": {
+   "name":"Bear-2.svg",
+   "path":"Bear-2.svg"
+ },
+  "Bear": {
+   "name":"Bear.svg",
+   "path":"Bear.svg"
+ },
+  "Binoculars.Animated.Loop": {
+   "name":"Binoculars.Animated.Loop.svg",
+   "path":"Binoculars.Animated.Loop.svg"
+ },
+  "Binoculars.Animated.loop": {
+   "name":"Binoculars.Animated.loop.svg",
+   "path":"Binoculars.Animated.loop.svg"
+ },
+  "Blocks.Four.Scaler.Bright-Blue.Animated.Loop": {
+   "name":"Blocks.Four.Scaler.Bright-Blue.Animated.Loop.svg",
+   "path":"Blocks.Four.Scaler.Bright-Blue.Animated.Loop.svg"
+ },
+  "Blocks.Four.Scaler.Green.Animated.Loop": {
+   "name":"Blocks.Four.Scaler.Green.Animated.Loop.svg",
+   "path":"Blocks.Four.Scaler.Green.Animated.Loop.svg"
+ },
+  "Blocks.Three.Shuffle.Green.Animated.Loop-2": {
+   "name":"Blocks.Three.Shuffle.Green.Animated.Loop-2.svg",
+   "path":"Blocks.Three.Shuffle.Green.Animated.Loop-2.svg"
+ },
+  "Blocks.Three.Shuffle.Green.Animated.Loop": {
+   "name":"Blocks.Three.Shuffle.Green.Animated.Loop.svg",
+   "path":"Blocks.Three.Shuffle.Green.Animated.Loop.svg"
+ },
+  "Blocks.Two.Shuffle.Pink.Animated.Loop": {
+   "name":"Blocks.Two.Shuffle.Pink.Animated.Loop.svg",
+   "path":"Blocks.Two.Shuffle.Pink.Animated.Loop.svg"
+ },
+  "Blocks.Two.Shuffle.Purple.Animated.Loop": {
+   "name":"Blocks.Two.Shuffle.Purple.Animated.Loop.svg",
+   "path":"Blocks.Two.Shuffle.Purple.Animated.Loop.svg"
+ },
+  "Blocks.Wave.Bright-Blue.Animated.Loop.Animated.Loop": {
+   "name":"Blocks.Wave.Bright-Blue.Animated.Loop.Animated.Loop.svg",
+   "path":"Blocks.Wave.Bright-Blue.Animated.Loop.Animated.Loop.svg"
+ },
+  "Blocks.Wave.CurrentColor.Animated.loop": {
+   "name":"Blocks.Wave.CurrentColor.Animated.loop.svg",
+   "path":"Blocks.Wave.CurrentColor.Animated.loop.svg"
+ },
+  "Bluetooth.Animated.Loop": {
+   "name":"Bluetooth.Animated.Loop.svg",
+   "path":"Bluetooth.Animated.Loop.svg"
+ },
+  "Blur.on": {
+   "name":"Blur.on.svg",
+   "path":"Blur.on.svg"
+ },
+  "Boobies": {
+   "name":"Boobies.svg",
+   "path":"Boobies.svg"
+ },
+  "Book.Reference": {
+   "name":"Book.Reference.svg",
+   "path":"Book.Reference.svg"
+ },
+  "Bookmark": {
+   "name":"Bookmark.svg",
+   "path":"Bookmark.svg"
+ },
+  "Books.Animated.Loop-m": {
+   "name":"Books.Animated.Loop-m.svg",
+   "path":"Books.Animated.Loop-m.svg"
+ },
+  "Books.Animated.Loop": {
+   "name":"Books.Animated.Loop.svg",
+   "path":"Books.Animated.Loop.svg"
+ },
+  "Brackets.Code": {
+   "name":"Brackets.Code.svg",
+   "path":"Brackets.Code.svg"
+ },
+  "Bulletlist.Blue.Animated.loop": {
+   "name":"Bulletlist.Blue.Animated.loop.svg",
+   "path":"Bulletlist.Blue.Animated.loop.svg"
+ },
+  "Bulletlist.Green.Animated.loop": {
+   "name":"Bulletlist.Green.Animated.loop.svg",
+   "path":"Bulletlist.Green.Animated.loop.svg"
+ },
+  "Bulletlist.Pink.Animated.Loop": {
+   "name":"Bulletlist.Pink.Animated.Loop.svg",
+   "path":"Bulletlist.Pink.Animated.Loop.svg"
+ },
+  "Bulletlist.Pink.Animated.loop-2": {
+   "name":"Bulletlist.Pink.Animated.loop-2.svg",
+   "path":"Bulletlist.Pink.Animated.loop-2.svg"
+ },
+  "Bulletlist.Pink.Animated.loop-3": {
+   "name":"Bulletlist.Pink.Animated.loop-3.svg",
+   "path":"Bulletlist.Pink.Animated.loop-3.svg"
+ },
+  "Bulletlist.Pink.Animated.loop-5": {
+   "name":"Bulletlist.Pink.Animated.loop-5.svg",
+   "path":"Bulletlist.Pink.Animated.loop-5.svg"
+ },
+  "Bulletlist.Pink.Animated.loop-6": {
+   "name":"Bulletlist.Pink.Animated.loop-6.svg",
+   "path":"Bulletlist.Pink.Animated.loop-6.svg"
+ },
+  "Bulletlist.Pink.Fill.Mid.Opacity.Animated.loop": {
+   "name":"Bulletlist.Pink.Fill.Mid.Opacity.Animated.loop.svg",
+   "path":"Bulletlist.Pink.Fill.Mid.Opacity.Animated.loop.svg"
+ },
+  "Bulletlist.White.Animated.loop": {
+   "name":"Bulletlist.White.Animated.loop.svg",
+   "path":"Bulletlist.White.Animated.loop.svg"
+ },
+  "Bulletlist.Yellow.Animated.loop": {
+   "name":"Bulletlist.Yellow.Animated.loop.svg",
+   "path":"Bulletlist.Yellow.Animated.loop.svg"
+ },
+  "Button.Arrow.Down": {
+   "name":"Button.Arrow.Down.svg",
+   "path":"Button.Arrow.Down.svg"
+ },
+  "Button.Arrow.Up": {
+   "name":"Button.Arrow.Up.svg",
+   "path":"Button.Arrow.Up.svg"
+ },
+  "Button.BW": {
+   "name":"Button.BW.svg",
+   "path":"Button.BW.svg"
+ },
+  "Button.Red": {
+   "name":"Button.Red.svg",
+   "path":"Button.Red.svg"
+ },
+  "CSS.Sharp.Green": {
+   "name":"CSS.Sharp.Green.svg",
+   "path":"CSS.Sharp.Green.svg"
+ },
+  "CSS.Sharp.Pink": {
+   "name":"CSS.Sharp.Pink.svg",
+   "path":"CSS.Sharp.Pink.svg"
+ },
+  "CSS.Sharp.Yellow": {
+   "name":"CSS.Sharp.Yellow.svg",
+   "path":"CSS.Sharp.Yellow.svg"
+ },
+  "CSV": {
+   "name":"CSV.svg",
+   "path":"CSV.svg"
+ },
+  "Chat.Animated.Loop": {
+   "name":"Chat.Animated.Loop.svg",
+   "path":"Chat.Animated.Loop.svg"
+ },
+  "Chat.Bump.Dark.Animated.Loop-2": {
+   "name":"Chat.Bump.Dark.Animated.Loop-2.svg",
+   "path":"Chat.Bump.Dark.Animated.Loop-2.svg"
+ },
+  "Chat.Bump.Dark.Animated.Loop-3": {
+   "name":"Chat.Bump.Dark.Animated.Loop-3.svg",
+   "path":"Chat.Bump.Dark.Animated.Loop-3.svg"
+ },
+  "Chat.Bump.Dark.Animated.Loop": {
+   "name":"Chat.Bump.Dark.Animated.Loop.svg",
+   "path":"Chat.Bump.Dark.Animated.Loop.svg"
+ },
+  "Chat.Bump.Light.Animated.Loop-2": {
+   "name":"Chat.Bump.Light.Animated.Loop-2.svg",
+   "path":"Chat.Bump.Light.Animated.Loop-2.svg"
+ },
+  "Chat.Bump.Light.Animated.Loop": {
+   "name":"Chat.Bump.Light.Animated.Loop.svg",
+   "path":"Chat.Bump.Light.Animated.Loop.svg"
+ },
+  "Check.Mark.round.Green.Animated.Loop-2": {
+   "name":"Check.Mark.round.Green.Animated.Loop-2.svg",
+   "path":"Check.Mark.round.Green.Animated.Loop-2.svg"
+ },
+  "Checklist.Fade.In.Out.Blue-White.Animated.Loop": {
+   "name":"Checklist.Fade.In.Out.Blue-White.Animated.Loop.svg",
+   "path":"Checklist.Fade.In.Out.Blue-White.Animated.Loop.svg"
+ },
+  "Checklist.Fade.In.Out.Blue.Animated.Loop": {
+   "name":"Checklist.Fade.In.Out.Blue.Animated.Loop.svg",
+   "path":"Checklist.Fade.In.Out.Blue.Animated.Loop.svg"
+ },
+  "Checklist.Fade.In.Out.Pink-White.Animated.Loop": {
+   "name":"Checklist.Fade.In.Out.Pink-White.Animated.Loop.svg",
+   "path":"Checklist.Fade.In.Out.Pink-White.Animated.Loop.svg"
+ },
+  "Checklist.Fade.In.Out.Pink.Animated.Loop": {
+   "name":"Checklist.Fade.In.Out.Pink.Animated.Loop.svg",
+   "path":"Checklist.Fade.In.Out.Pink.Animated.Loop.svg"
+ },
+  "Checklist.Fade.In.Out.Yellow.Animated.Loop-2": {
+   "name":"Checklist.Fade.In.Out.Yellow.Animated.Loop-2.svg",
+   "path":"Checklist.Fade.In.Out.Yellow.Animated.Loop-2.svg"
+ },
+  "Checklist.Fade.In.Out.Yellow.Animated.Loop": {
+   "name":"Checklist.Fade.In.Out.Yellow.Animated.Loop.svg",
+   "path":"Checklist.Fade.In.Out.Yellow.Animated.Loop.svg"
+ },
+  "Checklist.Fade.Pink.Animated.Loop": {
+   "name":"Checklist.Fade.Pink.Animated.Loop.svg",
+   "path":"Checklist.Fade.Pink.Animated.Loop.svg"
+ },
+  "Checklist.Fade.Yellow.Animated.Loop": {
+   "name":"Checklist.Fade.Yellow.Animated.Loop.svg",
+   "path":"Checklist.Fade.Yellow.Animated.Loop.svg"
+ },
+  "Checklist.Yellow.animated.Loop": {
+   "name":"Checklist.Yellow.animated.Loop.svg",
+   "path":"Checklist.Yellow.animated.Loop.svg"
+ },
+  "Chevron.Arrow.Down.Animated.Loop": {
+   "name":"Chevron.Arrow.Down.Animated.Loop.svg",
+   "path":"Chevron.Arrow.Down.Animated.Loop.svg"
+ },
+  "Chevron.Arrow.Left.Animated.Loop-2": {
+   "name":"Chevron.Arrow.Left.Animated.Loop-2.svg",
+   "path":"Chevron.Arrow.Left.Animated.Loop-2.svg"
+ },
+  "Chevron.Arrow.Left.Animated.Loop-3": {
+   "name":"Chevron.Arrow.Left.Animated.Loop-3.svg",
+   "path":"Chevron.Arrow.Left.Animated.Loop-3.svg"
+ },
+  "Chevron.Arrow.Left.Animated.Loop": {
+   "name":"Chevron.Arrow.Left.Animated.Loop.svg",
+   "path":"Chevron.Arrow.Left.Animated.Loop.svg"
+ },
+  "Chevron.Arrow.Right.Animated.Loop": {
+   "name":"Chevron.Arrow.Right.Animated.Loop.svg",
+   "path":"Chevron.Arrow.Right.Animated.Loop.svg"
+ },
+  "Chevron.Arrow.Up.Animated.Loop": {
+   "name":"Chevron.Arrow.Up.Animated.Loop.svg",
+   "path":"Chevron.Arrow.Up.Animated.Loop.svg"
+ },
+  "Chevron.Arrows.Triple.Down.Pink.Animated.Loop": {
+   "name":"Chevron.Arrows.Triple.Down.Pink.Animated.Loop.svg",
+   "path":"Chevron.Arrows.Triple.Down.Pink.Animated.Loop.svg"
+ },
+  "Clipboard.Editor.Paste.Text.Blue": {
+   "name":"Clipboard.Editor.Paste.Text.Blue.svg",
+   "path":"Clipboard.Editor.Paste.Text.Blue.svg"
+ },
+  "Clipboard.Editor.Paste.Text.Shadow.Blue.Green.2": {
+   "name":"Clipboard.Editor.Paste.Text.Shadow.Blue.Green.2.svg",
+   "path":"Clipboard.Editor.Paste.Text.Shadow.Blue.Green.2.svg"
+ },
+  "Clipboard.Editor.Paste.Text.Shadow.White": {
+   "name":"Clipboard.Editor.Paste.Text.Shadow.White.svg",
+   "path":"Clipboard.Editor.Paste.Text.Shadow.White.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Blue.Animated.loop-2": {
+   "name":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-2.svg",
+   "path":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-2.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Blue.Animated.loop-3": {
+   "name":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-3.svg",
+   "path":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-3.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Blue.Animated.loop-4": {
+   "name":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-4.svg",
+   "path":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-4.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Blue.Animated.loop-5": {
+   "name":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-5.svg",
+   "path":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-5.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Blue.Animated.loop-7": {
+   "name":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-7.svg",
+   "path":"Clock.Circle.Bold.Duotone.Blue.Animated.loop-7.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Blue.Animated.loop": {
+   "name":"Clock.Circle.Bold.Duotone.Blue.Animated.loop.svg",
+   "path":"Clock.Circle.Bold.Duotone.Blue.Animated.loop.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-11": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-11.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-11.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-2": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-2.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-2.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-3": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-3.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-3.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-4": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-4.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-4.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-5": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-5.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-5.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-6": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-6.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-6.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-7": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-7.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-7.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-8": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-8.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-8.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop-9": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-9.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop-9.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Pink.Animated.loop": {
+   "name":"Clock.Circle.Bold.Duotone.Pink.Animated.loop.svg",
+   "path":"Clock.Circle.Bold.Duotone.Pink.Animated.loop.svg"
+ },
+  "Clock.Circle.Bold.Duotone.Yellow.Animated.loop": {
+   "name":"Clock.Circle.Bold.Duotone.Yellow.Animated.loop.svg",
+   "path":"Clock.Circle.Bold.Duotone.Yellow.Animated.loop.svg"
+ },
+  "Clock.Circle.Bold.Duotone.blue.Animated.loop.2": {
+   "name":"Clock.Circle.Bold.Duotone.blue.Animated.loop.2.svg",
+   "path":"Clock.Circle.Bold.Duotone.blue.Animated.loop.2.svg"
+ },
+  "Clock.Spinning.Rotating.Dark.Pink.Animated.loop-2": {
+   "name":"Clock.Spinning.Rotating.Dark.Pink.Animated.loop-2.svg",
+   "path":"Clock.Spinning.Rotating.Dark.Pink.Animated.loop-2.svg"
+ },
+  "Clock.Spinning.Rotating.Dark.Pink.Animated.loop": {
+   "name":"Clock.Spinning.Rotating.Dark.Pink.Animated.loop.svg",
+   "path":"Clock.Spinning.Rotating.Dark.Pink.Animated.loop.svg"
+ },
+  "Clock.Spinning.Rotating.Fill.Blue-White.Animated.Loop": {
+   "name":"Clock.Spinning.Rotating.Fill.Blue-White.Animated.Loop.svg",
+   "path":"Clock.Spinning.Rotating.Fill.Blue-White.Animated.Loop.svg"
+ },
+  "Clock.Spinning.Rotating.Fill.Pink.White.Animated.loop-2": {
+   "name":"Clock.Spinning.Rotating.Fill.Pink.White.Animated.loop-2.svg",
+   "path":"Clock.Spinning.Rotating.Fill.Pink.White.Animated.loop-2.svg"
+ },
+  "Clock.Spinning.Rotating.Fill.Purple.Animated.loop": {
+   "name":"Clock.Spinning.Rotating.Fill.Purple.Animated.loop.svg",
+   "path":"Clock.Spinning.Rotating.Fill.Purple.Animated.loop.svg"
+ },
+  "Clock.Spinning.Rotating.Yellow.Animated.Loop-2": {
+   "name":"Clock.Spinning.Rotating.Yellow.Animated.Loop-2.svg",
+   "path":"Clock.Spinning.Rotating.Yellow.Animated.Loop-2.svg"
+ },
+  "Cloud.Alert.Animated.Loop.2": {
+   "name":"Cloud.Alert.Animated.Loop.2.svg",
+   "path":"Cloud.Alert.Animated.Loop.2.svg"
+ },
+  "Cloud.Alert.Animated.Loop": {
+   "name":"Cloud.Alert.Animated.Loop.svg",
+   "path":"Cloud.Alert.Animated.Loop.svg"
+ },
+  "Cloud.Animated.Loop": {
+   "name":"Cloud.Animated.Loop.svg",
+   "path":"Cloud.Animated.Loop.svg"
+ },
+  "Cloud.Disconnect.Lightning": {
+   "name":"Cloud.Disconnect.Lightning.svg",
+   "path":"Cloud.Disconnect.Lightning.svg"
+ },
+  "Cloud.Download.Animated.Loop": {
+   "name":"Cloud.Download.Animated.Loop.svg",
+   "path":"Cloud.Download.Animated.Loop.svg"
+ },
+  "Cloud.Download": {
+   "name":"Cloud.Download.svg",
+   "path":"Cloud.Download.svg"
+ },
+  "Cloud.Error.Animated.Loop.2": {
+   "name":"Cloud.Error.Animated.Loop.2.svg",
+   "path":"Cloud.Error.Animated.Loop.2.svg"
+ },
+  "Cloud.Error.Animated.Loop": {
+   "name":"Cloud.Error.Animated.Loop.svg",
+   "path":"Cloud.Error.Animated.Loop.svg"
+ },
+  "Cloud.Outline.Animated.Loop": {
+   "name":"Cloud.Outline.Animated.Loop.svg",
+   "path":"Cloud.Outline.Animated.Loop.svg"
+ },
+  "Cloud.Refresh.Animated.Loop-3": {
+   "name":"Cloud.Refresh.Animated.Loop-3.svg",
+   "path":"Cloud.Refresh.Animated.Loop-3.svg"
+ },
+  "Cloud.Refresh.Animated.Loop-4": {
+   "name":"Cloud.Refresh.Animated.Loop-4.svg",
+   "path":"Cloud.Refresh.Animated.Loop-4.svg"
+ },
+  "Cloud.Sync.Animated.Loop": {
+   "name":"Cloud.Sync.Animated.Loop.svg",
+   "path":"Cloud.Sync.Animated.Loop.svg"
+ },
+  "Cloud.Tags.Loop.CurrentColor.Animated": {
+   "name":"Cloud.Tags.Loop.CurrentColor.Animated.svg",
+   "path":"Cloud.Tags.Loop.CurrentColor.Animated.svg"
+ },
+  "Cloud.Tags.Mercury.Animated.loop": {
+   "name":"Cloud.Tags.Mercury.Animated.loop.svg",
+   "path":"Cloud.Tags.Mercury.Animated.loop.svg"
+ },
+  "Cloud.Upload.Animated.Loop": {
+   "name":"Cloud.Upload.Animated.Loop.svg",
+   "path":"Cloud.Upload.Animated.Loop.svg"
+ },
+  "Cloud.Upload.Gradient.Animated.Loop.2": {
+   "name":"Cloud.Upload.Gradient.Animated.Loop.2.svg",
+   "path":"Cloud.Upload.Gradient.Animated.Loop.2.svg"
+ },
+  "Cloud.Upload.Gradient.Animated.Loop": {
+   "name":"Cloud.Upload.Gradient.Animated.Loop.svg",
+   "path":"Cloud.Upload.Gradient.Animated.Loop.svg"
+ },
+  "Cloud.Upload.Light.Blue.Animated.Loop.2": {
+   "name":"Cloud.Upload.Light.Blue.Animated.Loop.2.svg",
+   "path":"Cloud.Upload.Light.Blue.Animated.Loop.2.svg"
+ },
+  "Cloud.Upload.Light.Blue.Animated.Loop": {
+   "name":"Cloud.Upload.Light.Blue.Animated.Loop.svg",
+   "path":"Cloud.Upload.Light.Blue.Animated.Loop.svg"
+ },
+  "Cloud.Waiting.Animated.Loop": {
+   "name":"Cloud.Waiting.Animated.Loop.svg",
+   "path":"Cloud.Waiting.Animated.Loop.svg"
+ },
+  "Clouds.Blue": {
+   "name":"Clouds.Blue.svg",
+   "path":"Clouds.Blue.svg"
+ },
+  "Clouds.ELMNT.Animated.Loop": {
+   "name":"Clouds.ELMNT.Animated.Loop.svg",
+   "path":"Clouds.ELMNT.Animated.Loop.svg"
+ },
+  "Code.Brackets.Green-Blue-Gradient": {
+   "name":"Code.Brackets.Green-Blue-Gradient.svg",
+   "path":"Code.Brackets.Green-Blue-Gradient.svg"
+ },
+  "Code.Brackets.Pink-Yellow-Gradient.Animated.Loop": {
+   "name":"Code.Brackets.Pink-Yellow-Gradient.Animated.Loop.svg",
+   "path":"Code.Brackets.Pink-Yellow-Gradient.Animated.Loop.svg"
+ },
+  "Code.Brackets.Pink-Yellow-Gradient": {
+   "name":"Code.Brackets.Pink-Yellow-Gradient.svg",
+   "path":"Code.Brackets.Pink-Yellow-Gradient.svg"
+ },
+  "Code.Brackets.Pink-Yellow.Animated.Loop": {
+   "name":"Code.Brackets.Pink-Yellow.Animated.Loop.svg",
+   "path":"Code.Brackets.Pink-Yellow.Animated.Loop.svg"
+ },
+  "Code.Brackets.Pink-Yellow.Chubby.Animated.Loop": {
+   "name":"Code.Brackets.Pink-Yellow.Chubby.Animated.Loop.svg",
+   "path":"Code.Brackets.Pink-Yellow.Chubby.Animated.Loop.svg"
+ },
+  "Code.Brackets": {
+   "name":"Code.Brackets.svg",
+   "path":"Code.Brackets.svg"
+ },
+  "Code.JSON.Curly.Brackets": {
+   "name":"Code.JSON.Curly.Brackets.svg",
+   "path":"Code.JSON.Curly.Brackets.svg"
+ },
+  "CodePen.Gray": {
+   "name":"CodePen.Gray.svg",
+   "path":"CodePen.Gray.svg"
+ },
+  "CodePen.Pink": {
+   "name":"CodePen.Pink.svg",
+   "path":"CodePen.Pink.svg"
+ },
+  "Color-Angled": {
+   "name":"Color-Angled.svg",
+   "path":"Color-Angled.svg"
+ },
+  "Color.Palette": {
+   "name":"Color.Palette.svg",
+   "path":"Color.Palette.svg"
+ },
+  "Color.Pipette": {
+   "name":"Color.Pipette.svg",
+   "path":"Color.Pipette.svg"
+ },
+  "Compass.Safari.Blue.Animated.Loop": {
+   "name":"Compass.Safari.Blue.Animated.Loop.svg",
+   "path":"Compass.Safari.Blue.Animated.Loop.svg"
+ },
+  "Compass.Safari.Blue.Shadow.Animated.Loop": {
+   "name":"Compass.Safari.Blue.Shadow.Animated.Loop.svg",
+   "path":"Compass.Safari.Blue.Shadow.Animated.Loop.svg"
+ },
+  "Compass.Safari.White.Shadow.Animated.Loop-2": {
+   "name":"Compass.Safari.White.Shadow.Animated.Loop-2.svg",
+   "path":"Compass.Safari.White.Shadow.Animated.Loop-2.svg"
+ },
+  "Compass.Safari.White.Shadow.Animated.Loop-3": {
+   "name":"Compass.Safari.White.Shadow.Animated.Loop-3.svg",
+   "path":"Compass.Safari.White.Shadow.Animated.Loop-3.svg"
+ },
+  "Compass.Safari.White.Shadow.Animated.Loop": {
+   "name":"Compass.Safari.White.Shadow.Animated.Loop.svg",
+   "path":"Compass.Safari.White.Shadow.Animated.Loop.svg"
+ },
+  "Coordinate.Cube": {
+   "name":"Coordinate.Cube.svg",
+   "path":"Coordinate.Cube.svg"
+ },
+  "Cursor.Text.Box.Form.Green": {
+   "name":"Cursor.Text.Box.Form.Green.svg",
+   "path":"Cursor.Text.Box.Form.Green.svg"
+ },
+  "Cursor.Text.Box.Form.Pink": {
+   "name":"Cursor.Text.Box.Form.Pink.svg",
+   "path":"Cursor.Text.Box.Form.Pink.svg"
+ },
+  "Cursor.Text.Box.Form.White": {
+   "name":"Cursor.Text.Box.Form.White.svg",
+   "path":"Cursor.Text.Box.Form.White.svg"
+ },
+  "Data.Point.Graph.Animated.Loop": {
+   "name":"Data.Point.Graph.Animated.Loop.svg",
+   "path":"Data.Point.Graph.Animated.Loop.svg"
+ },
+  "Delete.Backward": {
+   "name":"Delete.Backward.svg",
+   "path":"Delete.Backward.svg"
+ },
+  "Dictionary.Translate.Blue-Green": {
+   "name":"Dictionary.Translate.Blue-Green.svg",
+   "path":"Dictionary.Translate.Blue-Green.svg"
+ },
+  "Dictionary.Translate.Blue-Purple": {
+   "name":"Dictionary.Translate.Blue-Purple.svg",
+   "path":"Dictionary.Translate.Blue-Purple.svg"
+ },
+  "Dictionary.Translate.Red-2": {
+   "name":"Dictionary.Translate.Red-2.svg",
+   "path":"Dictionary.Translate.Red-2.svg"
+ },
+  "Dictionary.Translate.Red": {
+   "name":"Dictionary.Translate.Red.svg",
+   "path":"Dictionary.Translate.Red.svg"
+ },
+  "Dot.Revolve.Animated.Loop": {
+   "name":"Dot.Revolve.Animated.Loop.svg",
+   "path":"Dot.Revolve.Animated.Loop.svg"
+ },
+  "Download.Sketch.1A.Animated.Loop.4": {
+   "name":"Download.Sketch.1A.Animated.Loop.4.svg",
+   "path":"Download.Sketch.1A.Animated.Loop.4.svg"
+ },
+  "Downloading.Fuchsia.Animated.Loop": {
+   "name":"Downloading.Fuchsia.Animated.Loop.svg",
+   "path":"Downloading.Fuchsia.Animated.Loop.svg"
+ },
+  "Downloading.Left.Loop.White.Orange.Gradient.Animated.Loop": {
+   "name":"Downloading.Left.Loop.White.Orange.Gradient.Animated.Loop.svg",
+   "path":"Downloading.Left.Loop.White.Orange.Gradient.Animated.Loop.svg"
+ },
+  "Downloading.Loop.Blue.Green.Fuchsia.Gradient.Animated.Loop": {
+   "name":"Downloading.Loop.Blue.Green.Fuchsia.Gradient.Animated.Loop.svg",
+   "path":"Downloading.Loop.Blue.Green.Fuchsia.Gradient.Animated.Loop.svg"
+ },
+  "Downloading.Loop.Blue.Green.Gradient.Animated.Loop": {
+   "name":"Downloading.Loop.Blue.Green.Gradient.Animated.Loop.svg",
+   "path":"Downloading.Loop.Blue.Green.Gradient.Animated.Loop.svg"
+ },
+  "Downloading.Loop.White.Blue.Gradient.Animated.Loop": {
+   "name":"Downloading.Loop.White.Blue.Gradient.Animated.Loop.svg",
+   "path":"Downloading.Loop.White.Blue.Gradient.Animated.Loop.svg"
+ },
+  "Downloading.Orange-Gradient.Animated.Loop": {
+   "name":"Downloading.Orange-Gradient.Animated.Loop.svg",
+   "path":"Downloading.Orange-Gradient.Animated.Loop.svg"
+ },
+  "Downloading.White-Gradient.Animated.Loop": {
+   "name":"Downloading.White-Gradient.Animated.Loop.svg",
+   "path":"Downloading.White-Gradient.Animated.Loop.svg"
+ },
+  "Downloading.White-Orange-Gradient.Animated.Loop": {
+   "name":"Downloading.White-Orange-Gradient.Animated.Loop.svg",
+   "path":"Downloading.White-Orange-Gradient.Animated.Loop.svg"
+ },
+  "Downloads.Animated.Loop.2": {
+   "name":"Downloads.Animated.Loop.2.svg",
+   "path":"Downloads.Animated.Loop.2.svg"
+ },
+  "Dribbble.Outlined.Pink": {
+   "name":"Dribbble.Outlined.Pink.svg",
+   "path":"Dribbble.Outlined.Pink.svg"
+ },
+  "Dropbox.3D": {
+   "name":"Dropbox.3D.svg",
+   "path":"Dropbox.3D.svg"
+ },
+  "Duplicate.Split.Fork.Blue": {
+   "name":"Duplicate.Split.Fork.Blue.svg",
+   "path":"Duplicate.Split.Fork.Blue.svg"
+ },
+  "Duplicate.Split.Fork.Green": {
+   "name":"Duplicate.Split.Fork.Green.svg",
+   "path":"Duplicate.Split.Fork.Green.svg"
+ },
+  "Duplicate.Split.Fork.Purple": {
+   "name":"Duplicate.Split.Fork.Purple.svg",
+   "path":"Duplicate.Split.Fork.Purple.svg"
+ },
+  "Duplicate.Split.Fork.pink.purple": {
+   "name":"Duplicate.Split.Fork.pink.purple.svg",
+   "path":"Duplicate.Split.Fork.pink.purple.svg"
+ },
+  "Editing.Align.Center.White.Animated.Loop": {
+   "name":"Editing.Align.Center.White.Animated.Loop.svg",
+   "path":"Editing.Align.Center.White.Animated.Loop.svg"
+ },
+  "Elephant": {
+   "name":"Elephant.svg",
+   "path":"Elephant.svg"
+ },
+  "Expand.Horizontally": {
+   "name":"Expand.Horizontally.svg",
+   "path":"Expand.Horizontally.svg"
+ },
+  "Expand.Vertically": {
+   "name":"Expand.Vertically.svg",
+   "path":"Expand.Vertically.svg"
+ },
+  "Eye.Blink.Animated.Loop-2": {
+   "name":"Eye.Blink.Animated.Loop-2.svg",
+   "path":"Eye.Blink.Animated.Loop-2.svg"
+ },
+  "Eye.Blink.Animated.Loop-3": {
+   "name":"Eye.Blink.Animated.Loop-3.svg",
+   "path":"Eye.Blink.Animated.Loop-3.svg"
+ },
+  "Eye.Blink.Animated.Loop-4": {
+   "name":"Eye.Blink.Animated.Loop-4.svg",
+   "path":"Eye.Blink.Animated.Loop-4.svg"
+ },
+  "Eye.Blink.Animated.Loop": {
+   "name":"Eye.Blink.Animated.Loop.svg",
+   "path":"Eye.Blink.Animated.Loop.svg"
+ },
+  "Eye.Blink.With.Lashes.Animated.Loop-2": {
+   "name":"Eye.Blink.With.Lashes.Animated.Loop-2.svg",
+   "path":"Eye.Blink.With.Lashes.Animated.Loop-2.svg"
+ },
+  "Eye.Blink.With.Lashes.Animated.Loop-4": {
+   "name":"Eye.Blink.With.Lashes.Animated.Loop-4.svg",
+   "path":"Eye.Blink.With.Lashes.Animated.Loop-4.svg"
+ },
+  "Feedly.RSS.Green": {
+   "name":"Feedly.RSS.Green.svg",
+   "path":"Feedly.RSS.Green.svg"
+ },
+  "File.Document.Duplicate-2": {
+   "name":"File.Document.Duplicate-2.svg",
+   "path":"File.Document.Duplicate-2.svg"
+ },
+  "File.Document.Lined.Animated.Loop": {
+   "name":"File.Document.Lined.Animated.Loop.svg",
+   "path":"File.Document.Lined.Animated.Loop.svg"
+ },
+  "File.Document.Lined.Colorful.Animated.Loop": {
+   "name":"File.Document.Lined.Colorful.Animated.Loop.svg",
+   "path":"File.Document.Lined.Colorful.Animated.Loop.svg"
+ },
+  "File.Document.Lined.Fuchsia.ELMNT.Animated.Loop": {
+   "name":"File.Document.Lined.Fuchsia.ELMNT.Animated.Loop.svg",
+   "path":"File.Document.Lined.Fuchsia.ELMNT.Animated.Loop.svg"
+ },
+  "File.Type.PDF.Adobe.Earmarked.Red": {
+   "name":"File.Type.PDF.Adobe.Earmarked.Red.svg",
+   "path":"File.Type.PDF.Adobe.Earmarked.Red.svg"
+ },
+  "File.Type.PDF.White": {
+   "name":"File.Type.PDF.White.svg",
+   "path":"File.Type.PDF.White.svg"
+ },
+  "Fingerprint": {
+   "name":"Fingerprint.svg",
+   "path":"Fingerprint.svg"
+ },
+  "Folder.Opened.Pink": {
+   "name":"Folder.Opened.Pink.svg",
+   "path":"Folder.Opened.Pink.svg"
+ },
+  "Font.F.3D": {
+   "name":"Font.F.3D.svg",
+   "path":"Font.F.3D.svg"
+ },
+  "Font.F.Underlined": {
+   "name":"Font.F.Underlined.svg",
+   "path":"Font.F.Underlined.svg"
+ },
+  "Font.File.Type.Title.Case.Light.Aa": {
+   "name":"Font.File.Type.Title.Case.Light.Aa.svg",
+   "path":"Font.File.Type.Title.Case.Light.Aa.svg"
+ },
+  "Font.File.Type.Title.Case.Outlined.Pink.Aa": {
+   "name":"Font.File.Type.Title.Case.Outlined.Pink.Aa.svg",
+   "path":"Font.File.Type.Title.Case.Outlined.Pink.Aa.svg"
+ },
+  "Font.File.Type.Title.Case.Pink.Aa": {
+   "name":"Font.File.Type.Title.Case.Pink.Aa.svg",
+   "path":"Font.File.Type.Title.Case.Pink.Aa.svg"
+ },
+  "Font.Typography.A.Noded.Outlined.Text.Title.2": {
+   "name":"Font.Typography.A.Noded.Outlined.Text.Title.2.svg",
+   "path":"Font.Typography.A.Noded.Outlined.Text.Title.2.svg"
+ },
+  "Font.Typography.A.Noded.Outlined.Text.Title.3": {
+   "name":"Font.Typography.A.Noded.Outlined.Text.Title.3.svg",
+   "path":"Font.Typography.A.Noded.Outlined.Text.Title.3.svg"
+ },
+  "Font.Typography.A.Noded.Outlined.Text.Title.5": {
+   "name":"Font.Typography.A.Noded.Outlined.Text.Title.5.svg",
+   "path":"Font.Typography.A.Noded.Outlined.Text.Title.5.svg"
+ },
+  "Font.Typography.A.Noded.Outlined.Text.Title.6": {
+   "name":"Font.Typography.A.Noded.Outlined.Text.Title.6.svg",
+   "path":"Font.Typography.A.Noded.Outlined.Text.Title.6.svg"
+ },
+  "Font.Typography.lowercase.a.Text.Title.pink-2": {
+   "name":"Font.Typography.lowercase.a.Text.Title.pink-2.svg",
+   "path":"Font.Typography.lowercase.a.Text.Title.pink-2.svg"
+ },
+  "Font.Typography.lowercase.a.Text.Title.pink": {
+   "name":"Font.Typography.lowercase.a.Text.Title.pink.svg",
+   "path":"Font.Typography.lowercase.a.Text.Title.pink.svg"
+ },
+  "Font.underline": {
+   "name":"Font.underline.svg",
+   "path":"Font.underline.svg"
+ },
+  "Fork-2": {
+   "name":"Fork-2.svg",
+   "path":"Fork-2.svg"
+ },
+  "Fork-3": {
+   "name":"Fork-3.svg",
+   "path":"Fork-3.svg"
+ },
+  "Fork": {
+   "name":"Fork.svg",
+   "path":"Fork.svg"
+ },
+  "Format.Text.Wrapping.Wrap.2": {
+   "name":"Format.Text.Wrapping.Wrap.2.svg",
+   "path":"Format.Text.Wrapping.Wrap.2.svg"
+ },
+  "Frame": {
+   "name":"Frame.svg",
+   "path":"Frame.svg"
+ },
+  "Freud": {
+   "name":"Freud.svg",
+   "path":"Freud.svg"
+ },
+  "Gallery.Grid.Art.Stained.Glass.Columns.Chart.Light-2": {
+   "name":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.Light-2.svg",
+   "path":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.Light-2.svg"
+ },
+  "Gallery.Grid.Art.Stained.Glass.Columns.Chart.Light.Shadow": {
+   "name":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.Light.Shadow.svg",
+   "path":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.Light.Shadow.svg"
+ },
+  "Gallery.Grid.Art.Stained.Glass.Columns.Chart.Shadow": {
+   "name":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.Shadow.svg",
+   "path":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.Shadow.svg"
+ },
+  "Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-3": {
+   "name":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-3.svg",
+   "path":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-3.svg"
+ },
+  "Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-4": {
+   "name":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-4.svg",
+   "path":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-4.svg"
+ },
+  "Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-5": {
+   "name":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-5.svg",
+   "path":"Gallery.Grid.Art.Stained.Glass.Columns.Chart.colors-5.svg"
+ },
+  "Gear.Animated.Layered.Shadow": {
+   "name":"Gear.Animated.Layered.Shadow.svg",
+   "path":"Gear.Animated.Layered.Shadow.svg"
+ },
+  "Gear.Animated.Loop-2": {
+   "name":"Gear.Animated.Loop-2.svg",
+   "path":"Gear.Animated.Loop-2.svg"
+ },
+  "Gear.Animated.Loop-3": {
+   "name":"Gear.Animated.Loop-3.svg",
+   "path":"Gear.Animated.Loop-3.svg"
+ },
+  "Gear.Animated.Loop": {
+   "name":"Gear.Animated.Loop.svg",
+   "path":"Gear.Animated.Loop.svg"
+ },
+  "Gear.Settings.cog.pink.blue.Animated.Loop-2": {
+   "name":"Gear.Settings.cog.pink.blue.Animated.Loop-2.svg",
+   "path":"Gear.Settings.cog.pink.blue.Animated.Loop-2.svg"
+ },
+  "Gem.Blue.3": {
+   "name":"Gem.Blue.3.svg",
+   "path":"Gem.Blue.3.svg"
+ },
+  "Gem.Green": {
+   "name":"Gem.Green.svg",
+   "path":"Gem.Green.svg"
+ },
+  "Gem.Purple": {
+   "name":"Gem.Purple.svg",
+   "path":"Gem.Purple.svg"
+ },
+  "Gem.Ruby.Red-2": {
+   "name":"Gem.Ruby.Red-2.svg",
+   "path":"Gem.Ruby.Red-2.svg"
+ },
+  "Gem.Ruby.Red-3": {
+   "name":"Gem.Ruby.Red-3.svg",
+   "path":"Gem.Ruby.Red-3.svg"
+ },
+  "Gem.Ruby": {
+   "name":"Gem.Ruby.svg",
+   "path":"Gem.Ruby.svg"
+ },
+  "Gen.Ruby.Red": {
+   "name":"Gen.Ruby.Red.svg",
+   "path":"Gen.Ruby.Red.svg"
+ },
+  "Github.Blink.Open.Blue.Animated.Loop-2": {
+   "name":"Github.Blink.Open.Blue.Animated.Loop-2.svg",
+   "path":"Github.Blink.Open.Blue.Animated.Loop-2.svg"
+ },
+  "Github.Blink.Open.Blue.Animated.Loop-3": {
+   "name":"Github.Blink.Open.Blue.Animated.Loop-3.svg",
+   "path":"Github.Blink.Open.Blue.Animated.Loop-3.svg"
+ },
+  "Github.Blink.Open.Blue.Animated.Loop": {
+   "name":"Github.Blink.Open.Blue.Animated.Loop.svg",
+   "path":"Github.Blink.Open.Blue.Animated.Loop.svg"
+ },
+  "Github.Blink.Open.Yellow.100pt.Animated.Loop": {
+   "name":"Github.Blink.Open.Yellow.100pt.Animated.Loop.svg",
+   "path":"Github.Blink.Open.Yellow.100pt.Animated.Loop.svg"
+ },
+  "Github.Blink.Shut.Blue.Animated.Loop-2": {
+   "name":"Github.Blink.Shut.Blue.Animated.Loop-2.svg",
+   "path":"Github.Blink.Shut.Blue.Animated.Loop-2.svg"
+ },
+  "Github.Blink.Shut.Blue.Animated.Loop-3": {
+   "name":"Github.Blink.Shut.Blue.Animated.Loop-3.svg",
+   "path":"Github.Blink.Shut.Blue.Animated.Loop-3.svg"
+ },
+  "Github.Blink.Shut.Blue.Animated.Loop": {
+   "name":"Github.Blink.Shut.Blue.Animated.Loop.svg",
+   "path":"Github.Blink.Shut.Blue.Animated.Loop.svg"
+ },
+  "Github.Blink.Shut.White.Animated.Loop": {
+   "name":"Github.Blink.Shut.White.Animated.Loop.svg",
+   "path":"Github.Blink.Shut.White.Animated.Loop.svg"
+ },
+  "Github.Cat.Gradient": {
+   "name":"Github.Cat.Gradient.svg",
+   "path":"Github.Cat.Gradient.svg"
+ },
+  "Github.Cat.Head.Gradient": {
+   "name":"Github.Cat.Head.Gradient.svg",
+   "path":"Github.Cat.Head.Gradient.svg"
+ },
+  "Github.Cat": {
+   "name":"Github.Cat.svg",
+   "path":"Github.Cat.svg"
+ },
+  "Github.Wink.Blue.Animated.Loop-4": {
+   "name":"Github.Wink.Blue.Animated.Loop-4.svg",
+   "path":"Github.Wink.Blue.Animated.Loop-4.svg"
+ },
+  "Github": {
+   "name":"Github.svg",
+   "path":"Github.svg"
+ },
+  "Gizmo": {
+   "name":"Gizmo.svg",
+   "path":"Gizmo.svg"
+ },
+  "Gladys": {
+   "name":"Gladys.svg",
+   "path":"Gladys.svg"
+ },
+  "Gooey.Balls.Animated.Loop": {
+   "name":"Gooey.Balls.Animated.Loop.svg",
+   "path":"Gooey.Balls.Animated.Loop.svg"
+ },
+  "Grammar.Girl.Larger": {
+   "name":"Grammar.Girl.Larger.svg",
+   "path":"Grammar.Girl.Larger.svg"
+ },
+  "Grease.Monkey": {
+   "name":"Grease.Monkey.svg",
+   "path":"Grease.Monkey.svg"
+ },
+  "Greasy.Fork.Monocle": {
+   "name":"Greasy.Fork.Monocle.svg",
+   "path":"Greasy.Fork.Monocle.svg"
+ },
+  "Gremlin": {
+   "name":"Gremlin.svg",
+   "path":"Gremlin.svg"
+ },
+  "Grid.Columns.Bar.Chart.Gallery.Dash.Board.Rounded": {
+   "name":"Grid.Columns.Bar.Chart.Gallery.Dash.Board.Rounded.svg",
+   "path":"Grid.Columns.Bar.Chart.Gallery.Dash.Board.Rounded.svg"
+ },
+  "Grid.CurrentColor.Animated.loop": {
+   "name":"Grid.CurrentColor.Animated.loop.svg",
+   "path":"Grid.CurrentColor.Animated.loop.svg"
+ },
+  "Grid.Dashboard.Layout.Gallery.Spreadsheet.Table.Columns.Chart.2": {
+   "name":"Grid.Dashboard.Layout.Gallery.Spreadsheet.Table.Columns.Chart.2.svg",
+   "path":"Grid.Dashboard.Layout.Gallery.Spreadsheet.Table.Columns.Chart.2.svg"
+ },
+  "Grid.Dashboard.Layout.Gallery.Spreadsheet.Table.Columns.Chart.3": {
+   "name":"Grid.Dashboard.Layout.Gallery.Spreadsheet.Table.Columns.Chart.3.svg",
+   "path":"Grid.Dashboard.Layout.Gallery.Spreadsheet.Table.Columns.Chart.3.svg"
+ },
+  "Grid.White": {
+   "name":"Grid.White.svg",
+   "path":"Grid.White.svg"
+ },
+  "Gutenberg.Shadowed": {
+   "name":"Gutenberg.Shadowed.svg",
+   "path":"Gutenberg.Shadowed.svg"
+ },
+  "HTML.Green": {
+   "name":"HTML.Green.svg",
+   "path":"HTML.Green.svg"
+ },
+  "Hacker.News.Hackerrank": {
+   "name":"Hacker.News.Hackerrank.svg",
+   "path":"Hacker.News.Hackerrank.svg"
+ },
+  "Hackernoon": {
+   "name":"Hackernoon.svg",
+   "path":"Hackernoon.svg"
+ },
+  "Hashtag.Pound.Sign.Borderless": {
+   "name":"Hashtag.Pound.Sign.Borderless.svg",
+   "path":"Hashtag.Pound.Sign.Borderless.svg"
+ },
+  "Hat.Womans": {
+   "name":"Hat.Womans.svg",
+   "path":"Hat.Womans.svg"
+ },
+  "Hearts.Three.Fade.Red.Animated.loop": {
+   "name":"Hearts.Three.Fade.Red.Animated.loop.svg",
+   "path":"Hearts.Three.Fade.Red.Animated.loop.svg"
+ },
+  "Hearts.Three.Fade.current.Color.Animated.loop.6": {
+   "name":"Hearts.Three.Fade.current.Color.Animated.loop.6.svg",
+   "path":"Hearts.Three.Fade.current.Color.Animated.loop.6.svg"
+ },
+  "Highlighter-2": {
+   "name":"Highlighter-2.svg",
+   "path":"Highlighter-2.svg"
+ },
+  "Highlighter-3": {
+   "name":"Highlighter-3.svg",
+   "path":"Highlighter-3.svg"
+ },
+  "Highlighter-4": {
+   "name":"Highlighter-4.svg",
+   "path":"Highlighter-4.svg"
+ },
+  "Highlighter": {
+   "name":"Highlighter.svg",
+   "path":"Highlighter.svg"
+ },
+  "Hourglass.Light.Animated.Loop": {
+   "name":"Hourglass.Light.Animated.Loop.svg",
+   "path":"Hourglass.Light.Animated.Loop.svg"
+ },
+  "Image.Photos.Picture.Colorful.Shadows-m": {
+   "name":"Image.Photos.Picture.Colorful.Shadows-m.svg",
+   "path":"Image.Photos.Picture.Colorful.Shadows-m.svg"
+ },
+  "Image.Picture.Photos.2": {
+   "name":"Image.Picture.Photos.2.svg",
+   "path":"Image.Picture.Photos.2.svg"
+ },
+  "Image.Picture.Photos.3": {
+   "name":"Image.Picture.Photos.3.svg",
+   "path":"Image.Picture.Photos.3.svg"
+ },
+  "Image.Picture.Photos.5": {
+   "name":"Image.Picture.Photos.5.svg",
+   "path":"Image.Picture.Photos.5.svg"
+ },
+  "Image.Picture.Photos.7": {
+   "name":"Image.Picture.Photos.7.svg",
+   "path":"Image.Picture.Photos.7.svg"
+ },
+  "Image.Picture.Photos.8": {
+   "name":"Image.Picture.Photos.8.svg",
+   "path":"Image.Picture.Photos.8.svg"
+ },
+  "Image.Picture.Photos.Add.Insert.white": {
+   "name":"Image.Picture.Photos.Add.Insert.white.svg",
+   "path":"Image.Picture.Photos.Add.Insert.white.svg"
+ },
+  "Image.Picture.Photos.Add.Insert.yellow.pink": {
+   "name":"Image.Picture.Photos.Add.Insert.yellow.pink.svg",
+   "path":"Image.Picture.Photos.Add.Insert.yellow.pink.svg"
+ },
+  "Image.Picture.Photos.Add.Pink.and.Yellow-2": {
+   "name":"Image.Picture.Photos.Add.Pink.and.Yellow-2.svg",
+   "path":"Image.Picture.Photos.Add.Pink.and.Yellow-2.svg"
+ },
+  "Image.Picture.Photos.Add.Pink.and.Yellow": {
+   "name":"Image.Picture.Photos.Add.Pink.and.Yellow.svg",
+   "path":"Image.Picture.Photos.Add.Pink.and.Yellow.svg"
+ },
+  "Image.Picture.Photos.Add.Yellow.and.Pink": {
+   "name":"Image.Picture.Photos.Add.Yellow.and.Pink.svg",
+   "path":"Image.Picture.Photos.Add.Yellow.and.Pink.svg"
+ },
+  "Image.Picture.Photos.Colorful.Shadows": {
+   "name":"Image.Picture.Photos.Colorful.Shadows.svg",
+   "path":"Image.Picture.Photos.Colorful.Shadows.svg"
+ },
+  "Image.Picture.Photos.Filled": {
+   "name":"Image.Picture.Photos.Filled.svg",
+   "path":"Image.Picture.Photos.Filled.svg"
+ },
+  "Image.Picture.Photos.Picture.Auto.Adjust": {
+   "name":"Image.Picture.Photos.Picture.Auto.Adjust.svg",
+   "path":"Image.Picture.Photos.Picture.Auto.Adjust.svg"
+ },
+  "Image.Picture.Photos.Picture.Filter.Black.White.3": {
+   "name":"Image.Picture.Photos.Picture.Filter.Black.White.3.svg",
+   "path":"Image.Picture.Photos.Picture.Filter.Black.White.3.svg"
+ },
+  "Image.Picture.Photos.Picture.Filter.Black.white.2": {
+   "name":"Image.Picture.Photos.Picture.Filter.Black.white.2.svg",
+   "path":"Image.Picture.Photos.Picture.Filter.Black.white.2.svg"
+ },
+  "Image.Picture.Photos.Picture.JPG.Box.pink": {
+   "name":"Image.Picture.Photos.Picture.JPG.Box.pink.svg",
+   "path":"Image.Picture.Photos.Picture.JPG.Box.pink.svg"
+ },
+  "Image.Picture.Photos.Picture.JPG.Box.yellow": {
+   "name":"Image.Picture.Photos.Picture.JPG.Box.yellow.svg",
+   "path":"Image.Picture.Photos.Picture.JPG.Box.yellow.svg"
+ },
+  "Image.Picture.Photos.Pink.Navy.Blue.2": {
+   "name":"Image.Picture.Photos.Pink.Navy.Blue.2.svg",
+   "path":"Image.Picture.Photos.Pink.Navy.Blue.2.svg"
+ },
+  "Image.Picture.Photos.Pink.Navy.Blue.3": {
+   "name":"Image.Picture.Photos.Pink.Navy.Blue.3.svg",
+   "path":"Image.Picture.Photos.Pink.Navy.Blue.3.svg"
+ },
+  "Image.Picture.Photos.Pink.Navy.Blue.4": {
+   "name":"Image.Picture.Photos.Pink.Navy.Blue.4.svg",
+   "path":"Image.Picture.Photos.Pink.Navy.Blue.4.svg"
+ },
+  "Image.Picture.Photos.Pink.Navy.Blue.5": {
+   "name":"Image.Picture.Photos.Pink.Navy.Blue.5.svg",
+   "path":"Image.Picture.Photos.Pink.Navy.Blue.5.svg"
+ },
+  "Image.Picture.Photos.Pixel.Gradient.Fill.Blue": {
+   "name":"Image.Picture.Photos.Pixel.Gradient.Fill.Blue.svg",
+   "path":"Image.Picture.Photos.Pixel.Gradient.Fill.Blue.svg"
+ },
+  "Image.Picture.Photos.Pixel.Gradient.Fill.Yellow": {
+   "name":"Image.Picture.Photos.Pixel.Gradient.Fill.Yellow.svg",
+   "path":"Image.Picture.Photos.Pixel.Gradient.Fill.Yellow.svg"
+ },
+  "Image.Picture.Photos.Pixel.Solid.Fill.Blue": {
+   "name":"Image.Picture.Photos.Pixel.Solid.Fill.Blue.svg",
+   "path":"Image.Picture.Photos.Pixel.Solid.Fill.Blue.svg"
+ },
+  "Image.Picture.Photos.Pixel.Solid.Fill.Yellow.2": {
+   "name":"Image.Picture.Photos.Pixel.Solid.Fill.Yellow.2.svg",
+   "path":"Image.Picture.Photos.Pixel.Solid.Fill.Yellow.2.svg"
+ },
+  "Image.Picture.Photos.Pixel.Solid.Fill.Yellow": {
+   "name":"Image.Picture.Photos.Pixel.Solid.Fill.Yellow.svg",
+   "path":"Image.Picture.Photos.Pixel.Solid.Fill.Yellow.svg"
+ },
+  "Image.Picture.Photos.Pixel.Solid.Shadowed.Blue": {
+   "name":"Image.Picture.Photos.Pixel.Solid.Shadowed.Blue.svg",
+   "path":"Image.Picture.Photos.Pixel.Solid.Shadowed.Blue.svg"
+ },
+  "Image.Picture.Photos.Pixel.Solid.Shady.Yellow.2": {
+   "name":"Image.Picture.Photos.Pixel.Solid.Shady.Yellow.2.svg",
+   "path":"Image.Picture.Photos.Pixel.Solid.Shady.Yellow.2.svg"
+ },
+  "Image.Picture.Photos.Repo": {
+   "name":"Image.Picture.Photos.Repo.svg",
+   "path":"Image.Picture.Photos.Repo.svg"
+ },
+  "Image.Picture.Photos.White.Bright.Green.3": {
+   "name":"Image.Picture.Photos.White.Bright.Green.3.svg",
+   "path":"Image.Picture.Photos.White.Bright.Green.3.svg"
+ },
+  "Image.Picture.Photos.White.Bright.Green.4": {
+   "name":"Image.Picture.Photos.White.Bright.Green.4.svg",
+   "path":"Image.Picture.Photos.White.Bright.Green.4.svg"
+ },
+  "Image.Picture.Photos.White.Bright.Green": {
+   "name":"Image.Picture.Photos.White.Bright.Green.svg",
+   "path":"Image.Picture.Photos.White.Bright.Green.svg"
+ },
+  "Image.Picture.Photos.White.Navy.Blue.2": {
+   "name":"Image.Picture.Photos.White.Navy.Blue.2.svg",
+   "path":"Image.Picture.Photos.White.Navy.Blue.2.svg"
+ },
+  "Image.Picture.Photos.White.Navy.Blue.3": {
+   "name":"Image.Picture.Photos.White.Navy.Blue.3.svg",
+   "path":"Image.Picture.Photos.White.Navy.Blue.3.svg"
+ },
+  "Image.Picture.Photos.White.Navy.Blue.4": {
+   "name":"Image.Picture.Photos.White.Navy.Blue.4.svg",
+   "path":"Image.Picture.Photos.White.Navy.Blue.4.svg"
+ },
+  "Image.Two.Tone.Pink.Animated.Loop-2": {
+   "name":"Image.Two.Tone.Pink.Animated.Loop-2.svg",
+   "path":"Image.Two.Tone.Pink.Animated.Loop-2.svg"
+ },
+  "Incoming.arrow": {
+   "name":"Incoming.arrow.svg",
+   "path":"Incoming.arrow.svg"
+ },
+  "Instructables": {
+   "name":"Instructables.svg",
+   "path":"Instructables.svg"
+ },
+  "Instructions.Manual.Guide.Reference.Dictionary": {
+   "name":"Instructions.Manual.Guide.Reference.Dictionary.svg",
+   "path":"Instructions.Manual.Guide.Reference.Dictionary.svg"
+ },
+  "Internet.Archive.Logo": {
+   "name":"Internet.Archive.Logo.svg",
+   "path":"Internet.Archive.Logo.svg"
+ },
+  "Invidious-2": {
+   "name":"Invidious-2.svg",
+   "path":"Invidious-2.svg"
+ },
+  "Invidious-3": {
+   "name":"Invidious-3.svg",
+   "path":"Invidious-3.svg"
+ },
+  "Invidious-4": {
+   "name":"Invidious-4.svg",
+   "path":"Invidious-4.svg"
+ },
+  "Invidious": {
+   "name":"Invidious.svg",
+   "path":"Invidious.svg"
+ },
+  "Italic-m": {
+   "name":"Italic-m.svg",
+   "path":"Italic-m.svg"
+ },
+  "Javascript.Yellow": {
+   "name":"Javascript.Yellow.svg",
+   "path":"Javascript.Yellow.svg"
+ },
+  "Keyboard-2": {
+   "name":"Keyboard-2.svg",
+   "path":"Keyboard-2.svg"
+ },
+  "Keyboard.B.1": {
+   "name":"Keyboard.B.1.svg",
+   "path":"Keyboard.B.1.svg"
+ },
+  "Keyboard.B": {
+   "name":"Keyboard.B.svg",
+   "path":"Keyboard.B.svg"
+ },
+  "Keyboard.Key.autohotkey": {
+   "name":"Keyboard.Key.autohotkey.svg",
+   "path":"Keyboard.Key.autohotkey.svg"
+ },
+  "Keyboard.Toggle.Show.Hide.2": {
+   "name":"Keyboard.Toggle.Show.Hide.2.svg",
+   "path":"Keyboard.Toggle.Show.Hide.2.svg"
+ },
+  "Keyboard.key.S.Sublime.Text": {
+   "name":"Keyboard.key.S.Sublime.Text.svg",
+   "path":"Keyboard.key.S.Sublime.Text.svg"
+ },
+  "Layers.Shortcuts.Stacks.Paper.Dropbox.Paper.Pink.Navy.Blue.4": {
+   "name":"Layers.Shortcuts.Stacks.Paper.Dropbox.Paper.Pink.Navy.Blue.4.svg",
+   "path":"Layers.Shortcuts.Stacks.Paper.Dropbox.Paper.Pink.Navy.Blue.4.svg"
+ },
+  "Letter-X.Blue": {
+   "name":"Letter-X.Blue.svg",
+   "path":"Letter-X.Blue.svg"
+ },
+  "Letter-X.White": {
+   "name":"Letter-X.White.svg",
+   "path":"Letter-X.White.svg"
+ },
+  "Letter.H.Header.Black-White": {
+   "name":"Letter.H.Header.Black-White.svg",
+   "path":"Letter.H.Header.Black-White.svg"
+ },
+  "Letter.H.Header.Blue-White-2": {
+   "name":"Letter.H.Header.Blue-White-2.svg",
+   "path":"Letter.H.Header.Blue-White-2.svg"
+ },
+  "Letter.H.Header.Blue-White": {
+   "name":"Letter.H.Header.Blue-White.svg",
+   "path":"Letter.H.Header.Blue-White.svg"
+ },
+  "Letter.H.Header.Blue": {
+   "name":"Letter.H.Header.Blue.svg",
+   "path":"Letter.H.Header.Blue.svg"
+ },
+  "Letter.H.Header.Pink": {
+   "name":"Letter.H.Header.Pink.svg",
+   "path":"Letter.H.Header.Pink.svg"
+ },
+  "Letter.P.Paste.Button-2": {
+   "name":"Letter.P.Paste.Button-2.svg",
+   "path":"Letter.P.Paste.Button-2.svg"
+ },
+  "Letter.P.Paste.Button": {
+   "name":"Letter.P.Paste.Button.svg",
+   "path":"Letter.P.Paste.Button.svg"
+ },
+  "Letter.T.Title.Blue.White": {
+   "name":"Letter.T.Title.Blue.White.svg",
+   "path":"Letter.T.Title.Blue.White.svg"
+ },
+  "Ligature": {
+   "name":"Ligature.svg",
+   "path":"Ligature.svg"
+ },
+  "Lightbulb.2": {
+   "name":"Lightbulb.2.svg",
+   "path":"Lightbulb.2.svg"
+ },
+  "Lightbulb.4": {
+   "name":"Lightbulb.4.svg",
+   "path":"Lightbulb.4.svg"
+ },
+  "Link-2": {
+   "name":"Link-2.svg",
+   "path":"Link-2.svg"
+ },
+  "Link.Blue": {
+   "name":"Link.Blue.svg",
+   "path":"Link.Blue.svg"
+ },
+  "Link.Broken.Slash.Mark.Blue-LightBlue": {
+   "name":"Link.Broken.Slash.Mark.Blue-LightBlue.svg",
+   "path":"Link.Broken.Slash.Mark.Blue-LightBlue.svg"
+ },
+  "Link.Broken.Slashed.Blue-Green": {
+   "name":"Link.Broken.Slashed.Blue-Green.svg",
+   "path":"Link.Broken.Slashed.Blue-Green.svg"
+ },
+  "Link.Broken.Slashed.Pink-2": {
+   "name":"Link.Broken.Slashed.Pink-2.svg",
+   "path":"Link.Broken.Slashed.Pink-2.svg"
+ },
+  "Link.Broken.Slashed.Pink": {
+   "name":"Link.Broken.Slashed.Pink.svg",
+   "path":"Link.Broken.Slashed.Pink.svg"
+ },
+  "Link.Broken.Slashed.Yellow-Blue": {
+   "name":"Link.Broken.Slashed.Yellow-Blue.svg",
+   "path":"Link.Broken.Slashed.Yellow-Blue.svg"
+ },
+  "Link.URL.Green": {
+   "name":"Link.URL.Green.svg",
+   "path":"Link.URL.Green.svg"
+ },
+  "Link.URL.Pink": {
+   "name":"Link.URL.Pink.svg",
+   "path":"Link.URL.Pink.svg"
+ },
+  "Link": {
+   "name":"Link.svg",
+   "path":"Link.svg"
+ },
+  "Loader.Animated.Loop": {
+   "name":"Loader.Animated.Loop.svg",
+   "path":"Loader.Animated.Loop.svg"
+ },
+  "Loader.CurrentColor.ELMNT.Animated.Loop": {
+   "name":"Loader.CurrentColor.ELMNT.Animated.Loop.svg",
+   "path":"Loader.CurrentColor.ELMNT.Animated.Loop.svg"
+ },
+  "Lock.3D": {
+   "name":"Lock.3D.svg",
+   "path":"Lock.3D.svg"
+ },
+  "Magnifying.Glass-Search.Animated.Loop": {
+   "name":"Magnifying.Glass-Search.Animated.Loop.svg",
+   "path":"Magnifying.Glass-Search.Animated.Loop.svg"
+ },
+  "Magnifying.Glass-Search.gradient.Animated.Loop": {
+   "name":"Magnifying.Glass-Search.gradient.Animated.Loop.svg",
+   "path":"Magnifying.Glass-Search.gradient.Animated.Loop.svg"
+ },
+  "Markdown.Fill.Bright-Green.import": {
+   "name":"Markdown.Fill.Bright-Green.import.svg",
+   "path":"Markdown.Fill.Bright-Green.import.svg"
+ },
+  "Markdown.Fill.Fuscia.import": {
+   "name":"Markdown.Fill.Fuscia.import.svg",
+   "path":"Markdown.Fill.Fuscia.import.svg"
+ },
+  "Markdown.Filled.White": {
+   "name":"Markdown.Filled.White.svg",
+   "path":"Markdown.Filled.White.svg"
+ },
+  "Markdown.Fuchsia.import": {
+   "name":"Markdown.Fuchsia.import.svg",
+   "path":"Markdown.Fuchsia.import.svg"
+ },
+  "Markdown.Lint": {
+   "name":"Markdown.Lint.svg",
+   "path":"Markdown.Lint.svg"
+ },
+  "Markdown.Outline.Blue.import": {
+   "name":"Markdown.Outline.Blue.import.svg",
+   "path":"Markdown.Outline.Blue.import.svg"
+ },
+  "Markdown.Outline.Light.Blue": {
+   "name":"Markdown.Outline.Light.Blue.svg",
+   "path":"Markdown.Outline.Light.Blue.svg"
+ },
+  "Markdown.Outline.Pink": {
+   "name":"Markdown.Outline.Pink.svg",
+   "path":"Markdown.Outline.Pink.svg"
+ },
+  "Markdown.Outline.Yellow": {
+   "name":"Markdown.Outline.Yellow.svg",
+   "path":"Markdown.Outline.Yellow.svg"
+ },
+  "Matrix.Coding.Code.Hacker.Hacking.Variable": {
+   "name":"Matrix.Coding.Code.Hacker.Hacking.Variable.svg",
+   "path":"Matrix.Coding.Code.Hacker.Hacking.Variable.svg"
+ },
+  "Matrix": {
+   "name":"Matrix.svg",
+   "path":"Matrix.svg"
+ },
+  "Medium": {
+   "name":"Medium.svg",
+   "path":"Medium.svg"
+ },
+  "Merge": {
+   "name":"Merge.svg",
+   "path":"Merge.svg"
+ },
+  "Mouse.Animated.Loop": {
+   "name":"Mouse.Animated.Loop.svg",
+   "path":"Mouse.Animated.Loop.svg"
+ },
+  "Movie.Camera.Streaming-2": {
+   "name":"Movie.Camera.Streaming-2.svg",
+   "path":"Movie.Camera.Streaming-2.svg"
+ },
+  "Movie.Camera.Streaming": {
+   "name":"Movie.Camera.Streaming.svg",
+   "path":"Movie.Camera.Streaming.svg"
+ },
+  "Music-Sheet-Music-Pink-Animated-loop": {
+   "name":"Music-Sheet-Music-Pink-Animated-loop.svg",
+   "path":"Music-Sheet-Music-Pink-Animated-loop.svg"
+ },
+  "Music.Animated.Loop.Blue": {
+   "name":"Music.Animated.Loop.Blue.svg",
+   "path":"Music.Animated.Loop.Blue.svg"
+ },
+  "Music.Animated.Loop.Bright-Green": {
+   "name":"Music.Animated.Loop.Bright-Green.svg",
+   "path":"Music.Animated.Loop.Bright-Green.svg"
+ },
+  "Music.Animated.Loop.Light.Blue": {
+   "name":"Music.Animated.Loop.Light.Blue.svg",
+   "path":"Music.Animated.Loop.Light.Blue.svg"
+ },
+  "Music.Animated.Loop.Pink": {
+   "name":"Music.Animated.Loop.Pink.svg",
+   "path":"Music.Animated.Loop.Pink.svg"
+ },
+  "Music.Animated.Loop.Purple": {
+   "name":"Music.Animated.Loop.Purple.svg",
+   "path":"Music.Animated.Loop.Purple.svg"
+ },
+  "Music.Animated.Loop.Yellow": {
+   "name":"Music.Animated.Loop.Yellow.svg",
+   "path":"Music.Animated.Loop.Yellow.svg"
+ },
+  "Music.Sheet.Music.Animated.loop.Blue-2": {
+   "name":"Music.Sheet.Music.Animated.loop.Blue-2.svg",
+   "path":"Music.Sheet.Music.Animated.loop.Blue-2.svg"
+ },
+  "Newspaper-2": {
+   "name":"Newspaper-2.svg",
+   "path":"Newspaper-2.svg"
+ },
+  "Newspaper.RSS.Reader.Newspaper-2": {
+   "name":"Newspaper.RSS.Reader.Newspaper-2.svg",
+   "path":"Newspaper.RSS.Reader.Newspaper-2.svg"
+ },
+  "Newspaper.RSS.Reader.Newspaper-3": {
+   "name":"Newspaper.RSS.Reader.Newspaper-3.svg",
+   "path":"Newspaper.RSS.Reader.Newspaper-3.svg"
+ },
+  "Newspaper.RSS.Reader.Newspaper-4": {
+   "name":"Newspaper.RSS.Reader.Newspaper-4.svg",
+   "path":"Newspaper.RSS.Reader.Newspaper-4.svg"
+ },
+  "Newspaper.RSS.Reader.Newspaper": {
+   "name":"Newspaper.RSS.Reader.Newspaper.svg",
+   "path":"Newspaper.RSS.Reader.Newspaper.svg"
+ },
+  "Newspaper": {
+   "name":"Newspaper.svg",
+   "path":"Newspaper.svg"
+ },
+  "Notion.Icon": {
+   "name":"Notion.Icon.svg",
+   "path":"Notion.Icon.svg"
+ },
+  "Obsidian.Crystal": {
+   "name":"Obsidian.Crystal.svg",
+   "path":"Obsidian.Crystal.svg"
+ },
+  "Omnivore-2": {
+   "name":"Omnivore-2.svg",
+   "path":"Omnivore-2.svg"
+ },
+  "Omnivore-3": {
+   "name":"Omnivore-3.svg",
+   "path":"Omnivore-3.svg"
+ },
+  "Omnivore": {
+   "name":"Omnivore.svg",
+   "path":"Omnivore.svg"
+ },
+  "Paint.Bucket.6": {
+   "name":"Paint.Bucket.6.svg",
+   "path":"Paint.Bucket.6.svg"
+ },
+  "Palette-m": {
+   "name":"Palette-m.svg",
+   "path":"Palette-m.svg"
+ },
+  "Paper-Roll-Violet": {
+   "name":"Paper-Roll-Violet.svg",
+   "path":"Paper-Roll-Violet.svg"
+ },
+  "Paper.2": {
+   "name":"Paper.2.svg",
+   "path":"Paper.2.svg"
+ },
+  "Papers.3": {
+   "name":"Papers.3.svg",
+   "path":"Papers.3.svg"
+ },
+  "Papers.5": {
+   "name":"Papers.5.svg",
+   "path":"Papers.5.svg"
+ },
+  "Papers.Files": {
+   "name":"Papers.Files.svg",
+   "path":"Papers.Files.svg"
+ },
+  "Pin": {
+   "name":"Pin.svg",
+   "path":"Pin.svg"
+ },
+  "Planets.Circles.Light.Animated.Loop.infini": {
+   "name":"Planets.Circles.Light.Animated.Loop.infini.svg",
+   "path":"Planets.Circles.Light.Animated.Loop.infini.svg"
+ },
+  "Player.Animated.Loop-2": {
+   "name":"Player.Animated.Loop-2.svg",
+   "path":"Player.Animated.Loop-2.svg"
+ },
+  "Player.Animated.Loop": {
+   "name":"Player.Animated.Loop.svg",
+   "path":"Player.Animated.Loop.svg"
+ },
+  "Plus.Animated.Loop-10": {
+   "name":"Plus.Animated.Loop-10.svg",
+   "path":"Plus.Animated.Loop-10.svg"
+ },
+  "Plus.Animated.Loop-11": {
+   "name":"Plus.Animated.Loop-11.svg",
+   "path":"Plus.Animated.Loop-11.svg"
+ },
+  "Plus.Animated.Loop-12": {
+   "name":"Plus.Animated.Loop-12.svg",
+   "path":"Plus.Animated.Loop-12.svg"
+ },
+  "Plus.Animated.Loop-13": {
+   "name":"Plus.Animated.Loop-13.svg",
+   "path":"Plus.Animated.Loop-13.svg"
+ },
+  "Plus.Animated.Loop-14": {
+   "name":"Plus.Animated.Loop-14.svg",
+   "path":"Plus.Animated.Loop-14.svg"
+ },
+  "Plus.Animated.Loop-2": {
+   "name":"Plus.Animated.Loop-2.svg",
+   "path":"Plus.Animated.Loop-2.svg"
+ },
+  "Plus.Animated.Loop-4": {
+   "name":"Plus.Animated.Loop-4.svg",
+   "path":"Plus.Animated.Loop-4.svg"
+ },
+  "Plus.Animated.Loop-5": {
+   "name":"Plus.Animated.Loop-5.svg",
+   "path":"Plus.Animated.Loop-5.svg"
+ },
+  "Plus.Animated.Loop-6": {
+   "name":"Plus.Animated.Loop-6.svg",
+   "path":"Plus.Animated.Loop-6.svg"
+ },
+  "Plus.Animated.Loop-7": {
+   "name":"Plus.Animated.Loop-7.svg",
+   "path":"Plus.Animated.Loop-7.svg"
+ },
+  "Plus.Animated.Loop-8": {
+   "name":"Plus.Animated.Loop-8.svg",
+   "path":"Plus.Animated.Loop-8.svg"
+ },
+  "Plus.Animated.Loop-9": {
+   "name":"Plus.Animated.Loop-9.svg",
+   "path":"Plus.Animated.Loop-9.svg"
+ },
+  "Plus.Animated.Loop": {
+   "name":"Plus.Animated.Loop.svg",
+   "path":"Plus.Animated.Loop.svg"
+ },
+  "Plus.Pink.Navigation.Animated.Loop": {
+   "name":"Plus.Pink.Navigation.Animated.Loop.svg",
+   "path":"Plus.Pink.Navigation.Animated.Loop.svg"
+ },
+  "Plus.Sign.Animated.Loop": {
+   "name":"Plus.Sign.Animated.Loop.svg",
+   "path":"Plus.Sign.Animated.Loop.svg"
+ },
+  "Plus.Sign.Light.Blue.Animated.Loop": {
+   "name":"Plus.Sign.Light.Blue.Animated.Loop.svg",
+   "path":"Plus.Sign.Light.Blue.Animated.Loop.svg"
+ },
+  "Plus.Sign.Yellow.Animated.Loop": {
+   "name":"Plus.Sign.Yellow.Animated.Loop.svg",
+   "path":"Plus.Sign.Yellow.Animated.Loop.svg"
+ },
+  "Pocket": {
+   "name":"Pocket.svg",
+   "path":"Pocket.svg"
+ },
+  "Polaroid.2": {
+   "name":"Polaroid.2.svg",
+   "path":"Polaroid.2.svg"
+ },
+  "Polaroid.3": {
+   "name":"Polaroid.3.svg",
+   "path":"Polaroid.3.svg"
+ },
+  "Polaroid.5": {
+   "name":"Polaroid.5.svg",
+   "path":"Polaroid.5.svg"
+ },
+  "Polaroid.Shot": {
+   "name":"Polaroid.Shot.svg",
+   "path":"Polaroid.Shot.svg"
+ },
+  "Polaroid": {
+   "name":"Polaroid.svg",
+   "path":"Polaroid.svg"
+ },
+  "Prettier.Code.Text.Letter.P.shadowed": {
+   "name":"Prettier.Code.Text.Letter.P.shadowed.svg",
+   "path":"Prettier.Code.Text.Letter.P.shadowed.svg"
+ },
+  "Prettier.Code.Text.Letter.P": {
+   "name":"Prettier.Code.Text.Letter.P.svg",
+   "path":"Prettier.Code.Text.Letter.P.svg"
+ },
+  "Price.Tag": {
+   "name":"Price.Tag.svg",
+   "path":"Price.Tag.svg"
+ },
+  "Printer.3D.Printing.Animated": {
+   "name":"Printer.3D.Printing.Animated.svg",
+   "path":"Printer.3D.Printing.Animated.svg"
+ },
+  "Quote": {
+   "name":"Quote.svg",
+   "path":"Quote.svg"
+ },
+  "Quotes": {
+   "name":"Quotes.svg",
+   "path":"Quotes.svg"
+ },
+  "README.md": {
+   "name":"README.md",
+   "path":"README.md"
+ },
+  "RSS.Simple.Duotone.Fuchsia.Shadow.2": {
+   "name":"RSS.Simple.Duotone.Fuchsia.Shadow.2.svg",
+   "path":"RSS.Simple.Duotone.Fuchsia.Shadow.2.svg"
+ },
+  "RSS.Simple.Duotone.Fuchsia.Shadow": {
+   "name":"RSS.Simple.Duotone.Fuchsia.Shadow.svg",
+   "path":"RSS.Simple.Duotone.Fuchsia.Shadow.svg"
+ },
+  "RSS.Simple.Duotone.Green.2": {
+   "name":"RSS.Simple.Duotone.Green.2.svg",
+   "path":"RSS.Simple.Duotone.Green.2.svg"
+ },
+  "Raindrop-3": {
+   "name":"Raindrop-3.svg",
+   "path":"Raindrop-3.svg"
+ },
+  "Raindrop-4": {
+   "name":"Raindrop-4.svg",
+   "path":"Raindrop-4.svg"
+ },
+  "Raindrop.06": {
+   "name":"Raindrop.06.svg",
+   "path":"Raindrop.06.svg"
+ },
+  "Raindrop": {
+   "name":"Raindrop.svg",
+   "path":"Raindrop.svg"
+ },
+  "Readwise": {
+   "name":"Readwise.svg",
+   "path":"Readwise.svg"
+ },
+  "Reddit.Alien.Orange.Animated.Loop-2": {
+   "name":"Reddit.Alien.Orange.Animated.Loop-2.svg",
+   "path":"Reddit.Alien.Orange.Animated.Loop-2.svg"
+ },
+  "Reddit.Alien.Orange.Animated.Loop": {
+   "name":"Reddit.Alien.Orange.Animated.Loop.svg",
+   "path":"Reddit.Alien.Orange.Animated.Loop.svg"
+ },
+  "Reddit.Yellow-Blue.Animated.Loop": {
+   "name":"Reddit.Yellow-Blue.Animated.Loop.svg",
+   "path":"Reddit.Yellow-Blue.Animated.Loop.svg"
+ },
+  "Reddit.Yellow-Green.Animated.Loop": {
+   "name":"Reddit.Yellow-Green.Animated.Loop.svg",
+   "path":"Reddit.Yellow-Green.Animated.Loop.svg"
+ },
+  "Reddit.Yellow-Pink.Animated.Loop-2": {
+   "name":"Reddit.Yellow-Pink.Animated.Loop-2.svg",
+   "path":"Reddit.Yellow-Pink.Animated.Loop-2.svg"
+ },
+  "Reddit.Yellow-Pink.Animated.Loop": {
+   "name":"Reddit.Yellow-Pink.Animated.Loop.svg",
+   "path":"Reddit.Yellow-Pink.Animated.Loop.svg"
+ },
+  "Regex.Dot.All.Green.White": {
+   "name":"Regex.Dot.All.Green.White.svg",
+   "path":"Regex.Dot.All.Green.White.svg"
+ },
+  "Regex.Dot.All.Pink-White": {
+   "name":"Regex.Dot.All.Pink-White.svg",
+   "path":"Regex.Dot.All.Pink-White.svg"
+ },
+  "Regex.Dot.All.Pink.White": {
+   "name":"Regex.Dot.All.Pink.White.svg",
+   "path":"Regex.Dot.All.Pink.White.svg"
+ },
+  "Regex.Dot.All.Red.White.2": {
+   "name":"Regex.Dot.All.Red.White.2.svg",
+   "path":"Regex.Dot.All.Red.White.2.svg"
+ },
+  "Regex.Dot.All.Solid.Pink.White-2": {
+   "name":"Regex.Dot.All.Solid.Pink.White-2.svg",
+   "path":"Regex.Dot.All.Solid.Pink.White-2.svg"
+ },
+  "Regex.Dot.All.Solid.Pink.White-3": {
+   "name":"Regex.Dot.All.Solid.Pink.White-3.svg",
+   "path":"Regex.Dot.All.Solid.Pink.White-3.svg"
+ },
+  "Regex.Dot.All.Solid.Pink.White-4": {
+   "name":"Regex.Dot.All.Solid.Pink.White-4.svg",
+   "path":"Regex.Dot.All.Solid.Pink.White-4.svg"
+ },
+  "Regex.Dot.All.Solid.White-2": {
+   "name":"Regex.Dot.All.Solid.White-2.svg",
+   "path":"Regex.Dot.All.Solid.White-2.svg"
+ },
+  "Regex.Dot.All.Solid.White-3": {
+   "name":"Regex.Dot.All.Solid.White-3.svg",
+   "path":"Regex.Dot.All.Solid.White-3.svg"
+ },
+  "Regex.Dot.All.White.3": {
+   "name":"Regex.Dot.All.White.3.svg",
+   "path":"Regex.Dot.All.White.3.svg"
+ },
+  "Regex.Dot.All.Yellow.White": {
+   "name":"Regex.Dot.All.Yellow.White.svg",
+   "path":"Regex.Dot.All.Yellow.White.svg"
+ },
+  "Regex.Escape.Pink.White.4": {
+   "name":"Regex.Escape.Pink.White.4.svg",
+   "path":"Regex.Escape.Pink.White.4.svg"
+ },
+  "Regex.Escape.Select.Brackets.Yellow.White.2": {
+   "name":"Regex.Escape.Select.Brackets.Yellow.White.2.svg",
+   "path":"Regex.Escape.Select.Brackets.Yellow.White.2.svg"
+ },
+  "Regex.Escape.Selected.Brackets.Pink.White..2": {
+   "name":"Regex.Escape.Selected.Brackets.Pink.White..2.svg",
+   "path":"Regex.Escape.Selected.Brackets.Pink.White..2.svg"
+ },
+  "Regex.Escape.Selected.Brackets.Pink.White..6": {
+   "name":"Regex.Escape.Selected.Brackets.Pink.White..6.svg",
+   "path":"Regex.Escape.Selected.Brackets.Pink.White..6.svg"
+ },
+  "Regex.Escape.Selected.Brackets.Pink.White..7": {
+   "name":"Regex.Escape.Selected.Brackets.Pink.White..7.svg",
+   "path":"Regex.Escape.Selected.Brackets.Pink.White..7.svg"
+ },
+  "Regex.Escape.Selected.Brackets.Pink.White..8": {
+   "name":"Regex.Escape.Selected.Brackets.Pink.White..8.svg",
+   "path":"Regex.Escape.Selected.Brackets.Pink.White..8.svg"
+ },
+  "Regex.Escape.Selected.Brackets.Pink.White.8": {
+   "name":"Regex.Escape.Selected.Brackets.Pink.White.8.svg",
+   "path":"Regex.Escape.Selected.Brackets.Pink.White.8.svg"
+ },
+  "Regex.Escape.Selected.Brackets.White.4": {
+   "name":"Regex.Escape.Selected.Brackets.White.4.svg",
+   "path":"Regex.Escape.Selected.Brackets.White.4.svg"
+ },
+  "Regex.Escape.Selected.Parentheses.Pink.White.3": {
+   "name":"Regex.Escape.Selected.Parentheses.Pink.White.3.svg",
+   "path":"Regex.Escape.Selected.Parentheses.Pink.White.3.svg"
+ },
+  "Regex.Escape.Selected.Parentheses.White": {
+   "name":"Regex.Escape.Selected.Parentheses.White.svg",
+   "path":"Regex.Escape.Selected.Parentheses.White.svg"
+ },
+  "Regex.Escape.Solid.Dot.White": {
+   "name":"Regex.Escape.Solid.Dot.White.svg",
+   "path":"Regex.Escape.Solid.Dot.White.svg"
+ },
+  "Regex.Escape.Yellow.White.2": {
+   "name":"Regex.Escape.Yellow.White.2.svg",
+   "path":"Regex.Escape.Yellow.White.2.svg"
+ },
+  "Regex.Magnifying.Glass.Search.Replace.Pink": {
+   "name":"Regex.Magnifying.Glass.Search.Replace.Pink.svg",
+   "path":"Regex.Magnifying.Glass.Search.Replace.Pink.svg"
+ },
+  "Regex.Selected.Braces-Blue.Green": {
+   "name":"Regex.Selected.Braces-Blue.Green.svg",
+   "path":"Regex.Selected.Braces-Blue.Green.svg"
+ },
+  "Regex.Selected.Braces-Pink.EFEFEF.Wide": {
+   "name":"Regex.Selected.Braces-Pink.EFEFEF.Wide.svg",
+   "path":"Regex.Selected.Braces-Pink.EFEFEF.Wide.svg"
+ },
+  "Regex.Selected.Braces-Pink.White.Yellow-2": {
+   "name":"Regex.Selected.Braces-Pink.White.Yellow-2.svg",
+   "path":"Regex.Selected.Braces-Pink.White.Yellow-2.svg"
+ },
+  "Regex.Selected.Braces-Pink.White.Yellow": {
+   "name":"Regex.Selected.Braces-Pink.White.Yellow.svg",
+   "path":"Regex.Selected.Braces-Pink.White.Yellow.svg"
+ },
+  "Regex.Selected.Braces-Pink.Yellow.2": {
+   "name":"Regex.Selected.Braces-Pink.Yellow.2.svg",
+   "path":"Regex.Selected.Braces-Pink.Yellow.2.svg"
+ },
+  "Regex.Selected.Braces-Yellow.Pink.White.4": {
+   "name":"Regex.Selected.Braces-Yellow.Pink.White.4.svg",
+   "path":"Regex.Selected.Braces-Yellow.Pink.White.4.svg"
+ },
+  "Regex.Selected.Brackets-Green.Pink.White": {
+   "name":"Regex.Selected.Brackets-Green.Pink.White.svg",
+   "path":"Regex.Selected.Brackets-Green.Pink.White.svg"
+ },
+  "Regex.Selected.Parentheses-Pink.White.2": {
+   "name":"Regex.Selected.Parentheses-Pink.White.2.svg",
+   "path":"Regex.Selected.Parentheses-Pink.White.2.svg"
+ },
+  "Regex.Selected.Parentheses-Pink.Yellow": {
+   "name":"Regex.Selected.Parentheses-Pink.Yellow.svg",
+   "path":"Regex.Selected.Parentheses-Pink.Yellow.svg"
+ },
+  "Regex.Un-Escape.Special.Characters.3": {
+   "name":"Regex.Un-Escape.Special.Characters.3.svg",
+   "path":"Regex.Un-Escape.Special.Characters.3.svg"
+ },
+  "Regex.Un-Escape.Special.Characters.Selected": {
+   "name":"Regex.Un-Escape.Special.Characters.Selected.svg",
+   "path":"Regex.Un-Escape.Special.Characters.Selected.svg"
+ },
+  "Robocop.Light": {
+   "name":"Robocop.Light.svg",
+   "path":"Robocop.Light.svg"
+ },
+  "Robot.AR.VR.DIY.Pink.Navy.Blue": {
+   "name":"Robot.AR.VR.DIY.Pink.Navy.Blue.svg",
+   "path":"Robot.AR.VR.DIY.Pink.Navy.Blue.svg"
+ },
+  "SHAPES": {
+   "name":"SHAPES.svg",
+   "path":"SHAPES.svg"
+ },
+  "SHAPES2": {
+   "name":"SHAPES2.svg",
+   "path":"SHAPES2.svg"
+ },
+  "SVG.Vector.Filled.Blue": {
+   "name":"SVG.Vector.Filled.Blue.svg",
+   "path":"SVG.Vector.Filled.Blue.svg"
+ },
+  "SVG.Vector.Filled.Yellow": {
+   "name":"SVG.Vector.Filled.Yellow.svg",
+   "path":"SVG.Vector.Filled.Yellow.svg"
+ },
+  "SVG.Vector.Germ": {
+   "name":"SVG.Vector.Germ.svg",
+   "path":"SVG.Vector.Germ.svg"
+ },
+  "SVG.Vector.Green": {
+   "name":"SVG.Vector.Green.svg",
+   "path":"SVG.Vector.Green.svg"
+ },
+  "SVG.Vector.Purple": {
+   "name":"SVG.Vector.Purple.svg",
+   "path":"SVG.Vector.Purple.svg"
+ },
+  "SVG.Vector.Text": {
+   "name":"SVG.Vector.Text.svg",
+   "path":"SVG.Vector.Text.svg"
+ },
+  "SVG.Vector.Yellow-Mustard": {
+   "name":"SVG.Vector.Yellow-Mustard.svg",
+   "path":"SVG.Vector.Yellow-Mustard.svg"
+ },
+  "SVG.Vector": {
+   "name":"SVG.Vector.svg",
+   "path":"SVG.Vector.svg"
+ },
+  "Scissors.Animated.Loop-2": {
+   "name":"Scissors.Animated.Loop-2.svg",
+   "path":"Scissors.Animated.Loop-2.svg"
+ },
+  "Scissors.Animated.loop": {
+   "name":"Scissors.Animated.loop.svg",
+   "path":"Scissors.Animated.loop.svg"
+ },
+  "Scribble.Add": {
+   "name":"Scribble.Add.svg",
+   "path":"Scribble.Add.svg"
+ },
+  "Scribble": {
+   "name":"Scribble.svg",
+   "path":"Scribble.svg"
+ },
+  "Scroll.Color": {
+   "name":"Scroll.Color.svg",
+   "path":"Scroll.Color.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop-1": {
+   "name":"Scrolling.Mouse.Animated.Loop-1.svg",
+   "path":"Scrolling.Mouse.Animated.Loop-1.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop-2": {
+   "name":"Scrolling.Mouse.Animated.Loop-2.svg",
+   "path":"Scrolling.Mouse.Animated.Loop-2.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop-3": {
+   "name":"Scrolling.Mouse.Animated.Loop-3.svg",
+   "path":"Scrolling.Mouse.Animated.Loop-3.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop-4": {
+   "name":"Scrolling.Mouse.Animated.Loop-4.svg",
+   "path":"Scrolling.Mouse.Animated.Loop-4.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop-5": {
+   "name":"Scrolling.Mouse.Animated.Loop-5.svg",
+   "path":"Scrolling.Mouse.Animated.Loop-5.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop-6": {
+   "name":"Scrolling.Mouse.Animated.Loop-6.svg",
+   "path":"Scrolling.Mouse.Animated.Loop-6.svg"
+ },
+  "Scrolling.Mouse.Animated.Loop": {
+   "name":"Scrolling.Mouse.Animated.Loop.svg",
+   "path":"Scrolling.Mouse.Animated.Loop.svg"
+ },
+  "Scrolling.Mouse.Shadowed.Animated.Loop-1": {
+   "name":"Scrolling.Mouse.Shadowed.Animated.Loop-1.svg",
+   "path":"Scrolling.Mouse.Shadowed.Animated.Loop-1.svg"
+ },
+  "Scrolling.Mouse.Shadowed.Animated.Loop-2": {
+   "name":"Scrolling.Mouse.Shadowed.Animated.Loop-2.svg",
+   "path":"Scrolling.Mouse.Shadowed.Animated.Loop-2.svg"
+ },
+  "Scrolling.Mouse.Shadowed.Animated.Loop-3": {
+   "name":"Scrolling.Mouse.Shadowed.Animated.Loop-3.svg",
+   "path":"Scrolling.Mouse.Shadowed.Animated.Loop-3.svg"
+ },
+  "Scrolling.Mouse.Shadowed.Animated.Loop-4": {
+   "name":"Scrolling.Mouse.Shadowed.Animated.Loop-4.svg",
+   "path":"Scrolling.Mouse.Shadowed.Animated.Loop-4.svg"
+ },
+  "Search.Magnifying.Glass.Pink.2": {
+   "name":"Search.Magnifying.Glass.Pink.2.svg",
+   "path":"Search.Magnifying.Glass.Pink.2.svg"
+ },
+  "Search.Magnifying.Glass.Pink": {
+   "name":"Search.Magnifying.Glass.Pink.svg",
+   "path":"Search.Magnifying.Glass.Pink.svg"
+ },
+  "Search.Magnifying.Glass.blue.green": {
+   "name":"Search.Magnifying.Glass.blue.green.svg",
+   "path":"Search.Magnifying.Glass.blue.green.svg"
+ },
+  "Search.Magnifying.Glass.blue": {
+   "name":"Search.Magnifying.Glass.blue.svg",
+   "path":"Search.Magnifying.Glass.blue.svg"
+ },
+  "Search.Magnifying.Glass.pink.yellow": {
+   "name":"Search.Magnifying.Glass.pink.yellow.svg",
+   "path":"Search.Magnifying.Glass.pink.yellow.svg"
+ },
+  "Search.Magnifying.Glass.yellow": {
+   "name":"Search.Magnifying.Glass.yellow.svg",
+   "path":"Search.Magnifying.Glass.yellow.svg"
+ },
+  "Select.Row.Table.Spreadsheet": {
+   "name":"Select.Row.Table.Spreadsheet.svg",
+   "path":"Select.Row.Table.Spreadsheet.svg"
+ },
+  "Server.2": {
+   "name":"Server.2.svg",
+   "path":"Server.2.svg"
+ },
+  "Server.Data.Base.Code.Dark.Gray.2": {
+   "name":"Server.Data.Base.Code.Dark.Gray.2.svg",
+   "path":"Server.Data.Base.Code.Dark.Gray.2.svg"
+ },
+  "Server.Data.Two.Dark.Gray.2": {
+   "name":"Server.Data.Two.Dark.Gray.2.svg",
+   "path":"Server.Data.Two.Dark.Gray.2.svg"
+ },
+  "Server.Data": {
+   "name":"Server.Data.svg",
+   "path":"Server.Data.svg"
+ },
+  "Server": {
+   "name":"Server.svg",
+   "path":"Server.svg"
+ },
+  "Shapes.Icons.Stained.Glass.White.2": {
+   "name":"Shapes.Icons.Stained.Glass.White.2.svg",
+   "path":"Shapes.Icons.Stained.Glass.White.2.svg"
+ },
+  "Shapes.Icons.Stained.Glass.White": {
+   "name":"Shapes.Icons.Stained.Glass.White.svg",
+   "path":"Shapes.Icons.Stained.Glass.White.svg"
+ },
+  "Share.Animated.Loop": {
+   "name":"Share.Animated.Loop.svg",
+   "path":"Share.Animated.Loop.svg"
+ },
+  "Speedometer.Animated.Loop": {
+   "name":"Speedometer.Animated.Loop.svg",
+   "path":"Speedometer.Animated.Loop.svg"
+ },
+  "Stackoverflow": {
+   "name":"Stackoverflow.svg",
+   "path":"Stackoverflow.svg"
+ },
+  "Subscript.Variable": {
+   "name":"Subscript.Variable.svg",
+   "path":"Subscript.Variable.svg"
+ },
+  "Subscript": {
+   "name":"Subscript.svg",
+   "path":"Subscript.svg"
+ },
+  "Superscript-2": {
+   "name":"Superscript-2.svg",
+   "path":"Superscript-2.svg"
+ },
+  "Superscript": {
+   "name":"Superscript.svg",
+   "path":"Superscript.svg"
+ },
+  "T.Letter.Tetris.Block.Eight.Grid.Spreadsheet.Table.Green.svg.2": {
+   "name":"T.Letter.Tetris.Block.Eight.Grid.Spreadsheet.Table.Green.svg.2.svg",
+   "path":"T.Letter.Tetris.Block.Eight.Grid.Spreadsheet.Table.Green.svg.2.svg"
+ },
+  "T.Title.Template.Blue.White": {
+   "name":"T.Title.Template.Blue.White.svg",
+   "path":"T.Title.Template.Blue.White.svg"
+ },
+  "T.Title.Template.Width.2": {
+   "name":"T.Title.Template.Width.2.svg",
+   "path":"T.Title.Template.Width.2.svg"
+ },
+  "Table.of.contents": {
+   "name":"Table.of.contents.svg",
+   "path":"Table.of.contents.svg"
+ },
+  "Tag.text.title.letter.T.hashtag": {
+   "name":"Tag.text.title.letter.T.hashtag.svg",
+   "path":"Tag.text.title.letter.T.hashtag.svg"
+ },
+  "Template": {
+   "name":"Template.svg",
+   "path":"Template.svg"
+ },
+  "Text.Field.Focus.Bold.Selected.Text.Box.Light": {
+   "name":"Text.Field.Focus.Bold.Selected.Text.Box.Light.svg",
+   "path":"Text.Field.Focus.Bold.Selected.Text.Box.Light.svg"
+ },
+  "Text.Font.Monospace.Width": {
+   "name":"Text.Font.Monospace.Width.svg",
+   "path":"Text.Font.Monospace.Width.svg"
+ },
+  "Text.Font.lowercase": {
+   "name":"Text.Font.lowercase.svg",
+   "path":"Text.Font.lowercase.svg"
+ },
+  "Text.Font.serif": {
+   "name":"Text.Font.serif.svg",
+   "path":"Text.Font.serif.svg"
+ },
+  "Top.Hat": {
+   "name":"Top.Hat.svg",
+   "path":"Top.Hat.svg"
+ },
+  "Trashcan.Bin.Gray.Animated.loop": {
+   "name":"Trashcan.Bin.Gray.Animated.loop.svg",
+   "path":"Trashcan.Bin.Gray.Animated.loop.svg"
+ },
+  "Trashcan.Bin.Red.Animated.loop": {
+   "name":"Trashcan.Bin.Red.Animated.loop.svg",
+   "path":"Trashcan.Bin.Red.Animated.loop.svg"
+ },
+  "Trashcan.Bin.Round.Gray.Animated.loop": {
+   "name":"Trashcan.Bin.Round.Gray.Animated.loop.svg",
+   "path":"Trashcan.Bin.Round.Gray.Animated.loop.svg"
+ },
+  "Trashcan.Bin.Round.Lined.Red.Animated.loop": {
+   "name":"Trashcan.Bin.Round.Lined.Red.Animated.loop.svg",
+   "path":"Trashcan.Bin.Round.Lined.Red.Animated.loop.svg"
+ },
+  "Trashcan.Bin.Round.Red.Animated.loop": {
+   "name":"Trashcan.Bin.Round.Red.Animated.loop.svg",
+   "path":"Trashcan.Bin.Round.Red.Animated.loop.svg"
+ },
+  "Typewriter.Keyboard": {
+   "name":"Typewriter.Keyboard.svg",
+   "path":"Typewriter.Keyboard.svg"
+ },
+  "VHS.Video.Cassette": {
+   "name":"VHS.Video.Cassette.svg",
+   "path":"VHS.Video.Cassette.svg"
+ },
+  "Variable-2": {
+   "name":"Variable-2.svg",
+   "path":"Variable-2.svg"
+ },
+  "Variable-3": {
+   "name":"Variable-3.svg",
+   "path":"Variable-3.svg"
+ },
+  "Variable-4": {
+   "name":"Variable-4.svg",
+   "path":"Variable-4.svg"
+ },
+  "Variable-5": {
+   "name":"Variable-5.svg",
+   "path":"Variable-5.svg"
+ },
+  "Variable": {
+   "name":"Variable.svg",
+   "path":"Variable.svg"
+ },
+  "Wand.Animated.loop.2-2": {
+   "name":"Wand.Animated.loop.2-2.svg",
+   "path":"Wand.Animated.loop.2-2.svg"
+ },
+  "Wand.Black.Animated.loop-2": {
+   "name":"Wand.Black.Animated.loop-2.svg",
+   "path":"Wand.Black.Animated.loop-2.svg"
+ },
+  "Wand.Black.Animated.loop-3": {
+   "name":"Wand.Black.Animated.loop-3.svg",
+   "path":"Wand.Black.Animated.loop-3.svg"
+ },
+  "Wand.Black.Animated.loop": {
+   "name":"Wand.Black.Animated.loop.svg",
+   "path":"Wand.Black.Animated.loop.svg"
+ },
+  "Wand.White.Animated.loop-1": {
+   "name":"Wand.White.Animated.loop-1.svg",
+   "path":"Wand.White.Animated.loop-1.svg"
+ },
+  "Wand.White.Animated.loop-2": {
+   "name":"Wand.White.Animated.loop-2.svg",
+   "path":"Wand.White.Animated.loop-2.svg"
+ },
+  "Wand.White.Animated.loop-3": {
+   "name":"Wand.White.Animated.loop-3.svg",
+   "path":"Wand.White.Animated.loop-3.svg"
+ },
+  "Weather.Clouds.Loop.Blue.Animated.loop-3": {
+   "name":"Weather.Clouds.Loop.Blue.Animated.loop-3.svg",
+   "path":"Weather.Clouds.Loop.Blue.Animated.loop-3.svg"
+ },
+  "Whitespace": {
+   "name":"Whitespace.svg",
+   "path":"Whitespace.svg"
+ },
+  "Wifi.Animated.Loop": {
+   "name":"Wifi.Animated.Loop.svg",
+   "path":"Wifi.Animated.Loop.svg"
+ },
+  "Wikipedia.Inverse": {
+   "name":"Wikipedia.Inverse.svg",
+   "path":"Wikipedia.Inverse.svg"
+ },
+  "Wikipedia.Inverted.Full-m-2": {
+   "name":"Wikipedia.Inverted.Full-m-2.svg",
+   "path":"Wikipedia.Inverted.Full-m-2.svg"
+ },
+  "Wikipedia.Inverted.Full-m": {
+   "name":"Wikipedia.Inverted.Full-m.svg",
+   "path":"Wikipedia.Inverted.Full-m.svg"
+ },
+  "Wikipedia.Loading.Animated.Loop": {
+   "name":"Wikipedia.Loading.Animated.Loop.svg",
+   "path":"Wikipedia.Loading.Animated.Loop.svg"
+ },
+  "Wikipedia.White.2": {
+   "name":"Wikipedia.White.2.svg",
+   "path":"Wikipedia.White.2.svg"
+ },
+  "Wind.Toy.Pink.Animated.loop": {
+   "name":"Wind.Toy.Pink.Animated.loop.svg",
+   "path":"Wind.Toy.Pink.Animated.loop.svg"
+ },
+  "Wood.2": {
+   "name":"Wood.2.svg",
+   "path":"Wood.2.svg"
+ },
+  "World.Blue.Animated.loop-5": {
+   "name":"World.Blue.Animated.loop-5.svg",
+   "path":"World.Blue.Animated.loop-5.svg"
+ },
+  "World.Globe.Spinning.Animated.loop": {
+   "name":"World.Globe.Spinning.Animated.loop.svg",
+   "path":"World.Globe.Spinning.Animated.loop.svg"
+ },
+  "World.Green.Animated.loop-2": {
+   "name":"World.Green.Animated.loop-2.svg",
+   "path":"World.Green.Animated.loop-2.svg"
+ },
+  "World.Pink.Animated.loop-2": {
+   "name":"World.Pink.Animated.loop-2.svg",
+   "path":"World.Pink.Animated.loop-2.svg"
+ },
+  "World.Pink.Animated.loop-3": {
+   "name":"World.Pink.Animated.loop-3.svg",
+   "path":"World.Pink.Animated.loop-3.svg"
+ },
+  "World.Spinning.Animated.Loop-m-2": {
+   "name":"World.Spinning.Animated.Loop-m-2.svg",
+   "path":"World.Spinning.Animated.Loop-m-2.svg"
+ },
+  "World.Spinning.Animated.Loop-m-3": {
+   "name":"World.Spinning.Animated.Loop-m-3.svg",
+   "path":"World.Spinning.Animated.Loop-m-3.svg"
+ },
+  "World.Spinning.Animated.Loop-m": {
+   "name":"World.Spinning.Animated.Loop-m.svg",
+   "path":"World.Spinning.Animated.Loop-m.svg"
+ },
+  "World.Spinning.Animated.loop": {
+   "name":"World.Spinning.Animated.loop.svg",
+   "path":"World.Spinning.Animated.loop.svg"
+ },
+  "X.Crossed.Out.Animated.Loop-2": {
+   "name":"X.Crossed.Out.Animated.Loop-2.svg",
+   "path":"X.Crossed.Out.Animated.Loop-2.svg"
+ },
+  "X.Crossed.Out.Animated.Loop": {
+   "name":"X.Crossed.Out.Animated.Loop.svg",
+   "path":"X.Crossed.Out.Animated.Loop.svg"
+ },
+  "X.Men.Raven.Movies": {
+   "name":"X.Men.Raven.Movies.svg",
+   "path":"X.Men.Raven.Movies.svg"
+ },
+  "X.Men.Rogue.Movies": {
+   "name":"X.Men.Rogue.Movies.svg",
+   "path":"X.Men.Rogue.Movies.svg"
+ },
+  "XMark.Exit": {
+   "name":"XMark.Exit.svg",
+   "path":"XMark.Exit.svg"
+ },
+  "YouTube-5": {
+   "name":"YouTube-5.svg",
+   "path":"YouTube-5.svg"
+ },
+  "YouTube-m": {
+   "name":"YouTube-m.svg",
+   "path":"YouTube-m.svg"
+ },
+  "YouTube.Add-m": {
+   "name":"YouTube.Add-m.svg",
+   "path":"YouTube.Add-m.svg"
+ },
+  "YouTube.Add": {
+   "name":"YouTube.Add.svg",
+   "path":"YouTube.Add.svg"
+ },
+  "YouTube.Glossy": {
+   "name":"YouTube.Glossy.svg",
+   "path":"YouTube.Glossy.svg"
+ },
+  "YouTube.Playlist.Sphere": {
+   "name":"YouTube.Playlist.Sphere.svg",
+   "path":"YouTube.Playlist.Sphere.svg"
+ },
+  "YouTube": {
+   "name":"YouTube.svg",
+   "path":"YouTube.svg"
+ },
+  "Youtube.Add": {
+   "name":"Youtube.Add.svg",
+   "path":"Youtube.Add.svg"
+ },
+  "Youtube.Playlist-m-2": {
+   "name":"Youtube.Playlist-m-2.svg",
+   "path":"Youtube.Playlist-m-2.svg"
+ },
+  "Youtube.Playlist-m": {
+   "name":"Youtube.Playlist-m.svg",
+   "path":"Youtube.Playlist-m.svg"
+ },
+  "Youtube.Playlist": {
+   "name":"Youtube.Playlist.svg",
+   "path":"Youtube.Playlist.svg"
+ },
+  "Youtube.RSS": {
+   "name":"Youtube.RSS.svg",
+   "path":"Youtube.RSS.svg"
+ },
+  "Youtube.Stop-m": {
+   "name":"Youtube.Stop-m.svg",
+   "path":"Youtube.Stop-m.svg"
+ },
+  "archive.is-2": {
+   "name":"archive.is-2.svg",
+   "path":"archive.is-2.svg"
+ },
+  "archive.is-3": {
+   "name":"archive.is-3.svg",
+   "path":"archive.is-3.svg"
+ },
+  "archive.is": {
+   "name":"archive.is.svg",
+   "path":"archive.is.svg"
+ },
+  "battery.Animated": {
+   "name":"battery.Animated.svg",
+   "path":"battery.Animated.svg"
+ },
+  "blue-control": {
+   "name":"blue-control.svg",
+   "path":"blue-control.svg"
+ },
+  "blue-dash": {
+   "name":"blue-dash.svg",
+   "path":"blue-dash.svg"
+ },
+  "blue-network": {
+   "name":"blue-network.svg",
+   "path":"blue-network.svg"
+ },
+  "blue-trash": {
+   "name":"blue-trash.svg",
+   "path":"blue-trash.svg"
+ },
+  "control": {
+   "name":"control.svg",
+   "path":"control.svg"
+ },
+  "grey-youtube-5": {
+   "name":"grey-youtube-5.svg",
+   "path":"grey-youtube-5.svg"
+ },
+  "grid.Animated-2": {
+   "name":"grid.Animated-2.svg",
+   "path":"grid.Animated-2.svg"
+ },
+  "grid.Animated": {
+   "name":"grid.Animated.svg",
+   "path":"grid.Animated.svg"
+ },
+  "harry.Potter": {
+   "name":"harry.Potter.svg",
+   "path":"harry.Potter.svg"
+ },
+  "heart.Animated.loop-4": {
+   "name":"heart.Animated.loop-4.svg",
+   "path":"heart.Animated.loop-4.svg"
+ },
+  "heart.Animated.loop.4": {
+   "name":"heart.Animated.loop.4.svg",
+   "path":"heart.Animated.loop.4.svg"
+ },
+  "keyboard.A.1": {
+   "name":"keyboard.A.1.svg",
+   "path":"keyboard.A.1.svg"
+ },
+  "keyboard.B.4": {
+   "name":"keyboard.B.4.svg",
+   "path":"keyboard.B.4.svg"
+ },
+  "moon-2": {
+   "name":"moon-2.svg",
+   "path":"moon-2.svg"
+ },
+  "moon": {
+   "name":"moon.svg",
+   "path":"moon.svg"
+ },
+  "movie.reel.Animated.loop": {
+   "name":"movie.reel.Animated.loop.svg",
+   "path":"movie.reel.Animated.loop.svg"
+ },
+  "play.pause-in-progress-2": {
+   "name":"play.pause-in-progress-2.svg",
+   "path":"play.pause-in-progress-2.svg"
+ },
+  "play.pause-in-progress-3": {
+   "name":"play.pause-in-progress-3.svg",
+   "path":"play.pause-in-progress-3.svg"
+ },
+  "play.pause-in-progress-4": {
+   "name":"play.pause-in-progress-4.svg",
+   "path":"play.pause-in-progress-4.svg"
+ },
+  "play.pause-in-progress": {
+   "name":"play.pause-in-progress.svg",
+   "path":"play.pause-in-progress.svg"
+ },
+  "rubik.Cube": {
+   "name":"rubik.Cube.svg",
+   "path":"rubik.Cube.svg"
+ },
+  "scribble.add": {
+   "name":"scribble.add.svg",
+   "path":"scribble.add.svg"
+ },
+  "terminal.Code.Animated.Loop": {
+   "name":"terminal.Code.Animated.Loop.svg",
+   "path":"terminal.Code.Animated.Loop.svg"
+ },
+  "type.scale.2": {
+   "name":"type.scale.2.svg",
+   "path":"type.scale.2.svg"
+ },
+  "type.scale": {
+   "name":"type.scale.svg",
+   "path":"type.scale.svg"
+ },
+  "upload.round.shadowed.light.Animated.Loop.3A": {
+   "name":"upload.round.shadowed.light.Animated.Loop.3A.svg",
+   "path":"upload.round.shadowed.light.Animated.Loop.3A.svg"
+ },
+  "watch-off-loop-3": {
+   "name":"watch-off-loop-3.svg",
+   "path":"watch-off-loop-3.svg"
+ },
+  "wiki.inverted-2": {
+   "name":"wiki.inverted-2.svg",
+   "path":"wiki.inverted-2.svg"
+ },
+  "wind.toy.Blue.Animated.loop": {
+   "name":"wind.toy.Blue.Animated.loop.svg",
+   "path":"wind.toy.Blue.Animated.loop.svg"
+ },
+  "wind.toy.Yellow.Animated.loop-3": {
+   "name":"wind.toy.Yellow.Animated.loop-3.svg",
+   "path":"wind.toy.Yellow.Animated.loop-3.svg"
+ },
+  "windmill.Animated.loop": {
+   "name":"windmill.Animated.loop.svg",
+   "path":"windmill.Animated.loop.svg"
+    }
+  }
+}

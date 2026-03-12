@@ -1,0 +1,585 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Monoflow Fonts Demo</title>
+<link rel="stylesheet" type="text/css" media="all" href="../../prism84.css"/>
+<script type="text/javascript" src="../../prism.js"></script>
+<style type="text/css">
+ * { margin:0; padding:0; list-style-type:none; }
+html, body { background-color:#272727; }
+body{ width:90vw; font-family:Arial,Helvetica,sans-serif; line-height:1.5; font-size:16px; padding:20px; color:#eee; /*background-image:url(data:image/gif; base64,R0lGODlhCgAKAIAAAP////Dw8CwAAAAACgAKAAACEIwDh5fsv2AzU0UKb5071wIAOw==); */}
+a{color:#66A523; }
+a:hover,.g:hover{opacity:0.7; }
+h1{ font-size:60px; border-bottom:1px solid #bbb0; line-height:20px; color:#efefef; text-transform:uppercase; margin-top:20px; 
+	z-index: 2;
+}
+h1 a{font-size:18px; color:#66A523; text-decoration:none; text-transform:capitalize; margin-left:10px; }
+h1 font{font-size:40px; }
+h1>bgwht {
+	font-size:60px;
+	border-bottom:1px solid #bbb0;
+	line-height:20px;
+	color:#efefefA1;
+	text-transform:uppercase; margin-top:20px;
+	backdrop-filter: blur(24px);
+	-webkit-backdrop-filter:saturate(106%)  blur(14px);
+	
+	z-index: 3;
+	display:inline-block;
+}
+
+h1>bgwht:before{
+	content: "";
+
+
+	display:block;
+	height:2.53px;
+	margin-bottom:-2.23rem;
+
+	background-color:transparent;
+	background:linear-gradient(90deg, #efefef00, #efefef22, #efefef00);
+	width:59%;
+	backdrop-filter:brightness(100) blur(14px);
+	-webkit-backdrop-filter:brightness(1.1) blur(14px);
+
+	box-shadow: none;
+
+	border-radius:10px;
+	z-index: -1;
+}
+
+
+h1:before {
+	content: "";
+	margin-bottom:-2.2rem;
+	margin-top:2.99rem;
+	display:block;
+	height:2.3px;
+
+	background-color:transparent;
+	background:linear-gradient(90deg, #9991, #3331, #272727);
+	box-shadow: 0px .91px 2px #272727,0px -.51px 1px #272727;
+	border-radius:10px;
+	margin-left:-1% !important;
+	z-index: -3;
+}
+h1:after {
+	content: "";
+	margin-bottom:5rem;
+	margin-top:-.1rem;
+	display:block;
+	height:2.3px;
+
+	background-color:transparent;
+	background:linear-gradient(90deg, #9994, #9994, #272727);
+
+	border-radius:10px;
+	margin-left:-1% !important;
+	z-index: -2;
+}
+.info{float:left; font-size:14px; margin-top:30px; color:#b6b6b6; }
+.info .inst{font-size:22px; margin-bottom:10px; }
+gybgwht{
+	
+}
+.info bgwht, .by bgwht {
+	color:#1a73e8;
+	border-radius:2px;
+	display:inline-block;
+	width:18px;
+	height:18px;
+	text-align:center;
+	margin-right:10px;
+	background-color:#bbb;
+	font-size:12px;
+	line-height:18px;
+	background-color:#161616;
+	box-shadow:0 0 14px rgba(0,0,0,0.2), 0 0 7px rgba(0,31,51,0.2); 
+}
+.info .exs {
+	font-size:12px;
+	color:#b6b6b6;
+	margin-left:35px;
+	display:block;
+}
+.info .exs font{ color:#f00; line-height:30px; }
+.demo {
+	/*float:left;/* width:100%; */
+	height:auto;
+	padding-bottom:10px;
+	margin-top:3rem !important;
+	margin-bottom:3rem;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	background-color:#2b2b2b;
+	border-radius:5px;
+
+}
+.demo a {
+	color:#1a73e8;
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+	padding-right:30px;
+	padding-left:30px;
+	position:relative;
+	border-top-width:1px;
+	border-top-style:dotted;
+	border-top-color:#1A73E8;
+	text-decoration:none;
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#1A73E8;
+	line-height:40px;
+	margin-top:-40px;
+}
+pre[class*="language-"] code[class*="language-"],
+pre[class*="lang-"] code[class*="lang-"],
+pre code[class*="language-"], pre code[class*="lang-"],
+code[class*="language-"], code[class*="lang-"],
+pre[class*="language-"], pre[class*="lang-"],
+pre code, code,pre {
+	font-size:14px;
+	-moz-tab-size:4;
+	-o-tab-size:4;
+	tab-size:4;
+}
+pre[class*="lang-"],pre[class*="language-"] {
+	border-radius:14px;
+	background-color:#161616 !important;
+	box-shadow:0 0 14px rgba(0,0,0,0.2), 0 0 7px rgba(0,31,51,0.2) !important; 
+	font-size:14px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:1.73rem !important;
+	line-height:1.2em;
+	padding:2rem;
+	padding-left:3rem;
+	-moz-tab-size:4;
+	-o-tab-size:4;
+	tab-size:4;
+}
+
+.token.string.url {
+	color:#06D6A0;
+	text-shadow:#3DFDFF 0 0 0,#00D9E044 0 0 2px,#3D4DFFCC 0 0 2.5px,#00E95266 0 -.1px 3px,#5E60CE66 0 0 3.5px,#0F07FF66 0 -1px 4px,#3457D566 0 1px 4.5px,#00D9E066 0 0 5px;
+}
+.lang-html .token.attr-value,
+.language-html .token.attr-value {
+	color:#06D6A0DD;
+	text-shadow:#3DFDFF 0 0 0,
+	#00D9E044 0 0 1px,
+	#3D4DFFCC 0 0 1.5px,
+	#00E95266 0 -.1px 2px,
+	#5E60CE66 0 0 2.5px,
+	#0F07FF66 0 -1px 3px,
+	#3457D566 0 1px 3.5px,
+	#00D9E066 0 0 4px;
+}
+.demo .t {
+	border-radius:12px;
+	background-color:#161616;
+	box-shadow:0 0 14px rgba(0,0,0,0.2), 0 0 7px rgba(0,31,51,0.2); 
+	font-size:24px;
+	float:left; /*width:calc(100% - 20px); */
+	color:#efefef;
+	/*height:260px;*/
+	margin-top:3rem;
+	margin-bottom:3rem;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	line-height:1.2em;
+
+	padding:2rem;
+}
+span.bgwht {
+	padding-top:15px;
+	float:left;
+	width:100%;
+	margin-top:10px;
+	margin-right:0;
+	margin-bottom:10px;
+	margin-left:0;
+	font-size:14px;
+	color:#b6b6b6;
+}
+.by .b {padding-top:10px; padding-bottom:10px; color:#999; }
+.by .a {padding-top:10px; padding-bottom:10px; margin-left:34px; margin-right:34px; font-size:12px; }
+.te {
+	width:100%;
+	height:auto;
+	border:0px solid #CCC;
+	resize:none;
+	float:left;
+	margin-top:10px;
+	line-height:16px;
+	overflow:hidden;
+	border-radius:5px;
+	color:#efefef;
+	background-color:#2b2b2b;
+	font-size:12px;
+	margin-bottom:20px;
+	text-indent:10px;
+	padding-top:17px;
+	padding-bottom:17px;
+}
+pre {
+	width:50%;
+	width:75vw;
+	padding:2rem;
+	padding-top:1rem;
+	border-radius:12px;
+	color:#0ff;
+	background-color:#000;
+	box-shadow:0 0 14px rgba(0,0,0,0.2), 0 0 7px rgba(0,31,51,0.2);
+}
+code.wrp {
+  -ms-word-wrap:break-word;
+  word-wrap:break-word;
+  font-size:122%;
+  white-space:pre-line;
+}
+pre:has(+code.wrp) {
+  width:60vw;
+}
+.pabc {
+	font-size:200%;
+	line-height:120%;
+}
+.abc {
+	text-align:justify;
+	text-justify:inter-word;
+}
+.cvon {
+  font-family: "Monoflow", monospace;
+	font-feature-settings:"cv70" on, "cv88" on !important;
+   -moz-font-feature-settings:"cv70" on, "cv88" on !important;
+   -webkit-font-feature-settings:"cv70" on, "cv88" on !important;
+}
+.cvone {
+  font-family: "Monoflow", monospace;
+	font-feature-settings:"cv70" 1, "cv88" 1 !important;
+   -moz-font-feature-settings:"cv70" 1, "cv88" 1 !important;
+   -webkit-font-feature-settings:"cv70" 1, "cv88" 1 !important;
+}
+/* Example of enabling common OpenType features */
+.ffs {
+  font-family: "Monoflow", monospace;
+  font-feature-settings: "ss01" 1, "ss02" 1, "zero" 1 !important;
+}
+.ffs1 {
+  font-family: "Monoflow", monospace;
+  font-feature-settings: "ss01" 1 !important;
+}
+.ffs1 {font-feature-settings: "ss01" 1 !important;}
+.ffs2 {font-feature-settings: "ss02" 1 !important;}
+.ffs3 {font-feature-settings: "ss03" 1 !important;}
+.ffs4 {font-feature-settings: "ss04" 1 !important;}
+.ffs5 {font-feature-settings: "ss05" 1 !important;}
+.ffs6 {font-feature-settings: "ss06" 1 !important;}
+.ffs7 {font-feature-settings: "ss07" 1 !important;}
+.ffs8 {font-feature-settings: "ss08" 1 !important;}
+.ffs9 {font-feature-settings: "ss09" 1 !important;}
+.ffs10 {font-feature-settings: "ss010" 1 !important;}
+.ffs11 {font-feature-settings: "ss011" 1 !important;}
+.ffs12 {font-feature-settings: "ss012" 1 !important;}
+.ffs13 {font-feature-settings: "ss013" 1 !important;}
+.ffs14 {font-feature-settings: "ss014" 1 !important;}
+.ffs15 {font-feature-settings: "ss015" 1 !important;}
+.ffs16 {font-feature-settings: "ss016" 1 !important;}
+.ffs17 {font-feature-settings: "ss017" 1 !important;}
+.ffs18 {font-feature-settings: "ss018" 1 !important;}
+.ffs19 {font-feature-settings: "ss019" 1 !important;}
+.ffs20 {font-feature-settings: "ss020" 1 !important;}
+</style>
+<style type="text/css">
+@font-face{
+	font-family:"Monoflow";
+	src:url("monoflow.eot");
+	src:url("monoflow.eot?#iefix")format("embedded-opentype"),url("monoflow.woff")format("woff"),url("monoflow.woff2")format("woff2"),url("monoflow.ttf")format("truetype"),url("monoflow.svg#Monoflow")format("svg");
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:"monoflow";
+	font-weight:normal;
+	font-style:italic;
+	src:url("./monoflow-italic.woff2")format("woff2");
+}
+</style>
+</head>
+<body>
+
+<h1><bgwht>[ </bgwht><font>Demo</font><bgwht> ]</bgwht><a href="http://www.onlinewebfonts.com" target="_blank">Web Fonts</a></h1>
+<div class="info">
+	<div class="inst">Instructions:</div>
+  <bgwht>1</bgwht>Use font-face declaration Fonts.
+  <div class="exs">
+		<pre class="lang-css"><code class="lang-css">
+@font-face {
+	font-family:'Monoflow';
+	src:url("./monoflow.eot")
+			format("embedded-opentype"),
+	 url("./monoflow.eot?#iefix")
+			format("embedded-opentype"),
+	 url("./monoflow.woff")format("woff"),
+	 url("./monoflow.woff2")format("woff2"),
+	 url("./monoflow.ttf")format("truetype"),
+	 url("./monoflow.svg#Monoflow")
+			format("svg");
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+
+</code></pre>
+		<pre class="lang-css"><code class="lang-css">
+@font-face {
+	font-family:"Monoflow";
+	src:url("monoflow.eot")
+			format("embedded-opentype"),
+	 url("monoflow.eot?#iefix")
+			format("embedded-opentype"),
+	 url("monoflow.woff")format("woff"),
+	 url("monoflow.woff2")format("woff2"),
+	 url("monoflow.ttf")format("truetype"),
+	 url("monoflow.svg#Monoflow")
+			format("svg");
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+		</code></pre>
+		<pre class="lang-css"><code class="lang-css">
+@font-face {
+	font-family:'Monoflow';
+	src:url("monoflow.eot");
+	src:url("monoflow.eot?#iefix")
+			format("embedded-opentype"),
+	 url("monoflow.woff")format("woff"),
+	 url("monoflow.woff2")format("woff2"),
+	 url("monoflow.ttf")format("truetype"),
+	 url("monoflow.svg#Monoflow")
+			format("svg");
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+		</code></pre>
+		<pre class="lang-css"><code class="lang-css">
+@font-face {
+	font-family:'monoflow';
+	font-weight:normal;
+	font-style:italic;
+	src:url("./monoflow-italic.woff2")
+			format("woff2");
+}
+.monoflow {
+	font-family:'Monoflow', 'monoflow';
+	font-weight:normal;
+	font-style:italic;
+}
+.monoflow-italic {
+	font-family:'Monoflow', 'monoflow';
+	font-weight:normal;
+	font-style:italic;
+}
+</code></pre>
+</div>
+  <bgwht>or</bgwht>To embed a font, copy the code into the head of your html
+<div class="exs"><br>
+	<pre class="lang-html"><code class="wrp lang-html">&lt;link href=&quot;https://db.onlinewebfonts.com/c/ff0cf4ac584b7de53f5c732aadae8816?family=Monoflow&quot; rel=&quot; stylesheet&quot;&gt;</code></pre><br>
+</div>
+<bgwht>2</bgwht>CSS rules to specify families
+<div class="exs"><font>Use example:</font><br>
+<pre class="lang-css"><code class="lang-css">{ font-family:&quot; Monoflow&quot;; }</code></pre>
+</div>
+</div>
+<!--demo-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow</a>
+<div class="t" style="font-family:'Monoflow';font-style:normal;">
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;"><center>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center>0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo cvon-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow cvon</a>
+<div class="t cvon" style="font-family:'Monoflow';font-style:normal;" class="t cvon">
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="cvon"><center class="cvon">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="cvon">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo cvine-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow cvone</a>
+<div class="t cvon" style="font-family:'Monoflow';font-style:normal;" class="t cvone" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="cvone"><center class="cvone">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="cvone">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs"><center class="ffs">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+
+<!--demo ffs1-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs1</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs1" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs1"><center class="ffs1">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs1">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs2-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs2</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs2" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs2"><center class="ffs2">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs2">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs3-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs3</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs3" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs3"><center class="ffs3">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs3">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs4-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs4</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs4" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs4"><center class="ffs4">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs4">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs5-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs5</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs5" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs5"><center class="ffs5">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs5">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs6-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs6</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs6" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs6"><center class="ffs6">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs6">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs7-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs7</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs7" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs7"><center class="ffs7">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs7">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs8-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs8</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs8" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs8"><center class="ffs8">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs8">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs9-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs9</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs9" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs9"><center class="ffs9">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs9">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs10-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs10</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs10" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs10"><center class="ffs10">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs10">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs11-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs11</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs11" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs11"><center class="ffs11">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs11">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs12-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs12</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs12" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs12"><center class="ffs12">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs12">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs13-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs13</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs13" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs13"><center class="ffs13">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs13">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs14-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs14</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs14" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs14"><center class="ffs14">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs14">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs15-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs15</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs15" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs15"><center class="ffs15">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs15">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs16-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs16</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs16" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs16"><center class="ffs16">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs16">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs17-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs17</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs17" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs17"><center class="ffs17">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs17">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs18-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs18</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs18" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs18"><center class="ffs18">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs18">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs19-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs19</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs19" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs19"><center class="ffs19">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs19">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+<!--demo ffs20-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow ffs20</a>
+<div style="font-family:'Monoflow';font-style:normal;" class="t ffs20" >
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;" class="ffs20"><center class="ffs20">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center class="ffs20">0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+
+
+
+
+
+<!--demo-->
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow Italic</a>
+<div class="t" style="font-family:'Monoflow';font-style:italic;">
+<span style="font-size:220%;line-height:120%;text-align: justify;text-justify: inter-word;"><center>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</center><center>0 9 8 7 6 5 4 3 2 1</center></span>
+</div>
+</div>
+
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow</a>
+  <div class="t" style="font-family:'Monoflow';font-style:normal;">
+OnlineWebFonts.Com Some fonts provided are trial versions of full versions and may not allow embedding 
+unless a commercial license is purchased or may contain a limited character set. 
+Please review any files included with your download, 
+which will usually include information on the usage and licenses of the fonts. 
+If no information is provided, 
+please use at your own discretion or contact the author directly.</div>
+</div>
+
+<div class="demo"><a href="https://www.onlinewebfonts.com/download/ff0cf4ac584b7de53f5c732aadae8816" target="_blank">Monoflow Italic</a>
+  <div class="t" style="font-family:'Monoflow';font-style:italic;">
+OnlineWebFonts.Com Some fonts provided are trial versions of full versions and may not allow embedding 
+unless a commercial license is purchased or may contain a limited character set. 
+Please review any files included with your download, 
+which will usually include information on the usage and licenses of the fonts. 
+If no information is provided, 
+please use at your own discretion or contact the author directly.</div>
+</div>
+<!--demo-->
+<div class="by">
+  <div class="b"><bgwht>3</bgwht>License and attribution:</div>
+  <div class="a">You must credit the author Copy this link (<a href="http://www.onlinewebfonts.com" target="_blank">oNlineWebFonts.Com</a> ) on your web</div>
+  <div class="b"><bgwht>4</bgwht>Copy the Attribution License:</div>
+  <div class="te">&lt; div&gt; Fonts made from &lt; a href="http://www.onlinewebfonts.com"&gt; Web Fonts&lt; /a&gt; is licensed by CC BY 4.0&lt; /div&gt;</div>
+</div>
+</body>
+</html>

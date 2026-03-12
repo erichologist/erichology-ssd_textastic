@@ -1,0 +1,404 @@
+@font-face {
+	font-family:"CartographCF Nerd Font";
+	src:local("Cartograph CF Light Italic Nerd Font Complete"),local("CartographCFNerdFontComplete-LightItalic");
+	font-style:italic;
+	font-weight:300;
+	font-display:swap;
+}
+@font-feature-values "CartographCFNerdFontComplete-LightItalic" {
+	@stylistic {
+	alternate1:1;/* Maps "alternate1" to salt 1 */
+	alternate2:2;/* Maps "alternate2" to salt 2 */
+	alternate5:5;/* Maps "alternate5" to salt 5 */
+}
+
+}
+body {
+	background: #171717;
+	color: #f0f0f0;
+}
+.cs1 {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	/* Applies salt 1 */
+    font-variant-alternates:stylistic(alternate1);
+}
+.cs2 {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	/* Applies salt 1 */
+    font-variant-alternates:stylistic(alternate2);
+}
+.cs5 {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	font-weight:300;
+	font-style:italic;
+	/* Applies salt 5 */
+    font-variant-alternates:stylistic(alternate5);
+}
+.csa {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:"salt" 2,"salt" 5;
+	font-variant-alternates:stylistic(alternate1),stylistic(alternate5);
+	/* Applies salt 1 */
+    font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.csb {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:stylistic(alternate1),stylistic(alternate5);
+	/* Applies salt 1 */
+    font-feature-settings:"liga";
+	font-variant-ligatures:common-ligatures;
+}
+.csc {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.csd {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.cse {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.csre {
+	font-family:"CartographCF Nerd Font";
+	font-weight:600;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.cart {font-family:"CartographCF Nerd Font";}
+.dk1 {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-variant-alternates:stylistic(alternate1);
+	/* Applies salt 1 */
+}
+.dk2 {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-variant-alternates:stylistic(alternate2);
+	/* Applies salt 1 */
+}
+.dk5 {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-alternates:stylistic(alternate5);
+	/* Applies salt 5 */
+}
+.dka {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkb {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+}
+.dkc {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkd {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-weight:300;
+	font-style:italic;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkr1 {
+	font-family:"DankMono-Regular", "DankMono";
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+}
+.dkr2 {
+	font-family:"DankMono-Regular", "DankMono";
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+}
+.dkr5 {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+}
+.dkra {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkrb {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkrc {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkrd {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-variant-alternates:stylistic(alternate1), stylistic(alternate5); /* Applies salt 1 */
+	font-feature-settings:"liga", "ss05", "ss02";
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dkre {
+	font-family:"DankMono-Regular", "DankMono";
+	font-weight:300;
+	font-style:normal;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.dk {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic";
+	font-weight:300;
+	letter-spacing: .1em;
+}
+.dkr {
+	font-family:"DankMono", "DankMono-Regular";
+	font-weight:300;
+	font-style:normal;
+	letter-spacing: .1em;
+}
+.dke {
+	font-family:"DankMono-Italic", "DankMonoNFM-Italic", "DankMonoNerdFontNerdFontCompleteM-Italic", "CartographCFNerdFontComplete-LightItalic" !important;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+.r1 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:normal;
+}
+.i1 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:italic;
+}
+.i3 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:300;
+	font-style:italic;
+}
+.r3 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:300;
+	font-style:normal;
+}
+.r4 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:normal;
+}
+.i4 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:normal;
+	font-style:italic;
+}
+.r6 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:600;
+	font-style:normal;
+}
+.i6 {
+	font-family:"CartographCF Nerd Font";
+	font-weight:600;
+	font-style:italic;
+}
+.reg {font-style:normal;}
+.ital {
+	font-style:italic;
+	letter-spacing: .1em;
+}
+.c {
+	font-family:"CartographCF-RegularItalic", "CartographCF-RegularItalic", "CartographCF-LightItalic", "CartographCF-LightItalic";
+	font-weight:300;
+	font-style:italic;
+}
+.w0  {font-weight:normal;}
+.w2  {font-weight:200;}
+.w3  {font-weight:300;}
+.w4  {font-weight:normal;}
+.w5  {font-weight:500;}
+.w6  {font-weight:600;}
+.w7  {font-weight:700;}
+.w8  {font-weight:800;}
+.sp9 {font-size:1.9em !important;}
+.sp8 {font-size:0.8em !important;}
+.s1  {font-size:1em !important;}
+.s1  {font-size:1em !important;}
+.s1b {font-size:1.5em !important;}
+.s2  {font-size:2em !important;}
+.s2b {font-size:2.5em !important;}
+.s3  {font-size:3em;}
+.s3b {font-size:3.5em;}
+.s4  {font-size:4em;}
+.s4b {font-size:4.5em;}
+.s5  {font-size:5em;}
+.s5b {font-size:5.5em;}
+.s6  {font-size:6em;}
+.s6b {font-size:6.5em;}
+.s7  {font-size:7em;}
+.s7b {font-size:7.5em;}
+.srem1a {font-size:1rem;}
+.srem1b {font-size:1.5rem;}
+.flxc {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.pflxc {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1em;
+}
+.alncntr {justify-content:center;}
+.jccntr {justify-content:center;}
+/*•—•—•—•—•—•—•—•—•—•—•—•—•—•
+•               responsive */
+div.flx, div.flx pre, div.flx pre code, p.flx,div.flx code, div.flx span, div.flx p, pre.flx, code.flx, span.flx {display:flex;}
+div.flxrow, div.flxrow pre, div.flxrow pre code, p.flxrow,div.flxrow code, div.flxrow span, div.flxrow p, pre.flxrow, code.flxrow, span.flxrow {
+	display:flex;
+	flex-direction:row;
+}
+div.flxcol pre, div.flxcol pre code, p.flxcol,.flxcol code, .flxcol span, .flxcol p, pre.flxcol, code.flxcol, span.flxcol {
+	display:flex;
+	flex-direction:column;
+}
+.flxcolcenterstretc,.flxcolcenterstretch {
+	display:flex;
+	flex-direction:column;
+	align-items:stretch;
+}
+.bottom {vertical-align:bottom !important;}
+.top {vertical-align:top !important;}
+.start-centr {
+	justify-content:flex-start;
+	align-items:center;
+}
+div pre.start,div pre:first-child, div.flxcolcenter pre.start, div.flxcol pre.start {
+	align-items:flex-start;
+	justify-content:flex-start;
+}
+div pre.center, div.flxcolcenter pre.center, div.flxcol pre.center {
+	justify-content:flex-start;
+	align-items:center;
+}
+.stretch, .alnstretch {align-items:stretch !important;}
+.start-end {
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.pd1 {padding:1em !important;}
+.pdem1b {padding: .9em !important;}
+.pdem1 {padding:1em !important;}
+.pflxc {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1em;
+}
+.flxcpd {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1em;
+}
+.prelnpd {
+	white-space:pre-line;
+	padding:0.9rem !important;
+	padding-bottom:1rem !important;
+	padding-left: .5rem !important;
+	padding-right: .3rem !important;
+}
+.prelnpds6 {
+	font-size: .6em;
+	white-space:pre-line;
+	padding:0.9rem !important;
+	padding-bottom:1rem !important;
+	padding-left: .5rem !important;
+	padding-right: .3rem !important;
+}
+.preln {white-space:pre-line;}
+.crt {
+	font-family:"CartographCFNerdFontComplete-LightItalic", "CartographCF-LightItalic", "CartographCFNerdFontComplete-RegularItalic", "CartographCF-RegularItalic" !important;
+	font-variant-ligatures:common-ligatures;
+	font-feature-settings:"liga", "ss05", "ss02";
+	font-variant-alternates:"salt" 2,"salt" 5;
+	-moz-font-feature-settings:"ss05", "ss02";
+	-webkit-font-feature-settings:"ss05", "ss02";
+}
+@media (max-width:959px) {
+	.page {
+		width:auto;
+		margin:0;
+	}
+}

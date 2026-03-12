@@ -1,0 +1,42 @@
+@font-face {
+	font-family:"DankMono Nerd Font";
+	src:local("DankMonoNerdFontNerdFontCompleteM-Italic"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-italic.woff2")format("woff2"), url("https://github.com/erichologist/assets/blob/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-italic.eot")format("embedded-opentype"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-italic.otf")format("woff2");
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:"DankMono Nerd Font";
+	src:local("DankMonoNerdFontNerdFontCompleteM-Regular"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-regular.woff2")format("woff2"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-regular.eot")format("woff2"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-regular.otf")format("embedded-opentype");
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:"DankMono Nerd Font";
+	src:local("DankMonoNerdFontNerdFontCompleteM-Bold"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/DankMonoNF-Bold.woff2")format("woff2"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/DankMonoNF-Bold.woff")format("woff"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/DankMonoNF-Bold.eot")format("embedded-opentype"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.otf")format("opentype"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot")format("embedded-opentype"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot")format("embedded-opentype");
+	font-weight:normal;
+	font-style:bold;
+	font-display:swap;
+}
+
+
+
+/*@font-face {
+	font-family:"DankMono Nerd Font";
+	src:url("local("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot")format("woff2"), url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot")format("woff2") url("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot")format("embedded-opentype");
+	font-weight:bold;
+	font-style:normal;
+	font-display:swap;
+}
+/*local("https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot")format("embedded-opentype"),
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-italic.woff2
+https://github.com/erichologist/assets/blob/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-italic.woff2
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t2/dank-mono-nerd-font-mono-italic.otf
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t2/dank-mono-nerd-font-mono-italic.woff2
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.eot
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t1/dank-mono-nerd-font-bold.otf
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t2/dank-mono-nerd-font-mono-bold.otf
+https://github.com/erichologist/assets/raw/refs/heads/main/fonts/nerdfont/dankmono/t2/dank-mono-nerd-font-mono-regular.otf
+https://github.com/erichologist/assets/tree/main/fonts/nerdfont/dankmono/t2
+*/

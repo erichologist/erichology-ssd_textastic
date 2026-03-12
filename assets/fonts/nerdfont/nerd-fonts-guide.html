@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sharkcat -> projects -> nerd fonts guide</title>
+
+
+<link rel="stylesheet" type="text/css" media="all" href="../../../assets/mdmdmdmd.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../assets/prism84.css" />
+<script type="text/javascript" src="../../prism.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../mdmt.css" />
+<link rel="stylesheet" href="../styles/main.css">
+<link rel="icon" type="image/x-icon" href="../assets/decorative/favicon.gif">
+<style>.code {
+ background-color: #d7d7d7; 
+ color: black; 
+ padding: 1rem;
+}
+.nf-md-cat {
+ font-size: 1.5em;
+}</style>
+</head>
+<body>
+
+
+
+<div id="left">
+<div id="logo">
+	<img src="../../decorative/icon.png">
+</div>
+<hr>
+<div class="section">
+ <div class="bar">
+	<h2>main</h2>
+	<div><i class="nf nf-oct-x"></i></div>
+ </div>
+ <div class="content">
+	<ul>
+		<li><a href="../index.html" title="landing page">index</a></li>
+		<li><a href="../about.html" title="information about the website and webmaster">about</a></li>
+	</ul>
+ </div>
+</div>
+<hr>
+ <div class="section">
+	<div class="bar">
+		<h2>contents</h2>
+		<div><i class="nf nf-oct-x"></i></div>
+	</div>
+ <div class="content">
+	<ul>
+		<li><a href="../fics.html" title="fics i've written">fics</a></li>
+		<li><a href="../thoughts.html" title="non-fiction stuff i've written">thoughts</a></li>
+		<li><a href="../projects.html" title="longer term project write ups">projects</a></li>
+		<li><a href="../shrines.html" title="shrines to my various interests">shrines</a></li>
+		<li><a href="../arts-crafts.html" title="arts and crafts">arts &amp; crafts</a></li>
+		<li><a href="../collections.html" title="physical stuff ive collected">collections</a></li>
+		<li><a href="../lists.html" title="lists about stuff">lists</a></li>
+	</ul>
+ </div>
+</div>
+<hr>
+<div class="section">
+ <div class="bar">
+	 <h2>meta</h2>
+	 <div><i class="nf nf-oct-x"></i></div>
+ </div>
+ <div class="content">
+	<ul>
+	 <li><a href="../sitemap.html" title="list of all pages on this site">sitemap</a></li>
+	 <li><a href="../update-log.html" title="list of all updates">update log</a></li>
+	 <li><a href="../rss.xml" title="rss feed for content updates">rss</a></li>
+	 <li><a href="../credits.html" title="credits for assets + other stuff">credits</a></li>
+	 </ul>
+	</div>
+ </div>
+ <hr>
+</div>
+<div id="right">
+ <div class="section">
+	<div class="bar">
+	<h2>location</h2>
+	<div><i class="nf nf-oct-x"></i></div>
+ </div>
+ <div class="content">
+	<a href="../index.html">sharkcat</a> / <a href="../projects.html">projects</a> / nerd fonts guide
+ </div>
+</div>
+<div class="section">
+ <div class="bar">
+  <h2>nerd fonts guide</h2>
+  <div><i class="nf nf-oct-x"></i></div>
+ </div>
+<div class="content">
+ <h3>Installation</h3>
+ <h4>Import Online</h4>
+ <p>Importing the online css file is the easiest way to use the Nerd Font Icons but then you are also relying on their servers. This website uses the online version.</p>
+ <p>Add the following to your main css file:</p>
+<pre class="lang-css"><code class="lang-css">@import "https://www.nerdfonts.com/assets/css/webfont.css";</code></pre>
+ <p>If you want to only have it only individual pages then you can either add the above into the style tag of your header or add the following to link to it as a stylsheet.</p>
+<pre class="lang-html"><code class="lang-html">&lt;head&gt;<br>	&lt;link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css"&gt;<br>&lt;/head&gt;</code></pre>
+ <h4>Locally Install</h4>
+ <p>This means you have a copy of the entire icon library attached to your website. They take up about 1.4 MB of space.</p>
+ <ol>
+  <li>Download the <a href="https://www.nerdfonts.com/assets/css/webfont.css">CSS Sheet</a> and the <a href="https://www.nerdfonts.com/assets/fonts/Symbols-2048-em Nerd Font Complete.woff2">Font File</a> and add both to your website files.</li>
+  <li>On your main CSS sheet, link to the webfont css sheet like below (your file location may be different)
+<pre class="lang-css"><code class="lang-css">@import url("webfont.css");</code></pre>
+  </li>
+  <li>In the webfont.css file, change the src of the font itself to the one you downloaded. At the start you will see a this part:
+<pre class="lang-css"><code class="lang-css">@font-face {<br>	font-family: 'NerdFontsSymbols Nerd Font';<br>	src:url("../fonts/Symbols-2048-em Nerd Font Complete.woff2")<br>	format("woff2");</code></pre><br>Replace the src part with your path such as:
+<pre class="lang-css"><code class="lang-css">@font-face {<br>	font-family:'NerdFontsSymbols Nerd Font';<br>	src:url("../assets/Symbols-2048-em Nerd Font Complete.woff2")<br>	format("woff2");</code></pre>
+  </li> 
+ </ol>
+ <h3>Usage</h3>
+ <p>You can find and search for all the icons you want on the <a href="https://www.nerdfonts.com/cheat-sheet">cheat sheet</a>. When you've found the icon you want to use, hovering over it will bring up a copy menu with 3 options: Icon, Class, UTF-16. There is also a Hex Code in the bottom right corner. We will be using the class and the hex code.</p>
+ <h4>Regular</h4>
+ <p>To display an icon we need to use the format</p>
+<pre class="lang-html"><code class="lang-html">&lt;i class="nf [class]"&gt;&lt;/i&gt;</code></pre>
+ <p>For example, to display the cat icon (<i class="nf nf-md-cat"></i>) we need to type</p>
+<pre class="lang-html"><code class="lang-html">&lt;i class="nf nf-md-cat"&gt;&lt;/i&gt;</code></pre>
+ <p>The size of icons can be altered by changing the font-size of the i attribute. The same goes for colour.</p>
+ <h4>Displaying as Bullet Points</h4>
+ <p>Bare minimum code to replace the bullets while remaining close to default styling:</p>
+<pre class="lang-css"><code class="lang-css">ul {<br>	position: relative;<br>	list-style: none;<br>	margin: 0;<br>	padding-left: 1.2rem;<br>}<br>ul li::before {<br>	font-family:'NerdFontsSymbols Nerd Font';<br>	content: "\f246";<br>	font-size: 12px;<br>	margin-right: .5rem;<br>}</code></pre>
+	 <p>Your mileage may vary depending on what css you already have so edit if need be.</p>
+	 <p>To change which icon is used, change the hex code under content, ensuring to retain the backwards slash.</p>
+	</div>
+ </div>
+</div>
+<div id="pagedoll"><img src="../assets/decorative/pagedoll.gif"></div>
+
+
+
+
+
+
+</body>
+</html>
