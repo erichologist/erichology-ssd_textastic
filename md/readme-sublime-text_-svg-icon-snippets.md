@@ -1,0 +1,75 @@
+---
+title: "Sublime Text: SVG Icon Snippets | README"
+categories:
+  - README
+tags:
+  - readme
+keywords:		readme
+css:			../assets/mdmdmd.css
+xhtml header:	<link rel="stylesheet" type="text/css" media="all" href="../assets/prism.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../assets/mdmt.css"/>
+	<script type="text/javascript" src="../assets/prism.js"></script>
+favicon: ../assets/icons/favicon.svg
+image: ../assets/icons/favicon.svg
+link-citations: TRUE
+tableOfContents: TRUE
+lastUpdated: TRUE
+---
+
+# Sublime Text: SVG Icon Snippets
+
+> A collection of SVG icon snippets for Sublime Text
+
+![](http://g.recordit.co/Jbyst8YSsj.gif)
+
+
+## Install
+
+### Sublime Text Package Manager
+
+If you don't already have it, install the Sublime Text Package Manager:
+https://packagecontrol.io/installation
+
+Then open Sublime Text > <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd> > `install package` > <kbd>Enter</kbd> > `SVG Icons` > <kbd>Enter</kbd>
+
+### Manually
+
+Clone / copy snippets to your Sublime Text User path:
+
+```lang-sh
+/Users/<username>/Library/Application Support/Sublime Text 3/Packages/User
+```
+
+## Icon Shortcuts
+
+* i-dribbble-ball
+* i-dribbble-logo
+* i-facebook
+* i-github
+* i-googleplus
+* i-hackernews
+* i-instagram
+* i-linkedin
+* i-mail
+* i-pinterest
+* i-reddit
+* i-tumblr
+* i-twitter
+* i-youtube
+* i-stackoverflow-icon
+* i-stackoverflow-full
+
+
+## Icon Previews
+
+![Icon Previews](https://raw.githubusercontent.com/s10wen/Sublime-Text-SVG-Icon-Snippets/master/images/icons-preview.png)
+
+
+## Additional Information
+
+[Related blog post and screencast](http://s10wen.com/blog/2015/08/15/post-SVG-Icons-Sublime-Text-Package/)
+
+
+## License
+
+MIT © [Simon Owen](http://s10wen.com)
