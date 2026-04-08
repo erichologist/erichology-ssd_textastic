@@ -18,7 +18,7 @@ export default function HomePage() {
             href="/blog"
             className="inline-block bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-800 transition-colors"
           >
-            browse all publications →
+            browse all  →
           </Link>
         </div>
       </section>
