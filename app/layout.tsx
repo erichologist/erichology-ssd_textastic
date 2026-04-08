@@ -3,9 +3,9 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Erichology — Publications",
+  title: "erichology publics",
   description:
-    "A blog hosting current and past publications on technology, science, and engineering.",
+    "hosting current and past publications",
 };
 
 export default function RootLayout({
@@ -23,17 +23,17 @@ export default function RootLayout({
               href="/"
               className="text-xl font-bold tracking-tight text-indigo-700 hover:text-indigo-900 transition-colors"
             >
-              Erichology
+              erichology
             </Link>
             <nav className="flex gap-6 text-sm font-medium text-gray-600">
               <Link href="/" className="hover:text-indigo-700 transition-colors">
-                Home
+                home
               </Link>
               <Link
                 href="/blog"
                 className="hover:text-indigo-700 transition-colors"
               >
-                Blog
+                blog
               </Link>
             </nav>
           </div>
@@ -45,7 +45,7 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="border-t border-gray-200 mt-16">
           <div className="max-w-4xl mx-auto px-6 py-8 text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Erichology. All rights reserved.
+            © {new Date().getFullYear()} erichology. All rights reserved.
           </div>
         </footer>
       </body>
