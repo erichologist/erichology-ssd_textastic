@@ -9,18 +9,16 @@ export default function HomePage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-4">
-            Welcome to <span className="text-indigo-700">Erichology</span>
+          <h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-4"><span className="text-indigo-700">erichology</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            A collection of publications exploring technology, science, and
-            engineering—past and present.
+            hosting publications—past and present.
           </p>
           <Link
             href="/blog"
             className="inline-block bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-800 transition-colors"
           >
-            Browse All Publications →
+            browse all publications →
           </Link>
         </div>
       </section>
@@ -28,7 +26,7 @@ export default function HomePage() {
       {/* Recent Posts */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-2xl font-bold text-gray-900 mb-8">
-          Recent Publications
+          recents
         </h2>
         <div className="grid gap-8 md:grid-cols-3">
           {recentPosts.map((post) => (
@@ -62,7 +60,7 @@ export default function HomePage() {
                 href={`/blog/${post.slug}`}
                 className="mt-4 text-sm font-medium text-indigo-700 hover:text-indigo-900 transition-colors"
               >
-                Read more →
+                mas →
               </Link>
             </article>
           ))}
@@ -73,7 +71,7 @@ export default function HomePage() {
             href="/blog"
             className="text-sm font-medium text-indigo-700 hover:underline"
           >
-            View all publications →
+            view it all →
           </Link>
         </div>
       </section>
