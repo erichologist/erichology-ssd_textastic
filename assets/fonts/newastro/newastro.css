@@ -1,0 +1,30 @@
+/* @import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro.css"); */
+
+
+@font-face {
+    font-family: "New Astro";
+    src: local("New Astro Regular"), local("NewAstro-Regular"),
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "New Astro";
+    src: local("New Astro SemiBold"), local("NewAstro-SemiBold"),
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "New Astro";
+    src: local("New Astro Bold"), local("NewAstro-Bold"),
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
