@@ -1,59 +1,84 @@
-/* @import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro.css");
-@import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-soft.css");
-@import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-reg-soft.css"); */
+/*
+@import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro.css");
+    @import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-soft.css");
+    @import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-reg-soft.css"); */
+
+
+
 
 @font-face {
-    font-family: "New Astro Soft";
-    src: local("New Astro Soft Bold"), local("NewAstroSoft-Bold"),
-        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    font-family:"New Astro Soft";
+    src:local("New Astro Soft Light"), local("NewAstroSoft-Light"), 
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-light.woff2") format("woff2");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
 }
-
 @font-face {
-    font-family: "New Astro";
-    src: local("New Astro SemiBold"), local("NewAstro-SemiBold"),
-        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-semibold.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "New Astro Soft";
-    src: local("New Astro Soft Regular"), local("NewAstroSoft-Regular"),
+    font-family:"New Astro Soft";
+    src:local("New Astro Soft Regular"), local("NewAstroSoft-Regular"), 
         url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
 }
-
 @font-face {
-    font-family: "New Astro Soft";
-    src: local("New Astro Soft Medium"), local("NewAstroSoft-Medium"),
+    font-family:"New Astro Soft";
+    src:local("New Astro Soft Medium"), local("NewAstroSoft-Medium"), 
         url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-medium.woff2") format("woff2");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+}
+@font-face {
+    font-family:"New Astro Soft";
+    src:local("New Astro Soft SemiBold"), local("NewAstroSoft-SemiBold"), 
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-semibold.woff2") format("woff2");
+    font-weight:600;
+    font-style:normal;
+    font-display:swap;
+}
+@font-face {
+    font-family:"New Astro Soft";
+    src:local("New Astro Soft Bold"), local("NewAstroSoft-Bold"), 
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-bold.woff2") format("woff2");
+    font-weight:bold;
+    font-style:normal;
+    font-display:swap;
 }
 
-@font-face {
-    font-family: "New Astro";
-    src: local("New Astro Bold"), local("NewAstro-Bold"),
-        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
+
+
 
 @font-face {
-    font-family: "New Astro";
-    src: local("New Astro Regular"), local("NewAstro-Regular"),
+    font-family:"New Astro";
+    src:local("New Astro Light"), local("NewAstro-Light"), 
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-light.woff2") format("woff2");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+}
+@font-face {
+    font-family:"New Astro";
+    src:local("New Astro Regular"), local("NewAstro-Regular"), 
         url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
 }
-
-
+@font-face {
+    font-family:"New Astro";
+    src:local("New Astro SemiBold"), local("NewAstro-SemiBold"), 
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-semibold.woff2") format("woff2");
+    font-weight:600;
+    font-style:normal;
+    font-display:swap;
+}
+@font-face {
+    font-family:"New Astro";
+    src:local("New Astro Bold"), local("NewAstro-Bold"), 
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-bold.woff2") format("woff2");
+    font-weight:bold;
+    font-style:normal;
+    font-display:swap;
+}
