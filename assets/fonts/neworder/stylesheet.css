@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "New Order";
+    src: local("New Order SemiBold"), local("NewOrder-SemiBold"),
+        url("NewOrder-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "New Order";
+    src: local("New Order Medium"), local("NewOrder-Medium"),
+        url("NewOrder-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "New Order";
+    src: local("New Order Regular"), local("NewOrder-Regular"),
+        url("NewOrder-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "New Order";
+    src: local("New Order Bold"), local("NewOrder-Bold"),
+        url("NewOrder-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "New Order";
+    src: local("New Order Light"), local("NewOrder-Light"),
+        url("NewOrder-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
