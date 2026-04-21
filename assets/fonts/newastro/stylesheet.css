@@ -1,7 +1,9 @@
+/* @import url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro-reg-soft/stylesheet.css"); */
+
 @font-face {
     font-family: "New Astro Soft";
     src: local("New Astro Soft Bold"), local("NewAstroSoft-Bold"),
-        url("NewAstroSoft-Bold.woff2") format("woff2");
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-bold.woff2") format("woff2");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -10,7 +12,7 @@
 @font-face {
     font-family: "New Astro";
     src: local("New Astro SemiBold"), local("NewAstro-SemiBold"),
-        url("NewAstro-SemiBold.woff2") format("woff2");
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-semibold.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -19,7 +21,7 @@
 @font-face {
     font-family: "New Astro Soft";
     src: local("New Astro Soft Regular"), local("NewAstroSoft-Regular"),
-        url("NewAstroSoft-Regular.woff2") format("woff2");
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +30,7 @@
 @font-face {
     font-family: "New Astro Soft";
     src: local("New Astro Soft Medium"), local("NewAstroSoft-Medium"),
-        url("NewAstroSoft-Medium.woff2") format("woff2");
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastrosoft-medium.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -37,7 +39,7 @@
 @font-face {
     font-family: "New Astro";
     src: local("New Astro Bold"), local("NewAstro-Bold"),
-        url("NewAstro-Bold.woff2") format("woff2");
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-bold.woff2") format("woff2");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -46,7 +48,7 @@
 @font-face {
     font-family: "New Astro";
     src: local("New Astro Regular"), local("NewAstro-Regular"),
-        url("NewAstro-Regular.woff2") format("woff2");
+        url("https://github.com/erichologist/erichology-ssd_textastic/raw/refs/heads/main/assets/fonts/newastro/newastro-regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
